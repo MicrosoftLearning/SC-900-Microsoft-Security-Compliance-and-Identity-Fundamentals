@@ -5,39 +5,16 @@ lab:
 ---
 
 # Lab: Explore the Service Trust Portal
-# Student lab manual
 
 ## Lab scenario
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-## Objectives
 
-After you complete this lab, you will be able to:
 
-- Navigate the Service Trust Portal. 
+**Estimated Time**: 00 minutes
 
-- Find audit reports for Microsoft's Cloud services. 
 
-- Know where to go to access Microsoft's Privacy principles.
-
-## Lab Setup
-
-  - **Estimated Time**: 00 minutes
-
-## Instructions
-
-### Before you start
-
-#### Setup Task
-
-1. Integer dolor purus, gravida eu sem id, efficitur aliquet neque. 
-
-1. Suspendisse viverra mauris in metus laoreet consectetur. 
-
-1. Sed diam risus, convallis quis condimentum at, egestas malesuada libero. 
-
-### Exercise 1: 
 
 #### Task 1: In this task you will learn how to access content on the Service Trust Portal, explore audit reports and learn to save reports to your library. 
 
@@ -81,16 +58,18 @@ After you complete this lab, you will be able to:
 
 #### Task 3: In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
-1. From the top of the Service Trust Portal page, select Trust Center then choose Home. This opens a new browser tab that takes you to the Trust Center where you find more information about security, compliance, and privacy in the Microsoft Cloud. 
+1. From the top of the Service Trust Portal page, select **Trust Center** then choose **Home**. This opens a new browser tab that takes you to the Trust Center where you find more information about security, compliance, and privacy in the Microsoft Cloud.
 
-2. From the top of the page, select Privacy, then select Resources.
+2. From the top of the page, select **Privacy**, then select **Resources**.
 
-3. Select Additional privacy resources.
+3. Select **Additional privacy resources**.
 
-4. Select Privacy at Microsoft
+4. Select **Privacy at Microsoft**.
 
 5. Review the six key privacy principles.
 
-6.	Close your browser windows to exit out the Service Trust Portal and the Trust Center.
+6. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
+#### Review
 
+In this lab you explored some of the options available under the Service Trust Portal, how to access audit reports for Microsoft Cloud services, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review Microsoft's Privacy principles.
