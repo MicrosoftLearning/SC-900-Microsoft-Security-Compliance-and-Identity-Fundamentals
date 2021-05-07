@@ -43,7 +43,7 @@ After you complete this lab, you will be able to:
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **https://aks.ms/STP**.  This will bring you to the landing page for the Service Trust Portal.
+2. In the address bar enter **https://aka.ms/STP**.  This will bring you to the landing page for the Service Trust Portal.
 
 3. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
