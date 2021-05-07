@@ -52,7 +52,7 @@ In this lab, you, as an admin, will walk-through the process of enabling self-se
 
 17. Close the Users window by selecting the **X** at the top right corner of the page.
 
-18. Keep the  contoso Overview window open as you will use it in the subsequent task.
+18. Keep the  Contoso Overview window open as you will use it in the subsequent task.
 
 #### Task 2: In this task you, as the admin, will learn how to configure Password reset for users, including configuration of the types of authentication methods to use.
 
@@ -96,7 +96,7 @@ In this lab, you, as an admin, will walk-through the process of enabling self-se
 
 4. Since this is your first sign in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
 
-5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  
+5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
 6. The “Keep your account secure” page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next button**.  A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.  
 
