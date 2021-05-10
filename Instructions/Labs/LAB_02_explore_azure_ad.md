@@ -16,7 +16,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 
 
-#### Task 1:  As a subscriber to Microsoft 365 you are already using Azure AD.  In this task you will walk-through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
+#### Task 1:  As a subscriber to Microsoft 365 you are already using Azure AD.  In this task you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. Open Microsoft Edge.
 

@@ -141,4 +141,4 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. It may take a few minutes for all the resources and resource group to be deleted.
 
 #### Review
-In this lab you walked-through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
+In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.

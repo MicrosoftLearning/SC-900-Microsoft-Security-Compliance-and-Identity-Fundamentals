@@ -8,7 +8,7 @@ lab:
 # Lab: Explore Azure Sentinel 
 
 ## Lab scenario
-In this lab you will walk through the process of creating an Azure Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk-through the steps for connecting Sentinel to your data sources, using built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
+In this lab you will walk through the process of creating an Azure Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to your data sources, using built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
 
   
 
