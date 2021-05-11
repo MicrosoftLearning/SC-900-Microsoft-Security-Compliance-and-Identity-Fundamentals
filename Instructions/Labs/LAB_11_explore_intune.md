@@ -8,13 +8,12 @@ lab:
 # Lab: Explore Microsoft Intune
 
 ## Lab scenario
-In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
 
+In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (<https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu>) in the associated Learn content.
 
 **Estimated Time**: 00 minutes
 
-#### Task: In this task you will explore Microsoft Intune in Microsoft Endpoint Manager.
-
+#### Task: In this task you will explore Microsoft Intune in Microsoft Endpoint Manager
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -50,13 +49,12 @@ In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Not
 
 1. From the left navigation pane, select **Users** to display details about the users that you have included in Intune. These users are your company's, Contoso’s, workforce.
 
-1. From the left navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. 
+1. From the left navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune.
 
 1. From the left navigation pane, select **Tenant administration** to display details about your Intune tenant.
 
 1. From the left navigation pane, select **Troubleshooting + support** then **Troubleshoot** to check status details on a specific user.
 
-
-
 #### Review
-In this lab you explored Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
+
+In this lab you explored Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (<https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu>) in the associated Learn content.

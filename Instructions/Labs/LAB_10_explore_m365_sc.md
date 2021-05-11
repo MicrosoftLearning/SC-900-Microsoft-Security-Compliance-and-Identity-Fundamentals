@@ -46,19 +46,19 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 2. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score. you can choose for the view of your score to include the achievable score, Planned score, and Current license score.
 
-3. The overview page also includes top improvement actions, comparison score, history, and additional resources.
+1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 
-4. Select **Improvement actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
+1. Select **Improvement actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
 
-5. Selecting an item from the list provided detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
+1. Selecting an item from the list provided detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
 
-6. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed.  Close this tab and return to the improvement action page for requiring MFA for administrative roles. Select **Improvement actions** from the top-left corner of the page (the bread-crumb), to return the improvement actions page.
+1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed.  Close this tab and return to the improvement action page for requiring MFA for administrative roles. Select **Improvement actions** from the top-left corner of the page (the bread-crumb), to return the improvement actions page.
 
-7. Select the **History** tab from the top of the page.  Some activities may show negative points.  As described in the activity field this may be because an item was removed because it was no longer relevant.  Select an item form the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provide more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
+1. Select the **History** tab from the top of the page.  Some activities may show negative points.  As described in the activity field this may be because an item was removed because it was no longer relevant.  Select an item form the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provide more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 
-8. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Security center home page.
+1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Security center home page.
 
-9. Close the browser page.
+1. Close the browser page.
 
 #### Review
 In this lab you explored the Microsoft 365 security center by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you explored how Microsoft Secure Score can help an organization improve its security posture.
