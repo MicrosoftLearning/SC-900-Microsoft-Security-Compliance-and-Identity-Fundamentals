@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Explore Microsoft 365 Security Center'
+    title: 'Explore the Microsoft 365 security center'
     module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
 ---
 
 
-# Lab: Explore Microsoft 365 Security Center
+# Lab: Explore the Microsoft 365 security senter
 
 ## Lab scenario
 In this lab you will explore the Microsoft 365 Security center by walking through the content displayed on the landing page, you will explore the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
@@ -13,7 +13,7 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 **Estimated Time**: 00 minutes
 
-#### Task 1:  Explore the M365 Security Center landing page.
+#### Task 1:  Explore the Microsoft 365 security center landing page.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -61,4 +61,4 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 9. Close the browser page.
 
 #### Review
-In this lab you explored the Microsoft 365 Security center by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you explored how Microsoft Secure Score can help an organization improve its security posture.
+In this lab you explored the Microsoft 365 security center by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you explored how Microsoft Secure Score can help an organization improve its security posture.

@@ -1,19 +1,19 @@
 ---
 lab:
-    title: 'Explore Intune'
+    title: 'Explore Microsoft Intune'
     module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe endpoint security with Microsoft Intune'
 ---
 
 
-# Lab: Explore Intune
+# Lab: Explore Microsoft Intune
 
 ## Lab scenario
-In this lab you will explore Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
+In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
 
 
 **Estimated Time**: 00 minutes
 
-#### Task: In this task you will explre Intune in Microsoft Endpoint Manager.
+#### Task: In this task you will explore Microsoft Intune in Microsoft Endpoint Manager.
 
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
@@ -59,4 +59,4 @@ In this lab you will explore Intune in Microsoft Endpoint Manager. Note: no endp
 
 
 #### Review
-In this lab you explored Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
+In this lab you explored Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu) in the associated Learn content.
