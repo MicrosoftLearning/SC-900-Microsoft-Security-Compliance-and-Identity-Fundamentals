@@ -18,6 +18,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 2. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 3. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
@@ -25,6 +26,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 5.	From the top left of the page, select **+Add** then select **+Virtual machine**.
 6.	From the basics tab, fill in the following information (for anything not listed, leave the default settings):
     1. Subscription: verify the default setting to be Azure Pass – Sponsorship.
+    
     1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
     1. Virtual machines name:  enter **SC900-WinVM**.
     1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
@@ -37,6 +39,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 7.	You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
 8.	You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
     1. NIC network security group:  select **None**.
+    
     1. Select **Next:  Management >**.
 9.	You are now in the Management tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
 10.	You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
@@ -62,6 +65,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 4.	From the top of Network security groups page, select **+ Create**.
 5.	On the Basics tab of the Create network security group page, specify the following settings:
     1. Subscription:  Azure Pass – Sponsorship
+    
     1. Resource group:  **LabsSC900**
     1. Name:  **NSG-SC900**
     1. Region:  leave the default **(US) East US**
@@ -88,6 +92,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 3.	With the Inbound port rules tab selected, you see the default inbound rules. You cannot remove the default rules, but you can override them by creating rules with higher priorities. From the right side of the page, select **Add inbound port rule**:
 4.	On the Add inbound security rule page, specify the following settings:
     1. Source:  **Any**
+    
     1. Source port ranges: *
     1. Destination:  **Any**
     1. Service:  **RDP**
@@ -108,13 +113,15 @@ In this lab, you will explore the function of network security groups in Azure. 
 16.	Close the browser on your VM, but keep the RDP connection to the VM open, as you will use it in the next task.
 
 #### Task 4: In this task, you will create an outbound rule to block outbound connections to the internet.
+
 1.	Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
 2.	From the left navigation panel, under Settings, select **Networking**.
 3.	Select the **Outbound port rules** tab.  You will see the default outbound rules. You cannot remove the default rules, but you can override them by creating rules with higher priorities. From the right side of the page, select **Add outbound port rule**.
 4.	On the Add outbound security rule page, specify the following settings:
     1. Source:  **Any**
-    1. Source port ranges:  *
+   
+     1. Source port ranges:  *
     1. Destination:  **Service Tag**
     1. Destination service tag:  **Internet**
     1. Service:  **Custom** (leave the default)
@@ -131,6 +138,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 10.	In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
 #### Task 5:  IMPORTANT: In this task you will delete the resource group and all the resources it contains.   This is important to avoid additional charges.
+
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
 1. From the top-left corner of the page, select **All Services**.

@@ -19,6 +19,7 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -27,7 +28,8 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 1. Notice the information available on the Security center overview page.  
 1. You may see a blue information box on the top of the page indicating that you may be viewing limited information.  Select **click here**.
     1. To ensure that you get tenant wide visibility, assign yourself the necessary role.  Select **Security Admin** then select **Get access** at the bottom of the page.
-    1. You will likely see the message; Root management group dos not exist.  Per the description, the system will create the group for you.  It can take up to 15 minutes to complete (but usually happens faster), after which you can repeat the process to get access.  Once the access is granted select **Security Center** on the top-left corner of the page, above where it says Get permissions and then refresh the Security center overview page.
+   
+     1. You will likely see the message; Root management group dos not exist.  Per the description, the system will create the group for you.  It can take up to 15 minutes to complete (but usually happens faster), after which you can repeat the process to get access.  Once the access is granted select **Security Center** on the top-left corner of the page, above where it says Get permissions and then refresh the Security center overview page.
 1. Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page there are cards representing Secure score, Regulatory compliance, Insights, Azure Defender, and more.  
 1. From the top of the page, select **Assessed resources**.  This brings you to the inventory page that shows your Azure pass subscription.  Select **Azure Pass – Sponsorship**.
 1. The Resource health page provides a list of recommendations.  From the available list, select **There should be more than one owner assigned to your subscription**. 
@@ -50,6 +52,7 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 3. From the recommendations page, select **Manage access and permissions**. Notice that there is one item in that group that is red.
 4. Select the item **There should be more than one owner assigned to your subscription**, which shows the resource health status as red. If selecting selecting this item does not work.
     1. From the top-left corner of the page, select **Security Center**, above where it says Recommendations.
+    
     1. From the left navigation panel, select **Recommendations**.
     1. From the recommendations page, select **Manage access and permissions**. Notice that there is one item in that group that is red.
     1. Select the item **There should be more than one owner assigned to your subscription**, which shows the resource health status as red. 

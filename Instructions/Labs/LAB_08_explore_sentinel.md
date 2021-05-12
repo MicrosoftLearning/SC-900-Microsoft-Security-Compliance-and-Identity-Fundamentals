@@ -20,6 +20,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 2. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -33,6 +34,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 7. From the basics tab of the Create Log Analytics workspace, enter the following:
     1. Subscription:  **Azure Pass – Sponsorship**
+   
     1. Resource group: select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (leave this default)
@@ -50,7 +52,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 13. Keep this page open, as you will use it in the next task.
 
-#### Task 2:  With the Azure Sentinel instance created, you will want to make sure that you have the necessary access to the resources that will get deployed to support Azure Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Azure Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. For best results, these roles should be assigned on the resource group that contains the Azure Sentinel workspace. This way, the roles will apply to all the resources that are deployed to support Azure Sentinel.
+#### Task 2:  With the Azure Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Azure Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Azure Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Azure Sentinel.
 
 1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
 
@@ -141,7 +143,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 #### Task 6:  Delete Azure Sentinel Resource group.  Azure Sentinel is billed based on the volume of data ingested for analysis in Azure Sentinel. Although the amount of data ingested as a result of this lab is minimal, it is recommended that you delete the Azure Sentinel resource group when you are done exploring the features of capabilities of Azure Sentinel.
 
-1.  From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
+1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
 
 2. In the filter services box, enter resource groups, then from the list provided select **Resource groups**.
 
@@ -153,4 +155,5 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 
 #### Review
+
 In this lab you walked through the process of creating an Azure Sentinel instance.  You also set up the permissions to ensure access to the resources associated with your instance of Azure Sentinel.  With your Azure Sentinel instance created, you walked through the steps for connecting Sentinel to your data sources, using built-in analytics rules to get notified of anything suspicious, and lastly you explored the automation capability. You concluded the lab by deleting the resource group associated with the instance of Azure Sentinel that you created.

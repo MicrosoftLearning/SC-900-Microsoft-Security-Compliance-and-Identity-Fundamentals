@@ -19,6 +19,7 @@ In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Not
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -30,6 +31,7 @@ In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Not
 
 1. From the left navigation pane, select **Devices** to display details about the enrolled devices in your Intune tenant. The Devices - Overview pane has several tabs that allow you to view a summary of the following statuses and alerts:
     1. **Enrollment status** - Review details about Intune enrolled devices by platform and enrollment failures.
+    
     1. **Enrollment alerts** - Find more details about unassigned devices by platform.
     1. **Compliance status** - Review compliance status based on device, policy, setting, threats, and protection. Additionally, this pane provides a list of devices without a compliance policy.
     1. **Configuration status** - Review configuration status of device profiles, as well as profile deployment., and

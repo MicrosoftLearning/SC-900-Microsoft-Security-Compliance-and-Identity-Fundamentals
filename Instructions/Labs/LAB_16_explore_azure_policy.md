@@ -19,6 +19,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -106,6 +107,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Before you exit, remove the Azure policy.
     1. From the top left corner of the page, select Home, to return to the Azure home page.
+    
     1. Underneath where it says Azure services, select Azure policy.
     1. In the middle of the page, you will see a list of the Azure policy/initiative assignments.  Select the ellipses for the policy assignment Require a tag on resource groups, then select Delete assignment.
     1. You will be prompted to confirm that you want to delete the assignment.  Select Yes.

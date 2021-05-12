@@ -19,6 +19,7 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+   
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -44,7 +45,7 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 1. From the Welcome page of the Microsoft 365 security center, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
 
-2. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score. you can choose for the view of your score to include the achievable score, Planned score, and Current license score.
+1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score. you can choose for the view of your score to include the achievable score, Planned score, and Current license score.
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 

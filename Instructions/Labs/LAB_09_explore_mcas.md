@@ -15,10 +15,12 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 **Estimated Time**: 00 minutes
 
 #### Task 1: Explore Cloud Discovery.
+
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 

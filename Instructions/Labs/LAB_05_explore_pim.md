@@ -66,7 +66,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 12. You are now in the Setting page.  Leave the Assignment type to the default setting, Eligible.
 
-13. If the Permanently eligible box is checked, select Permanently eligible, to remove the checkmark.
+13. If the Permanently eligible box is checked, select **Permanently eligible**, to remove the checkmark.
 
 14. In the Assignment start fields, keep the default date and time, which is today and the current time.
 
@@ -94,8 +94,8 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 1. You should be successfully logged in to the Azure Portal.
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
-1. From the left navigation panel, under **Privileged Identity Management**, select Azure AD roles.
-1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, are assigned the User administrator role time designed.  
+1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, are assigned the User administrator role.  
 1. In the last column of the table, labeled action, select **Activate**.
 1. You will see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role requires multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
 1. You are notified that more information is required, select **Next**.

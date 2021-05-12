@@ -19,6 +19,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -73,6 +74,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.  
     1. Privacy tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.  Select the  **Policy indicators** tab.
+    
     1. Policy indicators tab: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, then select **Save**.  Select the **Policy timeframes** tab.
     1. Policy timeframes tab:  The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy.   The Activation window determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the default values.  Select the **Intelligent detections** tab.
     1. Intelligent detections tab:  Review the options here.  Note the domains settings and how they relate to the indicators.
@@ -84,7 +86,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 #### Task 4:  In this task you will walk through the creation of a policy.
 
-1. YOu should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
+1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
 
 1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create**.  Configure each of the following policy tabs.
 
@@ -96,7 +98,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
         1. SharePoint site: For this policy example, leave this blank, select **Next**
         1. Sensitive info types: for this policy example, leave this blank then select **Next**. 
         1. Sensitivity labels: select **+ Add or edit sensitivity labels**.  Select the listed labels:  **Confidential Finance** and **Highly Confidential\Project – Falcon**, select **Add**, then **Next**.
-    1. Indicators and triggering event: Review the detailed information.  The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded.  For simplicy and because we have no devices onboarded in this tenant, uncheck **Select all.**.  Select **Next**.
+    1. Indicators and triggering event: Review the detailed information.  The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded.  For simplicy and because we have no devices onboarded in this tenant, uncheck **Select all**.  Select **Next**.
     1. Indicator Thresholds:  here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **Specify custom thresholds**, By selecting this option, you can see the current default values. Leave the defaults and select **Next**.  
     1. Finish:  review the settings, select **Submit**, then select **Done**.
 
