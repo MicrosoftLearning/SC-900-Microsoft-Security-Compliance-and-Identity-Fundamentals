@@ -1,20 +1,19 @@
 ---
-lab:
+Demo:
     title: 'Explore Azure Sentinel'
     module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Azure Sentinel'
 ---
 
 
-# Lab: Explore Azure Sentinel 
+# Demo: Explore Azure Sentinel 
 
 ## Lab scenario
-In this lab you will walk through the process of creating an Azure Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to your data sources, use built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
+In this demo you will show the process of creating an Azure Sentinel instance.  You will also show how to set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to data sources, you will show how to use built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
 
-  
+## Demo scenario
+In this demo you will walk through the process of creating an Azure Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to your data sources, using built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
 
-**Estimated Time**: 00 minutes
-
-#### Task 1:  Create an Azure Sentinel instance.
+#### Demo Part 1:  Create an Azure Sentinel instance.
 
 1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
@@ -52,7 +51,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 13. Keep this page open, as you will use it in the next task.
 
-#### Task 2:  With the Azure Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Azure Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Azure Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Azure Sentinel.
+#### Demo Part 2:  With the Azure Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Azure Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Azure Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Azure Sentinel.
 
 1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
 
@@ -76,7 +75,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 11. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
-#### Task 3:  In this task you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data.
+#### Demo Part 3:  In this part of the demo you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data.
 
 1. In the Filter services box of the All services page, enter **Azure Sentinel**, then select **Azure Sentinel** from the results list. 
 
@@ -104,11 +103,11 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 13. From the left navigation panel, select **Workbooks**.
 
-14. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you just saved is listed and available for you to view and monitor your data.
+14. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you just saved is listed and available for you to view and monitor your data.  Subsequent logins will be reflected in the workbook, so you may choose to show this.
 
 15. Keep this page open, as you will use it in the next task.
 
-#### Task 4:  In this task you will walk through the process of using a built-in analytics rule template to create a rule to get notified when something suspicious occurs.
+#### Demo Part 4 (Optional):  In this part of the demo you will walk through the process of using a built-in analytics rule template to create a rule to get notified when something suspicious occurs.
 
 1. From the left navigation panel, select **Analytics**.
 
@@ -130,7 +129,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 10. Keep this page open, as you will use it in the next task.
 
-#### Task 5:  In the previous task you created an analytics rule to be alerted of suspicious activities.  Embedded in that wizard is the option to automate the response to an incident based on the specific rule.  But you can also create automation rules by going directly to the automation configuration option.
+#### Demo Step 5 (Optional):  In the previous step you created an analytics rule to be alerted of suspicious activities.  Embedded in that wizard is the option to automate the response to an incident based on the specific rule.  But you can also create automation rules by going directly to the automation configuration option.
 
 1. From the left navigation panel, select **Automation**.  
 
@@ -141,7 +140,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 4. Keep this page open, as you will use it in the next task.
 
 
-#### Task 6:  Delete Azure Sentinel Resource group.  Azure Sentinel is billed based on the volume of data ingested for analysis in Azure Sentinel. Although the amount of data ingested as a result of this lab is minimal, it is recommended that you delete the Azure Sentinel resource group when you are done exploring the features of capabilities of Azure Sentinel.
+#### Step 6: TEAR DOWN - Instructor do this step after class. Delete Azure Sentinel Resource group.  Azure Sentinel is billed based on the volume of data ingested for analysis in Azure Sentinel. Although the amount of data ingested as a result of this lab is minimal, it is recommended that you delete the Azure Sentinel resource group when you are done exploring the features of capabilities of Azure Sentinel.
 
 1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
 
@@ -153,7 +152,6 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 5. Once you have verified the resource group was deleted, close the browser page. 
 
-
 #### Review
 
-In this lab you walked through the process of creating an Azure Sentinel instance.  You also set up the permissions to ensure access to the resources associated with your instance of Azure Sentinel.  With your Azure Sentinel instance created, you walked through the steps for connecting Sentinel to your data sources, using built-in analytics rules to get notified of anything suspicious, and lastly you explored the automation capability. You concluded the lab by deleting the resource group associated with the instance of Azure Sentinel that you created.
+In this demo you showed the process of creating an Azure Sentinel instance.  You showed how to set up the permissions to ensure access to the resources associated with your instance of Azure Sentinel.  With the Azure Sentinel instance created, you walked through the steps for connecting Sentinel to data sources, how to use built-in analytics rules to get notified of anything suspicious, and lastly you explored the automation capability. You concluded the demo by deleting the resource group associated with the instance of Azure Sentinel that you created.
