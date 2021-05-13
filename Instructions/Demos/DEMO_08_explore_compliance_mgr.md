@@ -7,9 +7,12 @@ Demo:
 
 # Demo: Explore the Microsoft 365 compliance center & Compliance Manager
 
+## Demo scenario
+In this demo, you will show the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+
 ## Instructions
 
-#### Demo Part 1: Explore the Microsoft 365 compliance center home page and learn to customize the card view and the navigation panel.
+#### Demo Part 1: Show the Microsoft 365 compliance center home page and how to customize the card view and the navigation panel.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -67,3 +70,6 @@ Demo:
 1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
 
 1. Close the open browser tabs.
+
+#### Review
+In this demo you showed the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.

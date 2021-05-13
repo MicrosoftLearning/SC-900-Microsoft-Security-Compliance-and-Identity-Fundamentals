@@ -65,4 +65,4 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 
 #### Review
-In this lab you explored you explored the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+In this lab you explored the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
