@@ -69,7 +69,7 @@ In this demo, you will access Azure Active Directory.  Additionally, you will sh
 
 1. From the left navigational panel select **Authentication methods**
 
-1. call out the description that says, Here, you can set the ​phone numbers and email addresses that users use to perform multi-factor authentication​ and self-service password reset, and reset a user’s password.  Enter a mobile phone for mobile device that you have access to.  You may use this as part of a subsequent demo for SSPR and/or MFA.
+1. Call out the description that says, Here, you can set the ​phone numbers and email addresses that users use to perform multi-factor authentication​ and self-service password reset, and reset a user’s password.  Enter a mobile phone for mobile device that you have access to.  You may use this as part of a subsequent demo for SSPR and/or MFA.
 
 1. Select the **X** on the top right corner of the page.  This returns you to the user list.
 
