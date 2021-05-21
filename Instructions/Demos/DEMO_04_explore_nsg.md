@@ -13,7 +13,7 @@ In this Demo, you will show the function of network security groups in Azure.  Y
 
 ## Instructions
 
-#### Demo Part 1: SETUP - Instructors it is recommended that you do this BEFORE class time as it can take several minutes to create a VM. In this setp you will create a Windows 10 virtual machine.
+#### Demo Part 1: SETUP - Instructors it is recommended that you do this BEFORE class time as it can take several minutes to create a VM. In this setup, you will create a Windows 10 virtual machine.
 
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
