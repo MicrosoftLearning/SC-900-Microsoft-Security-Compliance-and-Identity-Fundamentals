@@ -11,7 +11,7 @@ Demo:
 In this demo you will show the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 
-#### Demo Part 1: In this demo you show the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
+#### Demo Part 1: In this demo you show the settings for an existing sensitivity label and the corresponding policy to publish the label.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
