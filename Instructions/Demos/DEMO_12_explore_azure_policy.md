@@ -9,7 +9,7 @@ Demo:
 
 ## Instructions
 
-#### Demo Part 1: Create a policy to require a tag on a resourge group (shows steps to create a policy from a template)
+#### Demo Part 1: Create a policy to require a tag on a resource group (shows steps to create a policy from a template)
 
 1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.
 
