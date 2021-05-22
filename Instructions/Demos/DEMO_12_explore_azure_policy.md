@@ -42,7 +42,7 @@ Demo:
 
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
 
-#### Demo Part 2:  Show the impact of the policy by creating a resoruce group wtithout a tag, then fix it to have a tag.
+#### Demo Part 2:  Show the impact of the policy by creating a resource group without a tag, then fix it to have a tag.
 
 1. Form the top of the page, underneath where it says Azure Services, select **Resource groups**.
 
