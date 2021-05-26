@@ -9,10 +9,7 @@ lab:
 
 In this lab, you will redeem your Azure pass, using the same credentials as your Microsoft 365 tenant.  This will make for a seamless experience when moving between Microsoft 365 and Azure.
 
-
-
 **Estimated Time**: 5 minutes
-
 
 #### Task 1: In this task you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant. 
 
@@ -25,13 +22,13 @@ In this lab, you will redeem your Azure pass, using the same credentials as your
 1. Select the **start** button to get started.
 
     1. In the Sign in window, enter the email  **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. Select **Confirm** if the correct email address is listed.
+    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**. If prompted to stay signed in, select **Yes**.
+    1. Select **Confirm Microsoft Account** if the correct email address is listed.
     1. Enter your promo code in the Promo code box and click **Claim Promo Code**.  
     1. In the "Your profile" page, leave all the default information, select **I agree to the subscription agreement, offer details, and privacy statement.** then select **Sign up**.
     1. If a survey window open, you choose to close it by selecting the **X** or respond as appropriate and select **Submit**.
 
-1. It may take a few minutes to activate your account.  Once activated you are directed to the Azure portal Home page.  You may get a pop-up window "Optimize your cloud workloads with personalized recommendations", select **X** on teh top right corner of the window.
+1. It may take a few minutes to activate your account.  Once activated you are directed to the Azure portal Home page. A Welcome to Microsoft Azure window opens, select **Start tour** (it is recommended you take this brief but informative tour).  You may get a pop-up window "Optimize your cloud workloads with personalized recommendations", select **X** on the top right corner of the window.
 
 1. Close the browser tab.
 
