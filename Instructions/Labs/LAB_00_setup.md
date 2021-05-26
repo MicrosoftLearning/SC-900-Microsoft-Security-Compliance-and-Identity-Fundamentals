@@ -7,7 +7,7 @@ lab:
 
 ## Lab scenario
 
-In this lab, you will redeem your Azure pass, using the same credentials as your Microsoft 365 tenant.  This will make for a seamless experience when moving between Microsoft 365 and Azure.
+In this lab, you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant.  This will make for a seamless experience when moving between Microsoft 365 and Azure.
 
 **Estimated Time**: 5 minutes
 
