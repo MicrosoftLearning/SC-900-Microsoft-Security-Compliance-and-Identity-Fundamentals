@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'Explore Microsoft Cloud App Security '
-    module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Azure Sentinel'
+    module: 'Module 3 Lesson 4: Describe threat protection with Microsoft 365 Defender'
 ---
 
 
