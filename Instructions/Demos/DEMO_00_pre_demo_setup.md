@@ -5,13 +5,9 @@ Pre-Demo Setup:
 
 # Pre-Demo Setup
 
-In this pre-demo setup, you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant.  This will make for a seamless experience when moving between Microsoft 365 and Azure.
+### Setup part 1 - Redeem Azure Pass
+In this setup task, you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant.  This will make for a more seamless experience when moving between Microsoft 365 and Azure.
 
-**Estimated Time**: 3-5 minutes
-
-## Instructions
-
-#### Setup part 1 - Redeem Azure Pass
 1. If you have any open browser windows, it is recommended you close all browsers.
 
 1. Right click on the Microsoft Edge icon and and select **New InPrivate window** to open a new In-Private Browser session. Other 
@@ -31,7 +27,7 @@ In this pre-demo setup, you will redeem your Azure pass using the same credentia
 
 1. Close the browser tab.
 
-#### Setup part 2 - Enable Microsoft 365 audit log
+### Setup part 2 - Enable Microsoft 365 audit log
 In this setup task, you will enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants do not have this feature enabled and it can take several hours for this to take effect.  It is beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
@@ -55,6 +51,6 @@ In this setup task, you will enable the Audit log capability in Microsoft 365.  
 
 1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
 
-#### Review
+### Review
 
 In this setup you redeemed your Azure pass, using the same credentials as your Microsoft 365 tenant.  You also enabled the audit log capability in Microsoft 365.
