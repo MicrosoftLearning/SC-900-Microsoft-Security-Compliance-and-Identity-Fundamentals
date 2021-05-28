@@ -74,7 +74,7 @@ In this demo you will walk through the process of creating an Azure Sentinel ins
 1. From the Azure Active Directory connector page, review the description and note the related content which includes workbooks, queries, and Analytic rules templates.  
 
 1. The instructions tab in the main window, provides the perquisites for Azure Sentinel to integrate with Azure Active Directory.   Under configuration, select **Sign-in logs** then select Apply Changes (multiple connectors can be chosen).  Note: it can take some time before you see the connected status for the connector (~30 minutes or so).  As a reference:
-    1. review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+    1. Review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
     1. Connect to Azure Active Directory:  https://docs.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory
 
 1. From the Next steps tab, note the list of recommended workbooks.   Under recommended workbooks, select **Azure Sign-in logs** (additional workbooks can be chosen).
