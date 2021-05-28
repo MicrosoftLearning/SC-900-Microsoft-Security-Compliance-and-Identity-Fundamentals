@@ -32,7 +32,7 @@ In this demo, you will walk through the Azure Security Center and show how Azure
     1. Select one of the controls, such as **Enable MFA**.  Select one of the sub-items, such as **MFA should be enabled on accounts with owner permissions on your subscription**.  In the page that opens, you will see a description, Remediation steps, and affected resources. Exit out this page, by selecting the **X** on top-right corner of the screen.
     1. Exit the recommendations page by selecting the **X** on top-right corner of the screen, to return to the overview page.
 
-1.	You are back on the Security Center Overview page.  From the main page, select Secure Score (this is equivalent to selecting Secure score from the left navigation panel).
+1. You are back on the Security Center Overview page.  From the main page, select Secure Score (this is equivalent to selecting Secure score from the left navigation panel).
     1. This brings you to the Secure Score Dashboard.  In addition it lists any available management groups and subscriptions.  Select your Azure subscription – Azure Pass – Sponsorship.
     1. This brings to the Recommendations page, which was shown earlier.
     1. Exit out the recommendations page, by selecting the **X** on top-right corner of the screen.
