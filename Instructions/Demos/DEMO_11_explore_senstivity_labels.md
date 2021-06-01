@@ -1,13 +1,13 @@
 ---
 Demo:
-    title: 'Explore Explore sensitivity labels in Microsoft 365'
+    title: 'Sensitivity labels in Microsoft 365'
     module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
 ---
 
 
-# Demo: Explore sensitivity labels in Microsoft 365
+# Demo: Sensitivity labels in Microsoft 365
 
-## Demo scenario
+### Demo scenario
 In this demo you will show the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 

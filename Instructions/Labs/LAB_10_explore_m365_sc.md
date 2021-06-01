@@ -8,7 +8,7 @@ lab:
 # Lab: Explore the Microsoft 365 security senter
 
 ## Lab scenario
-In this lab you will explore the Microsoft 365 Security center by walking through the content displayed on the landing page, you will explore the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
+In this lab you will explore the Microsoft 365 Security center by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
 
 **Estimated Time**: 00 minutes
@@ -29,7 +29,7 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 1. If this is the first time you visit the Microsoft 365 security center, you may get a pop-up window to take a quick tour.  It is recommended that you complete the tour.  Select **Take a quick tour**.  Read the description provided in each pop-up window, then select **Next**. Continue through the tour until you get to the end, then select **Done**.
 
-1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, threat analytics, Hunting and much more.  It also includes quick access to Microsoft Defender for Endpoint (these are the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.  To return to the home page of the Microsoft 365 security center, select **Home** on the left navigation panel.
+1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, threat analytics, Hunting and much more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 security center, select **Home** on the left navigation panel.  Note: you may not see much information listed in these tabs as their are no devices attached and may not have any active threats or alerts.
 
 1. The welcome page of the M365 security center, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
@@ -53,7 +53,7 @@ In this lab you will explore the Microsoft 365 Security center by walking throug
 
 1. Selecting an item from the list provided detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
 
-1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed.  Close this tab and return to the improvement action page for requiring MFA for administrative roles. Select **Improvement actions** from the top-left corner of the page (the bread-crumb), to return the improvement actions page.
+1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed.   Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
 
 1. Select the **History** tab from the top of the page.  Some activities may show negative points.  As described in the activity field this may be because an item was removed because it was no longer relevant.  Select an item form the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provide more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 

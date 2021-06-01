@@ -66,7 +66,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 6. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-7. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.
+7. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
 8. From the list of users displayed, select **MOD Administrator**.
 
@@ -76,7 +76,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 11. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
-#### Task 3:  In this task you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data.
+#### Task 3:  In this task you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data. Note: it can take a bit time to show the connected status of a connector (~30 minutes, depending on the tenant).
 
 1. In the Filter services box of the All services page, enter **Azure Sentinel**, then select **Azure Sentinel** from the results list. 
 

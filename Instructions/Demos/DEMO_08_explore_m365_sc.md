@@ -1,26 +1,18 @@
 ---
 Demo:
-    title: 'Explore the Microsoft 365 security center'
+    title: 'Microsoft 365 security center'
     module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
 ---
 
 
-# Demo: Explore the Microsoft 365 security senter
+# Demo: Microsoft 365 security center
 
-## Demo scenario
-In this demo you will explore the Microsoft 365 Security center by walking through the content displayed on the landing page, you will explore the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
-
-
-## Instructions
+### Demo scenario
+In this demo you will show the Microsoft 365 Security center by walking through the content displayed on the landing page. You will also walk through the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also show how Microsoft Secure Score can help an organization improve its security posture.
 
 #### Demo Part 1:  Explore the Microsoft 365 security center landing page.
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.  You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -28,7 +20,7 @@ In this demo you will explore the Microsoft 365 Security center by walking throu
 
 1. If this is the first time you visit the Microsoft 365 security center, you may get a pop-up window to take a quick tour.  Close this.
 
-1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, threat analytics, Hunting and much more.  It also includes quick access to Microsoft Defender for Endpoint (these are the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.  To return to the home page of the Microsoft 365 security center, select **Home** on the left navigation panel.
+1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, threat analytics, Hunting and much more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.  To return to the home page of the Microsoft 365 security center, select **Home** on the left navigation panel.  Note: you may not see much information listed in these tabs as their are no devices attached and may not have any active threats or alerts.
 
 1. The welcome page of the M365 security center, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
@@ -48,11 +40,11 @@ In this demo you will explore the Microsoft 365 Security center by walking throu
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 
-1. Select **Improvement actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
+1. Select **Improvement actions** from the top of the page.  Notice the information available for each item in the table.  
 
-1. Selecting an item from the list provided detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
+1. Selecting an item from the list provides detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
 
-1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed.  Close this tab and return to the improvement action page for requiring MFA for administrative roles. Select **Improvement actions** from the top-left corner of the page (the bread-crumb), to return the improvement actions page.
+1. From the top left of the page select **Manage**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
 
 1. Select the **History** tab from the top of the page.  Some activities may show negative points.  As described in the activity field this may be because an item was removed because it was no longer relevant.  Select an item form the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provide more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 

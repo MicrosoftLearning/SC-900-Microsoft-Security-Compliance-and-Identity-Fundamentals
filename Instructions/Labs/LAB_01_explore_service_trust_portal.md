@@ -19,7 +19,7 @@ In this lab, you will explore the features and content available from the Servic
 
 1. In the address bar enter **https://aks.ms/STP**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and, if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
 1. Scroll down on the page and notice the links to Audit reports, Documents & Resources and more.  Select **View all Audit Reports**.
 
@@ -35,7 +35,7 @@ In this lab, you will explore the features and content available from the Servic
 
 1. Now verify that the document is in fact in your library. Scroll up to get to get back to the top of page.  From the top navigation, select **My Library**.  If you don’t see the option for My Library, select More, then select My Library.
 
-1. From the top of the Service Trust Portal page, select **Trust Documents** and note the options.  Selecting Audit Reports directs you to the same location that you explored in the previous task.  Explore the information available for each of the links.
+1. From the top of the Service Trust Portal page, select **Trust Documents** and note the options. Explore the information available for each of the links under Trust Documents. Selecting Audit Reports directs you to the same location that you explored in the previous task.  Explore the information available for each of the links.
 
 1. From the top of the page, select **Industries & Regions**.  Choose **Regional Solutions**. Notice the different Regions listed.  Select **United Kingdom**.  
 

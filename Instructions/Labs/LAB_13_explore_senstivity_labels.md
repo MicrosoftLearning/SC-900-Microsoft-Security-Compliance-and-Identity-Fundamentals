@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Explore Explore sensitivity labels in Microsoft 365'
+    title: 'Explore sensitivity labels in Microsoft 365'
     module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
 ---
 

@@ -14,12 +14,7 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 #### Demo Part 1: Show the Microsoft 365 compliance center home page and how to customize the card view and the navigation panel.
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -35,13 +30,11 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
 
-1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
-
-1. Select **Show less** to hide.
+1. From the left navigation panel of the Microsoft 365 compliance center home page, notice the items listed under Solutions.  If only Catalog is displayed, then from the left navigation panel select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**.  
 
-1. From the Customize your navigation pane window, select **Audit**, **Data loss prevention** and **eDiscovery**.  Select **Save** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
+1. From the Customize your navigation pane window, select items you want displayed and de-select the items you do not want displayed.  Select **Save** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
 1. Leave the browser tab open.
 
@@ -51,7 +44,7 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 1. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
-1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 34 hours to update.  Notice the available filters.
+1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 24 hours to update.  Notice the available filters.
 
 1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
 
@@ -66,10 +59,10 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 1. From the top left of the page, above where it says Assessments (the breadcrumb), select **Assessment** to return to the assessments page.  
 
 1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can crate assessments for your organization by using an existing template or you can create a new template.
- 
+
 1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
 
-1. Close the open browser tabs.
+1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft 365 compliance center.  Keep this browser page open for teh subsequent demo.
 
 #### Review
 In this demo you showed the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.

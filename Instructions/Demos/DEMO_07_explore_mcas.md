@@ -1,29 +1,24 @@
 ---
 Demo:
-    title: 'Explore Microsoft Cloud App Security '
+    title: 'Microsoft Cloud App Security '
     module: 'Module 3 Lesson 4: Describe threat protection with Microsoft 365 Defender'
 ---
 
 
-# Demo: Explore Microsoft Cloud App Security
+# Demo: Microsoft Cloud App Security
 
-## Demo scenario
+### Demo scenario
 In this demo, you will show the capabilities of Microsoft Cloud App Security.  You will walk the learner through information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service.  
-
-## Instructions
 
 #### Demo Part 1: Explore Cloud Discovery.
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.  You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
-
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.  Speak to the point that the different Microsoft 365 admin centers can be accessed from here.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 security center.  
+
+1. If this is the first time you visit the Microsoft 365 security center, you may get a pop-up window to take a quick tour.  Close this.
 
 1. From the bottom of the left navigation panel of the Microsoft 365 security center page, select **More resources**.
 
@@ -57,7 +52,7 @@ In this demo, you will show the capabilities of Microsoft Cloud App Security.  Y
 
 #### Demo Part 2: Explore ways in which you can investigate the recorded activities.
 
-1. From the left navigation panel, under Investigate, select **Activity Log**.  Here you get you visibility into all the activities from your connected apps.   Since you already had the Office 365 connector connected you should be able to see some data. After you connect Cloud App Security to an app using the App connector, Cloud App Security scans all the activities that happened - the retroactive scan time period differs per app - and then it's updated constantly with new activities.  
+1. From the left navigation panel, under **Investigate**, select **Activity Log**.  Here you get visibility into all the activities from your connected apps.   Since you already had the Office 365 connector connected you should be able to see some data. After you connect Cloud App Security to an app using the App connector, Cloud App Security scans all the activities that happened - the retroactive scan time period differs per app - and then it's updated constantly with new activities.  
 
 1. Select an item to display more detailed information. Notice on the top of the page, the option to add a new policy from the search or to export the data for further analysis.  Select **+New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window.
 

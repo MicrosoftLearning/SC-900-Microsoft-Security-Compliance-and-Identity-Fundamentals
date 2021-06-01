@@ -51,7 +51,7 @@ In this demo you will walk through the process of creating an Azure Sentinel ins
 
 1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-1. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles. In the select a role search box, enter **sentinel** to view the 4 roles associated with Sentinel. As a best practice you should assign the least privilege required for the role.  For this convenience of this lab, enter **Owner** in the searchbox and select **Owner** from the results. .
+1. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles. In the select a role search box, enter **sentinel** to view the 4 roles associated with Sentinel. As a best practice you should assign the least privilege required for the role.  For the convenience of this lab, enter **Owner** in the searchbox and select **Owner** from the results.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
 1. From the list of users displayed, select **MOD Administrator**.
 
