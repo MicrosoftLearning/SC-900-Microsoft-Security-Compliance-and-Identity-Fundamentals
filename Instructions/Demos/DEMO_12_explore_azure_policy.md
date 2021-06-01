@@ -1,26 +1,24 @@
 ---
 Demo:
-    title: 'Explore Azure Policy'
+    title: 'Azure Policy'
     module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
 ---
 
 
-# Demo: Explore Azure Policy
+# Demo: Azure Policy
 
-## Instructions
+### Demo scenario
+In this demo you will walk through the process of setting up an Azure policy and the impact of that policy.
 
 #### Demo Part 1: Create a policy to require a tag on a resource group (shows steps to create a policy from a template)
 
-1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.  You should already be signed in, if not sign in with your admin credentials.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results.
 
-1. You are now in the Azure Portal.  Underneath where it says Azure services, select **Policy**. This opens the Policy home page which provides a dashboard view.  The scope for which you are seeing the information applies the Azure Pass you are using, as part of this lab.   Notice the information available in the dashboard.
+1. You are now in the overview of the Policy page. Notice the information available in the dashboard.
 
-1. Form the left navigation panel, under Authoring, select **Assignments**.
+1. Form the left navigation panel, under Authoring, select **Assignments**.  You will notice that there is already a policy assignment, select **ASC Default**.  Note the description field, This is the default set of policies monitored by Azure Security Center. It was automatically assigned as part of onboarding to Security Center. The default assignment contains only audit policies. For more information please visit https://aka.ms/ascpolicies.  Return to the Policy Assignments page by selecting the **X** on the top right corner of the page.
 
 1. From the top of the page, select **Assign policy**.
 
@@ -32,7 +30,9 @@ Demo:
 
 1. Note the default assignment name.  Keep the name as is and from the bottom of the page, select **Next**.
 
-1. In the Tag name field, enter **Environment** then select **Next**.  
+1. In the Tag name field, enter **Environment** (resource groups will require an Environment tag) then select **Next**.  
+
+1. From the Remediation tab, read the description but don't change the settings. Select **Next**
 
 1. In the non-compliance message, enter **An environment tag is required**, then select **Next**. Note: this message will appear as the reason for non-compliance for resource groups that were created before the policy assignment and do not have an Environment tag.  For resource groups created after the policy was created, the creating of the resource group will be denied if there is no environment tag.
 
@@ -44,7 +44,7 @@ Demo:
 
 #### Demo Part 2:  Show the impact of the policy by creating a resource group without a tag, then fix it to have a tag.
 
-1. Form the top of the page, underneath where it says Azure Services, select **Resource groups**.
+1. From the top of the page, underneath where it says Azure Services, select **Resource groups**. If you don't see the option listed, enter Resource groups in the search bar and select it from there.
 
 1. From the top left corner of the page, select **+ Create**.
 
@@ -70,6 +70,6 @@ Demo:
 
 1. You will see the resource group listed.  Because the tag was provided in the resource group, the condition included as part of the Azure policy was satisfied.  The resource group is compliant with the policy.
 
+#### Review
 
-
-
+In this demo, you showed the process of setting up an Azure policy and the impact of that policy.

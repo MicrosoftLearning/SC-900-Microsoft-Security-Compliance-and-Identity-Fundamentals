@@ -25,7 +25,7 @@ In this setup task, you will redeem your Azure pass using the same credentials a
 
 1. It may take a few minutes to activate your account.  Once activated you are directed to the Azure portal Home page. A Welcome to Microsoft Azure window opens, select **Maybe later** . You may get a pop-up window "Optimize your cloud workloads with personalized recommendations", select **X** on the top right corner of the window.
 
-1. Close the browser tab.
+1. Leave the browser tab to the Azure portal home page open, you will come back to it in the next demo.
 
 ### Setup part 2 - Enable Microsoft 365 audit log
 In this setup task, you will enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants do not have this feature enabled and it can take several hours for this to take effect.  It is beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
