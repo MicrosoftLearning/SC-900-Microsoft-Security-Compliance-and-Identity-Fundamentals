@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Microsoft Intune'
-    module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe endpoint security with Microsoft Intune'
+    module: 'Module 3 Lesson 6: Describe the capabilities of Microsoft security solutions: Describe endpoint security with Microsoft Intune'
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'Azure Policy'
-    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+    module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
 ---
 
 

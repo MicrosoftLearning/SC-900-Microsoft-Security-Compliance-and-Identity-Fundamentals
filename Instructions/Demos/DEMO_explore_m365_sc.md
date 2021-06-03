@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'Microsoft 365 security center'
-    module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
+    module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
 ---
 
 

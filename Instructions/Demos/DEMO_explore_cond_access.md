@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'Azure Active Directory Conditional Access'
-    module: 'Module 2 Lesson 4: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+    module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
 ---
 
 

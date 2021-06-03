@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Insider Risk Management in Microsoft 365'
-    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
+    module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
 ---
 
 
