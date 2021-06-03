@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Azure Active Directory'
-    module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+    module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
 ---
 
 # Lab: Explore Azure Active Directory

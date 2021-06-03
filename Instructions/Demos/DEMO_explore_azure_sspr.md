@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'Azure Active Directory self service password reset'
-    module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
+    module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
 ---
 
 # Demo: Azure Active Directory self service password reset (SSPR)

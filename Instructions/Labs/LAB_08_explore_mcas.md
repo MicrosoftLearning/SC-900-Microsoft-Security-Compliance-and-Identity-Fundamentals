@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Microsoft Cloud App Security '
-    module: 'Module 3 Lesson 4: Describe threat protection with Microsoft 365 Defender'
+    module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
 ---
 
 

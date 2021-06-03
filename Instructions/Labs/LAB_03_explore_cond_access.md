@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore access management in Azure AD with Conditional'
-    module: 'Module 2 Lesson 4: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+    module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
 ---
 
 
