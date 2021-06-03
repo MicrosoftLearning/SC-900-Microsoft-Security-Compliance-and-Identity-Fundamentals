@@ -1,8 +1,13 @@
-# INF99X: Sample Course
+# SC-900: Microsoft Security, Compliance, and Identity Fundamentals
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
+This repository includes demo scripts and lab instructions for **SC-900T00: Microsoft Security, Compliance, and Identity Fundamentals**.  Both the demo scripts and labs assume access to a WWL M365 Enterprise 2019 SPE_E5 tenant and an Azure pass that are available through an authorized lab hoster (ALH).  Demo scripts and lab instructions may be run on a user's own Microsoft 365 tenant and Azure subscription, but are not guaranteed, as some features may not be enabled with a user's personal subscription.
+
+- The demo scripts are intended to be used by instructors to demonstrate functionality, in a live environment, during course delivery.  
+
+- The labs are available as a supplement to the course content. These labs are intended for the case where learning partners are able to make the environment available to learners, for an extended period of time, after the 1-day course delivery, as there is not sufficient time for instructors to cover the course content and for students to complete labs, during the course delivery. The labs are designed as stand-alone labs (there is no dependency between labs).
+
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+
 
 ## What are we doing?
 
