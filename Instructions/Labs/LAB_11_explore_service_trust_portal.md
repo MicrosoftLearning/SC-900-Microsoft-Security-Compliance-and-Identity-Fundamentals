@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore the Service Trust Portal'
-    module: 'Module 1 Lesson 2: Describe Microsoft security and compliance principles: Explore the Service Trust Portal'
+    module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
 ---
 
 # Lab: Explore the Service Trust Portal
@@ -10,7 +10,7 @@ lab:
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-**Estimated Time**: 5-10 minutes
+**Estimated Time**: 15-30 minutes
 
 
 #### Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
