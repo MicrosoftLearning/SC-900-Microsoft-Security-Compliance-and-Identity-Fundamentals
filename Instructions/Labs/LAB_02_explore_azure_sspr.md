@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Explore Azure AD Authentication with self service password reset'
+    title: 'Explore Azure AD Authentication with self-service password reset'
     module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
 ---
 
-# Lab: Explore Azure AD Authentication with self service password reset
+# Lab: Explore Azure AD Authentication with self-service password reset
 
 ## Lab scenario
 
