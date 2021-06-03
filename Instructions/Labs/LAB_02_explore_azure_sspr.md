@@ -4,7 +4,7 @@ lab:
     module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
 ---
 
-# Lab: Explore Azure Active Directory
+# Lab: Explore Azure AD Authentication with self service password reset
 
 ## Lab scenario
 
