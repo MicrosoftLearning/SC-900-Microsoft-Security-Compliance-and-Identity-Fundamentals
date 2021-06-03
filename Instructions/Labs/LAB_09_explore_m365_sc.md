@@ -5,7 +5,7 @@ lab:
 ---
 
 
-# Lab: Explore the Microsoft 365 security senter
+# Lab: Explore the Microsoft 365 security center
 
 ## Lab scenario
 In this lab you will explore the Microsoft 365 Security center by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
