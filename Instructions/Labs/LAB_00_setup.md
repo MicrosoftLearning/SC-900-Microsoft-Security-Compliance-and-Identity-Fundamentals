@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Setup - Redeem Azure Pass'
+    title: 'Setup'
 ---
 
 # Lab: Setup
