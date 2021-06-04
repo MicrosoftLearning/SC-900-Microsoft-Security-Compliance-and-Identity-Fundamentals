@@ -1,11 +1,11 @@
 ---
 Demo:
-    title: 'Explore Microsoft Intune'
+    title: 'Microsoft Intune'
     module: 'Module 3 Lesson 6: Describe the capabilities of Microsoft security solutions: Describe endpoint security with Microsoft Intune'
 ---
 
 
-# Demo: Explore Microsoft Intune
+# Demo: Microsoft Intune
 
 ### Demo scenario
 
