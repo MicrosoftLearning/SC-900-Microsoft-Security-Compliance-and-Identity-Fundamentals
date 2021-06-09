@@ -54,3 +54,5 @@ In this setup task, you will enable the Audit log capability in Microsoft 365.  
 ### Review
 
 In this setup you redeemed your Azure pass, using the same credentials as your Microsoft 365 tenant.  You also enabled the audit log capability in Microsoft 365.
+
+
