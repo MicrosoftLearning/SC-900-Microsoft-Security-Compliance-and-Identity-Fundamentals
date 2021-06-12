@@ -25,9 +25,9 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 security center.  
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. From the left navigation pane of the Microsoft 365 security center, select **Permissions & roles**.  You may need to scroll down to see this option.
+1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions & roles**.  You may need to scroll down to see this option.
 
 1. From the Permissions & roles page, under **Email & collaboration roles** select **Roles**.
 

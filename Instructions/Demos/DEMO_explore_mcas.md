@@ -16,11 +16,11 @@ In this demo, you will show the capabilities of Microsoft Cloud App Security.  Y
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.  Speak to the point that the different Microsoft 365 admin centers can be accessed from here.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 security center.  
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. If this is the first time you visit the Microsoft 365 security center, you may get a pop-up window to take a quick tour.  Close this.
+1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
 
-1. From the bottom of the left navigation panel of the Microsoft 365 security center page, select **More resources**.
+1. From the bottom of the left navigation panel of the Microsoft 365 Defender page, select **More resources**.
 
 1. On the **Microsoft Cloud App Security** card, select **Open**.  A new browser page opens to the Cloud App Security Dashboard.  Note the information cards that are available.  It is possible you may not see any information on the cards, as this is a preconfigured lab tenant environment that has not been actively used.  
 

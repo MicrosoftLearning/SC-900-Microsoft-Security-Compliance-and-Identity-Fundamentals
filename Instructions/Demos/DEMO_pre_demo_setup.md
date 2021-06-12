@@ -43,7 +43,7 @@ In this setup task, you will enable the Audit log capability in Microsoft 365.  
 
 1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
 
-1. In the left navigation panel, under solutions, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft 365 security center home page.
+1. In the left navigation panel, under solutions, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft 365 Defender home page.
 
 1. Verify that the **Search** tab is selected (underlined).
 
