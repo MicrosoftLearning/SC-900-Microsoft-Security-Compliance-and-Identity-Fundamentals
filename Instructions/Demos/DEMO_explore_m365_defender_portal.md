@@ -22,7 +22,7 @@ In this demo you will show the Microsoft 365 Defender portal by walking through 
 
 1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, threat analytics, Hunting and much more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.  To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.  Note: you may not see much information listed in these tabs as their are no devices attached and may not have any active threats or alerts.
 
-1. The welcome page of the M365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
+1. The welcome page of the Microsoft 365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
 
