@@ -11,7 +11,7 @@ lab:
 Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 20-25 minutes
 
 #### Task 1: Briefly explore the Azure policy page.
 

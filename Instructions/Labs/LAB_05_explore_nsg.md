@@ -11,7 +11,7 @@ lab:
 In this lab, you will explore the function of network security groups in Azure.  You will do this by create the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
   
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 15-20 minutes
 
 #### Task 1:  In this task you will create a Windows 10 virtual machine.    
 1.	Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
@@ -22,8 +22,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 1. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
-1. On the main window, under Featured, select Virtual Machines.
-1. From the top left of the page, select **+Add** then select **+Virtual machine**.
+1. On the main window, under Featured, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
+1. From the top left of the page, select **+Create** then select **+Virtual machine**.
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
     1. Subscription: verify the default setting to be Azure Pass – Sponsorship.
 
@@ -85,7 +85,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. Open the downloaded file and select **Connect**.
 1. After a few seconds of trying to connect, you will see the failure message, indicating that the remote Desktop can’t connect to the remote computer.  Select **OK**.
 
-#### Task 3: in this task, you will create a NSG rule to allow inbound traffic using RDP on port 3389.  You will t hen test that rule by attempting to connect to the VM using RDP. 
+#### Task 3: in this task, you will create a NSG rule to allow inbound traffic using RDP on port 3389.  You will then test that rule by attempting to connect to the VM using RDP. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
