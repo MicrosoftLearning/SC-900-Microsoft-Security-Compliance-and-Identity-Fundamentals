@@ -10,7 +10,7 @@ lab:
 
 In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, will be able to view audit logs and usage data & insights for SSPR.
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 15-20 minutes
 
 
 #### Task 1:  In this task you, as the admin, will add an existing user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will also need to do a reset of the user’s password so that you can do a first-time login, as the user, and register for SSPR.
@@ -26,7 +26,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 4. From the left navigation panel, select **Groups**.
 
-5. A list of existing groups is displayed.  Select **Load more** from the bottom of the page and scroll down until you find ****SSPRSecurityUsers**, then select it.  It will take you to the configuration option for this group.
+5. A list of existing groups is displayed. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
 6. From the left navigation pane, select **Members**.
 
@@ -60,15 +60,13 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 2. From the left navigation pane, select **Password reset**.  
 
-3. The properties for self service password reset are displayed.  Ensure that **Self service reset** is selected for the group which is listed, the SSPRSecurityUsers.
-
-4. Select **SSPRSecurityUsers**.  This opens the Default password reset policy window that displays all the available groups that can be enabled.  Do not select any additional groups. Close the window by selecting the **X** on the top right of the screen.
+3. The properties for self service password reset are displayed.  Ensure that **Self service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says "select group" and note what is says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
 5. From the left navigation panel of Password reset, select **Authentication Methods**.
 
 6. In the Number of methods required to rest, select **1**. Note the information box on the screen.
 
-7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them.  From the top of the page, select **Save**.  You will see a notification on the top right corner of the screen indicating Password reset policy was saved. 
+7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them.
 
 8. From the left navigation panel of Password reset, select **Registration**.  
 
