@@ -11,7 +11,7 @@ lab:
 In this lab, you will explore the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 15-20 minutes
 
 #### Task 1: Explore the Microsoft 365 compliance center home page and learn to customize the card view and the navigation panel.
 

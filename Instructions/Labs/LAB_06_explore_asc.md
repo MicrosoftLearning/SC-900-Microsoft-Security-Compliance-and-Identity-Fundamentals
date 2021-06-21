@@ -12,7 +12,7 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
   
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 10-15 minutes
 
 #### Task 1: In this task you will take a brief tour of Azure Security Center.
 1.	Open Microsoft Edge. In the address bar enter **portal.azure.com**.

@@ -10,7 +10,7 @@ lab:
 ## Lab scenario
 In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 15-20 minutes
 
 #### Task 1: Explore Cloud Discovery.
 

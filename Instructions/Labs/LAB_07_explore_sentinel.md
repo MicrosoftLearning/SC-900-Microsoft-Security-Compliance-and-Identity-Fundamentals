@@ -12,7 +12,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
   
 
-**Estimated Time**: 00 minutes
+**Estimated Time**: 30-45 minutes
 
 #### Task 1:  Create an Azure Sentinel instance.
 

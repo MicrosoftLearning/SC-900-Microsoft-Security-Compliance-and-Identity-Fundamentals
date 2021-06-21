@@ -10,7 +10,7 @@ lab:
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-**Estimated Time**: 15-30 minutes
+**Estimated Time**: 10-15 minutes
 
 
 #### Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
