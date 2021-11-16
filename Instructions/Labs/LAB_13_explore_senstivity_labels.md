@@ -27,15 +27,13 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
 
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
-
 1. In the left navigation panel, under solutions, select **Information protection**.
 
-1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. A yellow information box is displayed that indicates, "Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint..."  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
 
 1. Verify you that the **Labels** tab on the top of the page is selected (underlined).
 
-1. In the middle of the page, notice how there are three labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select Edit Label at the top of the page to view some of the basic configuration settings.
+1. In the middle of the page, notice how there are labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select Edit Label at the top of the page to view some of the basic configuration settings.
 
 1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
 
@@ -45,7 +43,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. The Encryption window shows the configuration for the encryption settings.  Don’t change anything.  Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire.  You can also assign permissions to specific users and groups so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-1. On the content markings page, take note of the information box on the top of the page.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.  The content marking associated with this label is a watermark.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. On the content markings page, take note of the information box on the top of the page.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.  The content marking associated with this label is a watermark that reads, HIGHLY CONFIDENTIAL.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
 1. You are now in the Auto-labeling for files and emails window.  Read the description of auto-labeling on the top of the page and the information box below it.  Also take note that this label is set for auto-labeling for specific conditions. Don’t change any settings.  Select **Next** on the bottom of the page.
 
@@ -64,6 +62,9 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
 1. Review the policy settings.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "the Apply a default label to documents."  Notice there is no default label. Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "the Apply a default label to emails."  Select the drop down arrow in the input box, to view the available options. Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "the Apply a default label to Power BI content."  Notice there is no default label. Don’t change any settings.  Select **Next** on the bottom of the page.
 
 1. The last configuration option is to name your policy.  Don’t change any settings.  Select **Cancel** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
@@ -76,7 +77,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 #### Task 2:  In this task, you will go through the process of applying a label from the perspective of the user (in this case the user is the admin) and view the content marking that is generated by the label.
 
-1. From the Microsoft 365 compliance center home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Word icon** and select **Open in new tab**.  
+1. From the Microsoft 365 compliance center home page, select the **app launcher icon** next to where it says Contoso Electronics. **Right click on the Word icon** and select **Open in new tab**.  
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
