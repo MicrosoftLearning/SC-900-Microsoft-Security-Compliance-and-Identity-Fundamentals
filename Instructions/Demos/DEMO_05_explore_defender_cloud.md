@@ -32,7 +32,7 @@ In this demo, you will walk through Microsoft Defender for Cloud and show how Az
     1. Select one of the controls, such as **Enable MFA**.  Select one of the sub-items, such as **MFA should be enabled on accounts with owner permissions on your subscription**.  In the page that opens, you will see a description, Remediation steps, and affected resources. Exit out this page, by selecting the **X** on top-right corner of the screen.
     1. Exit the recommendations page by selecting the **X** on top-right corner of the screen, to return to the overview page.
 
-1. You are back on the Microsoft Defender for Cloud Overview page.  From the main page, select Secure Score (this is equivalent to selecting Secure score from the left navigation panel).
+1. You are back on the Microsoft Defender for Cloud Overview page.  From the main page, select **Secure Score** (this is equivalent to selecting Secure score from the left navigation panel).
     1. This brings you to the Secure Score Dashboard.  In addition it lists any available management groups and subscriptions.  Select your Azure subscription – Azure Pass – Sponsorship.
     1. This brings to the Recommendations page, which was shown earlier.
     1. Exit out the recommendations page, by selecting the **X** on top-right corner of the screen.
@@ -40,7 +40,7 @@ In this demo, you will walk through Microsoft Defender for Cloud and show how Az
 
 1. You are back on the Microsoft Defender for Cloud Overview page.  From the main page, select **Regulatory compliance**. (Note that this is equivalent to having selected Recommendations from the left navigation panel of the Microsoft Defender for Cloud home page).
     1. The regulatory compliance page provides a list of compliance controls.  Under each control is a set of assessments that are based on the Azure Security Benchmark which provides recommendations on how you can secure your cloud solutions on Azure.
-    1. Select **IM. Identity Management** then select **IM.6 Use strong authentication controls**.  The list shows customer responsibility actions that can be taken to improve compliance posture.
+    1. Select **IM. Identity Management** then select **IM-6 Use strong authentication controls**.  The list shows customer responsibility actions that can be taken to improve compliance posture.
     1. Select the **X** on the top-right corner of the screen to close the page and return to the regulatory compliance page.
     1. Select the **X** on the top-right corner of the screen to return to the overview page.
 
