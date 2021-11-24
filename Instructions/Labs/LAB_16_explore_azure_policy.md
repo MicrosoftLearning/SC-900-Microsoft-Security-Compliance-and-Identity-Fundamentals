@@ -23,15 +23,15 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. You are now in the Azure Portal.  Underneath where it says Azure services, select **Policy**. This opens the Policy home page which provides a dashboard view.  The scope for which you are seeing the information applies the Azure Pass you are using, as part of this lab.   Notice the information available in the dashboard.
+1. You are now in the Azure Portal.  In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results. This opens the Policy home page which provides a dashboard view.  The scope for which you are seeing the information applies the Azure Pass you are using, as part of this lab.   Notice the information available in the dashboard.
 
-1. There is an item, called ASC Default (Azure Security Center) whose scope is Azure Pass – Sponsorship.   Select **ASC Default**.
+1. There is an item, called ASC Default (ASC refers to Azure Security Center which is now called Microsoft Defender for Cloud) whose scope is Azure Pass – Sponsorship.   Select **ASC Default**.
 
-1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Read the description (hover over the description with your mouse).  
+1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Read the description (hover over the description with your mouse). NOTE: The description field references Azure Security Center which has been rebranded to Microsoft Defender for Cloud.
 
-1. Notice the information provided by the dashboard is updated to reflect the selected item, the ASC Default initiative definition.  Recall that an initiative definition is a collection of policy definitions that are tailored towards achieving a singular overarching goal.  In this case, the policies relate to the compliance state of Azure Security Center.  Information can be viewed by group, policies, non-compliant resources, or events.
+1. Notice the information provided by the dashboard is updated to reflect the selected item, the ASC Default initiative definition.  Recall that an initiative definition is a collection of policy definitions that are tailored towards achieving a singular overarching goal. Information can be viewed by group, policies, non-compliant resources, or events.
 
-1. Return to the policy home page by selecting **Policy** on the top left corner of the screen, above where it says ASC Default.
+1. Exit out of the ASC page and return to the policy home page by selecting **X** on the top right corner of the window.
 
 1. From the left navigation panel, select **Getting started**.  Here you can view the different options including the option to browse built-in policies and assign policies at scale, you can create custom policy definitions for your environment, recommend policy assignments and much more.
 

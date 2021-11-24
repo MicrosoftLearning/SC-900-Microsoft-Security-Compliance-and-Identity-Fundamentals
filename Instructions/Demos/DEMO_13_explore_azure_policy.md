@@ -18,7 +18,7 @@ In this demo you will walk through the process of setting up an Azure policy and
 
 1. You are now in the overview of the Policy page. Notice the information available in the dashboard.
 
-1. Form the left navigation panel, under Authoring, select **Assignments**.  You will notice that there is already a policy assignment, select **ASC Default**.  Note the description field, This is the default set of policies monitored by Azure Security Center. It was automatically assigned as part of onboarding to Security Center. The default assignment contains only audit policies. For more information please visit https://aka.ms/ascpolicies.  Return to the Policy Assignments page by selecting the **X** on the top right corner of the page.
+1. Form the left navigation panel, under Authoring, select **Assignments**.  You will notice that there is already a policy assignment, select **ASC Default**.  Review the description field. NOTE: The description field references Azure Security Center which has been rebranded to Microsoft Defender for Cloud.  Return to the Policy Assignments page by selecting the **X** on the top right corner of the page.
 
 1. From the top of the page, select **Assign policy**.
 
