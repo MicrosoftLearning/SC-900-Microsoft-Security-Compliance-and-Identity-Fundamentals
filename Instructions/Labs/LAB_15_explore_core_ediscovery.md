@@ -25,13 +25,13 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
 
-1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions & roles**.  You may need to scroll down to see this option.
+1. From the left navigation pane, select **Permissions**. 
 
-1. From the Permissions & roles page, under **Email & collaboration roles** select **Roles**.
+1. From the Permissions & roles page, under Compliance center, select **Roles**.
 
-1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
+1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
 1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group. Select **Edit**, next to eDiscovery Administrator.  As a general best practice, users should be assigned the least privilege required for their role.
 
@@ -45,15 +45,11 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. From the bottom of the eDiscovery window, select **Close**.
 
-1. Keep this browser tab open, as you will come back to it in a subsequent task.
+1. Keep this browser tab open, as you will use it in the next task.
 
 #### Task 2:  In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
-1. Open the Microsoft 365 admin center tab on your browser.
-
-1. From the left navigation panel, under Admin Centers, select **Compliance**.
-
-1. You are now in the Microsoft 365 compliance center. From the left navigation panel, select **Show all**.
+1. You should still be on the Compliance center roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
 
 1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Core**.
 
@@ -61,7 +57,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
 
-1. The case should now appear on the list. 
+1. The case should now appear on the list.
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
@@ -77,7 +73,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. In the name field, enter **Test hold** then select Next.
 
-1. In the Choose locations page, select toggle switch next to Exchange email to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, then select Choose, then select **Done**.
+1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, then select Choose, then select **Done**.
 
 1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
 
@@ -97,7 +93,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
-1. In the Choose locations page, select toggle switch next to Exchange email to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, select **Done**, then select **Next**.  No other locations will be included in this search
+1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, select **Done**, then select **Next**.  No other locations will be included in this search
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
