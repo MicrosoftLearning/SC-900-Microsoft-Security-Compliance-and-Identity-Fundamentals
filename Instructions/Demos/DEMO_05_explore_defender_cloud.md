@@ -18,7 +18,7 @@ In this demo, you will walk through Microsoft Defender for Cloud and show how Az
 
 1. Notice the information available on the Microsoft Defender for Cloud overview page.  Note: You may see a blue information box on the top of the page indicating that you may be viewing limited information.  Do not select it (it can take up to 15 minutes to process and makes no difference for this demo).
 
-1. Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page there are cards representing Secure score, Regulatory compliance, Insights, Azure Defender, and more.  
+1. Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page there are cards representing Secure score, Regulatory compliance, Insights, and more.  
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
     1. This brings you to the **Inventory** page that shows your Azure pass subscription.  Select **Azure Pass – Sponsorship**.
