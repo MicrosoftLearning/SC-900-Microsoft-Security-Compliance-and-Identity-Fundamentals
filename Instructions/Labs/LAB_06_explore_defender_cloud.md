@@ -74,3 +74,4 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 
 #### Review
 In this lab, you explored Microsoft Defender for Cloud and learned how Azure Secure Score can be used to improve your organization's security posture.
+
