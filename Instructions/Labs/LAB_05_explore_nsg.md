@@ -38,7 +38,7 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Select **Next: Disks**. 
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
-    1. NIC network security group:  select **None**.
+    1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
 
     1. Select **Next:  Management >**.
 1. You are now in the Management tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
