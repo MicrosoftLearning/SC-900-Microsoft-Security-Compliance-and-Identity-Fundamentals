@@ -31,8 +31,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Virtual machines name:  enter **SC900-WinVM**.
     1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
     1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. Username:  enter **AzureUser**.
-    1. Password:  enter **SC900AzureLabs**.
+    1. Username:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
+    1. Password:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
     1. Public inbounds ports:  select **None**.
     1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
     1. Select **Next: Disks**. 
@@ -51,7 +51,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
 1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**. 
 1. Open the downloaded file and select **Connect**. 
-1. You will be prompted for your credentials.  For Username, enter **AzureUser**.  For the Password, enter **SC900AzureLabs**. 
+1. You will be prompted for your credentials.  Enter the Username and Password you used when you created the VM.
 1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
 1. You are now connected to the Windows VM you just created. Follow the prompts to complete the Windows setup. Although you connected to the VM via RDP and a commonly used RDP Port, this VM has all ports open and there is nothing that is filtering traffic. 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
@@ -105,7 +105,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. Now verify that you can connect to the VM using RDP.  Select **Connect** from the left navigation panel.
 1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
 1. Open the downloaded file and select **Connect**.
-1. You will be prompted for your credentials.  For Username, enter **AzureUser**.  For the Password, enter **SC900AzureLabs**.
+1. You will be prompted for your credentials.  Enter the Username and Password you used when you created the VM.
 1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
 1. You are now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.
 1. Kee the VM open, you will use it the next task.
