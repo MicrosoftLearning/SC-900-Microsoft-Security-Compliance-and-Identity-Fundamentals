@@ -27,8 +27,8 @@ In this demo, you will show the functionality of a network security group (NSG) 
     1. **Availability options**: be sure to select **No infrastructure redundancy required**.  NOTE: it is very important that availability options be set to No infrastructure redundancy required, otherwise the demo will not work as intended.  Having an availability option reuqires an NSG and we are intentionally creating the VM without an NSG.
     1. **Image**:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
     1. **Size**:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. **Username**:  enter **AzureUser**.
-    1. **Password**:  enter **SC900AzureLabs**.
+    1. **Username**:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
+    1. **Password**:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
     1. **Public inbounds ports**:  you can leave the defaults setting (Doen't matter what you select here as the network settings will override what you do here).
     1. **Licensing**:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a check-mark appears in the box.
     1. Select **Next: Disks**.
@@ -51,7 +51,7 @@ In this demo, you will show the functionality of a network security group (NSG) 
     1. From the top of the page, make sure that **RDP** is selected (underlined).
     1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
     1. **Open** the downloaded file and in the window that appears, select **Connect**.
-    1. A window opens that will prompt you for your credentials. If the default window requests a PIN, select **More choices**, then select **Use a different account**.   You will be prompted for your credentials.  For Username, enter **AzureUser**.  For the Password, enter **SC900AzureLabs**.
+    1. A window opens that will prompt you for your credentials. If the default window requests a PIN, select **More choices**, then select **Use a different account**.   You will be prompted for your credentials.  Enter the Username and Password you used when you created the VM.
     1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
     1. You are now connected to the Windows VM you just created. Complete the Windows setup. Although you connected to the VM via RDP and a commonly used RDP Port, this VM has all ports open and there is nothing that is filtering traffic.  Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
@@ -132,7 +132,7 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
     1. Select **Connect** from the left navigation panel.
     1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
     1. **Open** the downloaded file and select **Connect**.
-    1. You will be prompted for your credentials. For Username, enter **AzureUser**. For the Password, enter **SC900AzureLabs**.  If the window prompting for your credentials requests a PIN, select  **More choices**, then select **Use a different account**.
+    1. You will be prompted for your credentials. Enter the Username and Password you used when you created the VM.  If the window prompting for your credentials requests a PIN, select  **More choices**, then select **Use a different account**.
     1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified. Do you wish to connect anyway? Select **Yes**.
     1. You are now connected to the VM. highlight to the learner that in this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.
 
