@@ -93,7 +93,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
-1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, select **Done**, then select **Next**.  No other locations will be included in this search
+1. In the Choose locations page, select **locations on hold** and unselect **Add App Content for On-Premises users**, as your lab environment has no on-premises  users, then select **Next**.
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
