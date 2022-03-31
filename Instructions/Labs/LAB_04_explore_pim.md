@@ -48,7 +48,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 3. From the main window, ensure **Getting started** is underlined then select **Manage role assignments**, on the right center portion of the screen.  Alternatively, from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-4. You are now in the Privileged Identity Management Quick start window.  Select **Manage Access**.
+4. You are now in the Privileged Identity Management Quick start window.  Select **Manage**.
 
 5. You are now in the Contoso Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
