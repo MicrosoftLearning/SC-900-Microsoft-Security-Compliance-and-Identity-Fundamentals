@@ -65,7 +65,9 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Note the default assignment name.  Keep the name as is and from the bottom of the page, select **Next**.
 
-1. In the Tag name field, enter **Environment** then select **Next**.  
+1. In the Tag name field, enter **Environment** then select **Next**. 
+
+1. Leave the default remediation settings as they are then select **Next**. 
 
 1. In the non-compliance message, enter **An environment tag is required**, then select **Next**. Note: this message will appear as the reason for non-compliance for resource groups that were created before the policy assignment and do not have an Environment tag.  For resource groups created after the policy was created, the creating of the resource group will be denied if there is no environment tag.
 
