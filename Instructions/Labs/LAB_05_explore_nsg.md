@@ -29,13 +29,14 @@ In this lab, you will explore the function of network security groups in Azure. 
 
     1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
     1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
-    1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. Username:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. Password:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. Public inbounds ports:  select **None**.
-    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
-    1. Select **Next: Disks**. 
+    1. Region: East US
+    3. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
+    4. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
+    5. Username:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
+    6. Password:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
+    7. Public inbounds ports:  select **None**.
+    8. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+    9. Select **Next: Disks**. 
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
     1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
