@@ -120,7 +120,7 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 5. From the Analytics rule wizard, review the information, then select **Next: Set rule logic >**.
 
-6. The Set rule logic page, is where you define the logic for your new analytics rule. The template already provides some logic and predefined settings.  Scroll through the page to see the available settings.  Leave the defaults. Select **Next: Incident settings (preview)>**.
+6. The Set rule logic page, is where you define the logic for your new analytics rule. The template already provides some logic and predefined settings. Scroll through the page to see the available settings. Leave the defaults. Select **Next: Incident settings >**.
 
 7. With Incident settings, Microsoft Sentinel alerts can be grouped together into an Incident that should be looked into. You can set whether the alerts that are triggered by this analytics rule should generate incidents.  Leave the default settings and select **Next: Automated response >**.
 
