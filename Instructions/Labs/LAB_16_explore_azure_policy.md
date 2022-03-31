@@ -31,7 +31,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Notice the information provided by the dashboard is updated to reflect the selected item, the ASC Default initiative definition.  Recall that an initiative definition is a collection of policy definitions that are tailored towards achieving a singular overarching goal. Information can be viewed by group, policies, non-compliant resources, or events.
 
-1. Exit out of the ASC page and return to the policy home page by selecting **X** on the top right corner of the window.
+1. Exit out of the Azure Security Benchmark page and return to the policy home page by selecting **X** on the top right corner of the window.
 
 1. From the left navigation panel, select **Getting started**.  Here you can view the different options including the option to browse built-in policies and assign policies at scale, you can create custom policy definitions for your environment, recommend policy assignments and much more.
 
