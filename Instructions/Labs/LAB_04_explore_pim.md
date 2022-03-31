@@ -46,7 +46,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 2. From the left navigation panel, select **Identity Governance**.
 
-3. From the main window, ensure **Getting started** is underlined then select **Manage role assignments**, on the right center portion of the screen.  Alternatively, from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+3. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
 4. You are now in the Privileged Identity Management Quick start window.  Select **Manage Access**.
 
