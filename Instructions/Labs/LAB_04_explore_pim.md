@@ -81,7 +81,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 19. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
 
-#### Task 3: Task 3:  In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate the your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task you will need access to a mobile device to which you have immediate access and can receive text messages.
+#### Task 3: In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate the your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task you will need access to a mobile device to which you have immediate access and can receive text messages.
 
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
