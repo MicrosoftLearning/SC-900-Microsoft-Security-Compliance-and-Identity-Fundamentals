@@ -66,11 +66,13 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 6. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-7. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Microsoft Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+7. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**, then select **Next**.   
 
-8. From the list of users displayed, select **MOD Administrator**.
+    NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Microsoft Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
-9. Select **Save** at the bottom of the page.
+8. From the list of users displayed, select **MOD Administrator** then select **Select**.
+
+9. Select **Review + assign** at the bottom of the page, then select **Review + assign** a second time to commit the changes.
 
 10. From the access control page, select **View my access** to confirm the role has been added, then close the window by select the **X** on the top-right corner of the window.
 
