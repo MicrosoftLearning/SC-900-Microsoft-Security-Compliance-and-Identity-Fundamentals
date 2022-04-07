@@ -25,7 +25,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. You are now in the Azure Portal.  In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results. This opens the Policy home page which provides a dashboard view.  The scope for which you are seeing the information applies the Azure Pass you are using, as part of this lab.   Notice the information available in the dashboard.
 
-1. There is an item, called ASC Default (ASC refers to Azure Security Center which is now called Microsoft Defender for Cloud) whose scope is Azure Pass – Sponsorship.   Select **ASC Security Benchmark**.
+1. There is an item, called ASC Default (ASC refers to Azure Security Center which is now called Microsoft Defender for Cloud) whose scope is Azure Pass – Sponsorship.   Select **ASC Default**.
 
 1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Read the description (hover over the description with your mouse). NOTE: The description field references Azure Security Center which has been rebranded to Microsoft Defender for Cloud.
 
