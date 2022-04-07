@@ -134,7 +134,7 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 1. From the left navigation panel, select **Automation**.  
 
-2. Select **+ Create**. From the drop-down note how you can select either to add a new playbook or add a new rule.  Select **Add new rule**.  
+2. Select **+ Create**. From the drop-down note how you can select either to add a new playbook or add a new rule. Select **Automation rule**.  
 
 3. A window to create a new automation rule opens.  Note that you can add conditions and set actions for the rule.  The only distinction is that the first condition is to associate the analytics rule(s) to which you want to apply this automation rule.  This is was greyed out in the previous task because the automation was being configured for the specific rule.  Select **Cancel** to exit out the Create new automation rule window.
 
