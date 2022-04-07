@@ -23,7 +23,7 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. When prompted to stay signed- in, select **Yes**.
 1. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
 1. On the main window, under Featured, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
-1. From the top left of the page, select **+Create** then select **+Virtual machine**.
+1. From the top left of the page, select **+Create** then select **Azure Virtual machine**.
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
     1. Subscription: verify the default setting to be Azure Pass – Sponsorship.
 
