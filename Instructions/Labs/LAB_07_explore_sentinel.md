@@ -38,19 +38,17 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
     1. Resource group: select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (leave this default)
-    1. Select **Next: Pricing tier >**
+    1. Select **Next: Tags >**
 
-8. For the Pricing Tier, leave the default settings: **Pay-as-you-go (per GB 2018)**, then select **Next: Tags >**.
+8. For the Tags, you can leave this blank, then select **Review + Create**.
 
-9. For the Tags, you can leave this blank, then select **Review + Create**.
+9. Verify the information you entered then select **Create**.
 
-10. Verify the information you entered then select **Create**.
+10. If you don’t see the new workspace listed, select **Refresh**, then select **Add**.
 
-11. If you don’t see the new workspace listed, select **Refresh**, then select **Add**.
+11. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display.  Note the three steps listed on the Get started page.
 
-12. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display.  Note the three steps listed on the Get started page.
-
-13. Keep this page open, as you will use it in the next task.
+12. Keep this page open, as you will use it in the next task.
 
 #### Task 2:  With the Microsoft Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Microsoft Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Microsoft Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Microsoft Sentinel.
 
