@@ -4,9 +4,9 @@ This repository includes demo scripts and lab instructions for **SC-900T00: Micr
 
 The user interfaces (UI) for Microsoft 365 and Azure are continually being updated.  As these changes happen every effort is made to ensure demo and lab steps are updated to reflect changes, but it is not uncommon to see variances in the UI described in the labs/demos and the actual tenant. 
 
-- The demos are intended to be used by instructors to demonstrate functionality, in a live environment, during course delivery.  
+- The demos are intended to be used by instructors to demonstrate functionality, in a live environment, during course delivery.  Please note, a previously available demo has been removed, which is why the numbering goes from DEMO_08_explore_m365_defender_portal to DEMO_10_explore_service_trust_portal.
 
-- The labs are available as a supplement to the course content. These labs are intended for the case where learning partners are able to make the environment available to learners, for an extended period of time, after the 1-day course delivery, as there is not sufficient time for instructors to cover the course content and for students to complete labs, during the course delivery. The labs are designed as stand-alone labs (there is no dependency between labs).
+- The labs are available as a supplement to the course content. These labs are intended for the case where learning partners are able to make the environment available to learners, for an extended period of time, after the 1-day course delivery, as there is not sufficient time for instructors to cover the course content and for students to complete labs, during the course delivery. The labs are designed as stand-alone labs (there is no dependency between labs).  Please note, a previosly available lab has been removed, which is why the numbering goes from LAB_09_explore_m365_defender_portal to LAB_11_explore_service_trust_portal.
 
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
