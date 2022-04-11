@@ -29,7 +29,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Read the description (hover over the description with your mouse). NOTE: The description field references Azure Security Center which has been rebranded to Microsoft Defender for Cloud.
 
-1. Notice the information provided by the dashboard is updated to reflect the selected item, the ASC Default initiative definition.  Recall that an initiative definition is a collection of policy definitions that are tailored towards achieving a singular overarching goal. Information can be viewed by group, policies, non-compliant resources, or events.
+1. Notice the information provided by the dashboard is updated to reflect the selected item, the ASC Default. This ASC Default is the Azure Security Benchmark initiative definition.  Recall that an initiative definition is a collection of policy definitions that are tailored towards achieving a singular overarching goal. Information can be viewed by group, policies, non-compliant resources, or events.
 
 1. Exit out of the ASC page and return to the policy home page by selecting **X** on the top right corner of the window.
 
