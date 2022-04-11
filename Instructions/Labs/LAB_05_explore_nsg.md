@@ -29,7 +29,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
     1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
     1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Region: East US
+    1. Region: if the region field is not pre-populated then select the region closest to your location.
     3. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
     4. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     5. Username:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
