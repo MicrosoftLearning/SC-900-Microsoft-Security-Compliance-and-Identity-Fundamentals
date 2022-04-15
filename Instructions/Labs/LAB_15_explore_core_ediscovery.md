@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore the Core eDiscovery workflow'
-    module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+    module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
 ---
 
 

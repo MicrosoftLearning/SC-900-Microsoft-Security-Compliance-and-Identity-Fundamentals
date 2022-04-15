@@ -1,7 +1,7 @@
 ---
 Demo:
     title: 'The Microsoft 365 Defender portal'
-    module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
+    module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
 ---
 
 
