@@ -28,7 +28,7 @@ In this demo you will show the capabilities of sensitivity labels.  You will go 
 
 1. In the left navigation panel, under solutions, select **Information protection**.
 
-1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. The yellow information box indicates that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
 
 1. Verify you that the **Labels** tab on the top of the page is selected (underlined).
 
