@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore the Microsoft 365 compliance center & Compliance Manager'
-    module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
 ---
 
 
