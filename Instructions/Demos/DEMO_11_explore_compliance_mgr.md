@@ -1,24 +1,24 @@
 ---
 Demo:
-    title: 'Explore the Microsoft 365 compliance center & Compliance Manager'
-    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
+    title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
+    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
 ---
 
 
-# Demo: Explore the Microsoft 365 compliance center & Compliance Manager
+# Demo: Explore the Microsoft Purview compliance portal & Compliance Manager
 
 ## Demo scenario
-In this demo, you will show the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+In this demo, you will show the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
 ## Instructions
 
-#### Demo Part 1: Show the Microsoft 365 compliance center home page and how to customize the card view and the navigation panel.
+#### Demo Part 1: Show the Microsoft Purview compliance portal home page and how to customize the card view and the navigation panel.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
 1. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, and more.
 
@@ -30,7 +30,7 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
 
-1. From the left navigation panel of the Microsoft 365 compliance center home page, notice the items listed under Solutions.  If only Catalog is displayed, then from the left navigation panel select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
+1. From the left navigation panel of the Microsoft Purview compliance portal home page, notice the items listed under Solutions.  If only Catalog is displayed, then from the left navigation panel select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**.  
 
@@ -40,7 +40,7 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 #### Demo Part 2: Learn about your organization’s compliance posture through Compliance Manager.
 
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
+1. From the left navigation panel of the Microsoft Purview compliance portal, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
 
 1. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
@@ -62,7 +62,7 @@ In this demo, you will show the Microsoft 365 compliance center home page and wa
 
 1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
 
-1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft 365 compliance center.  Keep this browser page open for teh subsequent demo.
+1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft Purview compliance portal.  Keep this browser page open for teh subsequent demo.
 
 #### Review
-In this demo you showed the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+In this demo you showed the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
