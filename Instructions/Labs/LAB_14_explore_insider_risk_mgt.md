@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Explore Insider Risk Management in Microsoft 365'
-    module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
+    title: 'Explore insider risk management in Microsoft Purview'
+    module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
 ---
 
 
-# Lab: Explore Insider Risk Management in Microsoft 365
+# Lab: Explore insider risk management in Microsoft Purview
 
 ## Lab scenario
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
@@ -25,11 +25,11 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
-1. From the left navigation pane of the Microsoft 365 Compliance center, select **Permissions**.
+1. From the left navigation pane of the Microsoft Purview Compliance portal, select **Permissions**.
 
-1. From the permissions & roles page, under Compliance center, select **Roles**.
+1. From the permissions & roles page, under compliance portal, select **Roles**.
 
 1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
 
@@ -45,7 +45,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. From the bottom of the Insider Risk Management window, select **Close**.
 
-1. From the left navigation panel select **Home** to return to the Microsoft 365 compliance center page.
+1. From the left navigation panel select **Home** to return to the Microsoft Purview compliance portal page.
 
 1. Keep this browser tab open, as you will come back to it in a subsequent task.
 
@@ -60,13 +60,13 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
 
-1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
+1. Return to the home page of the Microsoft Purview compliance portal by selecting **Home** from the left navigation panel.
 
 1. Keep this browser tab open, as you will use it in the next task.
 
 #### Task 3: In this task you will walk through the settings associated with the Insider Risk Management solution.  Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
 
-1. You should be on the Microsoft 365 compliance center home page. If not, Open the browser tab **Home - Microsoft 365 compliance**.
+1. You should be on the Microsoft Purview compliance portal home page. If not, Open the browser tab **Home - Microsoft 365 compliance**.
 
 1. From the left navigation panel under Solutions, select **Insider risk management**.
 

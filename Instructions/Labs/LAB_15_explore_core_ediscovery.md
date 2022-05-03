@@ -1,19 +1,19 @@
 ---
 lab:
-    title: 'Explore the Core eDiscovery workflow'
-    module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+    title: 'Explore the eDiscovery (Standard) workflow'
+    module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
 ---
 
 
-# Lab: Explore the Core eDiscovery workflow
+# Lab: Explore the eDiscovery (Standard) workflow
 
 ## Lab scenario
-In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
+In this lab you will go through the steps required for setting up eDiscovery and then go through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for eDiscovery (Standard) requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery (Standard), visit [Get started with eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 
 **Estimated Time**: 20-25 minutes
 
-#### Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+#### Task 1:  To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
  Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -25,11 +25,11 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
 1. From the left navigation pane, select **Permissions**. 
 
-1. From the Permissions & roles page, under Compliance center, select **Roles**.
+1. From the Permissions & roles page, under Compliance portal, select **Roles**.
 
 1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
@@ -47,13 +47,13 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-#### Task 2:  In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
+#### Task 2:  In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
 
-1. You should still be on the Compliance center roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
+1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
 
-1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Core**.
+1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
 
-1. From the top of the Core eDiscovery page, select **+ Create a case**.
+1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
 
 1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
 
@@ -63,11 +63,11 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
+#### Task 3:  Now that you have created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
 
-1. Open the Core eDiscovery tab on your browser.
+1. Open the eDiscovery (Standard) tab on your browser.
 
-1. From the Core eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**. 
+1. From the eDiscovery (Standard) page, select the case you created in the previous tab, **SC900 Test Case**. 
 
 1. From the Home page of the case, select the **Hold** tab then select **+Create**.
 
@@ -83,7 +83,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+#### Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
 
 1. Open the SC900 Test case tab on your browser.
 
@@ -118,4 +118,4 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 #### Review
 
-In this lab you went through the steps required to get started with core eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search to use further investigation.
+In this lab you went through the steps required to get started with eDiscovery (Standard), including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search to use further investigation.
