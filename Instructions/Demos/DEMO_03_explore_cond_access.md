@@ -7,7 +7,8 @@ Demo:
 
 # Demo: Azure Active Directory Conditional Access
 
-### Demo scenario
+## Demo scenario
+
 In this demo you will walk through the various options available for a conditional access policy.
 
 1. Go to the **Contoso – Microsoft Azure** tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and select Azure Active Directory. You should be logged in as admin, in the Azure portal, if not, sign back in.

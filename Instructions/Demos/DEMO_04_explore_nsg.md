@@ -6,11 +6,12 @@ Demo:
 
 # Demo: Azure Network Security Groups (NSGs)
 
-### Demo scenario
+## Demo scenario
+
 In this demo, you will show the functionality of a network security group (NSG) in Azure.  You will do this by first creating a Virtual Machine (VM) without any NSG, as part of the pre-demo setup. You will also create a NSG without any associated interface or subnet.  As part of the demo, you will show the default inbound and outbound rules for the NSG. You will then go through the process of assigning the VM's interface to the NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
   
+### Pre-demo setup part 1
 
-#### Pre-demo setup part 1
  Instructors it is recommended that you do this **BEFORE** class time as it can take several minutes to create a VM. In this setup, you will create a Windows 10 virtual machine.
 
 1. Open the **Home – Microsoft Azure** tab on your browser.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
@@ -24,12 +25,12 @@ In this demo, you will show the functionality of a network security group (NSG) 
     1. **Resource group**: select **Create new** then in the Name field enter **LabsSC900-RG**, then select **OK**.
     1. **Virtual machines name**:  enter **SC900-WinVM**.
     1. **Region**:  leave the default.
-    1. **Availability options**: be sure to select **No infrastructure redundancy required**.  NOTE: it is very important that availability options be set to No infrastructure redundancy required, otherwise the demo will not work as intended.  Having an availability option reuqires an NSG and we are intentionally creating the VM without an NSG.
+    1. **Availability options**: be sure to select **No infrastructure redundancy required**.  NOTE: it is very important that availability options be set to No infrastructure redundancy required, otherwise the demo will not work as intended.  Having an availability option requires an NSG and we are intentionally creating the VM without an NSG.
     1. **Image**:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
     1. **Size**:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     1. **Username**:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
     1. **Password**:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. **Public inbounds ports**:  you can leave the defaults setting (Doen't matter what you select here as the network settings will override what you do here).
+    1. **Public inbounds ports**:  you can leave the defaults setting (Doesn't matter what you select here as the network settings will override what you do here).
     1. **Licensing**:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a check-mark appears in the box.
     1. Select **Next: Disks**.
 
@@ -57,7 +58,8 @@ In this demo, you will show the functionality of a network security group (NSG) 
 
 1. You are now back in the SC900-WinVM page in the Azure portal.  Leave this browser tab open for the next task.
 
-#### Pre-Demo setup part 2
+### Pre-Demo setup part 2
+
 Create a network security group, but do NOT assign the network interface of the VM to that NSG.  
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
@@ -75,8 +77,9 @@ Create a network security group, but do NOT assign the network interface of the 
 
 1. Once the deployment is complete, select **Go to resource** and ensure everything is correct.  There should be 3 default inbound,  3 default outbound rules, and no subnets and no interfaces associated with the NSG.  Go back to the **Home** page of the Azure portal.  
 
-#### Demo
-Walk through the settings for an NSG.  In this case you will do the walk-through for an existing NSG (the one you created it the above setup) that has not yet been assigned to a VM interface. You will then show the process of assocating an interface to the NSG and the process for creating inbound and outbound rules.
+### Demo
+
+Walk through the settings for an NSG.  In this case you will do the walk-through for an existing NSG (the one you created it the above setup) that has not yet been assigned to a VM interface. You will then show the process of associating an interface to the NSG and the process for creating inbound and outbound rules.
 
 1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
 
@@ -138,13 +141,14 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
 
 1. Now test the outbound NSG rule
     1. Open the Edge browser in the VM.
-    1. Enter **https://www.bing.com**. The page should not display. Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect. Wait a few minutes and try again.
+    1. Enter **www.bing.com**. The page should not display. Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect. Wait a few minutes and try again.
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown. A pop-up windows indicates Your remote session will be disconnected. Select **Ok**.
 
 1. Return to the Home page of the Azure portal, by selecting **Microsoft Azure** on the blue bar on the top of the page.
 
-#### Tear-down
+### Tear-down
+
 **IMPORTANT**: In this task you will delete the resource group and all the resources it contains.   This is important to avoid additional charges.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.

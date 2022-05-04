@@ -8,18 +8,20 @@ lab:
 # Lab: Explore the Microsoft 365 Defender portal
 
 ## Lab scenario
-In this lab you will explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
+In this lab you will explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
 **Estimated Time**: 10-15 minutes
 
-#### Task 1:  Explore the Microsoft 365 Defender landing page.
+### Task 1
+
+Explore the Microsoft 365 Defender landing page.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-   
+
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -39,7 +41,9 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Selecting the title of a card will take you to additional information for that topic. You will explore this in the next task.  Keep the browser window open.
 
-#### Task 2: In this task you will explore how Microsoft Secure Score can help an organization improve its security posture.
+### Task 2
+
+In this task you will explore how Microsoft Secure Score can help an organization improve its security posture.
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
 
@@ -59,5 +63,6 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Close the browser page.
 
-#### Review
+### Review
+
 In this lab you explored the Microsoft 365 Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you explored how Microsoft Secure Score can help an organization improve its security posture.

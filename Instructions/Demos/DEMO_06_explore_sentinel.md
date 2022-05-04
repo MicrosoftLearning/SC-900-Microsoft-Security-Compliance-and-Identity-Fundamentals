@@ -4,12 +4,13 @@ Demo:
     module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
 ---
 
-# Demo: Microsoft Sentinel 
+# Demo: Microsoft Sentinel
 
-### Demo scenario
+## Demo scenario
+
 In this demo you will walk through the process of creating a Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources and creating a work book to monitor and visualize your data.  Lastly, you will show some of the other options available, including the  built-in analytics to get notified of anything suspicious, the automation capability, and more.
 
-#### Pre-demo setup:  Create an Microsoft Sentinel instance
+### Pre-demo setup:  Create an Microsoft Sentinel instance
 
 1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
 
@@ -36,11 +37,13 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 1. Keep this page open, as you will use it in the next task.
 
-#### Demo Part 2:  With the Microsoft Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Microsoft Sentinel.  
+### Demo Part 2
+
+With the Microsoft Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Microsoft Sentinel.  
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **resource groups** then select **Resource groups** from the search results. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Microsoft Sentinel.
 
-1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
 
@@ -48,14 +51,16 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 4 roles associated with Microsoft Sentinel. 
+    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 4 roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
 
     1. Close the window by select the **X** on the top-right corner of the window.
 
 1. From the access control page, close the window by select the **X** on the top-right corner of the window.
 
-#### Demo Part 3:  In this part of the demo you will walk through the process of connecting Microsoft Sentinel to your data source to begin to collect data.
+### Demo Part 3
+
+In this part of the demo you will walk through the process of connecting Microsoft Sentinel to your data source to begin to collect data.
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -77,7 +82,9 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 1. Keep this page open, as you will use it in the next task.
 
-#### Demo Part 4:  In this part of the demo you will walk through the process of setting up a workbook for Office 365, to visualize and monitor your data.
+### Demo Part 4
+
+In this part of the demo you will walk through the process of setting up a workbook for Office 365, to visualize and monitor your data.
 
 1. From the left navigation panel, select **Workbooks**.
 
@@ -89,7 +96,9 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page.
 
-#### Demo Part 5:  In this part of the demo you will show some of the options available in Sentinel.
+### Demo Part 5
+
+In this part of the demo you will show some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
 
@@ -107,7 +116,9 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
-#### Task 6: Post course delivery tear-down. Microsoft Sentinel is billed based on the volume of data ingested for analysis in Microsoft Sentinel. Although the amount of data ingested as a result of this demo is minimal, it is recommended that you delete the Microsoft Sentinel resource group when you are done exploring the capabilities of Microsoft Sentinel.
+### Task 6
+
+Post course delivery tear-down. Microsoft Sentinel is billed based on the volume of data ingested for analysis in Microsoft Sentinel. Although the amount of data ingested as a result of this demo is minimal, it is recommended that you delete the Microsoft Sentinel resource group when you are done exploring the capabilities of Microsoft Sentinel.
 
 1. From the Microsoft Sentinel page, on the top-left corner of the page, above where is says Microsoft Sentinel, select **All Services**.
 
@@ -117,8 +128,8 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 4. From the top center of the page, select **Delete resource group**.  Review the warning.  Enter the resource group name, **SC900-ResourceGroup**, then select **Delete** from teh bottom of the page.  It will take several minutes to delete the resource group.
 
-5. Once you have verified the resource group was deleted, close the browser page. 
+5. Once you have verified the resource group was deleted, close the browser page.
 
-#### Review
+### Review
 
 In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you setup a workbook, and walked several options available in Microsoft Sentinel.

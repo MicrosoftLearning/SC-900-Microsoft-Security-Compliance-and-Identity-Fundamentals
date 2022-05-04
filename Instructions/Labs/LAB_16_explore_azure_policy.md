@@ -8,18 +8,20 @@ lab:
 # Lab: Explore Azure Policy
 
 ## Lab scenario
-Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
+Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
 **Estimated Time**: 20-25 minutes
 
-#### Task 1: Briefly explore the Azure policy page.
+### Task 1
+
+Briefly explore the Azure policy page.
 
 1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    
+
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -49,7 +51,9 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Keep this browser tab (Policy – Microsoft Azure) open for the next task.
 
-#### Task 2:  In this task you will create a basic policy assignment to require a tag on resource groups.
+### Task 2
+
+In this task you will create a basic policy assignment to require a tag on resource groups.
 
 1. Open the browser tab, Policy – Microsoft Azure.
 
@@ -65,9 +69,9 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Note the default assignment name.  Keep the name as is and from the bottom of the page, select **Next**.
 
-1. In the Tag name field, enter **Environment** then select **Next**. 
+1. In the Tag name field, enter **Environment** then select **Next**.
 
-1. Leave the default remediation settings as they are then select **Next**. 
+1. Leave the default remediation settings as they are then select **Next**.
 
 1. In the non-compliance message, enter **An environment tag is required**, then select **Next**. Note: this message will appear as the reason for non-compliance for resource groups that were created before the policy assignment and do not have an Environment tag.  For resource groups created after the policy was created, the creating of the resource group will be denied if there is no environment tag.
 
@@ -77,7 +81,9 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
 
-#### Task 3:  In this task you will see the impact of the Azure policy assignment, by creating a resource group in Azure that does not have a tag, then you will see update the resource group to include a tag.  Note: It may take up to 30 minutes for the policy created in the previous task to take effect, but it usually happens faster.
+### Task 3
+
+In this task you will see the impact of the Azure policy assignment, by creating a resource group in Azure that does not have a tag, then you will see update the resource group to include a tag.  Note: It may take up to 30 minutes for the policy created in the previous task to take effect, but it usually happens faster.
 
 1. Open the browser tab, Home – Microsoft Azure.
 
@@ -95,7 +101,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. You will see a validate passed (the tag name and value are not required fields in the wizard), then select **Create**.
 
-1. You will see a failure message on the top of the screen, “Failed to create the resource group. View error details”.  Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creating was blocked, for non-compliance. 
+1. You will see a failure message on the top of the screen, “Failed to create the resource group. View error details”.  Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creating was blocked, for non-compliance.
 
     Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you will see that the resource is not compliant.  The details page will include the non-compliance message. If you do get the error, the following steps demonstrate how to remediate the deployment.
 
@@ -111,12 +117,11 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Before you exit, remove the Azure policy.
     1. From the top left corner of the page, select Home, to return to the Azure home page.
-    
+
     1. Underneath where it says Azure services, select Azure policy.
     1. In the middle of the page, you will see a list of the Azure policy/initiative assignments.  Select the ellipses for the policy assignment Require a tag on resource groups, then select Delete assignment.
     1. You will be prompted to confirm that you want to delete the assignment.  Select Yes.
 
-
-#### Review
+### Review
 
 In this lab, you went through the Azure policy landing page. After the initial exploration of the Azure policy page, you went through the process of creating a policy and you were able to see the impact of that policy.
