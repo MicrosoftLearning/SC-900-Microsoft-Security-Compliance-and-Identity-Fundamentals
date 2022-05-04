@@ -7,10 +7,13 @@ Demo:
 
 # Demo: The Microsoft 365 Defender portal
 
-### Demo scenario
+## Demo scenario
+
 In this demo you will show the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also walk through the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also show how Microsoft Secure Score can help an organization improve its security posture.
 
-#### Demo Part 1:  Explore the Microsoft 365 Defender landing page.
+### Demo Part 1
+
+Explore the Microsoft 365 Defender landing page.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.  You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
@@ -32,7 +35,9 @@ In this demo you will show the Microsoft 365 Defender portal by walking through 
 
 1. Selecting the title of a card will take you to additional information for that topic. You will explore this in the next task.  Keep the browser window open.
 
-#### Demo Part 2: In this part of the demo you will show how Microsoft Secure Score can help an organization improve its security posture.
+### Demo Part 2
+
+In this part of the demo you will show how Microsoft Secure Score can help an organization improve its security posture.
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
 
@@ -52,6 +57,6 @@ In this demo you will show the Microsoft 365 Defender portal by walking through 
 
 1. Close the browser page.
 
-#### Review
+### Review
 
 In this demo you explored the Microsoft 365 Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you showed how Microsoft Secure Score can help an organization improve its security posture.

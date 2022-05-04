@@ -8,11 +8,12 @@ Demo:
 # Demo: Explore the Microsoft Purview compliance portal & Compliance Manager
 
 ## Demo scenario
+
 In this demo, you will show the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
-## Instructions
+### Demo Part 1
 
-#### Demo Part 1: Show the Microsoft Purview compliance portal home page and how to customize the card view and the navigation panel.
+Show the Microsoft Purview compliance portal home page and how to customize the card view and the navigation panel.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. You should already be signed in as the admin.  If not, sign in with your admin credentials.
 
@@ -38,7 +39,9 @@ In this demo, you will show the Microsoft Purview compliance portal home page an
 
 1. Leave the browser tab open.
 
-#### Demo Part 2: Learn about your organization’s compliance posture through Compliance Manager.
+### Demo Part 2
+
+Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
 
@@ -64,5 +67,6 @@ In this demo, you will show the Microsoft Purview compliance portal home page an
 
 1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft Purview compliance portal.  Keep this browser page open for teh subsequent demo.
 
-#### Review
+### Review
+
 In this demo you showed the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.

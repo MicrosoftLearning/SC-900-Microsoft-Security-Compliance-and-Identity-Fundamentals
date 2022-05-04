@@ -6,7 +6,7 @@ Demo:
 
 # Demo: Azure Active Directory self service password reset (SSPR)
 
-### Demo scenario
+## Demo scenario
 
 In this demo, you will walk through the various settings associated with enabling self-service password reset.
 
@@ -35,7 +35,6 @@ In this demo, you will walk through the various settings associated with enablin
 
 1. Keep this browser page open for the next demo.
 
-#### Review
+### Review
 
-In this demo, you showed the settings associated with self-service password reset. 
-
+In this demo, you showed the settings associated with self-service password reset.

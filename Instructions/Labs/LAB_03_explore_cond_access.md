@@ -8,11 +8,14 @@ lab:
 # Lab: Explore access management in Azure AD with Conditional
 
 ## Lab scenario
+
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin, will create an policy which will require a user to go through multi-factor authentication when accessing a cloud based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
 
 **Estimated Time**: 10-15 minutes
 
-#### Task 1: In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
+### Task 1
+
+In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
@@ -37,8 +40,9 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 10. Keep this window open.
 
+### Task 2
 
-#### Task 2:  In this task you will go through the process of creating a conditional access policy in Azure AD.
+In this task you will go through the process of creating a conditional access policy in Azure AD.
 
 1. Open the browser tab, labeled Contoso – Microsoft Azure.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
 
@@ -56,7 +60,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 8. Select the option for **Select users and groups** and select **Users and groups**.  The window to Select users and groups opens.  
 
-9. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we will assign the policy to a specific user. 
+9. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we will assign the policy to a specific user.
 
 10. Under Cloud apps or actions, select **No cloud apps or actions selected**.
 
@@ -76,9 +80,11 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 18. Sign out of Azure and close your browser windows.
 
-#### Task 3: In this task you will see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You will start first by signing-in to an application that is not included in the conditional access policy.  Then you will repeat the process for an application that is included in the conditional access policy.  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
+### Task 3
 
-1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
+In this task you will see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You will start first by signing-in to an application that is not included in the conditional access policy.  Then you will repeat the process for an application that is included in the conditional access policy.  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
+
+1. Open Microsoft Edge.  In the address bar of the browser, enter **login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
     1. In the Sign in window enter **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
@@ -88,7 +94,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. You should be successfully logged in to your Microsoft 365 account.  MFA was not required for this application as it is not part of the policy.
 
-1. Now you will attempt to sign in to an application that meets the criteria for MFA.  Open Microsoft Edge and in the address bar, enter https://portal.azure.com.
+1. Now you will attempt to sign in to an application that meets the criteria for MFA.  Open Microsoft Edge and in the address bar, enter **portal.azure.com**.
 
 1. You will see a window indicating, More information required.  Select **Next**.  Note, this will initiate the MFA registration process, as this is the first time you are accessing the cloud app that that was identified in the conditional access policy.  This registration process is required only once.   An alternative to having the user go through the registration process is to have the admin configure the authentication method to use.
 
@@ -106,5 +112,6 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting Sign out. Then the close all the browser windows.
 
-#### Review
+### Review
+
 In this lab you went through the process of setting up a conditional access policy that requires users to go through MFA when they access Microsoft Azure Management cloud application.  Then, as a user you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.

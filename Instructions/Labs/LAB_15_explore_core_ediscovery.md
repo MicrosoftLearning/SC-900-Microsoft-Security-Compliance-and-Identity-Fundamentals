@@ -8,18 +8,20 @@ lab:
 # Lab: Explore the eDiscovery (Standard) workflow
 
 ## Lab scenario
-In this lab you will go through the steps required for setting up eDiscovery and then go through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for eDiscovery (Standard) requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery (Standard), visit [Get started with eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
+In this lab you will go through the steps required for setting up eDiscovery and then go through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for eDiscovery (Standard) requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery (Standard), visit [Get started with eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 **Estimated Time**: 20-25 minutes
 
-#### Task 1:  To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+### Task 1
+
+To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
  Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    
+
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -27,7 +29,7 @@ In this lab you will go through the steps required for setting up eDiscovery and
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
-1. From the left navigation pane, select **Permissions**. 
+1. From the left navigation pane, select **Permissions**.
 
 1. From the Permissions & roles page, under Compliance portal, select **Roles**.
 
@@ -47,7 +49,9 @@ In this lab you will go through the steps required for setting up eDiscovery and
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-#### Task 2:  In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
+### Task 2
+
+In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
 
@@ -63,11 +67,13 @@ In this lab you will go through the steps required for setting up eDiscovery and
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 3:  Now that you have created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
+### Task 3
+
+Now that you have created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
 
 1. Open the eDiscovery (Standard) tab on your browser.
 
-1. From the eDiscovery (Standard) page, select the case you created in the previous tab, **SC900 Test Case**. 
+1. From the eDiscovery (Standard) page, select the case you created in the previous tab, **SC900 Test Case**.
 
 1. From the Home page of the case, select the **Hold** tab then select **+Create**.
 
@@ -83,7 +89,9 @@ In this lab you will go through the steps required for setting up eDiscovery and
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
+### Task 4
+
+With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
 
 1. Open the SC900 Test case tab on your browser.
 
@@ -102,9 +110,9 @@ In this lab you will go through the steps required for setting up eDiscovery and
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
 1. From the bottom of the page, select **Actions**.  Note the available options, then select **Export results**.
-    
+
     1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on teh bottom of the page.
-    
+
     1. From the SC900-Test case page, select **Exports** from the top of the page.
     1. Select **Test Hold - Sales Search_Export**
     1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
@@ -113,9 +121,8 @@ In this lab you will go through the steps required for setting up eDiscovery and
     1. Once the install is completed, the eDiscovery export tool window opens.  In the first field, paste the export key that you copied to your clipboard, paste it in now (Control V on your keyboard or right-click on your mouse and select paste).
     1. In the second field, select the location where you want to store the export file, then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
     1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
-    1. Check the location of your download to verify the download was successfully completed. 
+    1. Check the location of your download to verify the download was successfully completed.
 
-
-#### Review
+### Review
 
 In this lab you went through the steps required to get started with eDiscovery (Standard), including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search to use further investigation.

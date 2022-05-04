@@ -6,7 +6,7 @@ Demo:
 
 # Demo: Microsoft Defender for Cloud
 
-### Demo scenario
+## Demo scenario
 
 In this demo, you will walk through Microsoft Defender for Cloud and show how Azure Secure Score can be used to improve an organization's security posture.
 
@@ -49,4 +49,3 @@ In this demo, you will walk through Microsoft Defender for Cloud and show how Az
 ## Review
 
 In this demo, you walked through the Microsoft Defender for Cloud and showed how Azure Secure Score can be used to improve an organization's security posture.
-

@@ -4,5 +4,17 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "cSpell.words": [
+        "anonymized",
+        "Contoso",
+        "exfiltration",
+        "microsoftazurepass",
+        "microsoftonline",
+        "onboarded",
+        "preconfigured",
+        "SSPR",
+        "timeframes",
+        "winvm"
+    ]
 }

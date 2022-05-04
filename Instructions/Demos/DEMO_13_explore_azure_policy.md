@@ -7,10 +7,13 @@ Demo:
 
 # Demo: Azure Policy
 
-### Demo scenario
+## Demo scenario
+
 In this demo you will walk through the process of setting up an Azure policy and the impact of that policy.
 
-#### Demo Part 1: Create a policy to require a tag on a resource group (shows steps to create a policy from a template)
+### Demo Part 1
+
+Create a policy to require a tag on a resource group (shows steps to create a policy from a template)
 
 1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.  You should already be signed in, if not sign in with your admin credentials.
 
@@ -42,7 +45,9 @@ In this demo you will walk through the process of setting up an Azure policy and
 
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
 
-#### Demo Part 2:  Show the impact of the policy by creating a resource group without a tag, then fix it to have a tag.
+### Demo Part 2
+
+Show the impact of the policy by creating a resource group without a tag, then fix it to have a tag.
 
 1. From the top of the page, underneath where it says Azure Services, select **Resource groups**. If you don't see the option listed, enter Resource groups in the search bar and select it from there.
 
@@ -70,6 +75,6 @@ In this demo you will walk through the process of setting up an Azure policy and
 
 1. You will see the resource group listed.  Because the tag was provided in the resource group, the condition included as part of the Azure policy was satisfied.  The resource group is compliant with the policy.
 
-#### Review
+### Review
 
 In this demo, you showed the process of setting up an Azure policy and the impact of that policy.

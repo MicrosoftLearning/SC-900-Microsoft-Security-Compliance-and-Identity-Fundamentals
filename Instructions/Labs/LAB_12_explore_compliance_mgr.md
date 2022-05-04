@@ -8,18 +8,20 @@ lab:
 # Lab: Explore the Microsoft Purview compliance portal & Compliance Manager
 
 ## Lab scenario
-In this lab, you will explore the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
+In this lab, you will explore the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
 **Estimated Time**: 15-20 minutes
 
-#### Task 1: Explore the Microsoft Purview compliance portal home page and learn to customize the card view and the navigation panel.
+### Task 1
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+Explore the Microsoft Purview compliance portal home page and learn to customize the card view and the navigation panel.
+
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    
+
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -37,7 +39,9 @@ In this lab, you will explore the Microsoft Purview compliance portal home page 
 1. From the window labeled Customize your navigation pane, note how you can select the items you want to have appear on the navigation panel and de-select the items you don't want to see. For the purpose of these labs, keep all items selected and hit **Save** on the bottom of the window.  
 1. Leave the browser tab open.
 
-#### Task 2: Learn about your organization’s compliance posture through Compliance Manager.
+### Task 2
+
+Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
 
@@ -58,11 +62,11 @@ In this lab, you will explore the Microsoft Purview compliance portal home page 
 1. From the top left of the page, above where it says Assessments (the breadcrumb), select **Assessment** to return to the assessments page.  
 
 1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can crate assessments for your organization by using an existing template or you can create a new template.
- 
+
 1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
 
 1. Close the open browser tabs.
 
+### Review
 
-#### Review
 In this lab you explored the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.

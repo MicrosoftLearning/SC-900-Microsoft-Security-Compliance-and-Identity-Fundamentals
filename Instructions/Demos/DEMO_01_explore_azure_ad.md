@@ -6,7 +6,7 @@ Demo:
 
 # Demo: Azure Active Directory user settings
 
-### Demo scenario
+## Demo scenario
 
 In this demo, you will access Azure Active Directory and walk through the various settings for an existing user.
 
