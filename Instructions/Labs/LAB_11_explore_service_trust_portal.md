@@ -8,7 +8,7 @@ lab:
 
 ## Lab scenario
 
-In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
+In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center to view information about Privacy at Microsoft.
 
 **Estimated Time**: 10-15 minutes
 
@@ -44,20 +44,14 @@ In this task you will explore the Service Trust portal and the different types o
 
 ### Task 2
 
-In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
+In this task you will visit the Trust Center and navigate to information that describes Privacy at Microsoft.
 
-1. From the top of the Service Trust Portal page, select **Trust Center** then choose **Home**. This opens a new browser tab that takes you to the Trust Center where you find more information about security, compliance, and privacy in the Microsoft Cloud.
+1. From the top of the Service Trust Portal page, select **Trust Center** then choose **Home**. This opens a new browser tab that takes you to the Trust Center where you find more information, including information about privacy and much more.  
 
-1. From the top of the page, select **Privacy**, then select **Resources**.
-
-1. Select **Additional privacy resources**.
-
-1. Select **Privacy at Microsoft**.
-
-1. Review the six key privacy principles.
+1. You will see information about Our (Microsoft's) commitment to you.  From here select **Learn more about Microsoft Privacy**.  Scroll through the page and explore the different links to learn more about privacy at Microsoft.
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
 ### Review
 
-In this lab you explored some of the options available under the Service Trust Portal, how to access reports, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review Microsoft's Privacy principles.
+In this lab you explored some of the options available under the Service Trust Portal, how to access reports, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review information about privacy at Microsoft.
