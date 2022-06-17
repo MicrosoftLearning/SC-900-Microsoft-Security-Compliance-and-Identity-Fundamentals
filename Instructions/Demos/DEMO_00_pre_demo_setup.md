@@ -3,11 +3,12 @@ Pre-Demo Setup:
     title: 'Demo Setup'
 ---
 
-# Pre-Demo Setup
+## Pre-Demo Setup
+This setup consists of two separate tasks.  The first task applies and is recommended only if your lab environment includes the use of an Azure pass. The second task is focused on enabling the Microsoft Audit Log and applies and is recommended regardless of whether or not your environment uses an Azure Pass.
 
-## Setup part 1 - Redeem Azure Pass
+### Setup part 1 - Redeem Azure Pass
 
-In this setup task, you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant.  This will make for a more seamless experience when moving between Microsoft 365 and Azure.
+This task applies and is recommended only if the demo environment you are using includes an Azure Pass. In this task, you will redeem your Azure pass using the same credentials as your Microsoft 365 tenant.  This will make for a more seamless experience when moving between Microsoft 365 and Azure.
 
 1. If you have any open browser windows, it is recommended you close all browsers.
 
