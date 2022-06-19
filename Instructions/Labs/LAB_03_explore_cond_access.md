@@ -24,7 +24,7 @@ In this task you, as the admin, will reset the password for the user Debra Berge
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-3. Select **Azure Active Directory**.  
+3. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then from the left navigation panel, under Favorites, select Azure Active Directory. If it is not listed under favorites, then in the search box, enter Azure Active Directory, then from the results list, select **Azure Active Directory**.  
 
 4. From the left navigation panel select **Users**.
 
