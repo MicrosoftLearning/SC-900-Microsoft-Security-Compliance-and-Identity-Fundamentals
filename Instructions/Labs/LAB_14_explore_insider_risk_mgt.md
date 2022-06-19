@@ -31,7 +31,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. From the left navigation pane of the Microsoft Purview Compliance portal, select **Permissions**.
 
-1. From the permissions & roles page, under compliance portal, select **Roles**.
+1. From the permissions & roles page, under **Microsot Purview Solutions**, select **Roles**.
 
 1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
 
