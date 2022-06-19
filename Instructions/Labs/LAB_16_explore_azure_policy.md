@@ -17,7 +17,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 Briefly explore the Azure policy page.
 
-1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
