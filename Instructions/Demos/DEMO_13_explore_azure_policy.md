@@ -15,7 +15,7 @@ In this demo you will walk through the process of setting up an Azure policy and
 
 Create a policy to require a tag on a resource group (shows steps to create a policy from a template)
 
-1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.  You should already be signed in, if not sign in with your admin credentials.
+1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.  You should already be signed in, if not sign in with your admin credentials.
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results.
 
