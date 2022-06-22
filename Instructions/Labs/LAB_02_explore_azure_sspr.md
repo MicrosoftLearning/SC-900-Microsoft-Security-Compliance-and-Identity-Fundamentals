@@ -92,7 +92,7 @@ In this task you, as user Adele Vance, will go through the registration process 
 2. In the address bar enter **login.microsoftonline.com**.
 
 3. Sign in as Adele Vance,
-    1. In the Sign in window enter **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
