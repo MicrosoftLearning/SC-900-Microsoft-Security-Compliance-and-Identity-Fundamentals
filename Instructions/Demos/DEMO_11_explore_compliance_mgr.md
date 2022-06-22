@@ -65,7 +65,7 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
 
-1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft Purview compliance portal.  Keep this browser page open for teh subsequent demo.
+1. From the left navigation panel, select **Home** to return to the Home page of the Microsoft Purview compliance portal.  Keep this browser page open for the subsequent demo.
 
 ### Review
 

@@ -111,7 +111,7 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. From the bottom of the page, select **Actions**.  Note the available options, then select **Export results**.
 
-    1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on teh bottom of the page.
+    1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on the bottom of the page.
 
     1. From the SC900-Test case page, select **Exports** from the top of the page.
     1. Select **Test Hold - Sales Search_Export**
