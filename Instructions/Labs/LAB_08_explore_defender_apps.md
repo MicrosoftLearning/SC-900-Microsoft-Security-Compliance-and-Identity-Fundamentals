@@ -75,7 +75,7 @@ In this task you will explore the policies and alerts pages in Microsoft Defende
 
 1. From the left navigation panel, select **Alerts**.  If you have any alerts listed, select an item from the alerts list. Review the information provided.  From the top-right side of the window, select **Close alert**, to view options for closing the alert.  
 
-1. Close the browser window.
+1. Close all the open browser tabs.
 
 ### Review
 

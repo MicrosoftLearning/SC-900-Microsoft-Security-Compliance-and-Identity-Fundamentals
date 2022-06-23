@@ -109,7 +109,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Using the web browser on your lab VM, login to the email account to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
-1. Close the open browser tabs.
+1. Close all the open browser tabs.
 
 ### Review
 

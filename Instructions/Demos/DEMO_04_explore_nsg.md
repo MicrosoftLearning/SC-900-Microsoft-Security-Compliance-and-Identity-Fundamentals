@@ -147,9 +147,9 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
 
 1. Return to the Home page of the Azure portal, by selecting **Microsoft Azure** on the blue bar on the top of the page.
 
-### Tear-down
+### Post course delivery tear-down
 
-**IMPORTANT**: In this task you will delete the resource group and all the resources it contains.   This is important to avoid additional charges.
+VM's are a billed resource and although the cost of running the VMs in this demo are miniscule, it is recommended that you delete the resource group containing the VM and associated resources, at the completion of the course delivery.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 

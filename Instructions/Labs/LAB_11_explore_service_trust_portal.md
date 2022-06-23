@@ -50,7 +50,7 @@ In this task you will visit the Trust Center and navigate to information that de
 
 1. You will see information about Our (Microsoft's) commitment to you.  From here select **Learn more about Microsoft Privacy**.  Scroll through the page and explore the different links to learn more about privacy at Microsoft.
 
-1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
+1. Close all the open browser tabs.
 
 ### Review
 

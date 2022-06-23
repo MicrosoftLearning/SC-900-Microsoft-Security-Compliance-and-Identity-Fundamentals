@@ -123,6 +123,8 @@ With a hold in place, you will create a search query.  Once your search is compl
     1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
     1. Check the location of your download to verify the download was successfully completed.
 
+1. Close all the open browser tabs.
+
 ### Review
 
 In this lab you went through the steps required to get started with eDiscovery (Standard), including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the eDiscovery (Standard) workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search to use further investigation.
