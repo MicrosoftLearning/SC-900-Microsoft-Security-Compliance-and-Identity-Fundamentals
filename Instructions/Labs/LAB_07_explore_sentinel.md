@@ -133,7 +133,7 @@ Microsoft Sentinel is billed based on the volume of data ingested for analysis i
 
 4. From the top center of the page, select **Delete resource group**.  Review the warning.  Enter the resource group name, **SC900-ResourceGroup**, then select **Delete** from the bottom of the page.  It will take several minutes to delete the resource group.
 
-5. Once you have verified the resource group was deleted, close the browser page.
+5. Close all the open browser tabs.
 
 ### Review
 

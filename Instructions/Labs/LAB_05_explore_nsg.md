@@ -147,9 +147,9 @@ The default outbound rules for NSG allow outbound internet traffic so you will v
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-### Task 5
+### Tear-down
 
-**IMPORTANT**: In this task you will delete the resource group and all the resources it contains.   This is important to avoid additional charges.
+VM's are a billed resource and although the cost of running the VMs in this demo are miniscule, it is recommended that you delete the resource group containing the VM and associated resources, at the completion of the course.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
@@ -159,6 +159,7 @@ The default outbound rules for NSG allow outbound internet traffic so you will v
 1. From the top center of the LabsSC900 page, select **Delete resource group**.
 1. In the window that opens, enter the resource group name, **LabsSC900**, to confirm deletion the resource group and all its resources, then select **Delete** from the bottom of the page.
 1. It may take a few minutes for all the resources and resource group to be deleted.
+1. Close all the open browser tabs.
 
 ### Review
 

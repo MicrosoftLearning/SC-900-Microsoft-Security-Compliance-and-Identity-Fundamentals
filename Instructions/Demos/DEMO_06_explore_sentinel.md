@@ -116,9 +116,9 @@ In this part of the demo you will show some of the options available in Sentinel
 
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
-### Task 6
+### Post course delivery tear-down
 
-Post course delivery tear-down. Microsoft Sentinel is billed based on the volume of data ingested for analysis in Microsoft Sentinel. Although the amount of data ingested as a result of this demo is minimal, it is recommended that you delete the Microsoft Sentinel resource group when you are done exploring the capabilities of Microsoft Sentinel.
+Microsoft Sentinel is billed based on the volume of data ingested for analysis in Microsoft Sentinel. Although the amount of data ingested as a result of this demo is minimal, it is recommended that you delete the Microsoft Sentinel resource group when you are done with the course delivery.
 
 1. From the Microsoft Sentinel page, on the top-left corner of the page, above where is says Microsoft Sentinel, select **All Services**.
 

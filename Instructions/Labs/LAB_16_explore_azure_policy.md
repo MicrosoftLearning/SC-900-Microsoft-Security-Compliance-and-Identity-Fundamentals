@@ -122,6 +122,8 @@ In this task you will see the impact of the Azure policy assignment, by creating
     1. In the middle of the page, you will see a list of the Azure policy/initiative assignments.  Select the ellipses for the policy assignment Require a tag on resource groups, then select Delete assignment.
     1. You will be prompted to confirm that you want to delete the assignment.  Select Yes.
 
+1. Close all the open browser tabs.
+
 ### Review
 
 In this lab, you went through the Azure policy landing page. After the initial exploration of the Azure policy page, you went through the process of creating a policy and you were able to see the impact of that policy.
