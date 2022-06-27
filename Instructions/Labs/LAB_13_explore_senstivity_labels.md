@@ -85,7 +85,7 @@ In this task, you will go through the process of applying a label from the persp
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-1. From the top menu bar, select **Sensitivity**, if you don't immediately see this option, refresh the page. From the drop down select **Confidential - Finance**.
+1. From the top menu bar, select **Sensitivity**, if you don't immediately see this option, refresh the page. From the drop down select **Confidential - Finance**.  NOTE:  The Sensitivity option may take up to 15 minutes to show up.
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 

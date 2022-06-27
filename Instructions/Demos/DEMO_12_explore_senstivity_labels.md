@@ -9,7 +9,7 @@ Demo:
 
 ## Demo scenario
 
-In this demo you will show the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+In this demo you will show the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.  **NOTE**: The first time you use Word online with your Microsoft 365 tenant, it can take 15 minutes for the Sensitivity option to appear on the ribbon.  Presenters should run demo part 2 before class to ensure sufficient time for the option to appear.
 
 ### Demo Part 1
 
