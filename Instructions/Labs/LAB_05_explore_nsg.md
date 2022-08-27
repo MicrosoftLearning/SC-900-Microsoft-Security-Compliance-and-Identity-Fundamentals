@@ -42,7 +42,7 @@ In this task you will create a Windows 10 virtual machine.
     1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
     1. Select **Next: Disks**.
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
-1. You are now in the Networking tab for the VM configuration.  For the NIC network security group option, select **None**. Leave all other settings to their default value.
+1. You are now in the Networking tab for the VM configuration.  For the NIC network security group option, select **None**. Leave all other settings to their default value.  Note: the purpose in selecting none at this step is to walk through the steps of creating a network security group from scratch, in the subsequent task.
 1. From the bottom of the page, select **Next: Review + Create>** then once the validation has passed, select **create**. It may take several minutes for the VM deployment to complete.
 1. Once the VM deployment is complete, select **Go to resource**.
 1. You are now in the SC900-WinVM page.
