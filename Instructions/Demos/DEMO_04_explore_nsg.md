@@ -26,37 +26,24 @@ In this demo, you will show the functionality of a network security group (NSG) 
     1. **Virtual machines name**:  enter **SC900-WinVM**.
     1. **Region**:  leave the default.
     1. **Availability options**: be sure to select **No infrastructure redundancy required**.  NOTE: it is very important that availability options be set to No infrastructure redundancy required, otherwise the demo will not work as intended.  Having an availability option requires an NSG and we are intentionally creating the VM without an NSG.
-    1. **Image**:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
+    1. **Image**:  from the drop-down, select **Windows 10 Pro, Version 21H2 – Gen 2**.
     1. **Size**:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     1. **Username**:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
     1. **Password**:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. **Public inbounds ports**:  you can leave the defaults setting (Doesn't matter what you select here as the network settings will override what you do here).
+    1. **Public inbounds ports**:  leave the default, **Allow selected ports**.
+    1. **Select inbound ports**: leave the default, **RDP 3389**
     1. **Licensing**:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a check-mark appears in the box.
     1. Select **Next: Disks**.
 
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
+1. You are now in the Networking tab for the VM configuration.  For the NIC network security group option, select **None**. Leave all other settings to their default value.
+1. From the bottom of the page, select **Next: Review + Create>** then once the validation has passed, select **create**. It may take several minutes for the VM deployment to complete.
+1. Once the VM deployment is complete, select **Go to resource**.
+1. You are now in the SC900-WinVM page.
+1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
+1. Note that the port prerequisite is not met.  In order to allow to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You will do that in the next task, when you create a network security group.
+1. Leave this browser tab open.
 
-1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
-    1. NIC network security group:  select **None**.  Note: By selecting none you are ensuring that the NIC does not have an NSG.  In a subsequent step in the demo you will create a NSG and assign the VM NIC to the NSG you create.
-    1. Since other settings for the VM will be kept as their default, go ahead and select Next: **Review + Create>**.
-
-1. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select **Create**.  It may take several minutes for the VM deployment to complete.
-
-1. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
-
-1. Once the VM deployment is complete, select **Go to resource**.  You are now in the SC900-WinVM page.  Note the public IP address.
-
-1. From the left navigation panel, select **Networking** and note the network interface **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).  There should be no inbound our outbound rules associated with the interface.  
-
-1. From the top of the page, select **Connect** as it is important to verify that you can connect to the VM.
-    1. From the top of the page, make sure that **RDP** is selected (underlined).
-    1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
-    1. **Open** the downloaded file and in the window that appears, select **Connect**.
-    1. A window opens that will prompt you for your credentials. If the default window requests a PIN, select **More choices**, then select **Use a different account**.   You will be prompted for your credentials.  Enter the Username and Password you used when you created the VM.
-    1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
-    1. You are now connected to the Windows VM you just created. Complete the Windows setup. Although you connected to the VM via RDP and a commonly used RDP Port, this VM has all ports open and there is nothing that is filtering traffic.  Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
-
-1. You are now back in the SC900-WinVM page in the Azure portal.  Leave this browser tab open for the next task.
 
 ### Pre-Demo setup part 2
 
@@ -72,7 +59,7 @@ Create a network security group, but do NOT assign the network interface of the 
     1. Subscription:  Azure Pass – Sponsorship
     1. Resource group:  **LabsSC900-RG**
     1. Name:  **NSG-SC900**
-    1. Region:  leave the default **(US) East US**
+    1. Region:  leave the default
     1. Select **Review + create** then select **Create**.
 
 1. Once the deployment is complete, select **Go to resource** and ensure everything is correct.  There should be 3 default inbound,  3 default outbound rules, and no subnets and no interfaces associated with the NSG.  Go back to the **Home** page of the Azure portal.  
@@ -97,14 +84,10 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
     1. In the search bar, on the top of the page, enter and select **Virtual Machines**.
     1. From the Virtual Machines page, select **SC900-WinVM**.
     1. From the top of the SC900-WinVM page, select **Connect** then select **RDP**.
-    1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
-    1. **Open** the downloaded file and select **Connect**.
-    1. After a few seconds of trying to connect, you will see the failure message, indicating that the remote Desktop can’t connect to the remote computer. Select **OK**.
+    1. Note that the port prerequisite is not met.  In order to allow to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  
 
-1. Now that you showed the impact of the NSG default inbound rules, you will want to create a new rule to allow inbound RDP traffic.  Call out that you cannot delete the existing default rules, you can only create new ones with higher priority.
-    1. From the left navigation panel, under Settings, select **Networking**.  You are in the networking page of the VM and although you can create an inbound rule and outbound rule from here, go back to the NSG page, after all the demo is about NSG.  **Select NSG-SC900**, it is the link in the middle of the window.
-
-1. You are now in the NSG overview page.  Note the information about the NSG. From the left navigation panel of the NSG page, under settings, select **Inbound security rules**, then select **+ Add** from the top of the page. On the Add inbound security rule page, speak to the various settings. It is recommended that you actually create the rule to allow inbound RDP traffic, with the following settings:
+1. Now you will want to create a new rule to allow inbound RDP traffic.  Call out that you cannot delete the existing default rules, you can only create new ones with higher priority. From the left navigation panel, under Settings, select **Networking**.  You are in the networking page of the VM.
+1. Verify that the **Inbound port rules** tab is selected (underlined) then select **Add inbound port rule** to create the rule to allow inbound RDP traffic, with the following settings:
     1. Source: **Any**
     1. Source port ranges: **\***
     1. Destination: **Any**
@@ -115,7 +98,7 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
     1. Select **Add**
     1. Once the rule is provisioned, it will appear on the list of inbound rules.
 
-1. Now checkout the out **Outbound security rules**.  Select **+ Add** from the top of the page and speak to the various settings.  I recommend creating the rule – The settings below create a rule to deny outbound internet traffic:
+1. Now select the **Outbound port rules** tab and review the default rules.  Select **Add outbound port rule** from the top of the page and speak to the various settings.  I recommend creating the rule – The settings below create a rule to deny outbound internet traffic:
     1. Source: **Any**
     1. Source port ranges: **\***
     1. Destination: **Service Tag**
@@ -129,7 +112,7 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
     1. Select **Add**
     1. Once the rule is provisioned, it will appear on the list of outbound rules.
 
-1. Now go back to your VM and test the rules.  From the top of the page, select **SC900-VM**, above where it says outbound security rules.
+1. Now go back to your VM and test the rules.  From the top of the page, select **SC900-VM**.
 
 1. Test the inbound rule by verifying that you can connect to the VM using RDP.
     1. Select **Connect** from the left navigation panel.
