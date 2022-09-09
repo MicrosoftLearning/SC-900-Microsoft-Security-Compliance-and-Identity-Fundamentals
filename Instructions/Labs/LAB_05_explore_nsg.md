@@ -47,7 +47,7 @@ In this task you will create a Windows 10 virtual machine.
 1. Once the VM deployment is complete, select **Go to resource**.
 1. You are now in the SC900-WinVM page.
 1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
-1. Note that the port prerequisite is not met.  In order to allow to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You will do that in the next task, when you create a network security group.
+1. Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You will do that in the next task, when you create a network security group.
 1. Leave this browser tab open.
 
 ### Task 2
