@@ -1,7 +1,7 @@
 ---
 Demo:
-    title: 'Service Trust Portal'
-    module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
+    Title: 'Service Trust Portal'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe the compliance management capabilities in Microsoft; Unit 2: Explore the Service Trust Portal'
 ---
 
 # Demo: Service Trust Portal

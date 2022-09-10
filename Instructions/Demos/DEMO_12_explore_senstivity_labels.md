@@ -1,7 +1,7 @@
 ---
 Demo:
-    title: 'Sensitivity labels in Microsoft Purview'
-    module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+    Title: 'Sensitivity labels in Microsoft Purview'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 3: Describe information protection and data lifecycle management in Microsoft Purview; Unit 4: Describe sensitivity labels'
 ---
 
 
