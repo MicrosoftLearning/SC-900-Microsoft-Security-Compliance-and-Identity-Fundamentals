@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore the eDiscovery (Standard) workflow'
-    module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
+Lab:
+    Title: 'Explore the eDiscovery (Standard) workflow'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 5: Describe the eDiscovery and audit capabilities of Microsoft Purview; Unit 2:  Describe the eDiscovery solutions in Microsoft 365'
 ---
 
 
