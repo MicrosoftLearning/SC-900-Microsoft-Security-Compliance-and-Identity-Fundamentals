@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore Microsoft Sentinel'
-    module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
+Lab:
+    Title: 'Explore Microsoft Sentinel'
+    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe how Microsoft Sentinel provides integrated threat management'
 ---
 
 

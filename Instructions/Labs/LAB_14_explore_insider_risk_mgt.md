@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore insider risk management in Microsoft Purview'
-    module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
+Lab:
+    Title: 'Explore insider risk management in Microsoft Purview'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 4: Describe the insider risk capabilities in Microsoft Purview; Unit 2: Describe insider risk management'
 ---
 
 

@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore identity governance in Azure AD with Privileged Identity management. '
-    module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
+Lab:
+    Title: 'Explore identity governance in Azure AD with Privileged Identity management. '
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 4: Describe the identity protection and governance capabilities of Azure AD; Unit 4: Describe the capabilities of Privileged Identity Management'
 ---
 
 

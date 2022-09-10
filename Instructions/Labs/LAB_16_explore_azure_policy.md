@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore Azure Policy'
-    module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+Lab:
+    Title: 'Explore Azure Policy'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 6: Describe the resource governance capabilities in Azure; Unit 2: Describe Azure Policy'
 ---
 
 

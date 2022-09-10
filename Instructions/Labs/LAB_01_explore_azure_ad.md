@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore Azure Active Directory'
-    module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+Lab:
+    Title: 'Explore Azure Active Directory'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 1: Describe the basic services and identity types of Azure AD; Unit 4: Describe the Azure AD identity types'
 ---
 
 # Lab: Explore Azure Active Directory

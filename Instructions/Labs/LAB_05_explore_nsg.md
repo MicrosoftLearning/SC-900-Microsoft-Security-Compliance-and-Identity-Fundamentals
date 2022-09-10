@@ -1,7 +1,7 @@
 ---
-lab:
-    title: 'Explore Azure Network Security Groups (NSGs)'
-    module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
+Lab:
+    Title: 'Explore Azure Network Security Groups (NSGs)'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 1: Describe the basic security capabilities in Azure; Unit 6: Describe Azure Network Security groups'
 ---
 
 
