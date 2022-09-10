@@ -1,7 +1,7 @@
 ---
 Demo:
-    title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
-    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+    Title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 2: Describe the compliance management capabilities in Microsoft Purview; Unit 2: Describe the Microsoft Purview compliance portal'
 ---
 
 

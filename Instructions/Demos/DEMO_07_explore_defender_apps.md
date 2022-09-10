@@ -1,7 +1,7 @@
 ---
 Demo:
-    title: 'Microsoft Defender for Cloud Apps '
-    module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
+    Title: Microsoft Defender for Cloud Apps '
+    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft 365; Unit 5: Describe Microsoft Defender for Cloud Apps'
 ---
 
 

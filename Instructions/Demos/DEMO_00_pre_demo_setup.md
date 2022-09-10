@@ -1,6 +1,6 @@
 ---
 Pre-Demo Setup:
-    title: 'Demo Setup'
+    Title: 'Demo Setup'
 ---
 
 ## Pre-Demo Setup

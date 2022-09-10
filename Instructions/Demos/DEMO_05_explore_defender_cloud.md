@@ -1,7 +1,7 @@
 ---
 Demo:
-    title: Microsoft Defender for Cloud'
-    module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
+    Title: 'Microsoft Defender for Cloud'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe Microsoft Defender for Cloud'
 ---
 
 # Demo: Microsoft Defender for Cloud

@@ -1,6 +1,6 @@
 ---
-lab:
-    title: 'Setup'
+Lab:
+    Title: 'Setup'
 ---
 
 # Lab: Setup
