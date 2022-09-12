@@ -1,11 +1,18 @@
+<!---
 ---
 Lab:
     Title: 'Explore sensitivity labels in Microsoft Purview'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 3: Describe information protection and data lifecycle management in Microsoft Purview; Unit 4: Describe sensitivity labels'
 ---
-
+--->
 
 # Lab: Explore sensitivity labels in Microsoft Purview
+
+This lab maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Microsoft compliance
+- Module: Describe information protection and data lifecycle management in Microsoft Purview
+- Unit: Describe sensitivity labels
 
 ## Lab scenario
 

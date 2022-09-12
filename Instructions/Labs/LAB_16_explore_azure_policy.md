@@ -1,11 +1,18 @@
+<!---
 ---
 Lab:
     Title: 'Explore Azure Policy'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 6: Describe the resource governance capabilities in Azure; Unit 2: Describe Azure Policy'
 ---
-
+--->
 
 # Lab: Explore Azure Policy
+
+This lab maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Microsoft compliance
+- Module: Describe the resource governance capabilities in Azure
+- Unit: Describe Azure Policy
 
 ## Lab scenario
 

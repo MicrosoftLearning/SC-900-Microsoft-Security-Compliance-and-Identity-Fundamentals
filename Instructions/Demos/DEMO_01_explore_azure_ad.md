@@ -1,10 +1,18 @@
+<!---
 ---
 Demo:
     Title: 'Explore Azure AD User Settings'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 1: Describe the basic services and identity types of Azure AD; Unit 4: Describe the Azure AD identity types'
 ---
+--->
 
 # Demo: Azure AD user settings
+
+This demo maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
+- Module: Describe the basic services and identity types of Azure AD
+- Unit 4: Describe the Azure AD identity types
 
 ## Demo scenario
 
