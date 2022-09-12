@@ -10,6 +10,7 @@ Lab:
 # Lab: Explore access management in Azure AD with Conditional
 
 This lab maps to the following Learn content:
+
 - Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
 - Module: Describe the access management capabilities of Azure AD
 - Unit: Describe Conditional Access in Azure AD

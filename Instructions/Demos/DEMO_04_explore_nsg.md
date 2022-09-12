@@ -1,10 +1,18 @@
+<!---
 ---
 Demo:
     Title: 'Azure Network Security Groups (NSGs)'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 1: Describe the basic security capabilities in Azure; Unit 6: Describe Azure Network Security groups'
 ---
+--->
 
 # Demo: Azure Network Security Groups (NSGs)
+
+This demo maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Microsoft security solutions
+- Module: Describe the basic security capabilities in Azure
+- Unit: Describe Azure Network Security groups
 
 ## Demo scenario
 

@@ -1,10 +1,18 @@
+<!---
 ---
 Demo:
     Title: 'Service Trust Portal'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe the compliance management capabilities in Microsoft; Unit 2: Explore the Service Trust Portal'
 ---
+--->
 
 # Demo: Service Trust Portal
+
+This demo maps to the following Learn content:
+
+Learning Path: Describe the capabilities of Microsoft compliance
+Module: Describe the compliance management capabilities in Microsoft
+Unit: Explore the Service Trust Portal
 
 ## Demo scenario
 

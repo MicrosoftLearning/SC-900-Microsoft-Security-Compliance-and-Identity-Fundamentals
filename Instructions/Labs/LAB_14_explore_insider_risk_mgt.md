@@ -1,11 +1,18 @@
+<!--->
 ---
 Lab:
     Title: 'Explore insider risk management in Microsoft Purview'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 4: Describe the insider risk capabilities in Microsoft Purview; Unit 2: Describe insider risk management'
 ---
-
+--->
 
 # Lab: Explore insider risk management in Microsoft Purview
+
+This lab maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Microsoft compliance
+- Module: Describe the insider risk capabilities in Microsoft Purview
+- Unit: Describe insider risk management
 
 ## Lab scenario
 
