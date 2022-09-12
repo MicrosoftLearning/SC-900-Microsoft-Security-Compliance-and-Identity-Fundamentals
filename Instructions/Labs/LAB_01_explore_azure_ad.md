@@ -1,10 +1,18 @@
+<!--->
 ---
 Lab:
     Title: 'Explore Azure Active Directory'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 1: Describe the basic services and identity types of Azure AD; Unit 4: Describe the Azure AD identity types'
 ---
+--->
 
 # Lab: Explore Azure Active Directory
+
+This lab maps to the following Learn content:
+
+- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra 
+- Module: Describe the basic services and identity types of Azure AD
+- Unit 4: Describe the Azure AD identity types
 
 ## Lab scenario
 

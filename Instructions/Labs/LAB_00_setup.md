@@ -1,7 +1,9 @@
+<!--->
 ---
 Lab:
     Title: 'Setup'
 ---
+--->
 
 # Lab: Setup
 
