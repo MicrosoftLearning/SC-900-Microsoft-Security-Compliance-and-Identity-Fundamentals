@@ -1,4 +1,4 @@
-<!--->
+<!---
 ---
 Lab:
     Title: 'Explore Azure Active Directory'

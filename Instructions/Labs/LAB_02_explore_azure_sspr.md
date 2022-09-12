@@ -1,8 +1,10 @@
+<!---
 ---
 Lab:
     Title: 'Explore Azure AD Authentication with self-service password reset'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 2: Describe the authentication capabilities of Azure AD; Unit 4: Describe self-service password reset in Azure AD'
 ---
+--->
 
 # Lab: Explore Azure AD Authentication with self-service password reset
 This lab maps to the following Learn content:

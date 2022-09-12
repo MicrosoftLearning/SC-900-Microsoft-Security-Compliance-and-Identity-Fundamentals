@@ -1,4 +1,4 @@
-<!--->
+<!---
 ---
 Lab:
     Learning Path: 'Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra'
