@@ -12,7 +12,7 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security capabilities of Microsoft Sentinel
-- Unit 3: Describe how Microsoft Sentinel provides integrated threat management
+- Unit: Describe how Microsoft Sentinel provides integrated threat management
 
 ## Lab scenario
 
