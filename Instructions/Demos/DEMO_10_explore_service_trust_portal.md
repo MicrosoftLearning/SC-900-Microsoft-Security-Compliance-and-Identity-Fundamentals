@@ -10,9 +10,9 @@ Demo:
 
 This demo maps to the following Learn content:
 
-Learning Path: Describe the capabilities of Microsoft compliance
-Module: Describe the compliance management capabilities in Microsoft
-Unit: Explore the Service Trust Portal
+- Learning Path: Describe the capabilities of Microsoft compliance
+- Module: Describe the compliance management capabilities in Microsoft
+- Unit: Explore the Service Trust Portal
 
 ## Demo scenario
 
