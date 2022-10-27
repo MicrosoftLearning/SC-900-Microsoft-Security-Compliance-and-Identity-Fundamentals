@@ -142,7 +142,7 @@ In this task you, as user Adele Vance, will go through the process of resetting 
 
 11. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
 
-12. You should now be in the Azure portal.
+12. You should now be in the Office portal.
 
 13. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
@@ -161,7 +161,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 4. Select **Azure Active Directory**.  
 
-5. From the left navigation pane, select **Password rest**.
+5. From the left navigation pane, select **Password reset**.
 
 6. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 
