@@ -13,7 +13,7 @@ This setup lab consists of enabling the Microsoft Audit Log.
 
 **Estimated Time**: 5-10 minutes
 
-### Setup part 1 - Enable Microsoft 365 audit log
+### Setup - Enable Microsoft 365 audit log
 
 In this setup task, you will enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants do not have this feature enabled and it can take several hours for this to take effect.  It is beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
 
