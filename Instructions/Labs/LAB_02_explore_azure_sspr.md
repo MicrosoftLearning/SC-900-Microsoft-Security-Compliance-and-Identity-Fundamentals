@@ -104,7 +104,7 @@ In this task you, as user Adele Vance, will go through the registration process 
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
-4. Since this is your first sign in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
+4. Since this is your first sign in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
 
 5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
