@@ -9,7 +9,7 @@ Lab:
 
 ## Lab scenario
 
-This setup lab consists of two separate tasks.  The first task applies and is recommended only if your lab environment includes the use of an Azure pass. The second task is focused on enabling the Microsoft Audit Log and applies and is recommended regardless of whether or not your environment uses an Azure Pass.
+This setup lab consists of two separate tasks.  The first task applies and is recommended only if your lab environment includes the use of an Azure pass. The second task is focused on enabling the Microsoft Audit Log.
 
 **Estimated Time**: 5-10 minutes
 
