@@ -20,7 +20,7 @@ In this lab, you will explore the capabilities of Microsoft Defender for Cloud A
 
 **Estimated Time**: 15-20 minutes
 
-### Task 1
+### Task 1 - Explore Cloud discovery
 
 Explore Cloud Discovery.
 
@@ -65,7 +65,7 @@ Explore Cloud Discovery.
 
 1. Keep this page open, as you will use it in the next task.
 
-### Demo Part 2
+### Demo Part 2 - Explore the Cloud app catalog
 
 Explore the Cloud app catalog.
 
@@ -79,9 +79,9 @@ Explore the Cloud app catalog.
  
 1. Keep this page open, as you will use it in the next task.
 
-### Task 3
+### Task 3 - Explore the Activity log and Files
 
-Explore ways in which you can investigate the recorded activities.
+Explore ways in which you can investigate the recorded activities with the activity log and files.
 
 1. From the left navigation panel, select **Activity Log**.  Here you get visibility into all the activities from your connected apps.   Since you already had the Office 365 connector connected you should be able to see some data. After you connect Cloud App Security to an app using the App connector, Cloud App Security scans all the activities that happened - the retroactive scan time period differs per app - and then it's updated constantly with new activities.  
 
@@ -91,7 +91,7 @@ Explore ways in which you can investigate the recorded activities.
 
 1. Keep this page open, as you will use it in the next task.
 
-### Task 4
+### Task 4 - Explore Policies
 
 In this task you will explore the policies in Microsoft Defender for Cloud Apps
 
