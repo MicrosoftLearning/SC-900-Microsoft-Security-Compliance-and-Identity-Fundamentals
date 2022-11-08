@@ -33,7 +33,7 @@ Create an Microsoft Sentinel instance
 1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription:  **Azure Pass – Sponsorship**
+    1. Subscription: In most cases the Azure subscription provided by the Authorized Lab Hoster (ALH) should be pre-populated, by default.  If note, please consult your instructor or learning partner.
     1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (A different default region may be selected based on your location)
@@ -59,11 +59,11 @@ With the Microsoft Sentinel instance created, you will want to make sure that yo
 
 1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
 
-1. From the Access control page, select **View my access**.  As MOD Administrator, the current role is Service administrator.  This will grant you the necessary permissions but it is important to understand the available Sentinel specific roles.  Close the MOD Administrator assignments window by selecting the **X** on the top-right corner of the window.
+1. From the Access control page, select **View my access**.  For the Azure subscription provided to you by the Authorized Lab Hoster, a custom role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 4 roles associated with Microsoft Sentinel.
+    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 5 built-in roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
 
     1. Close the window by select the **X** on the top-right corner of the window.

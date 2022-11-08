@@ -60,7 +60,7 @@ In this demo, you will show the capabilities of Microsoft Defender for Cloud App
 
 1. From the left navigation panel, select **Cloud app catalog**.
 
-1. The Cloud App Catalog gives a full picture of what Cloud Discovery identifies. Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 25,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.
+1. The Cloud App Catalog gives a full picture of what Cloud Discovery identifies. Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.
 
 1. The Cloud app catalog enables you to wisely choose which apps fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which include whether the app is sanctioned, unsanctioned, or has no tag , risk score, Compliance risk factor, and security risk factor.  Select **Compliance risk factor** to view the available options.  Note that there is an option to use advanced filters.
 
