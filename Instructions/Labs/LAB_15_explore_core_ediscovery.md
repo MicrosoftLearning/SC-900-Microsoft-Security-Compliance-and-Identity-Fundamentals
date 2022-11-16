@@ -76,7 +76,7 @@ In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery adm
 
 ### Task 3
 
-Now that you have created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
+Now that you have created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will create a hold for the the exchange mailbox belonging to Adele Vance.
 
 1. Open the eDiscovery (Standard) tab on your browser.
 

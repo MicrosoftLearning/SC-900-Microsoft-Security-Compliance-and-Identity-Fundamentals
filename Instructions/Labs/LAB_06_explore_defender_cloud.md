@@ -36,11 +36,11 @@ In this task you will do some basic setup of Microsoft Defender for Cloud, to ge
 1. If this is the first time you enter Microsoft Defender for Cloud with your subscription you may land on the Getting started page and may be prompted to upgrade.  Scroll to the bottom of the page and select **skip**.  You will be taken to the Overview page.
     1. On the top of the page, you will see a light blue information box that indicates, "Getting things ready for your subscription. This may take a few minutes..."
     1. Once the subscription is ready, a new information box may appear that says, "One subscription doesn't have the default policy assigned. To review the the list of subscriptions, open the Security Policy page."  Select the right arrow at the end of sentence or select **Environment settings** from the left navigation pane.
-        1. You are now in the Environment settings page. Select **Azure pass - Sponsorship**.  Note:  If your Azure environment is based on an Azure subscription managed by the Authorized Lab Hoster, instead of an Azure Pass, you will see it referenced. Expand the option by selecting the greater than sign until you can no longer expand the options and you see the subscription.
+        1. You are now in the Environment settings page. Expand the option by selecting the greater than sign until you can no longer expand the options and you see the subscription.
         1. From the left navigation pane, select **Security policy**.
         1. From them main page, under where it says Default initiative, select **Assign policy**.
         1. From the bottom of the page, select **Review + create**.
-        1. From the bottom of the page, select **Create**.  This assigns the Azure Security Benchmark as a default policy initiative.  Refresh the screen (it may take a couple of minutes to take effect).
+        1. From the bottom of the page, select **Create**.  This assigns the Azure Security Benchmark as a default policy initiative.  Refresh the screen (it may up to 30 minutes for the policy to take effect).
         1. Exit the environment settings page by selecting the **X** on the page.  
         1. From the Azure services page select **Microsoft Defender for Cloud** to return to the overview page.
 

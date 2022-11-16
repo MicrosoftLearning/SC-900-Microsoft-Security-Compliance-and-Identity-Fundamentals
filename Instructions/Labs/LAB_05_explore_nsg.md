@@ -49,7 +49,12 @@ In this task you will create a Windows 10 virtual machine.
     1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
     1. Select **Next: Disks**.
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
-1. You are now in the Networking tab for the VM configuration.  For the NIC network security group option, select **None**. Leave all other settings to their default value.  Note: the purpose in selecting none at this step is to walk through the steps of creating a network security group from scratch, in the subsequent task.
+1. You are now in the Networking tab for the VM configuration.  
+    1. NIC network security group: select **None**. Note: the purpose in selecting none at this step is to walk through the steps of creating a network security group from scratch, in the subsequent task.
+    1. Public inbound ports:  leave the default value, **Allow selected ports**
+    1. Select inbound ports:  leave the default value, **RDP (3389)**
+    1. Delete pubic IP and NIC when VM is deleted:  select this so that a blue checkmark appears.
+    1. Leave all other items  to the default.  
 1. From the bottom of the page, select **Next: Review + Create>** then once the validation has passed, select **create**. It may take several minutes for the VM deployment to complete.
 1. Once the VM deployment is complete, select **Go to resource**.
 1. You are now in the SC900-WinVM page.
@@ -67,7 +72,7 @@ Create a network security group, assign the network interface of the VM to that 
 1. In the Filter services box next to where it says All services, enter **Network security groups** then from the results, select **Network security groups** (do not select Network security groups classic).
 1. From the top of Network security groups page, select **+ Create**.
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    1. Subscription:  Azure Pass – Sponsorship
+    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
 
     1. Resource group:  **LabsSC900**
     1. Name:  **NSG-SC900**
@@ -90,9 +95,10 @@ Create a network security group, assign the network interface of the VM to that 
     1. Service:  **RDP**
     1. Action:  **Allow**
     1. Priority:  **300**; Note: rules with lower numbers have higher priority and are processed first.
-    1. Name:  **AllowRDP**
+    1. Name:  you can leave the default name or set to **AllowRDP**
 1. Select **Add**
 1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen).
+    1. On the newly added rule, you will see a warning sign.  Select the newly added rule.  A window opens that shows the information about the rule. At the bottom of the window you will see the warning sign with the description, "RDP port 3389 is exposed to the Internet. This is only recommended for testing. For production environments, we recommend using a VPN or private connection."  Since we are only testing, leave it as is.  Close the window by selecting the **X** on the top right corner of the window.
 1. Now verify that you can connect to the VM using RDP.  Select search field on the top of the page, next to where is says Microsoft Azure, to view the recent services.  Select **Virtual machines**.
 1. Select the VM, **SC900-WinVM**.
 1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
@@ -109,7 +115,7 @@ The default outbound rules for NSG allow outbound internet traffic so you will v
 
 1. From the VM, select **Edge** to open the browser.  
 1. Enter **www.bing.com** in the browser address bar and confirm you are able to connect to the search engine.
-1. Close the browser on your VM, but keep the VM open, as you will use it in the subsequent steps.
+1. Close the browser on your VM, and minimize the VM (select the **_** on the top center of the page, next to the IP address), as you will use it in the subsequent steps.
 1. Return to the Azure Portal, open the SC900-WinVM – Microsoft Azure Tab on your browser.
 1. From the left navigation panel, under Settings, select **Networking**.
 1. Select the **Outbound port rules** tab.  You will see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.

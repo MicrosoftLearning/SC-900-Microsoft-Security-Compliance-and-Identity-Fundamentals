@@ -7,7 +7,7 @@ Lab:
 ---
 --->
 
-# Lab: Explore access management in Azure AD with Conditional
+# Lab: Explore access management in Azure AD with Conditional Access
 
 This lab maps to the following Learn content:
 

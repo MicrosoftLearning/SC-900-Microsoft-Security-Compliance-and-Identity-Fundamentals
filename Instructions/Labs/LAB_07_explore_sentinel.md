@@ -22,7 +22,7 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 ### Task 1
 
-Create an Microsoft Sentinel instance
+Create a Microsoft Sentinel instance
 
 1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
 
