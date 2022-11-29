@@ -39,9 +39,7 @@ Explore the Microsoft Purview compliance portal home page and learn to customize
 1. From the main window, scroll down to view the different cards. The cards available on the home screen and the position of the cards can be changed to accommodate each administrator’s preference.  
 1. Placing your mouse cursor over the title bar of any card turns the title bar grey.  When you see the cursor turn into a cross shape, you can move the card to your desired location.
 1. On the title bar of every card, you will also see an ellipsis that provides actions you can take.  Select the ellipses on the Solution catalog and select **Remove**.
-1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
-1. From the left navigation panel of the Microsoft Purview compliance portal home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
-1. Select **Show less** to hide.
+1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and as such, you may want to have only those solutions listed in the navigation panel that you see. To customize to your preferences select **Customize navigation**.  
 1. From the window labeled Customize your navigation pane, note how you can select the items you want to have appear on the navigation panel and de-select the items you don't want to see. For the purpose of these labs, keep all items selected and hit **Save** on the bottom of the window.  
 1. Leave the browser tab open.
@@ -56,24 +54,24 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score. Note that as improvement actions are taken, points may take up to 24 hours to update.  Notice the available filters.
 
-1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
+1. From the list of improvement actions, select **Enable self-service password reset**.  Review the available information for the improvement action.  The left side of the window provides a brief overview about the implementation, test status, and more. To the right of the overview is the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents. Each of these tabs provides more detailed information for the improvement action.
 
 1. Exit out of this improvement action by selecting **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
 
 1. From the top of the page, select **Solutions**. On this page you will see how solutions contribute to your score and their remaining opportunity for improvement.
 
-1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
+1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.
 
 1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view information on the Controls, , your improvement actions, and Microsoft actions.  
 
 1. From the top left of the page, above where it says Assessments (the breadcrumb), select **Assessment** to return to the assessments page.  
 
-1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can crate assessments for your organization by using an existing template or you can create a new template.
-
-1. From the included templates list, select **ISO/IEC27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
+1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can create assessments for your organization by using an existing template or you can create a new template.
+    1. From the included templates list, select any template. From the top right of the page, select **+ Create assessment**.  Here you can see the few simple steps and pieces of information needed to create an assessment from an existing template - identify the product for the assessment, name the assessment, and assign it to a group.  Select Cancel from the bottom of the page.
 
 1. Close all the open browser tabs.
 
 ### Review
 
 In this lab you explored the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+

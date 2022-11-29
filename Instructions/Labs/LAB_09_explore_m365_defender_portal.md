@@ -36,7 +36,7 @@ Explore the Microsoft 365 Defender landing page.
 
 1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  It is recommended that you complete the tour.  Select **Take a quick tour**.  Read the description provided in each pop-up window, then select **Next**. Continue through the tour until you get to the end, then select **Done**.
 
-1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center,threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints) and Defender for Office for 365 (links listed under Email and Collaboration).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.  Note: you may not see much information listed in these tabs as their are no devices attached and may not have any active threats or alerts.
+1. The left navigation panel provides links/access to information that are part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center,threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints, Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.  Note: you may not see much information listed in these tabs as their are no devices attached and may not have any active threats or alerts.
 
 1. The welcome page of the Microsoft 365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
@@ -58,15 +58,13 @@ In this task you will explore how Microsoft Secure Score can help an organizatio
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 
-1. Select **Improvement actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
+1. Select **Recommended actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
 
-1. Selecting an item from the list provided detailed information.  Select **Require MFA for Administrative roles**.  Select **Edit status & acton plan**.  In the window that open, note the status options available. Select the **X** at the top right corner to close this window
+1. Selecting an item from the list provides detailed information.  Select **Require MFA for Administrative roles** and review the available information.  Select **Edit status & acton plan**.  In the window that open, note the status options available. Select the **X** at the top right corner to close this window
 
-1. From the bottom of the page select **Manage in Microsoft Azure**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  If you completed the Conditional access lab exercise you should see the policy listed. Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
+1. Select the **History** tab from the top of the page. Select an item form the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
 
-1. Select the **History** tab from the top of the page.  Some activities may show negative points.  As described in the activity field this may be because an item was removed because it was no longer relevant.  Select an item form the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
-
-1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
+1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting **filter icon**, allows you to filter the view by Identity and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
 
 1. Close all the open browser tabs.
 

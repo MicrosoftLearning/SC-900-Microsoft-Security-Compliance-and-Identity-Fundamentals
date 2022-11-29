@@ -1,4 +1,4 @@
-<!--->
+<!---
 ---
 Lab:
     Title: 'Explore insider risk management in Microsoft Purview'
@@ -16,9 +16,9 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
+In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy and the time required are outside of the scope of this exercise.
 
-**Estimated Time**: 25-30 minutes
+**Estimated Time**: 45-60 minutes
 
 ### Task 1
 
@@ -38,21 +38,9 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. From the left navigation pane of the Microsoft Purview Compliance portal, select **Permissions**.
 
-1. From the permissions & roles page, under where it says, "View and manage roles used to perform solution-specific tasks in the compliance center." select **Roles**.
+1. From the permissions & roles page, under where it says, "Microsoft Purview solutions" select **Roles**.
 
-1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
-
-1. In the window that opens, next to where it says Members, select **Edit**.
-
-1. To add members to this role group, select **Choose members**.
-
-1. Select **+ Add** from the top of the page.
-
-1. From the list of names, select **MOD Administrator**, **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
-
-1. Verify the added members is correct then select **Save**.
-
-1. From the bottom of the Insider Risk Management window, select **Close**.
+1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. From the bottom of the window, select **Close**.
 
 1. From the left navigation panel select **Home** to return to the Microsoft Purview compliance portal page.
 
@@ -83,8 +71,7 @@ In this task you will walk through the settings associated with the Insider Risk
 1. From the left navigation panel under Solutions, select **Insider risk management**.
 
 1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.  
-    1. Verify you are in the **Privacy** tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.
-
+    1. Verify you are in the **Privacy** tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities.  For the purpose of this walk-through you can leave the default setting.
     1. Select the **Policy indicators** tab. Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, then select **Save**.
     1. Select the **Policy timeframes** tab. The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy.   The Activation window determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the default values.  Select the **Intelligent detections** tab.
     1. Select the **Intelligent detections** tab. Review the options here.  Note the domains settings and how they relate to the indicators.
@@ -96,28 +83,26 @@ In this task you will walk through the settings associated with the Insider Risk
 
 ### Task 4
 
-In this task you will walk through the creation of a policy.
+In this task you will walk through the settings for creating a policy.  The objective is simply to get a sense of the various options and flexibility associated with creating a policy.
 
 1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
 
 1. From the Insider risk management overview page, select the **Policies** tab then select **+ Create policy**.  Configure each of the following policy tabs.
 
-    1. Policy template:  From the list of categories, select **Data leaks** then select **General data leaks**.  Note that templates within categories may have additional prerequisites.  Read the details associated with this template, then select **Next**.
-
+    1. Policy template:  From the list of categories, select **Data leaks**.  Read the details associated with this template. Under prerequisites, leave the default selection for DLP policy then select **Next**.
     1. Name and description:  enter a name, **SC900-InsiderRiskPolicy**, then select **Next**.
     1. Users and groups:  Review the information box.  Leave the default setting, **Include all users and groups**.  Select **Next**.
-    1. Content to prioritize: Read the description. Select **I want to specify SharePoint sites, sensitivity labels, and/or sensitive info types as priority content**, then select **Next**.
-        1. SharePoint site: For this policy example, leave this blank, select **Next**
-        1. Sensitive info types: for this policy example, leave this blank then select **Next**.
-        1. Sensitivity labels: select **+ Add or edit sensitivity labels**.  Select the listed labels:  **Confidential Finance** and **Highly Confidential\Project – Falcon**, select **Add**, then **Next**.
-    1. Triggers: Review the detailed information.  The policy is triggered by either the user performing an exfiltration activity as as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user. Select **Next**.
-    1. Indicator Thresholds:  here you can specify default or custom thresholds associated with the indicators.  Recall the indicators are activated only after the policy trigger occurs so these thresholds do not influence when the policy is triggered. Select **Specify custom thresholds**, By selecting this option, you can see the current default values. Leave the defaults and select **Next**.  
-    1. Indicators: Note that all the office indicators you selected in the previous task are selected.  Scroll through the page to see other available policy indicators and other items that are automatically selected.   Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Hover your mouse on the information icon for detailed information.  These items require that certain indicators be selected and that devices be onboarded.  For simplicity and because we have no devices onboarded in this tenant, uncheck **Select all**.
+    1. Content to prioritize: Per the description, Risk scores are increased for any activity that contains priority content, which in turn increases the chance of generating a high severity alert. For simplicity, select **I don't want to prioritize content right now**, then select **Next**.
+    1. Decide whether to score only activity with priority content:  Leave the default setting **Get alerts for all activity**, then select **Next**.
+    1. Triggers: The triggering event determines when a policy will begin to assign risk scores to a user's activity.  You can choose from an existing DLP policy or if the user performs an exfiltration activity. Select **User matches a data loss prevention (DLP) policy** then from the drop down select **U.S. Financial Data**. Select **Next**. 
+    1. Indicators: Note that all the office indicators you selected in the previous task are selected (you can see this be selecting the down arrow key next to Office indicators), then select **Next**.
+    1. On the Detection options page, leave all the default settings, but read the description associated with the various options and hover over the information icon to get more detailed information on a specific setting.  Select **Next**.
+    1. On the page to Decide whether to use default or customer indicator thresholds, leave the default setting **Default thresholds**, then select **Next**.
     1. Finish:  review the settings, select **Submit**, then select **Done**.
 
-1. You are back on the Policies tab of the Insider risk management page.  The policy you just created will be listed.  
+1. You are back on the Policies tab of the Insider risk management page.  The policy you just created will be listed.  If you don't see it, select the **Refresh** icon.
 
-1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected, AND which bypasses the requirement that a triggering event is detected first.  To do this, select the empty circle next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  Populate each field, then select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.  Select **Close** at the bottom of the window.
+1. As an admin, you can immediately start assigning risk scores to users based on activity detected by the policies you selected. This bypasses the requirement that a triggering event (like a DLP policy match) is detected first.  An admin would do this by selecting the empty square next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  A new window opens that requires the admin to populate the available fields. Leave the fields empty as you won't configure this option, but for more information on why an admin would want to do this, select **Why would I do this??**.  Exit the window by selecting the **X** on the top right of the window.
 
 1. Close all the open browser tabs.
 

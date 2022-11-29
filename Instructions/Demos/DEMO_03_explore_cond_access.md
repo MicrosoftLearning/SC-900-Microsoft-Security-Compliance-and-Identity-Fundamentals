@@ -6,7 +6,6 @@ Demo:
 ---
 --->
 
-
 # Demo: Azure AD Conditional Access
 
 This demo maps to the following Learn content:
@@ -31,7 +30,7 @@ In this demo you will walk through the various options available for a condition
 
 1. Note that you have several options under **Assignments**.  Since conditional access policies are like if/then statements, the assignments settings are like the “if” statements.
     1. **Users and groups** - hover your mouse over the information icon next to where it says “Users and groups” and call out that this is where you set the users and groups in the directory that the policy applies to. Select **0 users and groups selected**.  You will now see the option to Include or Exclude users or groups. Select and call out the settings available for the **Include** tab and then select and speak to the settings available for the **Exclude** tab.
-    1. **Cloud apps or actions** - hover your mouse over the information icon next to where it says “Cloud apps or actions” and call out that this is where you set the applications used or actions performed by the user, for the conditional access policy.  Select **No cloud apps or actions selected**.
+    1. **Cloud apps or actions** - hover your mouse over the information icon next to where it says “Cloud apps or actions” and call out that this is where you set the applications used or actions performed by the user, for the conditional access policy.  Select **No cloud apps, actions, or authenticated contexts selected**.
         1. Select the drop-down arrow in the box below where it says **Select what this policy applies to** and note the options.  Leave the default setting – Cloud apps.
         1. Select and call out the settings available for the Include tab. Under the **Include** tab, choose **Select Apps**.  Notice the window that opens where you can select form a list of applications.  Don’t select anything, close out of this window by selecting the **X** on the top-right corner of the window. Go back to choosing **None** to remove the error.
         1. Then select and speak to the settings available for the **Exclude tab**.  Here again you can select specific apps to exclude.
@@ -41,6 +40,7 @@ In this demo you will walk through the various options available for a condition
         1. **Device Platform** - Platform the user is signing in from. For example, 'iOS’.
         1. **Location** - Location (determined using IP address range) the user is signing in from
         1. **Client apps** - Software the user is employing to access the cloud app. For example, 'Browser’
+        1. **Filter for devices** - When creating Conditional Access policies, administrators can target or exclude specific devices in their environment. Admin can target specific devices using supported operators and properties for device filters and the other available assignment conditions in your Conditional Access policies.
 
 1. **Access Controls** – going back to the analogy that conditional access policies are like if/then statements, the access controls are analogous to the “then” statement.
     1. **Grant** - Hover your mouse over the information icon next to where it says “Grant” for the description.  Select **0 controls selected** to show the different options.  Speak to some of these.  Specifically call out the option to **Require multi-factor authentication**, under Grant Access and how this can be used to provide very granular control as to when to require MFA.   Also call out that you can set multiple controls and require all or just one of the selected controls.

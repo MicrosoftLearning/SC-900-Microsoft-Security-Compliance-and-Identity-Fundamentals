@@ -29,13 +29,11 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription:  **Azure Pass – Sponsorship**
+    1. Subscription:  Leave the default.
     1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (A different default region may be selected based on your location)
-    1. Select **Next: Tags >**
-
-1. For the Tags, you can leave this blank, then select **Review + Create**.
+    1. Select **Review + Create** (no tags will be configured).
 
 1. Verify the information you entered then select **Create**.
 
@@ -68,7 +66,7 @@ With the Microsoft Sentinel instance created, you will want to make sure that yo
 
 ### Demo Part 3
 
-In this part of the demo you will walk through the process of connecting Microsoft Sentinel to your data source to begin to collect data.
+In this part of the demo you will show the steps for connecting to a data source.  Specifically, you will connect to the Microsoft Defender for Cloud data connector.
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -76,35 +74,22 @@ In this part of the demo you will walk through the process of connecting Microso
 
 1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
-1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Office 365** then from the list select **Office 365**.
+1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
 
-1. The Office 365 connector window opens.  Select **Open connector page**.
+1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
 
-1. From the Office 365 connector page, review the Description on the left side of the window.
+1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
-1. The instructions tab in the main window, provides the perquisites for Microsoft Sentinel to integrate with Office 365, these should all be showing a green checkmark.   Under configuration, select **Exchange** and **SharePoint** then select Apply Changes.  Almost immediately you will see the connected status on the left side of the window.
-
-1. Close the window by selecting the **X** on the top-right corner of the window to return to the data connectors page.
-
-1. The top of the Data connectors page should display 1 connected, to reflect that you are now connected to Office 365. If you don't see this, select **Refresh**. It may take a few minutes for this page to update.
+1. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
+    1. From the configuration section, select the empty box next to the listed subscription, **MOC Subscription--lodXXXXXXXX** so that a checkmark appears then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
+    1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
+    1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
+    1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
+    1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may ned ot select refresh).
 
 1. Keep this page open, as you will use it in the next task.
 
 ### Demo Part 4
-
-In this part of the demo you will walk through the process of setting up a workbook for Office 365, to visualize and monitor your data.
-
-1. From the left navigation panel, select **Workbooks**.
-
-1. In the search box, enter Office 365 then select **Office 365**.
-
-1. From the window that opens on the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
-
-1. The Office 365 Workbooks page opens.  Select the dropdown arrow next to **Operations: unset** then select **All**.  Now select the dropdown arrow next to **Users: query pending** and select **All**.  Select the **save (disk) icon**. Close the window by select the **X** on the top-right corner of the window. It can take several minutes for data to start showing up in the workbook, so you will come back to workbooks later.
-
-1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page.
-
-### Demo Part 5
 
 In this part of the demo you will show some of the options available in Sentinel.
 
@@ -118,25 +103,11 @@ In this part of the demo you will show some of the options available in Sentinel
 
 1. From the left navigation panel, select **Automation**.  Here you can create simply automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.  Select **Office 365** then from the window that opens on the right side of the screen, select **View saved workbook**.  Note the visualizations related to your Office 365 workloads.  
+1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
 
 1. Close the window by select the **X** on the top-right corner of the window.
 
-1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
-
-### Post course delivery tear-down
-
-Microsoft Sentinel is billed based on the volume of data ingested for analysis in Microsoft Sentinel. Although the amount of data ingested as a result of this demo is minimal, it is recommended that you delete the Microsoft Sentinel resource group when you are done with the course delivery.
-
-1. From the Microsoft Sentinel page, on the top-left corner of the page, above where is says Microsoft Sentinel, select **All Services**.
-
-2. In the filter services box, enter resource groups, then from the list provided select **Resource groups**.
-
-3. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.
-
-4. From the top center of the page, select **Delete resource group**.  Review the warning.  Enter the resource group name, **SC900-ResourceGroup**, then select **Delete** from the bottom of the page.  It will take several minutes to delete the resource group.
-
-5. Once you have verified the resource group was deleted, close the browser page.
+1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.  
 
 ### Review
 
