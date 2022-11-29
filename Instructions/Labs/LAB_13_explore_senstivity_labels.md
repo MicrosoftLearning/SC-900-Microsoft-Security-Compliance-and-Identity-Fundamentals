@@ -63,21 +63,17 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. From the top of the Information protection page, select **Label policies**.  It is through label policies that sensitivity labels can be published.  
 
-1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  This policy serves to publish the Confidential-Finance Policy labels and protects data that contains financial data for Contoso.  Also note how this policy is published to all. 
+1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this is the default sensitivity label policy for all users and groups. This policy serves to publish all the labels listed in labels tab and is published to all.  
 
 1. Select **Edit** policy from the top of the window.
-
-1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
-
-1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
-
-1. Review the policy settings.  Select **Require users to apply a label to their emails and documents**.  Select **Next** on the bottom of the page.
-    1. Read description under, "the Apply a default label to documents."  Notice there is no default label. In the Default label field, select the down arrow then select **Confidential-Finance**.  Select **Next** on the bottom of the page.
-    1. Read description under, "the Apply a default label to emails."  Note the default setting is set to Same as document.  Select the drop down arrow in the input box, to view the available options. Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Read description under, "the Apply a default label to Power BI content."  Notice there is no default label. Don’t change any settings.  Select **Next** on the bottom of the page.
-
-1. The last configuration option is to name your policy.  Don’t change any settings.  Select **Next** on the bottom of the page then select **Submbit**.  
-1. On the Policy updated page, select **Done** to return to the Information protection page.
+    1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Review the policy settings.  Select **Require users to apply a label to their emails and documents**.  Select **Next** on the bottom of the page.
+    1. Read description under, "the Apply a default label to documents."  Notice there is no default label. In the Default label field, select the down arrow then select **General/All Employees (unrestricted)**.  Select **Next** on the bottom of the page.
+    1. Read description under, Apply a default label to emails." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "Apply a default label to Power BI content." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. The last configuration option is to name your policy.  Since you are editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
+    1. Review the policy settings then select **Submit**, then select **Done** to return to the Information protection page.
 
 1. From the Information protection page, select Auto-labeling.  Note there is no auto-labeling policy configured.  Don’t change any settings.  If you are wondering why there is no policy here, given that the label configuration is set to auto-labeling for files and emails, go back to the steps where you walked through the label configuration settings and review the description and information boxes associated Auto-labeling for files and emails.  Hint:  In the auto labeling tab for the sensitivity lab, it says.  "To automatically apply this label to files that are already saved (in SharePoint and OneDrive) or emails that are already processed by Exchange, you must create an auto-labeling policy."
 
@@ -103,7 +99,7 @@ In this task, you will go through the process of applying a label from the persp
 
 ### Task 3 (optional)
 
-In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view.  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.
+Recall from the first part of the demo, that the Confidential - Finance label is setup for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you will send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (ie., a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
 
 1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Outlook icon** and select **Open in new tab**.
 
@@ -115,9 +111,9 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**.  Press **Send**.
 
-1. Using the web browser on your lab VM, login to the email account to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
+1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  The email is successfully sent but When you attempt to open the attached word file, which was originally labeled as confidential - Finance, you will see a notification that you do not have permission to open the document.
 
-1. Close all the open browser tabs.
+1. Close the open browser tabs.
 
 ### Review
 

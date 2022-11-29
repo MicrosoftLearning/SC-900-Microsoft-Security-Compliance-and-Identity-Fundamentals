@@ -37,45 +37,41 @@ Explore Cloud Discovery.
 
 1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
 
-1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Speak to the different tiles available on the dashboard.
-
-1. From the dashboard view, you can select different tabs from the top of the page.  Go through each tab on the top of the page.
+1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Note the tiles available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  
     
-    1. Select **Discovered apps**. The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more. 
+1. Select **Discovered apps**. The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
 
-        1. From any item on the list, select the **ellipses** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
+    1. From any item on the list, select the **ellipses** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the **ellipses**, again, to close the actions box.
         
-        1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list.  For the selected item, select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**. When you are done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.  If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
+    1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list and review the information available on the overview page.  For the selected item, select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**. When you are done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.  If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
         
     1. From the top of the page, select the **IP addresses** tab.  Here you will find data including number of transactions, amount of traffic and upload amounts, by IP address.  Note that you can also filter by specific IP address or export the data for further analysis.
         
     1. From the top of the page select **Users**.  This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and export data for further analysis.
 
-1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.  To see where this is setup, select **Actions** on the top-right corner of the page.
+1. The information provided in the Cloud Discovery page and the related tabs are based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.  To see where this is setup, select **Actions** on the top-right corner of the page.
 
-    1. Select the first option, **Create Cloud Discovery snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Quit**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
+    1. Select the first option, **Create Cloud Discovery snapshot report** then select **Next**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Quit** and if prompted with Are you sure, select **Quit** again.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top of the Cloud Discovery window.
 
     1. To see the option for continuous reports, select the **Actions** on the top-right corner of the page and from the drop-down select **Configure automatic upload**.  There are no data sources connected, but this is where you would add a data source. Select **Add a data source** then select the drop-down arrow in the **Select appliance** field to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit then select the back-arrow key for the browser to return to Cloud discovery page.
 
-1. Another point to call out is that you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select select **App connectors**.  
+1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select select **App connectors**.  
 
-    1. On the Connected apps page, you should see Office 365 on the list with a connected status.  If Office 365 is showing a connection error, it is most likely because Audit is not turned on.  If audit is enabled, go to the ellipses and edit settings to reconnect.
+    1. On the Connected apps page, select *Office 365** from the list to view detailed information. If Office 365 is showing a connection error, it is most likely because Audit is not turned on.  If audit is enabled, go to the **vertical ellipses** on the right side of the line item and select **edit settings**.  To reconnect, select **Connect Office 365** on the bottom of the page. The page should now show that Office 365 is connected, select **Done**.  The status will now show with a yellow warning sign, indicating there is no recent status.  It will take some time for status to update as the retroactive scan time period differs per app, and lab tenants may experience longer than normal delays.
 
-    1. Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure**.  You will see a connected status (you may need to refresh the screen) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+    1. Now you'll setup up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You will see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
 
 1. Keep this page open, as you will use it in the next task.
 
-### Demo Part 2 - Explore the Cloud app catalog
+### Task Part 2 - Explore the Cloud app catalog
 
-Explore the Cloud app catalog.
+Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.  In this task, you will explore the capabilities of the Cloud app catalog.
 
 1. From the left navigation panel, select **Cloud app catalog**.
 
-1. The Cloud App Catalog gives a full picture of what Cloud Discovery identifies. Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.
+1. The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which include whether the app is sanctioned, unsanctioned, or has no tag , risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page.
 
-1. The Cloud app catalog enables you to wisely choose which apps fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which include whether the app is sanctioned, unsanctioned, or has no tag , risk score, Compliance risk factor, and security risk factor.  Select **Compliance risk factor** to view the available options.  Note that there is an option to use advanced filters.
-
-1. Admins can also search for apps by category.  For example, in the search category field enter **Social network**, then select social network.  Select **Yammer** to view the a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
+1. Admins can also search for apps by category.  For example, in the search for category field enter **Social network**, then select **Social network**.  Select **Yammer** to view the a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
  
 1. Keep this page open, as you will use it in the next task.
 
@@ -83,17 +79,16 @@ Explore the Cloud app catalog.
 
 Explore ways in which you can investigate the recorded activities with the activity log and files.
 
-1. From the left navigation panel, select **Activity Log**.  Here you get visibility into all the activities from your connected apps.   Since you already had the Office 365 connector connected you should be able to see some data. After you connect Cloud App Security to an app using the App connector, Cloud App Security scans all the activities that happened - the retroactive scan time period differs per app - and then it's updated constantly with new activities.  
-
-1. Notice on the top of the page, the option to add a new policy from the search or to export the data for further analysis.  Select **+ New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window.
-
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
+    1. Select **+ New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window.
+
+1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. Although you may not see any data listed (it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays), show the activity type filter options by selecting **Activity type** .  Also, note that you have the option to create new a policy from search, same as was shown in the previous step with files.
 
 1. Keep this page open, as you will use it in the next task.
 
 ### Task 4 - Explore Policies
 
-In this task you will explore the policies in Microsoft Defender for Cloud Apps
+In this task you will explore the policies in Microsoft Defender for Cloud Apps.
 
 1. From the left navigation panel, select **Policies** then select **Policy management**.  The listed policies provide information on the number of alerts generated by the policy, severity, etc. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e., **Risky sign-in**.
 

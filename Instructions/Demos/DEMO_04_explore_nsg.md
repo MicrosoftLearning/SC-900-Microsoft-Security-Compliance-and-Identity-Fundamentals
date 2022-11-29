@@ -16,46 +16,11 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo, you will show the functionality of a network security group (NSG) in Azure.  You will do this by first creating a Virtual Machine (VM) without any NSG, as part of the pre-demo setup. You will also create a NSG without any associated interface or subnet.  As part of the demo, you will show the default inbound and outbound rules for the NSG. You will then go through the process of assigning the VM's interface to the NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
-  
-### Pre-demo setup part 1
+In this demo, you will explore the function of network security groups in Azure. You will show the default inbound and outbound rules, create new rules, and test those rules. Note: The VM you will use with the NSG is already created for you by the authorized lab hoster (ALH).
 
- Instructors it is recommended that you do this **BEFORE** class time as it can take several minutes to create a VM. In this setup, you will create a Windows 10 virtual machine.
+### Pre-Demo setup
 
-1. Open the **Home – Microsoft Azure** tab on your browser.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
-
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Virtual machines**, then select **Virtual Machines** from the search results.  
-
-1. From the top left of the page, select **+Add** then select **+Virtual machine**.
-
-1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
-    1. **Subscription**: verify the default setting to be Azure Pass – Sponsorship.
-    1. **Resource group**: select **Create new** then in the Name field enter **LabsSC900-RG**, then select **OK**.
-    1. **Virtual machines name**:  enter **SC900-WinVM**.
-    1. **Region**:  leave the default.
-    1. **Availability options**: be sure to select **No infrastructure redundancy required**.  NOTE: it is very important that availability options be set to No infrastructure redundancy required, otherwise the demo will not work as intended.  Having an availability option requires an NSG and we are intentionally creating the VM without an NSG.
-    1. **Image**:  from the drop-down, select **Windows 10 Pro, Version 21H2 – Gen 2**.
-    1. **Size**:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. **Username**:  Enter a username of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. **Password**:  Enter a password of your choice.  Please make a note of it, as you will need it to access the VM.
-    1. **Public inbounds ports**:  leave the default, **Allow selected ports**.
-    1. **Select inbound ports**: leave the default, **RDP 3389**
-    1. **Licensing**:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a check-mark appears in the box.
-    1. Select **Next: Disks**.
-
-1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
-1. You are now in the Networking tab for the VM configuration.  For the NIC network security group option, select **None**. Leave all other settings to their default value.
-1. From the bottom of the page, select **Next: Review + Create>** then once the validation has passed, select **create**. It may take several minutes for the VM deployment to complete.
-1. Once the VM deployment is complete, select **Go to resource**.
-1. You are now in the SC900-WinVM page.
-1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
-1. Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You will do that in the next task, when you create a network security group.
-1. Leave this browser tab open.
-
-
-### Pre-Demo setup part 2
-
-Create a network security group, but do NOT assign the network interface of the VM to that NSG.  
+Create a network security group, but do NOT assign the network interface of the preconfigured VM to that NSG.  
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
@@ -64,10 +29,10 @@ Create a network security group, but do NOT assign the network interface of the 
 1. From the top of Network security groups page, select **+ Create**.
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    1. Subscription:  Azure Pass – Sponsorship
+    1. Subscription:  leave the default.
     1. Resource group:  **LabsSC900-RG**
     1. Name:  **NSG-SC900**
-    1. Region:  leave the default
+    1. Region:  leave the default.
     1. Select **Review + create** then select **Create**.
 
 1. Once the deployment is complete, select **Go to resource** and ensure everything is correct.  There should be 3 default inbound,  3 default outbound rules, and no subnets and no interfaces associated with the NSG.  Go back to the **Home** page of the Azure portal.  
@@ -82,7 +47,7 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
 
 1. From the NSG page, select the NSG you created in the setup, **NSG-SC900**.
 
-1. The **Overview** tab in the left navigation panel is highlighted.  Notice the default inbound and outbound rules in the NSG. Although the NSG has been created and there are default rules to filter traffic, no interface has been associated with the NSG. You can see this in the top right of the page where it says "Associated with: 0 subnets, 0 network interfaces".  For an NSG to do its thing, it has to be assigned to something.  In our case we will assign to the network interface for the VM that was previously created.
+1. The **Overview** tab in the left navigation panel is highlighted.  Notice the default inbound and outbound rules in the NSG. Although the NSG has been created and there are default rules to filter traffic, no interface has been associated with the NSG. You can see this in the top right of the page where it says "Associated with: 0 subnets, 0 network interfaces".  For an NSG to do its thing, it has to be assigned to something.  In our case we will assign to the network interface for the VM that was preconfigured.
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 
@@ -136,25 +101,9 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown. A pop-up windows indicates Your remote session will be disconnected. Select **Ok**.
 
-1. Return to the Home page of the Azure portal, by selecting **Microsoft Azure** on the blue bar on the top of the page.
+1. Return to the Home page of the Azure portal, by selecting **Microsoft Azure** on the blue bar on the top of the page.  
 
-### Post course delivery tear-down
-
-VM's are a billed resource and although the cost of running the VMs in this demo are miniscule, it is recommended that you delete the resource group containing the VM and associated resources, at the completion of the course delivery.
-
-1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
-
-1. From the top-left corner of the page, select **All Services**.
-
-1. In the Filter services box next to where it says All services, enter **Resource groups** then from the results, select **Resource groups**.
-
-1. Select **LabsSC900-RG**.
-
-1. From the top center of the LabsSC900-RG page, select **Delete resource group**.
-
-1. In the window that opens, enter the resource group name, **LabsSC900-RG**, to confirm deletion the resource group and all its resources, then select **Delete** from the bottom of the page.
-
-1. It may take a few minutes for all the resources and resource group to be deleted.
+1. As a general best practice it is beneficial to stop or tear-down the VM to avoid incurring cost, if it is being used only for demo or test purposes. In this case, however, do NOT tear-down the VM, as it will help feed cloud security posture management data when demoing Microsoft Defender for Cloud.  The VM will be torn down when the lab is cancelled.
 
 #### Review
 
