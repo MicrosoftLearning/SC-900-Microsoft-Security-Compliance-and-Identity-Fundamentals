@@ -39,7 +39,7 @@ In this demo you will walk through the process of creating a Microsoft Sentinel 
 
 1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display.  Note the three steps listed on the Get started page.
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
 
 1. Keep this page open, as you will use it in the next task.
 

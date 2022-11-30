@@ -18,7 +18,7 @@ This demo maps to the following Learn content:
 
 In this demo, you will walk through Microsoft Defender for Cloud and show how it can be used to improve an organization's security posture.  NOTE: the Azure subscription managed by the Authorized Lab Hoster (AH) may limits access and functionality so some steps below may be unavailable or not show any information.
 
-### Demo Task
+### Demo Task 1
 
 In this demo task you will do a very high-level walk-through of some of the capabilities of Microsoft Defender for Cloud.
 
@@ -29,7 +29,7 @@ In this demo task you will do a very high-level walk-through of some of the capa
     1. When prompted to stay signed- in, select **Yes**.
 
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
-1. If this is the first time you enter Microsoft Defender for Cloud with your subscription you may land on the Getting started page and may be prompted to upgrade.  Scroll to the bottom of the page and select **Remind me later**.  You will be taken to the Overview page.
+1. If this is the first time you enter Microsoft Defender for Cloud with your subscription you may land on the Getting started page and may be prompted to upgrade.  Scroll to the bottom of the page and select **Skip**.  You will be taken to the Overview page.
 1. From the Overview page of Microsoft Defender for Cloud, notice the information available on the page.  Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page there are cards representing Security posture, Regulatory compliance, Insights, and more.  Note: The Microsoft Defender for Cloud default policy initiative, which would normally have to be assigned by the admin, has already been assigned  as part of the Azure subscription setup. The secure score, however, will show as 0% because there can be up to a 24 hour delay for Azure to reflect an initial score.
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
@@ -50,13 +50,16 @@ In this demo task you will do a very high-level walk-through of some of the capa
     1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
     1. Keep the Microsoft Defender for Cloud overview page open, you will use in the next task.
 
-1. Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features which are available through the Microsoft Defender for Cloud plans. In this task you discover how to enable/disable the various Microsoft Defender for Cloud plans.
-    1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
-    1. Select  the **Expand all** box then select the subscription listed next to the yellow key icon.
-    1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. Leave the settings as they are.
-    1. Close all the open browser tabs.
+### Demo Task 2
 
-1. Return to the home page of the Azure portal by selecting **Home** on the top-left corner of the page.  Keep this browser tab available, as you will come back to it in a later demo.
+Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features which are available through the Microsoft Defender for Cloud plans. In this task you discover how to enable/disable the various Microsoft Defender for Cloud plans.
+
+1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
+1. Select  the **Expand all** box then select the **MOC Subscription--lodXXXXXXXX** subscription listed next to the yellow key icon.
+1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
+    1. Verify that CSPM status is set to **On**, if not, set it now.  
+    1. Enable the plan for Servers.  Select **On** for the Servers line item, then select **Save** from the top of the page.
+1. Close all the open browser tabs.
 
 ## Review
 

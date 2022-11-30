@@ -62,7 +62,7 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the top of the page, select **Solutions**. On this page you will see how solutions contribute to your score and their remaining opportunity for improvement.
 
-1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.
+1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline for Microsoft 365.  This is a default baseline assessment Microsoft provides in Compliance Manager for Microsoft 365.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.
 
 1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view information on the Controls, , your improvement actions, and Microsoft actions.  
 

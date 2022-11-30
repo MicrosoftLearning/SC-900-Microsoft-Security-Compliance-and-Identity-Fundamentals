@@ -32,7 +32,7 @@ In this part you will walk the learner through the different types of content av
 
 1. Note the description on the top of the page and available applicable documents.  Select the **ellipsis** under the More Options header for first document on the list.  Note the different options.
 
-1. Select **Save to Library**.  A window will pop-up, asking you want to receive notifications. Select **Yes**.
+1. Select **Save to Library**.  A window will pop-up asking if you want to subscribe to this document.  Select **Yes**. A window will pop-up for notification settings, note the different settings. Select **Save**.
 
 1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**.  For any document on the My Library page, select the ellipsis to view the available options.
 
