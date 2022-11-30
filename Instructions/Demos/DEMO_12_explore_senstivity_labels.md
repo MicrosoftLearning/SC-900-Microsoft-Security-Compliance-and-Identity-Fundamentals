@@ -37,9 +37,9 @@ In this demo you show the settings for an existing sensitivity label and the cor
 
 1. In the left navigation panel, under solutions, select **Information protection**.
 
-1. From the overview page, note the yellow information box indicates that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. From the overview page, note the yellow information box indicates that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.  Also review the information available on this overview page.
 
-1. Verify that the **Labels** tab on the top of the page is selected (underlined).
+1. Select the **Labels** tab from the top of the page.
 
 1. In the middle of the page, notice how there are three labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select **Edit Label** at the top of the page to view some of the basic configuration settings.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
@@ -53,7 +53,7 @@ In this demo you show the settings for an existing sensitivity label and the cor
 
 1. From the top of the Information protection page, select **Label policies**.  It is through label policies that sensitivity labels can be published.  
 
-1. In this case, select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this is the default sensitivity label policy for all users and groups. This policy serves to publish all the labels listed in labels tab and is published to all.  
+1. In this case, select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this is the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels listed in labels tab and is published to all.  
 
 1. Select **Edit** policy from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
@@ -75,9 +75,9 @@ In this demo you show the settings for an existing sensitivity label and the cor
 
 In this step, you will show the process of applying a label from the perspective of the user (in this case the user is the admin).  For the purpose of viewing the impact of applying the label, you will select the Confidential - Finance label because this label applies a watermark.
 
-1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Word icon** and select **Open in new tab**.  
+1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. Select the **Word icon**.  
 
-1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
+1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press the **Enter** key on your keyboard.
 
 1. From the top menu bar, select **Sensitivity icon** (the icon to the right of the microphone icon), if you don't immediately see this option, refresh the page. From the drop down select **Confidential - Finance**.  
 1. 
@@ -91,7 +91,7 @@ In this step, you will show the process of applying a label from the perspective
 
 Recall from the first part of the demo, that the Confidential - Finance label is setup for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you will send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (ie., a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
 
-1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Outlook icon** and select **Open in new tab**.
+1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. Select the **Outlook icon**
 
 1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
 

@@ -18,22 +18,18 @@ This lab maps to the following Learn content:
 
 In this lab, you will explore the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
-**Estimated Time**: 15-20 minutes
+**Estimated Time**: 30-45 minutes
 
 ### Task 1
 
 Explore the Microsoft Purview compliance portal home page and learn to customize the card view and the navigation panel.
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
 1. Sign in with your admin credentials.
     1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
-
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
-
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 1. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, and more.
 1. From the main window, scroll down to view the different cards. The cards available on the home screen and the position of the cards can be changed to accommodate each administrator’s preference.  
@@ -50,7 +46,7 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
 
-1. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, your points achieved, and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
+1. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, your points achieved, and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories.
 
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score. Note that as improvement actions are taken, points may take up to 24 hours to update.  Notice the available filters.
 
@@ -60,13 +56,13 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the top of the page, select **Solutions**. On this page you will see how solutions contribute to your score and their remaining opportunity for improvement.
 
-1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.
+1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline for Microsoft 365.  This is a default baseline assessment Microsoft provides in Compliance Manager for Microsoft 365.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.
 
-1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view information on the Controls, , your improvement actions, and Microsoft actions.  
+1. Select **Data Protection Baseline**.  On the left side of the page is the overview that includes details and about information.  Expand on **About** and review the description about the Microsoft 35 data protection baseline.  On the right side of the page, notice the information available on the progress tab and for the improvement actions. On the top of the page are tabs you can select view more detailed information on the Controls, your improvement actions, and Microsoft actions. Explore these at will. 
 
-1. From the top left of the page, above where it says Assessments (the breadcrumb), select **Assessment** to return to the assessments page.  
+1. From the top left of the page, above where it says Data Protection Baseline for Microsoft 365 (the breadcrumb), select **Assessment** to return to the assessments tab in Compliance manager.  
 
-1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can create assessments for your organization by using an existing template or you can create a new template.
+1. From the top of the page, select **Assessment templates**.  This page lists available templates and is organized by Included templates and Premium templates (you may need to scroll down and/or expand the list to view them).  You can create assessments for your organization by using an existing template or you can create a new template.
     1. From the included templates list, select any template. From the top right of the page, select **+ Create assessment**.  Here you can see the few simple steps and pieces of information needed to create an assessment from an existing template - identify the product for the assessment, name the assessment, and assign it to a group.  Select Cancel from the bottom of the page.
 
 1. Close all the open browser tabs.
@@ -74,4 +70,3 @@ Learn about your organization’s compliance posture through Compliance Manager.
 ### Review
 
 In this lab you explored the Microsoft Purview compliance portal home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
-

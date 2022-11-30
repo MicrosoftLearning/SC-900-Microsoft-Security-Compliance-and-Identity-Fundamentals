@@ -66,12 +66,25 @@ In this task you will see the impact of the Azure policy assignment, by attempti
 
 1. Leave the Region setting to the default, then select **Next: Tags**.
 
-1. Leave the tag Name and Value field empty.  DO NOT POPULATE, then select **Review + create**. You will see the validation failed and a failure icon (an x in a red circle) next to the tags tab.
+1. Leave the tag Name and Value field empty.  DO NOT POPULATE, then select **Review + create**.
 
-1. From the top of the page, select the **Tags** tab.  Note the error message in red text, regarding Policy enforcement. The condition that is part of the Azure policy was not satisfied so the resource group validation and creation is blocked, for non-compliance.  In the Name field enter **Environment** and in the Value field, enter **Labs** (this value could be anything, the policy simply requires a tag value), then select **Next: Review + Create >** then select **Create**.
-    1. Call out to the learners that if there had been a resource group created prior to the policy, then that resource group would now show up as non-compliant against this policy assignment and it would need to be remediated, by applying the Environment tag.
+1. You will see a validate passed (the tag name and value are not required fields in the wizard), then select **Create**.
+
+1. You will see a failure message on the top of the screen, “Failed to create the resource group. Select **View error details**”. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you will see that the resource is not compliant.  The details page will include the non-compliance message.
+
+1. The error summary shows the error type, “Resource ‘SC900-Labs’ was disallowed by policy.  Close this window by selecting the **X** on the top left corner of the screen.
+
+1. From the Create a resource group window, select **Previous**.
+
+1. You are back in the Tags page for Create a resource group.  In the Name field enter Environment and in the Value field, enter **SC900-Labs**, then select **Next: Review + Create >**.
+
+1. Verify the tag and select **Create**.
+
+1. In the Name field enter **Environment** and in the Value field, enter **Labs** (this value could be anything, the policy simply requires a tag value), then select **Next: Review + Create >** then select **Create**.
 
 1. You will see the resource group listed.  
+
+1. Call out to the learners that if there had been a resource group created prior to the policy, then that resource group would now show up as non-compliant against this policy assignment and it would need to be remediated, by applying the Environment tag.  There is a pre-existing resources group, ResourceGroup1, that is non-compliant and can be remediated, but the time for the status to update, after remediation, is longer than normal for the lab environment.
 
 ### Review
 

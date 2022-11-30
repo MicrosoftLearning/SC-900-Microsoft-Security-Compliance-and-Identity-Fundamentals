@@ -38,7 +38,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. From the left navigation pane, select **Permissions**.
 
-1. From the Permissions & roles page, under Compliance portal, select **Roles**.
+1. From the Permissions & roles page, under Microsoft Purview solutions, select **Roles**.
 
 1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
@@ -50,7 +50,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. From the list of names, select **MOD Administrator** and **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
-1. Verify the added members is correct then select **Save**.
+1. Verify the added members are correct then select **Save**.
 
 1. From the bottom of the eDiscovery window, select **Close**.
 
@@ -84,13 +84,15 @@ Now that you have created an eDiscovery (Standard) case, you can begin to work w
 
 1. From the Home page of the case, select the **Hold** tab then select **+Create**.
 
-1. In the name field, enter **Test hold** then select Next.
+1. In the name field, enter **Test hold** then select **Next**.
 
-1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**, select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, then select Choose, then select **Done**.
+1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**.  
+
+1. Now select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, then select **Done**.
 
 1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
 
-1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+Conditions** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+ Add condition** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
 
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
 
@@ -98,7 +100,7 @@ Now that you have created an eDiscovery (Standard) case, you can begin to work w
 
 ### Task 4
 
-With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
+With a hold in place, you will create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview compliance portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
 
 1. Open the SC900 Test Case tab on your browser.
 
@@ -116,7 +118,7 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
-1. From the bottom of the page, select **Actions**.  Note the available options including, which include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
+1. From the bottom of the page, select **Actions**.  Note the available options which include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
 
 1. Close all the open browser tabs.
 
