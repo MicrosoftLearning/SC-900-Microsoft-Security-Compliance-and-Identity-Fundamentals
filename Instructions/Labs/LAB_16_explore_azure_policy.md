@@ -22,16 +22,16 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 ### Task 1
 
-In this task you will create a basic policy assignment to require a tag on a resource groups.
-1.  Open Microsoft Edge. In the address bar enter **portal.azure.com**.
+In this task you will create a basic policy assignment to require a tag on a resource group.
+1.  Open Microsoft Edge. In the address bar, enter **portal.azure.com**.
 
 1. Sign in with admin credentials for your Azure subscription (these admin credentials are different than the Microsoft 365 admin credentials).
-    1. In the Sign in window enter **User1-XXXXXXXX@LODSPRODMSLEARNMCA.onmicrosoft.com** (where XXXXXXXX is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window, enter **User1-XXXXXXXX@LODSPRODMSLEARNMCA.onmicrosoft.com** (where XXXXXXXX is your unique tenant ID provided by your lab hosting provider) then select **Next**.
 
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    1. Enter the admin password provided by your lab hosting provider. Select **Sign in**.
     1. If prompted to stay signed-in, select **Yes**.
 
-1. You are now in the Azure Portal.  In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results. This opens the Policy home page which provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster (ALH). You will see a policy listed, this is a policy created by the ALH, for use of the Azure subscription.
+1. You are now in the Azure portal.  In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results. This opens the Policy home page that provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster (ALH). You will see a policy listed, this is a policy created by the ALH, for use of the Azure subscription.
 
 1. Form the left navigation panel, under Authoring, select **Assignments**.
 
@@ -73,9 +73,9 @@ In this task you will see the impact of the Azure policy assignment, by attempti
 
 1. Leave the tag Name and Value field empty.  DO NOT POPULATE, then select **Review + create**.
 
-1. You will see a validate passed (the tag name and value are not required fields in the wizard), then select **Create**.
+1. You will see a validation passed message (the tag name and value are not required fields in the wizard), then select **Create**.
 
-1. You will see a failure message on the top of the screen, “Failed to create the resource group. Select **View error details**”. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you will see that the resource is not compliant.  The details page will include the non-compliance message.
+1. You will see a failure message on the top of the screen, “Failed to create the resource group". Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you will see that the resource is not compliant.  The details page will include the non-compliance message.
 
 1. The error summary shows the error type, “Resource ‘SC900-Labs’ was disallowed by policy.  Close this window by selecting the **X** on the top left corner of the screen.
 
@@ -95,13 +95,13 @@ In this task you will see the impact of the Azure policy assignment, by attempti
 
 ### Task 3 (Optional)
 
-In this task, you will walk-through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
+In this task, you will walk through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
 
-1. From the Azure home page, select **policy**. This opens the Policy home page which provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster.  
+1. From the Azure home page, select **policy**. This opens the Policy home page that provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster.  
 
 1. You should see the policy you created earlier, select it.
 
-1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Note that the policy shows as non-compliant.  Select the policy for more information on why the policy is non-compliant. Here you can see that a resource listed as resourgegroup1 is non-compliant.  This is an example of a resource group that was created, previous to the creation of the policy. Select **Details** for more information.  Here you can see the compliance message, An environment tag is required.  Select the **X** on the top right to close the window.
+1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Note that the policy shows as non-compliant.  Select the policy for more information on why the policy is non-compliant. Here you can see that a resource listed as resourgegroup1 is non-compliant.  This is an example of a resource group that was created, previous to the creation of the policy. Select **Details** for more information.  Here you can see the compliance message that an environment tag is required.  Select the **X** on the top right to close the window.
 
 1. Select **resourcegroup1** then from the top of the page, select **View Resource**.
     1. Next to where it says Tags, select **edit**

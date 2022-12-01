@@ -16,76 +16,77 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo, you will explore the function of network security groups in Azure. You will show the default inbound and outbound rules, create new rules, and test those rules. Note: The VM you will use with the NSG is already created for you by the authorized lab hoster (ALH).
+In this demo, you will explore the function of network security groups in Azure and apply an NSG to a pre-created virtual machine. You will start by briefly showing information about the VM that was pre-created by the authorized lab hoster (ALH). You will then show the process of creating the NSG, show the default inbound and outbound rules, create a new RDP rule to allow connection to the VM, and test it.
 
-### Pre-Demo setup
+### Demo part 1
 
-Create a network security group, but do NOT assign the network interface of the preconfigured VM to that NSG.  
+In this pat you will view some of the parameters associated with the VM that that was created for use with this lab.
+
+1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
+
+1. Sign in with your admin credentials.
+    1. In the Sign in window enter the username provided by your lab hosting provider then select **Next**.
+    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    1. If prompted to stay signed- in, select **Yes**.
+
+1. On the top of the page, underneath where it says Azure Services, select **Virtual Machines**.  If you don't see it listed, then in the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Virtual Machines** then select **Virtual Machines** from the search results.
+
+1. From the Virtual machines page, select the VM listed **SC900-WinVM**.
+
+1. You are now in the SC900-WinVM page.  Note the name of the Resource group, LabsSC900, in which the VM resides.
+
+1. From the top of the page, select **Connect** then from the drop-down select **RDP**. Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You will do that in the next task, when you create a network security group.
+
+1. From the left navigation panel, select **Networking**.  
+    1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
+    1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+1. Leave this browser tab open.
+
+### Demo part 2
+
+In this part, you will create a network security group, assign the network interface of the VM to that NSG, and create a new inbound rule for RDP traffic.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **network security group** then select **Network security groups** from the search results.  Do not select Network security groups classic.
+1. In the blue search bar on the top of the page, enter **Network security groups** groups. From the results, select **Network security groups** (do not select Network security groups classic).
 
 1. From the top of Network security groups page, select **+ Create**.
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    1. Subscription:  leave the default.
-    1. Resource group:  **LabsSC900-RG**
+    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
+    1. Resource group:  **LabsSC900**
     1. Name:  **NSG-SC900**
     1. Region:  leave the default.
     1. Select **Review + create** then select **Create**.
 
-1. Once the deployment is complete, select **Go to resource** and ensure everything is correct.  There should be 3 default inbound,  3 default outbound rules, and no subnets and no interfaces associated with the NSG.  Go back to the **Home** page of the Azure portal.  
+1. Once the deployment is complete, select **Go to resource**.
 
-### Demo
-
-Walk through the settings for an NSG.  In this case you will do the walk-through for an existing NSG (the one you created it the above setup) that has not yet been assigned to a VM interface. You will then show the process of associating an interface to the NSG and the process for creating inbound and outbound rules.
-
-1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
-
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **network security group** then select **Network security groups** from the search results.  Do not select Network security groups classic.
-
-1. From the NSG page, select the NSG you created in the setup, **NSG-SC900**.
-
-1. The **Overview** tab in the left navigation panel is highlighted.  Notice the default inbound and outbound rules in the NSG. Although the NSG has been created and there are default rules to filter traffic, no interface has been associated with the NSG. You can see this in the top right of the page where it says "Associated with: 0 subnets, 0 network interfaces".  For an NSG to do its thing, it has to be assigned to something.  In our case we will assign to the network interface for the VM that was preconfigured.
+1. On the top of the page underneath where it says Essentials, you will see some basic information about the NSG you just created.  Two points to note are that there are no CUSTOM Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
+    1. Select **Associate**.
+    1. In the field for selecting network interface associations, select the **drown-down arrow**, select **sc900-winvmXXX**, then select **ok** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
 
-1. Select the **+ Associate**, above search box, then from the the drop-down select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM) then select **Ok**. As the interface is being associated you will see a notification box in the top right corner of the screen. Once the interface is associated to the NSG, it will show up on the list.
+1. From the left navigation pane, select **Inbound security rules**. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to setup a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
 
-1. Go back to the **Overview** tab.  Note that on the top right of the page you will see "Associated with: 0 subnets, 1 network interfaces" – the interface is now assigned to the NSG. Also, highlight to the learners the default rules. For inbound, only traffic from other Azure virtual networks and Azure load balancer will be allowed. All other inbound traffic to the VM will be denied. Also call out the default outbound rules.  Only outbound traffic to other vnets and outbound internet traffic is allowed.  As part of the demo, it is recommended that you take a minute to show that inbound traffic is denied.
-    1. In the search bar, on the top of the page, enter and select **Virtual Machines**.
-    1. From the Virtual Machines page, select **SC900-WinVM**.
-    1. From the top of the SC900-WinVM page, select **Connect** then select **RDP**.
-    1. Note that the port prerequisite is not met.  In order to allow to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  
-
-1. Now you will want to create a new rule to allow inbound RDP traffic.  Call out that you cannot delete the existing default rules, you can only create new ones with higher priority. From the left navigation panel, under Settings, select **Networking**.  You are in the networking page of the VM.
-1. Verify that the **Inbound port rules** tab is selected (underlined) then select **Add inbound port rule** to create the rule to allow inbound RDP traffic, with the following settings:
-    1. Source: **Any**
+1. From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
+    1. Source:  **Any**
     1. Source port ranges: **\***
-    1. Destination: **Any**
-    1. Service: **RDP**
-    1. Action: **Allow**
-    1. Priority: **300**; Note: rules with lower numbers have higher priority and are processed first. So the priority for this new rule needs to be higher than the priority for the existing rule that denys all inbound traffic.
-    1. Name: **AllowRDP**
+    1. Destination:  **Any**
+    1. Service:  **RDP**
+    1. Action:  **Allow**
+    1. Priority:  **1000**; Note: rules with lower numbers have higher priority and are processed first.
+    1. Name:  Leave the default name or create your own descriptive name.
+    1. Note the warning sign at the bottom of the page.  We are using RDP to only for testing purposes and to demonstrate the functionality of the NSG.
     1. Select **Add**
-    1. Once the rule is provisioned, it will appear on the list of inbound rules.
 
-1. Now select the **Outbound port rules** tab and review the default rules.  Select **Add outbound port rule** from the top of the page and speak to the various settings.  I recommend creating the rule – The settings below create a rule to deny outbound internet traffic:
-    1. Source: **Any**
-    1. Source port ranges: **\***
-    1. Destination: **Service Tag**
-    1. Destination service tag: **Internet**
-    1. Service: **Custom** (leave the default)
-    1. Destination port ranges: **\*** (be sure to put an asterisk in the destination port ranges field).
-    1. Protocol: **Any**
-    1. Action: **Deny**
-    1. Priority: **4000** (the point to call out is that the priority needs to be higher than priority for the existing rule that allows internet outbound traffic)
-    1. Name: **DenyInternet**
-    1. Select **Add**
-    1. Once the rule is provisioned, it will appear on the list of outbound rules.
+1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you will see a warning sign.  As stated above, we are using RDP to only for testing purposes and to demonstrate the functionality of the NSG.
 
-1. Now go back to your VM and test the rules.  From the top of the page, select **SC900-VM**.
+### Demo part 3
+
+With the NSG created and associated to your VM and the RDP rule created, you will show the impact of the NSG by testing RDP connectivity to the VM.
+
+1. Open the SC900-WinVM – Microsoft Azure Tab on your browser. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
 1. Test the inbound rule by verifying that you can connect to the VM using RDP.
     1. Select **Connect** from the left navigation panel.
@@ -95,13 +96,43 @@ Walk through the settings for an NSG.  In this case you will do the walk-through
     1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified. Do you wish to connect anyway? Select **Yes**.
     1. You are now connected to the VM. highlight to the learner that in this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.
 
-1. Now test the outbound NSG rule
-    1. Open the Edge browser in the VM.
-    1. Enter **www.bing.com**. The page should not display. Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect. Wait a few minutes and try again.
+1. Since you are already in the VM, you can show outbound internet connectivity to the Internet, which is enabled by one of the default outbound rules.
+    1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
+    1. Enter **www.bing.com** in the browser address bar and confirm you are able to connect to the search engine.
+    1. Once you have confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
-1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown. A pop-up windows indicates Your remote session will be disconnected. Select **Ok**.
+1. Minimize the VM, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM | Connect page.  
 
-1. Return to the Home page of the Azure portal, by selecting **Microsoft Azure** on the blue bar on the top of the page.  
+### OPTIONAL Demo part 4
+
+If classroom time permits, you may want to create an outbound NSG rule to block outbound internet traffic from the VM.
+
+1. From the left navigation panel, select **Networking**. You should be on the SC900-WinVM | Networking page.
+
+1. Select the **Outbound port rules** tab.  You will see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.
+
+1. On the Add outbound security rule page, specify the following settings:
+    1. Source:  **Any**
+    1. Source port ranges:  **\***
+    1. Destination:  **Service Tag**
+    1. Destination service tag:  **Internet**
+    1. Service:  **Custom** (leave the default)
+    1. Destination port ranges:  * (be sure to put an asterisk in the destination port ranges field)
+    1. Protocol: **Any**
+    1. Action: **Deny**
+    1. Priority:  **1000**
+    1. Name:  Leave the default name or create your own descriptive name.
+    1. Select **Add**
+
+1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
+
+1. Return to your VM (the icon for the VM should be shown on the task bar on the bottom of the page).
+
+1. Open the Edge browser in your VM and enter **www.bing.com**. The page should not display.  Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.  Note:  Azure subscriptions in the lab environment may experience longer than normal delays.
+
+1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
+
+1. Close all the open browser tabs.
 
 1. As a general best practice it is beneficial to stop or tear-down the VM to avoid incurring cost, if it is being used only for demo or test purposes. In this case, however, do NOT tear-down the VM, as it will help feed cloud security posture management data when demoing Microsoft Defender for Cloud.  The VM will be torn down when the lab is cancelled.
 

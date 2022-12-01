@@ -37,15 +37,13 @@ Create a Microsoft Sentinel instance
 1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription: In most cases the Azure subscription provided by the Authorized Lab Hoster (ALH) should be pre-populated, by default.  If not, please consult your instructor or learning partner.
+    1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
     1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (A different default region may be selected based on your location)
     1. Select **Review + Create** (no tags will be configured).
-
-1. Verify the information you entered then select **Create**.
-
-1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
+    1. Verify the information you entered then select **Create**.
+    1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
 
@@ -63,7 +61,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the Access control page, select **View my access**.  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-    1. From the Access control page, select the **Roles** tab on the top of the page/
+1. From the Access control page, select the **Roles** tab on the top of the page/
     1. In the search box, enter **Microsoft Sentinel** to view the built-in roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
     1. Close the window by select the **X** on the top-right corner of the window.
@@ -87,10 +85,13 @@ The purpose of this task is to walk you through the steps involved in setting up
 1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
 1. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
-    1. From the configuration section, select the empty box next to the listed subscription, **MOC Subscription--lodXXXXXXXX** so that a checkmark appears then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
+    1. From the configuration section, select the empty box next to the listed subscription, **MOC Subscription--lodXXXXXXXX** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
     1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
     1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
     1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
+    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
+    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
+    1. From the top of the workbook page, select the **Save icon**.
     1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
 
 1. Keep this page open, as you will use it in the next task.
@@ -109,7 +110,7 @@ In this task you will walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.  Select **ASC Compliance and Protection** then from the window that opens on the right side of the screen, select **View saved workbook**.  NOTE: Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
+1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
 
 1. Close the window by select the **X** on the top-right corner of the window.
 
