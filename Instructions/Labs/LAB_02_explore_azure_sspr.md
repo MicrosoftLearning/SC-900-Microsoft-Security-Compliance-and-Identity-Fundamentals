@@ -16,19 +16,19 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, will be able to view audit logs and usage data & insights for SSPR.
+In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you'll then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, will be able to view audit logs and usage data & insights for SSPR.
 
 **Estimated Time**: 15-20 minutes
 
 ### Task 1
 
-In this task you, as the admin, will add an existing user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will also need to do a reset of the user’s password so that you can do a first-time login, as the user, and register for SSPR.
+In this task you, as the admin, will add an existing user, Adele Vance, into the SSPRSecurityUsers group.  Also, you'll also need to do a reset of the user’s password so that you can do a first-time sign-in, as the user, and register for SSPR.
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **portal.azure.com** and sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+2. In the address bar, enter **portal.azure.com** and sign in with your admin credentials.
+    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
 3. Select **Azure Active Directory**.  
@@ -47,13 +47,13 @@ In this task you, as the admin, will add an existing user, Adele Vance, into the
 
 10. Return to the Active Directory page, by selecting **Contoso** from the top left corner of the screen, just above where it says Groups, to return to the Contoso Azure Active Directory page.
 
-11. From the left navigation panel select **Users**.
+11. From the left navigation panel, select **Users**.
 
 12. Select **Adele Vance** from the list of users.
 
-13. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
+13. Select **Reset password** from the top of the page. Since you haven't previously signed in as Adele Vance, you'll need to reset the password
 
-14. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+14. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you'll need it in a subsequent task, to be able to sign in as the user.
 
 15. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -61,7 +61,7 @@ In this task you, as the admin, will add an existing user, Adele Vance, into the
 
 17. Close the Users window by selecting the **X** at the top right corner of the page.
 
-18. Keep the  Contoso Overview window open as you will use it in the subsequent task.
+18. Keep the  Contoso Overview window open as you'll use it in the subsequent task.
 
 ### Task 2
 
@@ -71,7 +71,7 @@ In this task you, as the admin, will learn how to configure Password reset for u
 
 1. From the left navigation pane, select **Password reset**.  
 
-1. The properties for self service password reset are displayed.  Ensure that **Self service reset** is **selected** for the group which is listed, the **SSPRSecurityGroupUsers**.  Put your cursor over the information icon next to where it says "select group" and note what is says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
+1. The properties for self service password reset are displayed.  Ensure that **Self service reset** is **selected** for the group that is listed, the **SSPRSecurityGroupUsers**.  Put your cursor over the information icon next to where it says "select group" and note that it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it's recommended that you add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
 1. From the left navigation panel of Password reset, select **Authentication Methods**.
 
@@ -81,7 +81,7 @@ In this task you, as the admin, will learn how to configure Password reset for u
 
 1. From the left navigation panel of Password reset, select **Registration**.  
 
-1. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 180.   Take note of the information box on the page.
+1. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to reconfirm their authentication information, to the default of 180.   Take note of the information box on the page.
 
 1. From the left navigation panel of Password reset, select **Notifications**.  
 
@@ -97,24 +97,24 @@ In this task you, as user Adele Vance, will go through the registration process 
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **login.microsoftonline.com**.
+2. In the address bar, enter **login.microsoftonline.com**.
 
 3. Sign in as Adele Vance,
-    1. In the Sign in window enter **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign-in window, enter **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
-4. Since this is your first sign in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
+4. Since this is your first sign-in as Adele Vance, you'll be prompted to reset your password.  Enter your old password.  For your new password, enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we're using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
 
 5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
-6. The “Keep your account secure” page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next button**.  A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.  
+6. The “Keep your account secure” page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You're prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next button**.  A new window opens indicating a code was sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.  
 
-7. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
+7. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
-8. You can now complete your sign in.  You should be on the azure portal landing page.  If you see that your sign in time has expired, just reenter the password, SC900-Lab.
+8. You can now complete your sign-in.  You should be on the Azure portal landing page.  If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
-9. Sign-out of the Azure portal and close your browser window.
+9. Sign out of the Azure portal and close your browser window.
 
 ### Task 4 (Optional)
 
@@ -122,7 +122,7 @@ In this task you, as user Adele Vance, will go through the process of resetting 
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **login.microsoftonline.com**.
+2. In the address bar, enter **login.microsoftonline.com**.
 
 3. Sign in as Adele Vance, by entering your email **AdeleV@WWLxZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
@@ -130,17 +130,17 @@ In this task you, as user Adele Vance, will go through the process of resetting 
 
 5. The Get back into your account window opens.   Verify that the email for Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, is shown in the email or username box.  If not, enter it.  
 
-6. In the empty box, enter the characters displayed in image or the words from the audio. Once you have entered them, select **Next**.
+6. In the empty box, enter the characters displayed in image or the words from the audio. Once you've entered them, select **Next**.
 
-7. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.  If, during the registration you selected email, the Get back into your account window will indicate You will receive an email containing a verification code at your alternate email address.  Select **Email**.
+7. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You're prompted to enter your mobile phone number.  Once you've entered it, select the **Text button**.  If during the registration you selected email, the Get back into your account window will that indicate you'll receive an email containing a verification code at your alternate email address.  Select **Email**.
 
 8. Enter the verification code then press **Next**.
 
-9. In the next screen you are prompted to enter new password and confirm new password.  Enter those now and select the **Finish** button.
+9. In the next screen, you're prompted to enter new password and confirm new password.  Enter those now and select the **Finish** button.
 
-10. You will see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
+10. You'll see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
 
-11. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
+11. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you're prompted to Stay signed in. select **No**.
 
 12. You should now be in the Azure portal.
 
@@ -152,11 +152,11 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **portal.azure.com**
+2. In the address bar, enter **portal.azure.com**
 
 3. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
 4. Select **Azure Active Directory**.  
@@ -177,4 +177,4 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 ### Review
 
-In this lab, you, as an admin, went through the process of enabling self-service password reset. With SSPR enabled, you will then assumed the role of a user to go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.
+In this lab, you, as an admin, went through the process of enabling self-service password reset. With SSPR enabled, you'll then assume the role of a user to go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.

@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab you will walk through the process of creating an Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources, setup a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
+, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
 
 **Estimated Time**: 45-60 minutes
 
@@ -24,10 +24,10 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 Create a Microsoft Sentinel instance
 
-1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
+1. Open Microsoft Edge. In the address bar, enter **portal.azure.com**.
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter the username provided by your lab hosting provider then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
+    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
 1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
@@ -47,11 +47,11 @@ Create a Microsoft Sentinel instance
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
 
-1. Keep this page open, as you will use it in the next task.
+1. Keep this page open, as you'll use it in the next task.
 
 ### Task 2
 
-With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions.  In this task, you will view the available, built-in Microsoft Sentinel roles.
+With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions.  In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
 1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
 
@@ -64,9 +64,9 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 1. From the Access control page, select the **Roles** tab on the top of the page/
     1. In the search box, enter **Microsoft Sentinel** to view the built-in roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
-    1. Close the window by select the **X** on the top-right corner of the window.
+    1. Close the window by selecting the **X** on the top-right corner of the window.
 
-1. From the access control page, close the window by select the **X** on the top-right corner of the window.
+1. From the access control page, close the window by selecting the **X** on the top-right corner of the window.
 
 ### Task 3
 
@@ -94,11 +94,11 @@ The purpose of this task is to walk you through the steps involved in setting up
     1. From the top of the workbook page, select the **Save icon**.
     1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
 
-1. Keep this page open, as you will use it in the next task.
+1. Keep this page open, as you'll use it in the next task.
 
 ### Task 4
 
-In this task you will walk through some of the options available in Sentinel.
+In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
 
@@ -112,7 +112,7 @@ In this task you will walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
 
-1. Close the window by select the **X** on the top-right corner of the window.
+1. Close the window by selecting the **X** on the top-right corner of the window.
 
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
@@ -120,4 +120,4 @@ In this task you will walk through some of the options available in Sentinel.
 
 ### Review
 
-In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you setup a workbook, and walked several options available in Microsoft Sentinel.
+In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
