@@ -104,6 +104,7 @@ In this task you, as user Adele Vance, will go through the registration process 
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
+
 4. Since this is your first sign-in as Adele Vance, you'll be prompted to reset your password.  Enter your old password.  For your new password, enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we're using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
 
 5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
@@ -142,7 +143,7 @@ In this task you, as user Adele Vance, will go through the process of resetting 
 
 11. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you're prompted to Stay signed in. select **No**.
 
-12. You should now be in the Azure portal.
+12. You should now be in the Office portal.
 
 13. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
@@ -161,7 +162,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 4. Select **Azure Active Directory**.  
 
-5. From the left navigation pane, select **Password rest**.
+5. From the left navigation pane, select **Password reset**.
 
 6. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 
