@@ -90,15 +90,15 @@ In this task, you'll go through the process of creating a conditional access pol
 
 ### Task 3
 
-In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy.  Then you'll repeat the process for an application that is included in the conditional access policy.  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
+In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy (the Microsoft 365 portal at login.microsoftonline.com).  Then you'll repeat the process for an application that is included in the conditional access policy (the Azure portal at portal.azure.com).  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
 
-1. Sign in as Debra Burger. 
-    1. In the Sign-in window, enter **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+1. Open Microsoft Edge.  In the address bar, enter **login.microsoftonline.com**.
+    1. Sign in as **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of the MFA policy). Enter the current password, then for the new password enter **SC900-Lab**, then enter **SC900** again to confirm the password.
     1. When prompted to stay signed- in, select **Yes**.  You should be successfully logged in to your Microsoft 365 account. MFA was not required for this application as it is not part of the policy.
 
-1. Now you'll attempt to sign in to an application that meets the criteria for MFA. Open a new tab in portal.Microsoft Microsoft Edge and in the address bar, enter **portal.azure.com**.
+1. Now you'll attempt to sign in to an application that meets the criteria for MFA. Open a new browser tab and enter **portal.azure.com**.
 
 1. You'll see a window indicating, More information required.  Select **Next**.  Note, this will initiate the MFA registration process, as this is the first time you're accessing the cloud app that that was identified in the conditional access policy.  This registration process is required only once.   An alternative to having the user go through the registration process is to have the admin configure the authentication method to use.
 
