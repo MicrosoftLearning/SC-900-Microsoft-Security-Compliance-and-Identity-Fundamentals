@@ -44,7 +44,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
 1. From the left navigation panel, select **Recommendations**.  (Note that this is equivalent to having selected Active recommendations from the top of the Microsoft Defender for Cloud overview page).
     1. Verify,the **All recommendations** tab is selected (underlined).  Note the dashboard view that shows Active recommendations by severity, Resource health, and more.
-    1. Note that some items show up as unhealthy resources, as depicted by the red bar on the right of the line item.  From the list, select **Microsoft Defender for Resource Manager should be enabled**.  In the page that opens, you'll see a description, Remediation steps, and affected resources. Exit out this page, by selecting the **X** on top-right corner of the screen.
+    1. Note that some items show up as unhealthy resources, as depicted by the red bar on the right of the line item.  From the list, select any unhealthy resource.  In the page that opens, you'll see a description, Remediation steps, and affected resources. Exit out this page, by selecting the **X** on top-right corner of the screen.
     1. Exit the recommendations page by selecting the **X** on top-right corner of the screen, to return to the overview page.
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft cloud security benchmark (verify that Microsoft cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
