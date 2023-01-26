@@ -88,7 +88,7 @@ In this task, you'll go through the process of applying a label from the perspec
 
 1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press **Enter** on your keyboard.
 
-1. From the top menu bar, select **Sensitivity icon** (the icon to the right of the microphone icon), if you don't immediately see this option, refresh the page. From the drop-down, select **Confidential - Finance**.  
+1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipses then select sensivity). From the drop-down, select **Confidential - Finance**.  NOTE: if you don't immediately see the Sensitivity option, refresh the page, but because this is a lab tenant environment you  may encounter longer than normal delays (10-15 minutes).
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
