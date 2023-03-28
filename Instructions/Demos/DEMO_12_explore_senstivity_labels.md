@@ -35,13 +35,13 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Show all**.
 
-1. In the left navigation panel, under solutions, select **Information protection**.
+1. In the left navigation panel, under solutions, expand **Information protection** then select **Overview**.
 
 1. From the overview page, note the yellow information box indicates that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.  Also review the information available on this overview page.
 
-1. Select the **Labels** tab from the top of the page.
+1. From the left navigation panel, select the **Labels** tab from the top of the page.
 
-1. In the middle of the page, notice how there are three labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select **Edit Label** at the top of the page to view some of the basic configuration settings.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select **Edit Label** at the top of the page to view some of the basic configuration settings.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Note the scope for this label.  The scope is set to Files & emails to which you can configure Encryption and content marking settings to protect labeled emails and office files.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. For the selected scope, Files & emails, you can configure to encrypt and/or mark the content.  Note how the protection settings for files and emails are set for both encryption and marking the content of files.  Review the definition of each.  Don’t change anything.  Select **Next** at the bottom of the page.
@@ -51,19 +51,21 @@ In this demo, you show the settings for an existing sensitivity label and the co
     1. This next window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
     1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This feature is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page.
 
-1. From the top of the Information protection page, select **Label policies**.  It is through label policies that sensitivity labels can be published.  
+1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
-1. In this case, select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this is the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels listed in labels tab and is published to all.  
+1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
 
 1. Select **Edit** policy from the top of the window.
-    1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. The next page is a preview for Assigning admin  units. Select **Next**.
     1. Read the description under “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the policy settings.  Select **Require users to apply a label to their emails and documents**.  Select **Next** on the bottom of the page.
-    1. Read description under, "the Apply a default label to documents."  Notice there's no default label. In the Default label field, select the down arrow then select **General/All Employees (unrestricted)**.  Select **Next** on the bottom of the page.
-    1. Read description under, Apply a default label to emails." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Review the policy settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "Apply a default label to emails." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under, "Default settings for meetings and calendar events." Don’t change any settings.  Select **Next** on the bottom of the page.
     1. Read description under, "Apply a default label to Power BI content." Don’t change any settings.  Select **Next** on the bottom of the page.
     1. The last configuration option is to name your policy.  Since you're editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
-    1. Review the policy settings then select **Submit**, then select **Done** to return to the Information protection page.
+    1. Review the policy settings. Since nothing was changed select **Cancel** to return to the Label policies page.
 
 1. From the Information protection page, select Auto-labeling.  Note there's no auto-labeling policy configured.  Don’t change any settings.  If you're wondering why there's no policy here, given that the label configuration is set to auto-labeling for files and emails, go back to the steps where you walked through the label configuration settings and review the description and information boxes associated Auto-labeling for files and emails.  Hint:  In the auto labeling tab for the sensitivity lab, it says.  "To automatically apply this label to files that are already saved (in SharePoint and OneDrive) or emails that are already processed by Exchange, you must create an auto-labeling policy."
 
