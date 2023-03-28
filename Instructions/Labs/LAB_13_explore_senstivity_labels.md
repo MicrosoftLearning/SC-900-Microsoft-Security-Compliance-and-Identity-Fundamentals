@@ -42,7 +42,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. From the left navigation panel, select the **Labels**.
 
-1. In the middle of the page, notice how there are labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select **Edit Label** at the top of the page to view some of the basic configuration settings.  As you go through and view the various settings do NOT change anything.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select **Edit Label** at the top of the page to view some of the basic configuration settings.  As you go through and view the various settings do NOT change anything.
     1. Configuration starts with setting the name and creating a tooltip for your label.  Here you provide a name, description, and a label color.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Now you define the scope for this label.  The scope is set to **Items**.  Read the description but don’t change anything.  Select **Next** at the bottom of the page.
     1. Now you choose protection settings for labeled items." Included on this page are the options to encrypt and/or mark the content.  Note how the protection settings for files and emails are set for both encryption and marking the content of files.  Review the definition of each.  Don’t change anything.  Select **Next** at the bottom of the page.
@@ -52,12 +52,12 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
     1. This next window defines protection settings for groups and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
     1. This next window is a preview feature for Auto-labeling for schematized data assets. Read the description.  This feature is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Labels page.
 
-1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  
+1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
-1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this is the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
+1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
 
 1. Select **Edit** policy from the top of the window.
-    1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. The next page is a preview for Assigning admin  units. Select **Next**.
     1. Read the description under “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. Review the policy settings.  Select **Next** on the bottom of the page.
