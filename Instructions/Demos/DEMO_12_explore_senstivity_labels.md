@@ -53,7 +53,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
-1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
+1. In this case, Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
 
 1. Select **Edit** policy from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
@@ -81,7 +81,7 @@ In this step, you'll show the process of applying a label from the perspective o
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press the **Enter** key on your keyboard.
 
-1. From the top menu bar, select **Sensitivity icon** (the icon to the right of the microphone icon), if you don't immediately see this option, refresh the page. From the drop-down, select **Confidential - Finance**.  
+1. From the top menu bar, select **Sensitivity icon** (the icon to the right of the microphone icon), if you don't immediately see this option, refresh the page. From the drop-down, select **Confidential - Finance**.   NOTE: if you don't immediately see the Sensitivity option, refresh the page, but because this is a lab tenant environment you  may encounter longer than normal delays (10-15 minutes).
 1. 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
