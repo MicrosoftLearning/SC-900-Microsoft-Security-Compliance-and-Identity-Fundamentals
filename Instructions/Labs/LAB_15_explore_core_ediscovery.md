@@ -36,23 +36,16 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
-1. From the left navigation pane, select **Permissions**.
+1. From the left navigation pane, expand (select the down arrow) **Roles & Scopes** then select **Permissions**.
 
-1. From the Permissions & roles page, under Microsoft Purview solutions, select **Roles**.
+1. Under Microsoft Purview solutions, select **Roles**.
 
 1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
-1. In the window that opens, notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab, we'll add members to the eDiscovery Administrator subgroup. Select **Edit**, next to eDiscovery Administrator.  As a general best practice, users should be assigned the least privilege required for their role.
-
-1. To add members to this role group, make sure you are in the  **Choose eDiscovery Administrator** tab then select **Choose eDiscovery Administrator**.
-
-1. Select **+ Add** from the top of the page.
-
-1. From the list of names, select **MOD Administrator** and **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
-
-1. Verify the added members are correct then select **Save**.
-
-1. From the bottom of the eDiscovery window, select **Close**.
+1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
+    1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this lab, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
+    1. On the "Manage eDiscovery Administrator" page select **Choose users** . Search for and select **MOD Administrator** and **Megan Bowen** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
+    1. On the "You successfully updated the role group" page, select **Done**.
 
 1. Keep this browser tab open, as you'll use it in the next task.
 
