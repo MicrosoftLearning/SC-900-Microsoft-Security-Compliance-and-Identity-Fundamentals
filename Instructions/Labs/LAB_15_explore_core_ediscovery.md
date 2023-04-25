@@ -44,7 +44,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
     1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this lab, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
-    1. On the "Manage eDiscovery Administrator" page select **Choose users** . Search for and select **MOD Administrator** and **Megan Bowen** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
+    1. On the "Manage eDiscovery Administrator" page, select **Choose users** . Search for and select **MOD Administrator** and **Megan Bowen** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
     1. On the "You successfully updated the role group" page, select **Done**.
 
 1. Keep this browser tab open, as you'll use it in the next task.
