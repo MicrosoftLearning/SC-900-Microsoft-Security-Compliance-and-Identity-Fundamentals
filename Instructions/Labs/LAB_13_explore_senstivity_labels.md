@@ -58,7 +58,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. Select **Edit** policy from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. The next page is a preview for Assigning admin units, review the description for admin units. The admin units is set to the full directory, don't change any settings. Select **Next**.  
+    1. The next page is a preview for Assigning admin units, review the description for admin units. The admin units are set to the full directory, don't change any settings. Select **Next**.  
     1. Read the description under “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. Review the policy settings.  Select **Next** on the bottom of the page.
     1. Read description under, "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
@@ -92,7 +92,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 ### Task 3 (optional)
 
-Recall from the first part of the demo, that the Confidential - Finance label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (ie., a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
+Recall from the first part of the demo, that the Confidential - Finance label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
 
 1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. Select the **Outlook icon**.
 
@@ -110,4 +110,4 @@ Recall from the first part of the demo, that the Confidential - Finance label is
 
 ### Review
 
-In this lab, you'll explore the capabilities of sensitivity labels.  You'll go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you'll see how to apply a label and the impact of that label, from the perspective of a user.
+In this lab, you'll explore the capabilities of sensitivity labels.  You'll go through the settings for existing sensitivity labels that have already been created and the corresponding policy to publish the label.   Then you'll see how to apply a label and the impact of that label, from the perspective of a user.
