@@ -100,7 +100,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure portal, to acces
 1. Sign in as Diego Siciliani.
     1. In the Sign-in window, enter **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
-    1. Since the password you entered was only a temporary password, you need to update now. Enter the current password.  For the new password and, confirm password fields enter **SC900-Lab**.
+    1. Since the password you entered was only a temporary password, you need to update now. Enter the current password, enter a new password, then confirm the new password.  Make note of this new password as you will need to complete the task.
     1. When prompted to stay signed- in, select **Yes**.
 
 1. You should be successfully logged in to the Azure portal.
@@ -111,7 +111,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure portal, to acces
 1. In the last column of the table, labeled action, select **Activate**.
 1. You'll see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
 1. You're notified that more information is required, select **Next**.
-1. Enter your password, **SC900-Lab**.
+1. Enter your password.
 1. From the bottom left of the Microsoft Authenticator window, select **I want to setup a different method**.
 1. You're prompted to Choose a different method.  Next to where it says Authenticator app, select the down arrow key.   Select **Phone** and then select **Confirm**.
 1. You're prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
