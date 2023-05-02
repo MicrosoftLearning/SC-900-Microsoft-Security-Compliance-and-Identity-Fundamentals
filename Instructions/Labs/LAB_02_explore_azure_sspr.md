@@ -105,7 +105,7 @@ In this task you, as user Adele Vance, will go through the registration process 
     1. When prompted to stay signed- in, select **Yes**
 
 
-4. Since this is your first sign-in as Adele Vance, you'll be prompted to reset your password.  Enter your old password.  For your new password, enter **SC900-Lab**. Enter **SC-900-Lab** in the confirm password field.  Select **Sign in**.  Note: we're using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
+4. Since this is your first sign-in as Adele Vance, you'll be prompted to reset your password.  Enter your old password.  Enter a new password and then confirm the new password. Select **Sign in**.
 
 5. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
@@ -113,7 +113,7 @@ In this task you, as user Adele Vance, will go through the registration process 
 
 7. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
-8. You can now complete your sign-in.  You should be on the Azure portal landing page.  If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
+8. You can now complete your sign-in.  You should be on the Azure portal landing page.  If you see that your sign-in time has expired, just reenter the password.
 
 9. Sign out of the Azure portal and close your browser window.
 

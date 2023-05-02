@@ -71,7 +71,7 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
     1. Select **Let me create the password**.
 
-    1. Initial password: **Naja8996**. When Sara signs-in for the first time, she'll be prompted to change her password.
+    1. Initial password: Enter a temporary password that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task. When Sara signs-in for the first time, she'll be prompted to change her password.
 
 1. Configure **Groups and roles**.
 
@@ -121,11 +121,11 @@ In this task, you'll sign in as Sara Perez, for the first time.
 
 3. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
 
-4. Enter the temporary password **Naja8996**.
+4. Enter the temporary password you set in the previous task.
 
-5. You are now prompted to Update your password. In the Current password field, enter **Naja8996**.
+5. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
 
-6. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
+6. In the New password field, enter a new password, confirm the password, then select **Sign in**.  
 
 7. You should now be successfully signed-in to Microsoft 365.
 

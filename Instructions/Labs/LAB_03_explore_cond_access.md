@@ -95,7 +95,7 @@ In this task you'll see the impact of the conditional access policy, from the pe
 1. Open Microsoft Edge.  In the address bar, enter **login.microsoftonline.com**.
     1. Sign in as **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
-    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of the MFA policy). Enter the current password, then for the new password enter **SC900-Lab**, then enter **SC900** again to confirm the password.
+    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of the MFA policy). Enter the current password, then enter a new password and then confirm the new password.  Make note of the new password as you will need it to complete the task.
     1. When prompted to stay signed- in, select **Yes**.  You should be successfully logged in to your Microsoft 365 account. MFA was not required for this application as it is not part of the policy.
 
 1. Now you'll attempt to sign in to an application that meets the criteria for MFA. Open a new browser tab and enter **portal.azure.com**.
@@ -107,7 +107,7 @@ In this task you'll see the impact of the conditional access policy, from the pe
 1. In the window that opens, ensure your country is selected then enter mobile phone number you wish to use.  Ensure that **Text me a code** is selected, then press **Next**.  You'll receive a text message on your phone with a code that you'll need to enter where it says enter code.  Enter the code you received, then press **Next**.  Once confirmed, the screen will display, "SMS verified. Your phone was registered successfully".  Select **Next**. then select **Done**.  this completes the one-time registration process.
 
 1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Azure Management application and therefore requires multi-factor authentication, per the conditional access policy that was created.  
-    1. If you get a message indicating that your sign-in timed out you, enter the password **SC900-Lab** and select **Sign in**. 
+    1. If you get a message indicating that your sign-in timed out you, enter the password and select **Sign in**.
     1. You'll see a window that requires you to verify your identity.  Select where it says Text =X XXXXXXX to receive a code on your mobile phone, enter the code and select **Verify**.
     1. If you're prompted to stay signed in, select **No**.
 
