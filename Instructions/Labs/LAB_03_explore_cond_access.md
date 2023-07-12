@@ -58,7 +58,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 3. From the left navigation panel, select **Conditional Access**.
 
-4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
+4. The Conditional Access Policies Overview screen is displayed. Note the summary information available, and then select **Policies** from the left navigation. Any existing Conditional Access Policies are listed here. Select **+ New policy**.
 
 5. In the Name field, enter **MFA Test Policy**.
 
