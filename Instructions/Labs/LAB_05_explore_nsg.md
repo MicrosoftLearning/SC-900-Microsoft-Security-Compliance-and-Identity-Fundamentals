@@ -69,7 +69,7 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
     1. Select **Associate**.
-    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **ok** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
+    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
 
 1. From the left navigation pane, select **Inbound security rules**.
 
