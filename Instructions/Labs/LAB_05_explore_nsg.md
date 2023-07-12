@@ -50,7 +50,9 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
-1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups** (do not select Network security groups classic).
+1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**.
+
+      **Note:** Do not select *Network security groups (classic)*.
 
 1. From the top of Network security groups page, select **+ Create**.
 
