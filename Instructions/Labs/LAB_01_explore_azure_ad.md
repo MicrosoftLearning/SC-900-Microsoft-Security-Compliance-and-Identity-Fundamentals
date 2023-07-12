@@ -33,7 +33,7 @@ As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, y
     1. When prompted to stay signed- in, select **Yes**.
     1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the Overview page of the Microsoft Entra ID (Azure AD) in the Microsoft Entra admin center. From the overview, you'll see several tabs, including the Organization’ overview (Contoso, the tenant ID and the Primary domain), Monitoring, Recommendations, tutorials, and more.
+1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the Overview page of the Microsoft Entra ID (Azure AD) in the Microsoft Entra admin center. From the overview, you'll see several tabs, including the Organization’ overview (tenant name: Contoso, the tenant ID and the Primary domain name), Monitoring, Recommendations, Tutorials, and more.
 
 1. From the left navigation pane, under favorites select **Show more**.  The navigation panel now lists all the services that are available in Microsoft Entra ID (Azure AD).
 
