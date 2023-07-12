@@ -91,11 +91,11 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
     1. Searh for and select **Operations**, you may need to scroll down, then press **Select**. Notice the assignment table has been updated to reflect 1 group assigned.  
 
-1. On the Assignments tab, select **+ Add role**. This displays the available Directory roles.  Scroll down to view the various built-in roles. View the various roles, but don’t assign any.  Close out of this window by select the **X** on the top right-hand corner of the page.
+1. On the Assignments tab, select **+ Add role**. This displays the available Directory roles.  Scroll down to view the various built-in roles. View the various roles, but don’t assign any.  Close out of this window by select the **X** at the top right-hand corner of the page.
 
 1. From the bottom of the page, select the **Review + create** button and then **Create**.
 
-1. Verify the user appears on the user list (names are listed in alphabetical order). **Note:** You may need to use the **Refresh icon** in the command bar at the top of the page.
+1. Verify the user appears in the user list (names are listed in alphabetical order). **Note:** You may need to use the **Refresh icon** in the command bar at the top of the page.
 
 1. From the user list, select the user you created, **Sara Perez**.  The profile page opens.
 
@@ -105,9 +105,9 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
 1. To add a license select **+ Assignments** from the command bar at the top of the main window.
 
-1. Under Select licenses, select **Office 365 E3** and **Windows 10/11 Enterprise E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. Under Select licenses, select **Office 365 E3** and **Windows 10/11 Enterprise E3** then select the **Save** button at the bottom of the screen. A notification at the top right corner of the screen should show that license assignments succeeded.
 
-1. Select the **X** on the top right corner of the screen to close the License assignments window.
+1. Select the **X** at the top right corner of the screen to close the License assignments window.
 
 1. Select the **Refresh icon** in the command bar at the top of the page to confirm the license assignments.
 
@@ -115,7 +115,7 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
 1. You have successfully created and configured a user in Azure Active Directory.
 
-1. Sign out of all the open browser tabs.  In the Azure portal, sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**.  In Microsoft 365 sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**.  Close all the browser windows.
+1. Sign out of all the open browser tabs.  In the Azure portal, sign out by selecting the user icon next to the email address at the top right corner of the screen then selecting **Sign out**.  In Microsoft 365 sign out by selecting the icon at the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**.  Close all the browser windows.
 
 ### Task 3
 
