@@ -49,7 +49,7 @@ As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, y
 
 In this task, you’ll learn how to create a new user in Azure Active Directory and explore some of services that can be managed at the user level.
 
-1. Go to the Contoso – Microsoft Azure tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter https://portal.azure.com and select Azure Active Directory.  You should be logged in as admin in the Azure portal; if not, sign back in.
+1. Go to the Contoso – Microsoft Azure tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter https://portal.azure.com and select **Azure Active Directory**.  You should be logged in as admin in the Azure portal; if not, sign back in.
 
 1. From the left navigation pane, select **Users**.  Notice that your tenant is already configured with users.
 
