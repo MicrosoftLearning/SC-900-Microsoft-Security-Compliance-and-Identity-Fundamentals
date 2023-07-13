@@ -58,6 +58,8 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 1. Populate the **Identity** fields as follows:
 
     1. User principal name: **sara**.
+  
+    1. Domain: *WWLxZZZZZZ.onmicrosoft.com* (leave the default setting).
 
     1. Display name: **Sara Perez**.
 
