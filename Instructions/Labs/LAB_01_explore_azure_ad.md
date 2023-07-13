@@ -55,8 +55,6 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
 1. From the top of the page, select **+ New user** then from the drop-down box, select **Create new user**.
 
-1. **Create new user** should already be selected, if not select that option.
-
 1. Populate the **Identity** fields as follows:
 
     1. User principal name: **sara**.
