@@ -37,7 +37,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note the name of the Resource group, LabsSC900, in which the VM resides.
 
-1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (underlined). Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
+1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (blue underline). Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
 
 1. From the left navigation panel, select **Networking**.  
     1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
@@ -94,7 +94,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
-1. From the top of the page, select **Connect** then select **RDP**.
+1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (blue underline).
 
 1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
 
