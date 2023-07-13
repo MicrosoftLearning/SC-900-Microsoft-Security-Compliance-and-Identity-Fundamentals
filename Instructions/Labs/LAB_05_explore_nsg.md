@@ -96,21 +96,21 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (blue underline).
 
-1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
+1. Verify the *IP address* is set to **Public IP address**, leave the default port number and select **Download DRP file**.
 
 1. On the pop-up window that appears, select **Open file**.
 
     **Note:** If a download warning appears, select **Keep**.
 
-1. A Remote Desktop Connection window opens, select **Connect**.
+1. A Remote Desktop Connection window opens; select **Connect**.
 
 1. You'll be prompted for your credentials.  Enter the Username and Password (refer to the resources tab on the lab instruction panel).
 
-1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you wish to connect anyway?*  Select **Yes**.
+1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
 1. You're now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.
 
-1. After a few seconds on the Welcome screen you'll see a window to Choose privacy settings for your device, select **Accept**.  On the Networks window, select **No**.
+1. After a few seconds on the Welcome screen you may see a window to Choose privacy settings for your device, select **Accept**.  If the Networks window appears, select **No**.
 
 1. With the VM up and running, test outbound connectivity to the internet from the VM.
     1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
