@@ -91,7 +91,7 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
     1. Search for and select **Operations**, you may need to scroll down, then press **Select**. Notice the assignment table has been updated to reflect 1 group assigned.  
 
-1. On the Assignments tab, select **+ Add role**. This displays the available Directory roles.  Scroll down to view the various built-in roles. View the various roles, but don’t assign any.  Close out of this window by select the **X** at the top right-hand corner of the page.
+1. On the Assignments tab, select **+ Add role**. This displays the available Directory roles.  Scroll down to view the various built-in roles. View the various roles, but don’t assign any.  Close out of this window by select the **X** at the top right corner of the page.
 
 1. From the bottom of the page, select the **Review + create** button and then **Create**.
 
