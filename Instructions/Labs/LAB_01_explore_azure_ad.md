@@ -16,13 +16,13 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab, you'll access Azure Active Directory.  Additionally, you'll create a user and configure the different settings, including adding licenses.  
+In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory).  Additionally, you'll create a user and configure the different settings, including adding licenses.  
 
 **Estimated Time**: 10-15 minutes
 
 ### Task 1
 
-As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, you'll walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
+As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, you'll walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. From the Microsoft Edge browser, select the tab labeled Home - Microsoft 365 admin center.
 
@@ -31,19 +31,22 @@ As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, y
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
-    1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Azure Active Directory** (you may need to scroll down).  A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you'll see several tiles, including the Organization’ Identity tile (Contoso, the tenant and the Azure AD edition), a tile for users and groups, and more.
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. From the left navigation pane, under favorites select **Azure Active Directory**.  In the main window, you'll see another navigation panel that lists all the services that are available in Azure AD. To the right, you'll see information about the Contoso tenant and links to identity types you can create and featured services.  
+1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
 
-1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you're already signed in as admin@WWLxZZZZZZ.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
+1. From the left navigation pane, expand **Users** then select **All users**.  On the users page you can see additional navigation options and the list of users. Keep this browser tab open, as you will come back to it in the next task.
 
-1. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.  Select **More Services**, then select **Azure Active Directory**. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select it from there.  
+1. Now open a new browser tab and in the address bar, enter **portal.azure.com**.  Since you're already signed in as admin@WWLxZZZZZZ.onmicrosoft.com  you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
-1. You're now seeing the Azure Active Directory for your Microsoft 365 Contoso tenant.    Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Contoso Azure Active Directory where you can administer all the Azure AD services.
+1. The Azure portal’s landing page shows some of the Azure services on the top of the page.  Select **More Services**, then from the left navigation panel, select **Identity**. The list of available Microsoft Entra services will appear on the main window.
 
-1. Keep this browser page open for the next task.
+1. Select **Azure Active Directory**.  Please note, Azure Active Directory has been rebranded to Microsoft Entra ID, but the UI on the Azure portal may take some time before it is updated.
+
+1. You are now the overview page for your Microsoft 365 Contoso tenant.  This main window is the same as the one presented when you selected Identity from the Microsoft 365 portal. Whichever approach you use to access Microsoft Entra (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Contoso Azure Active Directory where you can administer all the Azure AD services.  
+
+1. Close the Microsoft Azure tab, but keep the Users-Microsoft Entra Admin Center tab open as you configure a new user.
 
 ### Task 2
 
@@ -109,7 +112,7 @@ In this task, you’ll learn how to create a new user in Azure Active Directory 
 
 1. You have successfully created and configured a user in Azure Active Directory.
 
-1. Sign out of all the open browser tabs.  In the Azure portal, sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**.  In Microsoft 365 sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**.  Close all the browser windows.
+1. Sign out of all the open browser tabs. Sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**. Close all the browser windows.
 
 ### Task 3
 
