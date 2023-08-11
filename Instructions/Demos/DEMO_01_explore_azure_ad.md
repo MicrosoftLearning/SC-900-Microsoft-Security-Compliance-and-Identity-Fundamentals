@@ -6,7 +6,7 @@ Demo:
 ---
 --->
 
-# Demo: Azure AD user settings
+# Demo: Microsoft Entra ID user settings
 
 This demo maps to the following Learn content:
 
