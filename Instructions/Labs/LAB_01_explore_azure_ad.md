@@ -22,7 +22,7 @@ In this lab, you'll access Microsoft Entra ID (previously referred to as Azure A
 
 ### Task 1
 
-As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, you'll walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
+As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previously referred to as Azure AD).  In this task, you’ll learn how to create a new user in Microsoft Entra ID and explore some of services that can be managed at the user level.
 
 1. From the Microsoft Edge browser, select the tab labeled Home - Microsoft 365 admin center.
 
@@ -36,85 +36,69 @@ As a subscriber to Microsoft 365 you're already using Azure AD.  In this task, y
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
 
-1. From the left navigation pane, expand **Users** then select **All users**.  On the users page you can see additional navigation options and the list of users. Keep this browser tab open, as you will come back to it in the next task.
-
-1. Now open a new browser tab and in the address bar, enter **portal.azure.com**.  Since you're already signed in as admin@WWLxZZZZZZ.onmicrosoft.com  you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
-
-1. The Azure portal’s landing page shows some of the Azure services on the top of the page.  Select **More Services**, then from the left navigation panel, select **Identity**. The list of available Microsoft Entra services will appear on the main window.
-
-1. Select **Azure Active Directory**.  Please note, Azure Active Directory has been rebranded to Microsoft Entra ID, but the UI on the Azure portal may take some time before it is updated.
-
-1. You are now the overview page for your Microsoft 365 Contoso tenant.  This main window is the same as the one presented when you selected Identity from the Microsoft 365 portal. Whichever approach you use to access Microsoft Entra (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Contoso Azure Active Directory where you can administer all the Azure AD services.  
-
-1. Close the Microsoft Azure tab, but keep the Users-Microsoft Entra Admin Center tab open as you configure a new user.
-
-### Task 2
-
-In this task, you’ll learn how to create a new user in Azure Active Directory and explore some of services that can be managed at the user level.
-
-1. Go to the Contoso – Microsoft Azure tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and select Azure Active Directory.  You should be logged in as admin, in the Azure portal, if not, sign back in.
-
-1. From the left navigation pane, select **Users**.  Notice that your tenant is already configured with users.
+1. From the left navigation pane, expand **Users** then select **All users**. Notice that your tenant is already configured with users.
 
 1. From the top of the page, select **+ New user** then from the drop-down box, select **Create new user**.
 
-1. **Create new user** should already be selected, if not select that option.
+1. You are now in the **basics** tab of the create new user page. Populate the fields as follows:
+    1. User principal name: **sara**.
 
-1. Populate the **Identity** fields as follows:
+    1. Mail nickname: leave the default, which is set to derive from user principal name.
 
-    1. User name: **sara**.
+    1. Display name: **Sara Perez**.
 
-    1. Name field: **Sara Perez**.
+    1. Password: uncheck the box that says auto-generate password and enter a temporary password that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task.
 
-    1. First name: **Sara**.
+    1. Account enabled:  Leave the checkmark to ensure the account is enabled.
 
-    1. Last name: **Perez**.
+    1. At the bottom of the page, select **Next: Properties**.
 
-1. Populate the **Password** fields as follows:
+1. Here you will configure a few of the fields in the **Properties** tab.
 
-    1. Select **Let me create the password**.
+    1. First name: Sara
 
-    1. Initial password: Enter a temporary password that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task. When Sara signs-in for the first time, she'll be prompted to change her password.
+    1. Last name: Perez
 
-1. Configure **Groups and roles**.
+    1. User types:  Leave the default to **Member**, but note that from the drop-down you have the option to select guest.
 
-    1. Next to Groups, select **0 groups selected**.  This displays the available groups.  Notice the list of available groups.
+    1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.
 
-    1. Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 groups selected.  
+    1. Select **Next: Assignments**.
 
-    1. Next to Roles, select **User**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by select the **X** on the top right-hand corner of the page.
+1. You are now on the **Assignments** tab where you add a group assignment and view the available options for adding a role.
 
-1. Configure **Settings**
+    1. Select **Add group**.
 
-    1. Block sign in:  **No** (leave the default setting).
+    1. The window that opens shows all the available groups.  
 
-    1. Usage location: select the drop-down then select **United States** (scroll down to find this option) or the country in which you're located.  Configuring usage location is required for assigning licenses.
+    1. Next to Groups, select **0 groups selected**.  This displays the available groups.  Notice the list of available groups.  From the list, select **Operations**.  From the bottom of the page, select the **Select** button.  It may take a few seconds but you should see the operations group showup on the assignments page.
 
-1. From the bottom of the page, select the **Create** button.
+    1. From the top of the page, select **Add role**.  A window opens that shows all the available directory roles.  View the available options, but don't add any new roles.  Close this page by selecting the **X** on the top right corner of the directory roles page.
+    1. From the bottom of the page, select **Review + create**. A summary of the settings will be displayed.  From the bottom of the page, select **Create**.
 
-1. Verify the user appears on the user list (names are listed in alphabetical order), you may need to refresh the browser page.
+1. You are returned to the users page.  After a few seconds, Sara Perez will be listed.  You may need to select the **refresh** icon on the top of the page.
 
-1. From the user list, select the user you created, **Sara Perez**.  The profile page opens.
+1. From the user list, select the user you created, **Sara Perez**.  The **Overview** page opens.
 
-1. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  Note:  you'll also see the Contoso group, although we only assigned one group when we created the user.  This is a result of a preconfigured policy, in the tenant, that automatically assigns new users to the Contoso group.
+1. The left navigation panel shows the various options that can be configured for the user. View the available options.
 
-1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user.  
+1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user.  NOTE:  Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step in the previous task.
 
-1. To add a license select **+ Assignments** from the top of the main window.
+    1. To add a license select **+ Assignments** from the top of the main window.
 
-1. Under Select licenses, select **Office 365 E3** and **Windows 10/11 Enterprise E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+    1. Under Select licenses, select **Office 365 E3** and **Windows 10/11 Enterprise E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-1. Select the **X** on the top right of the screen to close the License assignments window.
+    1. Select the **X** on the top right of the screen to close the License assignments window.
 
-1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+    1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
 
-1. Return to the Contoso Overview Azure Active directory page, by selecting **Contoso** on the top-left of the screen (the bread-crumb), above where it says Sara Perez | Licenses.
+1. Return to the Microsoft Entra admin center by selecting **Home** from the left navigation panel or from the top-left of the screen (the bread-crumb), above where it says Sara Perez | Licenses.
 
-1. You have successfully created and configured a user in Azure Active Directory.
+1. You have successfully created and configured a user in Microsoft Entra ID.
 
 1. Sign out of all the open browser tabs. Sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**. Close all the browser windows.
 
-### Task 3
+### Task 2
 
 In this task, you'll sign in as Sara Perez, for the first time.
 
