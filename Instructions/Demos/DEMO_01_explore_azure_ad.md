@@ -16,7 +16,7 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo, you'll access Azure Active Directory and walk through the various settings for an existing user.  NOTE to presenter:  This demo accesses Azure AD through the Microsoft 365 tenant. An alternative option to show learners is to access Azure AD through the Azure portal. The intent in going through the Microsoft 365 portal is to show that Microsoft 365 includes access to Azure AD.
+In this demo, you'll access Microsoft Entra ID and walk through the various settings for an existing user.
 
 1. Open Microsoft Edge.
 
@@ -29,7 +29,8 @@ In this demo, you'll access Azure Active Directory and walk through the various 
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.  
+    1. Note to presenter/instructor: you can also access the Microsoft Entra Admin center directly by going to **entra.microsoft.com**.
 
 1. From the left navigation pane, expand **Users** then select **All users**.  On the users page you can see additional navigation options and the list of users. Your tenant is already configured with users.
 
