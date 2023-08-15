@@ -37,7 +37,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note the name of the Resource group, LabsSC900, in which the VM resides.
 
-1. From the top of the page, select **Connect** then from the drop-down select **RDP**. Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
+1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (blue underline). Note that the port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
 
 1. From the left navigation panel, select **Networking**.  
     1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
@@ -50,7 +50,9 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
-1. In the blue search bar on the top of the page, enter **Network security groups** groups. From the results, select **Network security groups** (do not select Network security groups classic).
+1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**.
+
+      **Note:** Do not select *Network security groups (classic)*.
 
 1. From the top of Network security groups page, select **+ Create**.
 
@@ -67,7 +69,7 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
     1. Select **Associate**.
-    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **ok** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
+    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
 
 1. From the left navigation pane, select **Inbound security rules**.
 
@@ -92,21 +94,23 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
-1. From the top of the page, select **Connect** then select **RDP**.
+1. From the top of the page, select **Connect** and on the *SC900-WinVM | Connect* page, verify that **RDP** is selected (blue underline).
 
-1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
+1. Verify the *IP address* is set to **Public IP address**, leave the default port number and select **Download DRP file**.
 
 1. On the pop-up window that appears, select **Open file**.
 
-1. A Remote Desktop Connection window opens, select **Connect**.
+    **Note:** If a download warning appears, select **Keep**.
+
+1. A Remote Desktop Connection window opens; select **Connect**.
 
 1. You'll be prompted for your credentials.  Enter the Username and Password (refer to the resources tab on the lab instruction panel).
 
-1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
+1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
 1. You're now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.
 
-1. After a few seconds on the Welcome screen you'll see a window to Choose privacy settings for your device, select **Accept**.  On the Networks window, select **No**.
+1. After a few seconds on the Welcome screen you may see a window to Choose privacy settings for your device, select **Accept**.  If the Networks window appears, select **No**.
 
 1. With the VM up and running, test outbound connectivity to the internet from the VM.
     1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
