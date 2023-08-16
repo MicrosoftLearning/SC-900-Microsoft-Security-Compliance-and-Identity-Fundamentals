@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Azure AD Conditional Access'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 3: Describe the access management capabilities of Azure AD; Unit 2: Describe Conditional Access in Azure AD'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft Entra; Module 3: Describe access management capabilities of Microsoft Entra ID; Unit 2: Describe Conditional Access'
 ---
 --->
 
@@ -10,31 +10,42 @@ Demo:
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-- Module: Describe the access management capabilities of Azure AD
-- Unit: Describe Conditional Access in Azure AD
+- Learning Path: Describe the capabilities of Microsoft Entra
+- Module: Describe access management capabilities of Microsoft Entra ID
+- Unit: Describe Conditional Access
 
 ## Demo scenario
 
 In this demo, you'll walk through the various options available for a conditional access policy.
 
-1. Go to the **Contoso – Microsoft Azure** tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and select Azure Active Directory. You should be logged in as admin, in the Azure portal, if not, sign back in.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and login to the tenant, per the steps that follow.
 
-1. From the left navigation panel, select **Security**.
+    1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
 
-1. From the left navigation panel, select **Conditional Access**.
+    1. Sign in with your admin credentials.
+        1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+        1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+        1. When prompted to stay signed- in, select **Yes**.
+
+    1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+
+    1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+
+1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
+
+1. The Conditional access overview page is displayed.  Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
 
 1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. To show the settings associated with conditional access, select **+ New policy**.
 
 1. In the **Name** field, you would enter a name for the policy.
 
 1. Note that you have several options under **Assignments**.  Since conditional access policies are like if/then statements, the assignments settings are like the “if” statements.
-    1. **Users and groups** - hover your mouse over the information icon next to where it says “Users and groups” and call out that this is where you set the users and groups in the directory that the policy applies to. Select **0 users and groups selected**.  You'll now see the option to Include or Exclude users or groups. Select and call out the settings available for the **Include** tab and then select and speak to the settings available for the **Exclude** tab.
-    1. **Cloud apps or actions** - hover your mouse over the information icon next to where it says “Cloud apps or actions” and call out that this is where you set the applications used or actions performed by the user, for the conditional access policy.  Select **No cloud apps, actions, or authenticated contexts selected**.
-        1. Select the drop-down arrow in the box below where it says **Select what this policy applies to** and note the options.  Leave the default setting – Cloud apps.
-        1. Select and call out the settings available for the Include tab. Under the **Include** tab, choose **Select Apps**.  Notice the window that opens where you can select from a list of applications.  Don’t select anything, close out of this window by selecting the **X** on the top-right corner of the window. Go back to choosing **None** to remove the error.
-        1. Then select and speak to the settings available for the **Exclude tab**.  Here again you can select specific apps to exclude.
-    1. **Conditions** - hover your mouse over the information icon next to where it says “Conditions” and call out that this sets when the policy will apply. Select **0 conditions selected**. Speak to the different “signals” listed.   Select a few of the options by first selecting the information icon to define what it is and then selecting **Not configured** for the specific item to show the various options.
+    1. **Users** - hover your mouse over the information icon next to where it says “Users” and call out that this is where you select the identities in the directory that the policy applies to, including users, groups, and service principals. Select **0 users and groups selected**.  You'll now see the option to Include or Exclude users or groups. Select and call out the settings available for the **Include** tab and then select and speak to the settings available for the **Exclude** tab.
+    1. **Target resources** - Select **Target resources**.  Here you control access based on all or specific network access traffic, cloud apps or actions.  Expand the field beneath where it says select what this policy applies to.  Here you can select if the policy applies to cloud apps, user actions, or authentication context.  
+        1. Select **Cloud apps** then under the Include tab, select the option **Select apps** then underneath where it says **Select**, select **None**, a window will open to select one or more of the apps for which the policy will apply.
+        1. Close out of the Select cloud apps window by selecting the **X** on the top right corner of the window.
+        1. As time permits you may choose to go through the other options (user actions and authentication context) to see the configuration options for each.
+    1. **Conditions** - hover your mouse over the information icon next to where it says “Conditions” and call out that this sets conditions which define when the policy will apply. For example, 'location. Select **0 conditions selected**. Speak to the different “signals” listed.   Select a few of the options by first selecting the information icon to define what it is and then selecting **Not configured** for the specific item to show the various options.
         1. **User risk** - A user risk represents the probability that a given identity or account is compromised. These risks are calculated offline using Microsoft's internal and external threat intelligence sources.
         1. **Sign-in risk** - A sign-in risk represents the probability that a given authentication request isn't authorized by the identity owner. Examples may include is the sign-in is from an anonymous IP address or atypical travel, etc.
         1. **Device Platform** - Platform the user is signing in from. For example, 'iOS’.
@@ -50,7 +61,7 @@ In this demo, you'll walk through the various options available for a conditiona
 
 1. Select the **X** on the top right corner of the page to close out of the policy, then select Microsoft Azure on the blue bar at the top of the page to return to the Azure portal home page.
 
-1. Keep this browser page open for the next demo.
+1. Close your open browser tabs as this concludes the demos related to Microsoft Entra.
 
 ### Review
 

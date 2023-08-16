@@ -37,13 +37,13 @@ In this demo, you'll walk through the process of creating a Microsoft Sentinel i
     1. Verify the information you entered then select **Create**.
     1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
 
 1. Keep this page open, as you'll use it in the next task.
 
 ### Demo Part 2
 
-With the Microsoft Sentinel instance created, you'll want to make sure that you have the necessary access to the resources that get deployed to support Microsoft Sentinel.  
+As with all Azure resources, you want to ensure that users have the proper permissions to access your Microsoft Sentinel resources. Here you will show the steps to assign a role and the available roles for use with Microsoft Sentinel.  
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **resource groups** then select **Resource groups** from the search results. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Microsoft Sentinel.
 
@@ -51,7 +51,7 @@ With the Microsoft Sentinel instance created, you'll want to make sure that you 
 
 1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
 
-1. From the Access control page, select **View my access**.  As MOD Administrator, the current role is Service administrator.  This will grant you the necessary permissions but for demo purposes you may want to show the Sentinel specific roles.  Close the MOD Administrator assignments window by selecting the **X** on the top-right corner of the window.
+1. From the Access control page, select **View my access**.  If you are  using the Skillable Cloud Slice subscription, the role assignment is set to LOD Owner, which is a custom role assignment configured for this Cloud Slice subscription and it will grant you the necessary permissions. For demo purposes, however, it's good to show the Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
@@ -64,30 +64,25 @@ With the Microsoft Sentinel instance created, you'll want to make sure that you 
 
 ### Demo Part 3
 
-In this part of the demo, you'll show the steps for connecting to a data source.  Specifically, you'll connect to the Microsoft Defender for Cloud data connector.
+In this part of the demo, you'll show the steps for connecting to a data source. Many data connectors are deployed as part of a Microsoft Sentinel solution together with related content like analytics rules, workbooks and playbooks. The Microsoft Sentinel Content hub is the centralized location to discover and manage out-of-the-box (built-in) content. In this step, you'll use the content hub to deploy the Microsoft Defender for Cloud solution for Microsoft Sentinel.  This solution allows you to ingest Security alerts reported in Microsoft Defender for Cloud.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
+1. From the left navigation panel, select **Content hub**.
 
-1. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+1. Take a moment to scroll down to see the long list of available solutions and the options to filter the list.  For this demo, we're looking for **Microsoft Defender for Cloud**.  Select it from the list.  In the side window that opens, read the description then select **Install**.  This solution includes one data connector and one analytics rule. It may take a minute to install.  Select **Manage**.
 
-1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
+1. Select the box next to where it says Microsoft Defender for Cloud.  A window opens on the right side of the page.  Select **Open connector page**.
 
-1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
+1. Note the configuration instructions.  Select the box next to the name of the subscription then select **Connect**.  The status will move to connected.  The connector is now enabled, although it may take some time for the connector to show up in the data connectors page.  
 
-1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
+1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**.  Select the box next to where it says, "Detect CoreBackUp Deletion Activity from related security alerts". In the window that opens you will see information about the rule and what it does.  You can choose to go through the steps to configure the rule.  **NOTE**: The details of the rule logic are beyond the scope of the fundamentals but you show the type of information that can be configured as part of tje rule.  
+    1. Select **Configuration**.
+    1. Select the rule **Detect CoreBackUp Deletion Activity from related security alerts**.
+    1. From the window that opens on the right side of the page, select **Create rule**.
+    1. Go through each of the configuration pages, very briefly and high level then select **Review and create**, then select **Save**.
 
-1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
+1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crump at the top of the page, above where it says Analytics rules.
 
-1. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
-    The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
-    1. From the configuration section, select the empty box next to the listed subscription, **MOC Subscription--lodXXXXXXXX** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
-    1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
-    1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
-    1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.  
-    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
-    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
-    1. From the top of the workbook page, select the **Save icon**.
-    1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
+1. Call out that by using the content hub, a solution can be easily and quickly deployed.
 
 1. Keep this page open, as you'll use it in the next task.
 
@@ -95,7 +90,7 @@ In this part of the demo, you'll show the steps for connecting to a data source.
 
 In this part of the demo, you'll show some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that provided about that query, including the code for the query, and the option to run the query and see results.  Don't select anything.
+1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that's provided about that query, including the code for the query, and the option to run the query and see results.  Don't select anything.
 
 1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
