@@ -18,18 +18,18 @@ This demo maps to the following Learn content:
 
 In this demo, you'll explore the various settings available for authentication in Microsoft Entra.
 
-1. Open Microsoft Edge.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and login to the tenant, per the steps that follow.
 
-1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
+    1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
 
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+    1. Sign in with your admin credentials.
+        1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+        1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+        1. When prompted to stay signed- in, select **Yes**.
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+    1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+    1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
 
 1. From the left navigation pane, expand **Protection** then select **Authentication methods**.
 
@@ -54,12 +54,15 @@ In this demo, you'll explore the various settings available for authentication i
     1. The **Registration** is shown with a blue underline.  Here  you can view registration activity for different authentication methods.
     1. Select **Usage** to view usage details and note that you can add different filters.
 
-1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, select **Multifactor authnentication**
+1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, select **Multifactor authnentication**.  You may need to select **Show more** under the section on Protection, in the left navigation panel.
     1. On the **Getting started** page, it shows that the best way to apply it to users is through conditional access, but there are some specific settings you configure here.
     1. Select **Account lockout** and call out the configurable lockout parameters.
     1. Select **Block/unblock users**, call out that here is where an admin can manually block/unblock users.  Note that a blocked user will remain blocked for 90 days unless manually unblocked.
     1. Select **Fraud alert**.  This allows admins to allow users to report fraud if they receive a two-step verification request that they didn't initiate.
     1. Select **Notifications**.  You can configure Microsoft Entra to send email notifications when users report fraud alerts. These notifications are typically sent to identity administrators, because the user's account credentials are likely compromised.
+    1. Close out of the page by selecting the **X** on the top right corner of the window.  Then repeat this step to get back to the Microsoft Entra admin center.
+
+1. Keep the browser tab open as you will return to the Microsoft Entra admin center for the next demo.
 
 ### Review
 

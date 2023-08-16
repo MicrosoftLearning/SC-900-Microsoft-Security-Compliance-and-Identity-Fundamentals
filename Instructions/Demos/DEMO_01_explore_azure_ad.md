@@ -54,7 +54,9 @@ In this demo, you'll access Microsoft Entra ID and walk through the various sett
 
 1. Select the **X** on the top right corner of the page. This returns you to the user list.
 
-1. Select the **X** on the top right corner of the page. This returns you to the main page for the Contoso tenant.
+1. Select the **X** on the top right corner of the page. This returns you to the main page for the Microsoft Entra admin center.
+
+1. Keep this browser tab open as you will use it for the next demo.
 
 ### Review
 
