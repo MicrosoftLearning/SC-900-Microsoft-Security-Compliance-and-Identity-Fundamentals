@@ -74,8 +74,8 @@ Explore ways in which you can investigate the recorded activities with the activ
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
 
-1. To provide data protection, Microsoft Defender for Cloud Apps gives you visibility into all the files from your connected apps, for example all the files stored in OneDrive and Salesforce.. From the left navigation pane, select and explore the **Files** option.
-    1. If not already enabled, you may need to select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.
+1. To provide data protection, Microsoft Defender for Cloud Apps gives you visibility into all the files from your connected apps, for example all the files stored in SharePoint and Salesforce. From the left navigation pane, select and explore the **Files** option.
+    1. If not already enabled, you'll need to select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.  From the left-most navigation panel select **Files** under Cloud apps.
     1. Note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
     1. Select **+ New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window, then select **Leave page**.
 

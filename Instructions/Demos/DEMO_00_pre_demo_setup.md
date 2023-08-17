@@ -12,9 +12,9 @@ Tenants should not be shared or used for purposes outside of hands-on labs. The 
 
 Tenants must not be converted to a paid subscription. Tenants obtained as a part of this course remain the property of Microsoft Corporation and we reserve the right to obtain access and repossess at any time.
 
-## Pre-Demo Setup
+## Pre-Demo Setup of the Microsoft 365 Tenant
 
-### Setup of Microsoft 365 Tenant- Enable Microsoft 365 audit log
+### Enable Microsoft 365 audit log
 
 In this setup task, you'll enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants don't have this feature enabled, and it can take several hours for this to take effect.  It's beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
 
@@ -39,11 +39,25 @@ In this setup task, you'll enable the Audit log capability in Microsoft 365.  Al
 
 1. Return to the home page of the Microsoft Purview compliance portal by selecting **Home** from the left navigation panel.
 
-### Setup of Azure Cloud Slice Subscription
+### Microsoft Defender for Cloud Apps file monitoring
+
+In this setup task, you will enable file monitoring in Microsoft Defender for Cloud Apps.
+
+1. Open the browser tab for the Microsoft 365 admin center.  If you previously closed it, open a new browser tab and in the address bar, enter **admin.microsoft.com** and from the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
+
+1. From the left navigation panel, select **Files**, which is listed under Cloud apps.
+
+1. If not already enabled, you'll need to select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.  
+
+1. From the left-most navigation panel, under cloud apps, select **Files** to return to the files page.  If you successfully enabled file monitoring, you should see the filter options on the top of the page.  It may take some time for files from the pre-configured lab tenant to be displayed.
+
+## Pre-Demo setup of the Azure Cloud Slice Subscription
 
 For this setup you are using the Azure Cloud Slice environment which is separate than the Microsoft 365 tenant provided. Logout of the Microsoft 365 Tenant and login using the Azure Cloud Slice credentials.
 
-#### Azure virtual machine
+### Azure virtual machine
 
 Check that a VM has already been created. If not, then set it up now. You will use the VM as part of the NSG demo.
 
@@ -75,9 +89,23 @@ Check that a VM has already been created. If not, then set it up now. You will u
     1. Select **Review + create**, then when validation passes, select **Create**.
     1. Once the VM deployment is complete, select **Home** from the top of the page.
 
-1. Keep the browser tab open to continue with the pre-demo setup.
+1. Keep the Azure browser tab open to continue with the pre-demo setup.
 
-#### Microsoft Defender for Cloud
+### Network security group
+
+Here you will create a network security group but will not associate any interface to it nor create any rules. Those steps will be done as part of the NSG demo.
+
+1. In the blue search bar on the top of the page, enter **Network security groups** groups. From the results, select **Network security groups** (do not select Network security groups classic).
+
+1. Select **Create network security group**. On the Basics tab of the Create network security group page, specify the following settings:
+    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
+    1. Resource group:  **LabsSC900**
+    1. Name:  **NSG-SC900**
+    1. Region:  leave the default.
+    1. Select **Review + create** then select **Create**.
+    1. Once the deployment is complete (this happens very quickly), select **Go to resource**.
+
+### Microsoft Defender for Cloud
 
 The objective here is simply to access Microsoft Defender to Cloud for the first time. This is important because it can take up to 24 hours for Defender for Cloud to reflect an initial secure score.  
 
@@ -93,7 +121,7 @@ The objective here is simply to access Microsoft Defender to Cloud for the first
 
 1. Keep the browser tab open to continue with the pre-demo setup.
 
-#### Microsoft Sentinel
+### Microsoft Sentinel
 
 Here you will create an instance of Microsoft Sentinel that you will use as part of the walk-through demo on Microsoft Sentinel.
 
