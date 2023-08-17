@@ -51,7 +51,7 @@ In this setup task, you will enable file monitoring in Microsoft Defender for Cl
 
 1. If not already enabled, you'll need to select **Enable file monitoring** and select the box next to where it says **Enable file monitoring** then select **Save**.  
 
-1. From the left-most navigation panel, under cloud apps, select **Files** to return to the files page.  If you successfully enabled file monitoring, you should see the filter options on the top of the page.  It may take some time for files from the pre-configured lab tenant to be displayed.
+1. From the left navigation panel, under cloud apps, select **Files** to return to the files page.  If you successfully enabled file monitoring, you should see the filter options on the top of the page.  It may take some time for files from the pre-configured lab tenant to be displayed.
 
 ## Pre-Demo setup of the Azure Cloud Slice Subscription
 
@@ -93,7 +93,7 @@ Check that a VM has already been created. If not, then set it up now. You will u
 
 ### Network security group
 
-Here you will create a network security group but will not associate any interface to it nor create any rules. Those steps will be done as part of the NSG demo.
+Check that an NSG has already been created. If the NSG has not been created set it up now, but do not associate any interface to it nor create any rules. Those steps will be done as part of the NSG demo.
 
 1. In the blue search bar on the top of the page, enter **Network security groups** groups. From the results, select **Network security groups** (do not select Network security groups classic).
 
