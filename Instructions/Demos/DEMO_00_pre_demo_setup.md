@@ -123,7 +123,7 @@ The objective here is simply to access Microsoft Defender to Cloud for the first
 
 ### Microsoft Sentinel
 
-Here you will create an instance of Microsoft Sentinel that you will use as part of the walk-through demo on Microsoft Sentinel.
+Check to that an instance of Microsoft Sentinel has already been created. If not, then set it up now as you will need it as part of the walk-through demo on Microsoft Sentinel.
 
 1. Open the Home-Microsoft Azure tab in your browser.
 
