@@ -18,7 +18,7 @@ This demo maps to the following Learn content:
 
 In this demo, you'll walk through Microsoft Defender for Cloud and show how it can be used to improve an organization's security posture.  NOTE: the Azure subscription managed by the Authorized Lab Hoster (AH) may limit some access and experience longer than normal delays.
 
-### Demo Task 1
+### Demo Part 1
 
 In this demo task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud.
 
@@ -60,7 +60,7 @@ In this demo task, you'll do a high-level walk-through of some of the capabiliti
     1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
     1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
-### Demo Task 2
+### Demo Part 2
 
 Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features that are available through the Microsoft Defender for Cloud plans. In this task, you discover how to enable/disable the various Microsoft Defender for Cloud plans.
 
