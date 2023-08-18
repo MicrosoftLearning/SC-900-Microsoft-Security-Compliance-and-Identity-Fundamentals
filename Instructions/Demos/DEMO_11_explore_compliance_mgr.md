@@ -22,9 +22,7 @@ In this demo, you'll show the Microsoft Purview compliance portal home page and 
 
 Show the Microsoft Purview compliance portal home page and how to customize the card view and the navigation panel.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**. You should already be signed in as the admin.  If not, sign in with your admin credentials.
-
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+1. Open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com**. You should already be signed in as the admin.  If not, sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
@@ -71,6 +69,8 @@ Learn about your organization’s compliance posture through Compliance Manager.
 1. From the top of the page, select **Regulations**.  This page lists the regulations available to your organization. You can also create assessments from the available templates.  Select one of the premium templates from the list.  You will see specific information about that regulation including controls,  your improvement actions, and Microsoft action.  From the top right corner of the window, you'll see the option for **+ Create assessment**, that allows you to create an assessment based on the template.  Return to the regulations page by select **Regulations** from the bread-crumb at the top of the page.
 
 1. From the top of the page, select **Alerts**.   Here you can view and manage alerts for events that can affect your organization's compliance score.  If there is an alert listed, select it to view the information about the associated alert policy.
+
+1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview compliance portal.
 
 1. Keep the browser tab open if you plan to show the next demo.
 
