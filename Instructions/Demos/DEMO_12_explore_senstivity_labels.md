@@ -58,7 +58,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 1. From the left navigation panel, select Home to return to the Microsoft Purview compliance portal.
 
-1. Keep this page open, you'll use it in the next task.
+1. Keep this browser tab open.
 
 ### Demo Part 2
 
@@ -76,6 +76,8 @@ In this step, you'll show the process of applying a label from the perspective o
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
+1. Keep the Microsoft Purview browser tab open for the next demo.
+
 ### Demo Part 3 (optional)
 
 Recall from the first part of the demo, that the Confidential - Finance label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
@@ -90,7 +92,10 @@ Recall from the first part of the demo, that the Confidential - Finance label is
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  The email is successfully sent but When you attempt to open the attached word file, which was originally labeled as confidential - Finance, you'll see a notification that you do not have permission to open the document.
 
-1. Close the open browser tabs.
+1. Close Outlook.
+
+1. Keep the Microsoft Purview browser tab open for the next demo.
+
 
 ### Review
 
