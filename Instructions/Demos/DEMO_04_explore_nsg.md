@@ -22,14 +22,9 @@ In this demo, you'll explore the function of network security groups in Azure an
 
 In this part, you'll view some of the parameters associated with the VM that that was created as part of the setup demo (DEMO_00_pre_demo_setup.md).
 
-1. Open Microsoft Edge.  In the address bar, enter **portal.azure.com**.
+1. Open Microsoft Edge.  In the address bar, enter **https://portal.azure.com** and sign in with the Azure credentials provided by the authorized lab hoster (ALH).  This bring you to the Azure services home page.
 
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. If prompted to stay signed- in, select **Yes**.
-
-1. In the blue search box at the page, enter **Virtual Machines** then select **Virtual Machines** from the search results.
+1. In the blue search box at the top of the page, enter **Virtual Machines** then select **Virtual Machines** from the search results.
 
 1. From the Virtual machines page, select the VM listed **SC900-WinVM**.  This VM should have been created as part of the pre-demo setup.  If its not listed, create it now.
 
@@ -135,7 +130,7 @@ In this part, you will show the current NSG outbound rules allow outbound intern
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up window appears indicating Your remote session will be disconnected. Select **OK**.
 
-1. Keep the Azure tab open on your browser for the next demo.
+1. Keep the Azure tab open on your browser for the next Azure demo.
 
 ### Review
 

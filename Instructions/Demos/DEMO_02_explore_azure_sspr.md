@@ -18,9 +18,9 @@ This demo maps to the following Learn content:
 
 In this demo, you'll walk through the various settings associated with enabling self-service password reset.
 
-1. Go to the Contoso – Microsoft Azure tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and select Azure Active Directory. You should be logged in as admin, in the Azure portal, if not, sign back in.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to https://entra.microsoft.com with your Microsoft 365 admin credentials.
 
-1. From the left navigation pane, select Password reset.
+1. From the left navigation pane, expand **Protection** then select **Password reset**.
 
 1. The properties tab is highlighted.  In the Properties window, notice that SSPR can be enabled for None, Select, or All.
     1. Put your cursor over the information icon next to where it says "Self-services password reset enabled," and call out that you can choose "Selected" to restrict password reset to a limited group of users, vs, selecting for None or all.

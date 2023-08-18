@@ -16,30 +16,30 @@ This demo maps to the following Learn content:
 
 ## Demo scenario
 
-In this demo, you'll walk through the process of creating a Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done, you'll walk through the steps for connecting Microsoft Sentinel to your data sources, and select a work book to monitor and visualize your data.  Lastly, you'll show some of the other options available, including the  built-in analytics to get notified of anything suspicious, the automation capability, and more.
+In this demo, you'll walk through the some of the options available with Microsoft Sentinel, including using the content hub to find packaged solutions that you can deploy.  But first, you'll walk through the process of setting up role-based access control permissions for users who would need to access your Microsoft Sentinel resources.
 
-### Pre-demo setup:  Create a Microsoft Sentinel instance
+### Demo part 1
 
-1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
+An instance of Microsoft Sentinel should have already been created as part of the pre-demo setup. Verify that it was created.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
+1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter **https://portal.azure.com**. Sign in with the Azure credentials provided by the authorized lab hoster (ALH).  This bring you to the Azure services home page.
 
-1. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
+1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
-1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
+1. On the Microsoft Sentinel page, you should see your instance of Sentinel listed and select it.  If it's not listed, create it now.
+    1. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
 
-1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription:  Leave the default.
-    1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
-    1. Name: **SC900-LogAnalytics-workspace**.
-    1. Region: **East US** (A different default region may be selected based on your location)
-    1. Select **Review + Create** (no tags will be configured).
-    1. Verify the information you entered then select **Create**.
-    1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
+    1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**. From the basics tab of the Create Log Analytics workspace, enter the following:
+        1. Subscription:  Leave the default.
+        1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
+        1. Name: **SC900-LogAnalytics-workspace**.
+        1. Region: **East US** (A different default region may be selected based on your location)
+        1. Select **Review + Create** (no tags will be configured).
+        1. Verify the information you entered then select **Create**.
+        1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
+        1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
-
-1. Keep this page open, as you'll use it in the next task.
+1. Keep this page open, as you'll use it in a subsequent task.
 
 ### Demo Part 2
 
@@ -51,7 +51,7 @@ As with all Azure resources, you want to ensure that users have the proper permi
 
 1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
 
-1. From the Access control page, select **View my access**.  If you are  using the Skillable Cloud Slice subscription, the role assignment is set to LOD Owner, which is a custom role assignment configured for this Cloud Slice subscription and it will grant you the necessary permissions. For demo purposes, however, it's good to show the Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
+1. From the Access control page, select **View my access**.  If you are using the Skillable Cloud Slice subscription, the role assignment is set to LOD Owner, which is a custom role assignment configured for this Cloud Slice subscription and it will grant you the necessary permissions. For demo purposes, however, it's good to show the Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
@@ -65,6 +65,8 @@ As with all Azure resources, you want to ensure that users have the proper permi
 ### Demo Part 3
 
 In this part of the demo, you'll show the steps for connecting to a data source. Many data connectors are deployed as part of a Microsoft Sentinel solution together with related content like analytics rules, workbooks and playbooks. The Microsoft Sentinel Content hub is the centralized location to discover and manage out-of-the-box (built-in) content. In this step, you'll use the content hub to deploy the Microsoft Defender for Cloud solution for Microsoft Sentinel.  This solution allows you to ingest Security alerts reported in Microsoft Defender for Cloud.
+
+1. Open the browser tab for Microsoft Sentinel.
 
 1. From the left navigation panel, select **Content hub**.
 

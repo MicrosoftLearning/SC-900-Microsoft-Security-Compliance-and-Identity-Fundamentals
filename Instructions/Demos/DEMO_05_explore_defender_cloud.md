@@ -22,11 +22,7 @@ In this demo, you'll walk through Microsoft Defender for Cloud and show how it c
 
 In this demo task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud.
 
-1. Open Microsoft Edge. In the address bar, enter **portal.azure.com**.
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter **https://portal.azure.com**. Sign in with the Azure credentials provided by the authorized lab hoster (ALH).  This bring you to the Azure services home page.
 
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 
@@ -73,8 +69,8 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
     1. Verify that CSPM status is set to **On**, if not, set it now.  
     1. Enable the plan for Servers.  Select **On** for the Servers line item, then select **Save** from the top of the page.
-1. Close all the open browser tabs.
+1. Keep the Azure tab open on your browser for next Azure demo.
 
 ## Review
 
-In this demo, you walked through the Microsoft Defender for Cloud and showed how Azure Secure Score can be used to improve an organization's security posture.
+In this demo, you did a high-level walk-through of Microsoft Defender for Cloud and showed how Azure Secure Score can be used to improve an organization's security posture.

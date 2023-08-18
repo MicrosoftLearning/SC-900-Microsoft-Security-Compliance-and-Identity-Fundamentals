@@ -30,7 +30,7 @@ In this demo, you'll access Microsoft Entra ID and walk through the various sett
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.  
-    1. Note to presenter/instructor: you can also access the Microsoft Entra Admin center directly by going to **entra.microsoft.com**.
+    1. Note to presenter/instructor: you can also access the Microsoft Entra Admin center directly by going to **https://entra.microsoft.com**.
 
 1. From the left navigation pane, expand **Users** then select **All users**.  On the users page you can see additional navigation options and the list of users. Your tenant is already configured with users.
 

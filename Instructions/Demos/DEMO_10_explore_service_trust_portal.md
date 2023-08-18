@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Service Trust Portal'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe the compliance management capabilities in Microsoft; Unit 2: Explore the Service Trust Portal'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe Microsoft’s Service Trust portal and privacy capabilities; Unit 2: Explore the Service Trust Portal'
 ---
 --->
 
@@ -11,7 +11,7 @@ Demo:
 This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft compliance
-- Module: Describe the compliance management capabilities at Microsoft
+- Module: Describe Microsoft’s Service Trust portal and privacy capabilities
 - Unit: Explore the Service Trust Portal
 
 ## Demo scenario
@@ -42,7 +42,7 @@ In this part, you'll walk the learner through the different types of content ava
 
 1. To return the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
 
-1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.
+1. From the Service Trust Portal home page, scroll down to the **Resources for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.
 
 1. To return the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
 
@@ -56,7 +56,7 @@ In this part of the demo, you'll show the Trust Center and navigate to informati
 
 1. A new browser page opens to the Microsoft Trust Center where you find more information, including information about privacy and much more. Explore the contents of this page and navigate through different links.
 
-1. Close all the open browser tabs.
+1. Close the open browser tabs for the Service Trust Portal and the Trust center.
 
 ### Review
 
