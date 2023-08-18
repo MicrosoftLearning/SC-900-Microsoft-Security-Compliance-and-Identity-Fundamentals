@@ -135,7 +135,7 @@ In this part, you will show the current NSG outbound rules allow outbound intern
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up window appears indicating Your remote session will be disconnected. Select **OK**.
 
-1. Keep the Azure tab open on your browser for the next demo.
+1. Keep the Azure tab open on your browser for the next Azure demo.
 
 ### Review
 

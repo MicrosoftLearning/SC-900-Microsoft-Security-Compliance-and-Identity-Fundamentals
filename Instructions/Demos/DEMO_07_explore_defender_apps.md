@@ -20,9 +20,14 @@ In this demo, you'll show the capabilities of Microsoft Defender for Cloud Apps.
 
 ### Demo Part 1: Explore Cloud discovery
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.  You should already be signed in as the admin.  If not, sign in with your admin credentials.
+1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.  Speak to the point that the different Microsoft 365 admin centers can be accessed from here.
+1. Sign in with your admin credentials.
+    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
+    1. When prompted to stay signed- in, select **Yes**.
+
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
@@ -92,7 +97,7 @@ In this part, you'll show the options available for policies in Microsoft Defend
 
 1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the right side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
 
-1. Close the browser window.
+1. Keep the browser tab open if you plan to continue with the next demo.
 
 ### Review
 

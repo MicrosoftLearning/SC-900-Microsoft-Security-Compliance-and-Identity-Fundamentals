@@ -73,8 +73,8 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
     1. Verify that CSPM status is set to **On**, if not, set it now.  
     1. Enable the plan for Servers.  Select **On** for the Servers line item, then select **Save** from the top of the page.
-1. Close all the open browser tabs.
+1. Keep the Azure tab open on your browser for next Azure demo.
 
 ## Review
 
-In this demo, you walked through the Microsoft Defender for Cloud and showed how Azure Secure Score can be used to improve an organization's security posture.
+In this demo, you did a high-level walk-through of Microsoft Defender for Cloud and showed how Azure Secure Score can be used to improve an organization's security posture.

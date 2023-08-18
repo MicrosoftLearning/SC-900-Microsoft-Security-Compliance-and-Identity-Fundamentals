@@ -18,18 +18,7 @@ This demo maps to the following Learn content:
 
 In this demo, you'll walk through the various options available for a conditional access policy.
 
-1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and login to the tenant, per the steps that follow.
-
-    1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
-
-    1. Sign in with your admin credentials.
-        1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-        1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-        1. When prompted to stay signed- in, select **Yes**.
-
-    1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
-
-    1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to https://entra.microsoft.com with your Microsoft 365 admin credentials.
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
 
@@ -59,9 +48,9 @@ In this demo, you'll walk through the various options available for a conditiona
 
 1. Once a policy is configured you can enable a policy by selecting **On**, then press the **Create** button to create a policy.
 
-1. Select the **X** on the top right corner of the page to close out of the policy, then select Microsoft Azure on the blue bar at the top of the page to return to the Azure portal home page.
+1. Select the **X** on the top right corner of the page to close out of the policy.
 
-1. Close your open browser tabs as this concludes the demos related to Microsoft Entra.
+1. Close your open browser tabs.
 
 ### Review
 

@@ -64,7 +64,7 @@ In this part of the demo, you'll show how Microsoft Secure Score can help an org
 
 1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
 
-1. Close the browser page.
+1. Keep the browser tab open if you plan to continue with the next demo.
 
 ### Review
 
