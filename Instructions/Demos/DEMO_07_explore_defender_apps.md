@@ -20,18 +20,13 @@ In this demo, you'll show the capabilities of Microsoft Defender for Cloud Apps.
 
 ### Demo Part 1: Explore Cloud discovery
 
-1. In the address bar, enter **admin.microsoft.com** to access the Microsoft 365 admin center.
-
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. In the address bar, enter **admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH), to access the Microsoft 365 admin center.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
+1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.
 
 1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Speak to the information available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  Go through each tab on the top of the page.
 
@@ -96,6 +91,8 @@ In this part, you'll show the options available for policies in Microsoft Defend
     3. Note that you can also have the option to export policy information.
 
 1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the right side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
+
+1. From the left navigation panel, select **Home** to return to the home page for Microsoft 365 Defender.
 
 1. Keep the browser tab open if you plan to continue with the next demo.
 

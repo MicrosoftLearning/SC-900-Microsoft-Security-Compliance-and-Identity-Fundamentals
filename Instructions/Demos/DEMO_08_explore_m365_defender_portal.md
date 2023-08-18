@@ -22,15 +22,9 @@ In this demo, you'll show the Microsoft 365 Defender portal by walking through t
 
 Explore the Microsoft 365 Defender landing page.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.  You should already be signed in as the admin.  If not, sign in with your admin credentials.
+1. Open the browser tab for the Microsoft 365 security home page.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com** and sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH), to access the Microsoft 365 admin center. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
-
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
-
-1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
-
-1. The welcome page of the Microsoft 365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
+1. The home page of the Microsoft 365 Defender portal shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens that displays any cards that are available to add to your home page.  You may already have all cards displayed in which case you will see the note, "You already have all the cards on your home page." Close the window by select the **X** on top-right corner of the window.
 
@@ -62,7 +56,9 @@ In this part of the demo, you'll show how Microsoft Secure Score can help an org
 
 1. Select the **History** tab from the top of the page.  For each activity listed there is a brief statement that provides context.  Select an item from the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provides more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 
-1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
+1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity, Devices, and/or apps.  Close the window.
+
+1. From the left navigation panel, select **Home** to the home page for Microsoft 365 Defender.
 
 1. Keep the browser tab open if you plan to continue with the next demo.
 
