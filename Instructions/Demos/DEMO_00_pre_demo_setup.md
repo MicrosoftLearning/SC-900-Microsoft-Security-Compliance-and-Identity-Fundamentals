@@ -18,12 +18,9 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 In this setup task, you'll enable the Audit log capability in Microsoft 365.  Although documentation indicates that audit log is turned on by default, most lab tenants don't have this feature enabled, and it can take several hours for this to take effect.  It's beneficial to enable this feature, as Microsoft 365 uses audit logs for user insights and activities identified in policies and analytics insights.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **https://admin.microsoft.com**.
 
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique Microsoft 365 tenant ID provided by your lab hosting provider) then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. Sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH).
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -43,7 +40,7 @@ In this setup task, you'll enable the Audit log capability in Microsoft 365.  Al
 
 In this setup task, you will enable file monitoring in Microsoft Defender for Cloud Apps.
 
-1. Open the browser tab for the Microsoft 365 admin center.  If you previously closed it, open a new browser tab and in the address bar, enter **admin.microsoft.com** and from the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+1. Open the browser tab for the Microsoft 365 admin center.  If you previously closed it, open a new browser tab and in the address bar, enter **https://admin.microsoft.com** and from the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
@@ -61,14 +58,9 @@ For this setup you are using the Azure Cloud Slice environment which is separate
 
 Check that a VM has already been created. If not, then set it up now. You will use the VM as part of the NSG demo.
 
-1. Open Microsoft Edge.  In the address bar, enter **portal.azure.com**.
+1. Open Microsoft Edge.  In the address bar, enter **https://portal.azure.com** and sign in with the Azure credentials provided by the authorized lab hoster (ALH).  This bring you to the Azure services home page.
 
-1. Sign in with the user credentials for the Azure Cloud Slice environment provided by Skillable or your ALH.
-    1. In the Sign-in window, enter the username then select **Next**.  
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. If prompted to stay signed- in, select **Yes**.
-
-1. On the top of the page, underneath where it says Azure Services, select **Virtual Machines**.  If you don't see it listed, then in the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Virtual Machines** then select **Virtual Machines** from the search results.
+1. In the blue search box at the top of the page, enter **Virtual Machines** then select **Virtual Machines** from the search results.
 
 1. If a VM is already listed then skip the steps that follow, otherwise you'll need to create one.  Select **Create**, then from the drop-down menu, select **Azure Virtual machine**. Configure the following parameters (if a parameter is not listed, leave the default value).
     1. Resource group: Select **Create new** and enter **LabsSC900**, then select **OK**.

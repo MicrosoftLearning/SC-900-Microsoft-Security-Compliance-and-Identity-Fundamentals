@@ -22,7 +22,7 @@ In this demo, you'll walk through the some of the options available with Microso
 
 An instance of Microsoft Sentinel should have already been created as part of the pre-demo setup. Verify that it was created.
 
-1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and sign back in.
+1. Open the browser tab, **Home-Microsoft Azure**.  If you previously closed the tab, open a browser page and in the address bar, enter **https://portal.azure.com**. Sign in with the Azure credentials provided by the authorized lab hoster (ALH).  This bring you to the Azure services home page.
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
