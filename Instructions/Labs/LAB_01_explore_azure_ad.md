@@ -24,15 +24,10 @@ In this lab, you'll access Microsoft Entra ID (previously referred to as Azure A
 
 As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previously referred to as Azure AD).  In this task, you’ll learn how to create a new user in Microsoft Entra ID and explore some of services that can be managed at the user level.
 
-1. From the Microsoft Edge browser, select the tab labeled Home - Microsoft 365 admin center.
-
-1. If you previously closed that browser tab, then follow the steps below:
-    1. in the address bar, enter **admin.microsoft.com** and sign in with your admin credentials as follows:
-    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+1. Open the Microsoft Edge browser. In the address bar, enter **http://entra.microsoft.com** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
+    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
-
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
 
@@ -61,7 +56,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
 
     1. User types:  Leave the default to **Member**, but note that from the drop-down you have the option to select guest.
 
-    1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.
+    1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.  **NOTE**: if you don't do this, you will not be able assign a license in a subsequent step.
 
     1. Select **Next: Assignments**.
 
@@ -71,7 +66,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previo
 
     1. The window that opens shows all the available groups.  
 
-    1. Next to Groups, select **0 groups selected**.  This displays the available groups.  Notice the list of available groups.  From the list, select **Operations**.  From the bottom of the page, select the **Select** button.  It may take a few seconds but you should see the operations group showup on the assignments page.
+    1. Notice the list of available groups.  From the list, select **Operations**.  From the bottom of the page, select the **Select** button.  It may take a few seconds but you should see the operations group showup on the assignments page.
 
     1. From the top of the page, select **Add role**.  A window opens that shows all the available directory roles.  View the available options, but don't add any new roles.  Close this page by selecting the **X** on the top right corner of the directory roles page.
     1. From the bottom of the page, select **Review + create**. A summary of the settings will be displayed.  From the bottom of the page, select **Create**.
@@ -104,15 +99,14 @@ In this task, you'll sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-2. In the address bar, enter **login.microsoft.com**.
+2. In the address bar, enter **https://login.microsoft.com**.
 
-3. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
-
+3. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your ALH)
 4. Enter the temporary password you set in the previous task.
 
 5. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
 
-6. In the New password field, enter a new password, confirm the password, then select **Sign in**.  
+6. In the New password field, enter a new password, confirm the password, then select **Sign in**.  Make note of your new password as you will need it for the subsequent lab exercise on SSPR.
 
 7. You should now be successfully signed-in to Microsoft 365.
 
