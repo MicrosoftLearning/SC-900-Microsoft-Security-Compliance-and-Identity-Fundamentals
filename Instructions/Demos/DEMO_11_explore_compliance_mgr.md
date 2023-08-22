@@ -36,7 +36,7 @@ Show the Microsoft Purview compliance portal home page and how to customize the 
 
 1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
 
-1. From the left navigation panel of the Microsoft Purview compliance portal home page, notice the items listed under Solutions.  If only Catalog is displayed, then from the left navigation panel select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
+1. From the left navigation panel of the Microsoft Purview compliance portal home page, notice the items listed under Solutions. 
 
 1. As the compliance admin, there may be a set of solutions that you manage for our organization, and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**.  
 

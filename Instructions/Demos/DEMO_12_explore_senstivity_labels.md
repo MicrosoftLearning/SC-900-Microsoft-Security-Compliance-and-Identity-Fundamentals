@@ -25,8 +25,9 @@ In this demo, you show the settings for an existing sensitivity label and the co
 1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
 1. In the left navigation panel, under solutions, expand **Information protection** then select **Overview**.  The overview page includes information about top sensitivity labels applied to content, top activities detected, locations where sensitivity labels are applied and more.  
+    1. On the overview page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
 
-1. From the left navigation panel, select the **Labels** tab from the top of the page.
+1. From the left navigation panel, select **Labels**.
 
 1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
@@ -54,7 +55,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
     1. The last configuration option is to name your policy.  Since you're editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
     1. Review the policy settings. Since nothing was changed select **Cancel** to return to the Label policies page.
 
-1. From the Information protection page, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. If there are auto-labeling policies configured, select one and reivew the policy information in the details pane.  
+1. From the Information protection page, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. If there are auto-labeling policies configured, select one and review the policy information in the details pane.  If no policy is listed, you may choose to walk-through the steps to create one, if time permits.
 
 1. From the left navigation panel, select Home to return to the Microsoft Purview compliance portal.
 
