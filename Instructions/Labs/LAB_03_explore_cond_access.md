@@ -25,68 +25,64 @@ In this lab, you'll explore conditional access MFA, from the perspective of an a
 
 In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **https://portal.azure.com**.
-
-2. Sign in with your admin credentials.
+1. Open Microsoft Edge.  In the address bar, enter **https://entra.microsoft.com**, and sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-3. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then from the left navigation panel, under Favorites, select Azure Active Directory. If it is not listed under favorites, then in the search box, enter Azure Active Directory, then from the results list, select **Azure Active Directory**.
+1. From the left navigation pane, expand **Users** then select **All users**.
 
-4. From the left navigation panel, select **Users**.
+1. Select **Debra Berger** from the list of users.
 
-5. Select **Debra Berger** from the list of users.
+1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Debra Berger, you don’t know her password, and will need to reset the password.
 
-6. Select **Reset password** from the top of the page. Since you haven't previously signed in as Debra Berger, you don’t know her password, and will need to reset the password.
+1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you'll need it in a subsequent task, to be able to sign in as the user.
 
-7. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you'll need it in a subsequent task, to be able to sign in as the user.
+1. Close the password reset window by selecting the **X** at the top right corner of the page, then close out of the Debra Berger window by selecting the **X** at the top right corner of the page.
 
-8. Close the password reset window by selecting the **X** at the top right corner of the page, then close out of the Debra Berger window by selecting the **X** at the top right corner of the page.
+1. From the left navigation panel, select **Home** to return to the Microsoft Entra admin center.
 
-9. Close the Users window by selecting the **X** at the top right corner of the page.
-
-10. You're now back on the **Contoso | Overview** page.  Keep this window open.
+1. Keep this window open.
 
 ### Task 2
 
 In this task, you'll go through the process of creating a conditional access policy in Azure AD.
 
-1. Open the browser tab, labeled Contoso – Microsoft Azure.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://portal.azure.com** and sign in with your admin credentials, then select **Azure Active Directory**.  
+1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by the ALH.
 
-2. From the left navigation panel, select **Security**.
+1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
 
-3. From the left navigation panel, select **Conditional Access**.
+1. The Conditional access overview page is displayed.  Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
 
-4. The Conditional Access Policies Overview screen is displayed. Note the summary information available, and then select **Policies** from the left navigation. Any existing Conditional Access Policies are listed here. Select **+ New policy**.
+1. From the left navigation panel, select **Policies**. Any existing Conditional Access Policies are listed here. Select **+ New policy**.
 
-5. In the Name field, enter **MFA Test Policy**.
+1. In the Name field, enter **MFA Test Policy**.
 
-6. Under Users or workload identities, select **0 users and groups selected**.
+1. Under Users, select **0 users and groups selected**.
 
-7. You'll now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
+1. You'll now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
 
-8. Select the option for **Select users and groups** and select **Users and groups**.  The window to Select users and groups opens.  
+1. Select the option for **Select users and groups** and select **Users and groups**.  The window to Select users and groups opens.  
 
-9. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we'll assign the policy to a specific user.
+1. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we'll assign the policy to a specific user.
 
-10. Under Target resources, select **No target resources selected**.
+1. Under Target resources, select **No target resources selected**.
 
-11. You'll now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is listed in the field labeled Select what this policy applies to.  If not already listed, then select it from the drop-down. Make sure  **Include** is selected (underlined), then select **Select apps**, then underneath where it says Select, select **None**.  The window to Select Cloud apps opens.
+1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Cloud apps**.  Make sure the **Include** tab is underlined.  Select **Select apps**, then underneath where it says **Select**, select **None**.  The window to Select Cloud apps opens.
 
-12. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+1. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-13. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
+1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions including: user risk, sign-in risk, device platform, location, client apps, or filter for devices.  Explore these configurable options, but do not set any conditions.
 
-14. Now you'll set the access controls.  Under Grant, select **0 controls selected**.
+1. Now you'll set the access controls.  Under Grant, select **0 controls selected**.
 
-15. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multifactor authentication**. Scroll down a bit on the right window and under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
+1. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multifactor authentication**. Scroll down a bit on the right window and under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
 
-16. At the bottom of the page, Under Enable policy, select **On**, then select **Create**.
+1. At the bottom of the page, Under Enable policy, select **On**, then select **Create**.
 
-17. From the left navigation pane select **Policies**. The MFA Pilot policy should appear in the list of conditional access policies (if needed, select the **Refresh icon** in the command bar at the top of the page).
+1. From the left navigation pane select **Policies**. The MFA Pilot policy should appear in the list of conditional access policies (if needed, select the **Refresh icon** in the command bar at the top of the page).
 
-18. Sign out of Azure and close your browser windows.
+1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
 ### Task 3
 
