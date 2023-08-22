@@ -24,23 +24,13 @@ In this lab, you'll walk through the process of setting up an insider risk polic
 
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you'll add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+1. From the left navigation panel, expand **Roles & scopes** then select **Permissions**.
 
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. Under Microsoft Purview solutions, select **Roles**.
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
-
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance portal.  
-
-1. From the left navigation pane of the Microsoft Purview compliance portal, select **Permissions**.
-
-1. From the permissions & roles page, under where it says, "Microsoft Purview solutions" select **Roles**.
-
-1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. From the bottom of the window, select **Close**.
+1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window..
 
 1. From the left navigation panel, select **Home** to return to the Microsoft Purview compliance portal page.
 
@@ -54,7 +44,7 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 
 1. In the left navigation panel, under solutions, select **Audit**.
 
-1. Verify that the **Search** tab is selected (underlined).
+1. Verify that the **New Search** tab is selected (underlined).
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.
 
@@ -98,13 +88,16 @@ In this task, you'll walk through the settings for creating a policy.  The objec
     1. Indicators: Note that all the office indicators you selected in the previous task are selected (you can see this be selecting the down arrow key next to Office indicators), then select **Next**.
     1. On the Detection options page, leave all the default settings, but read the description associated with the various options and hover over the information icon to get more detailed information on a specific setting.  Select **Next**.
     1. On the page to Decide whether to use default or customer indicator thresholds, leave the default setting **Default thresholds**, then select **Next**.
-    1. Finish:  review the settings, select **Submit**, then select **Done**.
+    1. Finish:  review the settings, select **Submit**.
+    1. Review the description of what happens next then select **Done**.
 
 1. You're back on the Policies tab of the Insider risk management page.  The policy you created will be listed.  If you don't see it, select the **Refresh** icon.
 
 1. As an admin, you can immediately start assigning risk scores to users based on activity detected by the policies you selected. This bypasses the requirement that a triggering event (like a DLP policy match) is detected first.  An admin would do this by selecting the empty square next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  A new window opens that requires the admin to populate the available fields. Leave the fields empty as you won't configure this option, but for more information on why an admin would want to do this, select **Why would I do this??**.  Exit the window by selecting the **X** on the top right of the window.
 
-1. Close all the open browser tabs.
+1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview compliance portal.
+
+1. Keep the browser tab open.
 
 ### Review
 

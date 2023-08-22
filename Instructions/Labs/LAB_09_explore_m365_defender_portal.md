@@ -38,7 +38,7 @@ Explore the Microsoft 365 Defender landing page.
 
 1. The welcome page of the Microsoft 365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
-1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
+1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens that displays any cards that are available to add to your home page.  You may already have all cards displayed in which case you will see the note, "You already have all the cards on your home page." Close the window by select the **X** on top-right corner of the window.
 
 1. Selecting the ellipses on the top-right of any card will provide more actions you can take.  
 
@@ -46,7 +46,7 @@ Explore the Microsoft 365 Defender landing page.
 
 1. Selecting the title of a card will take you to additional information for that topic. You'll explore this in the next task.
 
-1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints, Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.
+1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints), Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.
 
 1. Keep the browser window open.
 
@@ -60,11 +60,11 @@ In this task, you'll explore how Microsoft Secure Score can help an organization
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 
-1. Select **Recommended actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
+1. Select **Recommended actions** from the top of the page.  Notice the information available in the table.  
 
-1. Selecting an item from the list provides detailed information.  Select **Require MFA for Administrative roles** and review the available information.  Select **Edit status & action plan**.  In the window that opens, note the status options available. Select the **X** at the top right corner to close this window
+1. Select the first items from the list and review the available information. In the window that opens, note the status options available. Select the **Implementation** tab to view to view information related to implementation. Select the **X** at the top right corner to close this window.
 
-1. Select the **History** tab from the top of the page. Select an item from the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
+1. Select the **History** tab from the top of the page.  For each activity listed there is a brief statement that provides context.  Select an item from the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provides more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 
 1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
 

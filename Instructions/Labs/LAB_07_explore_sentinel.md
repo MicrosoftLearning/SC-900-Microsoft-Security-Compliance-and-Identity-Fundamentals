@@ -24,7 +24,7 @@ This lab maps to the following Learn content:
 
 Create a Microsoft Sentinel instance
 
-1. You should be the home page for Azure services.  If you previously closed the browser, ppen Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
+1. You should be at the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
 
 1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -34,7 +34,7 @@ Create a Microsoft Sentinel instance
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
     1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
-    1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
+    1. Resource group: select **SC900-Sentinel-RG**. If this resource group is not listed create it by selecting **Create new**, enter **SC900-Sentinel-RG**, then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (A different default region may be selected based on your location)
     1. Select **Review + Create** (no tags will be configured).

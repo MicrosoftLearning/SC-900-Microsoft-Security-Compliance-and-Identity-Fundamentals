@@ -34,7 +34,7 @@ Explore the Microsoft 365 Defender landing page.
 
 1. Selecting the title of a card will take you to additional information for that topic. You'll explore this in the next task.
 
-1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints, Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps), and more.  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.
+1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints), Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps), and more.  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.
 
 1. Keep the browser window open.
 
@@ -50,9 +50,7 @@ In this part of the demo, you'll show how Microsoft Secure Score can help an org
 
 1. Select **Recommended actions** from the top of the page.  Notice the information available for each item in the table.  
 
-1. Selecting an item from the list provides detailed information.  Select **Require MFA for Administrative roles**.  Note how you can update the status of the action plan and the detailed information for implementation of the action.
-
-1. From the top bottom of window of the page, select **Manage in Microsoft Azure**.  A new browser tab opens and takes you directly to the Conditional Access Policies page.  Return to Microsoft secure score tab on your browser to return to the improvement action page for requiring MFA for administrative roles. From the top right corner of the window, select the **X** to close this window and return the improvement actions page.
+1. Select the first items from the list and review the available information. In the window that opens, note the status options available. Select the **Implementation** tab to view to view information related to implementation. Select the **X** at the top right corner to close this window.
 
 1. Select the **History** tab from the top of the page.  For each activity listed there is a brief statement that provides context.  Select an item from the history table.  On the top-right of the details page, under History, select **X events** (where X is a number).  The action history window opens and provides more information.  Select **Close** on the bottom of the page, then select the **X** on the top-right corner of the details page to return to the History page.
 
