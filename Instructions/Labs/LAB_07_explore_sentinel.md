@@ -117,4 +117,4 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 ### Review
 
-In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
+In this lV you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
