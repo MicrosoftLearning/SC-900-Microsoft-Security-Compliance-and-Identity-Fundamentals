@@ -24,11 +24,7 @@ This lab maps to the following Learn content:
 
 Create a Microsoft Sentinel instance
 
-1. Open Microsoft Edge. In the address bar, enter **portal.azure.com**.
-1. Sign in with your admin credentials.
-    1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. You should be the home page for Azure services.  If you previously closed the browser, ppen Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
 
 1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -68,49 +64,50 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the access control page, close the window by selecting the **X** on the top-right corner of the window.
 
+1. From the top left corner of the window, just below the blue bar where it says Microsoft Azure, select **Home** to return to the Azure services home page.
+
+1. Keep the Azure tab open on your browser.
+
 ### Task 3
 
-The purpose of this task is to walk you through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. NOTE: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
+The purpose of this task is to walk you through the steps involved in connecting to a data source. Many data connectors are deployed as part of a Microsoft Sentinel solution together with related content like analytics rules, workbooks and playbooks. The Microsoft Sentinel Content hub is the centralized location to discover and manage out-of-the-box (built-in) content. In this step, you'll use the content hub to deploy the Microsoft Defender for Cloud solution for Microsoft Sentinel.  This solution allows you to ingest Security alerts reported in Microsoft Defender for Cloud.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
+1. From the Azure services home page, select Microsoft Sentinel, then select the instance you created, **SC900-LogAnalytics-workspace**.
 
-1. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+1. From the left navigation panel, select **Content hub**.
 
-1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
+1. Take a moment to scroll down to see the long list of available solutions and the options to filter the list.  For this task, your're looking for **Microsoft Defender for Cloud**.  Select it from the list.  In the side window that opens, read the description then select **Install**.  This solution includes one data connector and one analytics rule. It may take a minute to install.  Select **Manage**.
 
-1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
+1. Select the box next to where it says Microsoft Defender for Cloud.  A window opens on the right side of the page.  Select **Open connector page**.
 
-1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
+1. Note the configuration instructions.  Select the box next to the name of the subscription then select **Connect**.  A pop-op window may appear indicating that only subscriptions you have Security Reader permissions on will start streaming Microsoft Defender for Cloud alerts.  Select **OK**.  The status will move to connected.  The connector is now enabled, although it may take some time for the connector to show up in the data connectors page.  
 
-1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
+1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**. De-select the box next to where it says Microsoft Defender for Cloud, as you have already configured the connector (it may take some time for the warning icon to disappear). Select the box next to where it says, **Detect CoreBackUp Deletion Activity from related security alerts**. In the window that opens you will see information about the rule and what it does.  
+    1. Although the details of the rule logic are beyond the scope of the fundamentals, go through the steps to configure the rule to view the type of information that can be configured as part of the rule. Select **Configuration**.
+    1. Select the rule **Detect CoreBackUp Deletion Activity from related security alerts**.
+    1. From the window that opens on the right side of the page, select **Create rule**.
+    1. Go through each of the configuration pages, then select **Review and create**, then select **Save**.
 
-1. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
-    1. From the configuration section, select the empty box next to the listed subscription, **MOC Subscription--lodXXXXXXXX** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
-    1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
-    1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
-    1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
-    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
-    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
-    1. From the top of the workbook page, select the **Save icon**.
-    1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
+1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crump at the top of the page, above where it says Analytics rules.
 
 1. Keep this page open, as you'll use it in the next task.
+
 
 ### Task 4
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
+1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options.
 
 1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
 1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen, select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios. Scroll down to the README.md section and review the description. Return to the Azure tab in your browser.
 
-1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
+1. From the left navigation panel, select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
+1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub.Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
 
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
