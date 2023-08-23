@@ -101,7 +101,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Select **check access** (verify the port is set to 3389).  The status should show as "Accessible".
 
-1. Now connect directly to the VM by selecting **Select** in the box that says Native RDP.
+1. Now connect directly to the VM by clicking **Select** in the box that says Native RDP.
    
     1. From the Native RDP window that opens, select **Download RDP file**.
     1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
