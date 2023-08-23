@@ -124,7 +124,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://entra.microsoft.com** with your admin credentials.
+1. In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)** with your admin credentials.
 
 1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Protection**, then select **Password reset**.
 
