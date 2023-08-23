@@ -25,7 +25,7 @@ In this lab, you'll explore conditional access MFA, from the perspective of an a
 
 In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)*, and sign in with your admin credentials.
+1. Open Microsoft Edge.  In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)**, and sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
