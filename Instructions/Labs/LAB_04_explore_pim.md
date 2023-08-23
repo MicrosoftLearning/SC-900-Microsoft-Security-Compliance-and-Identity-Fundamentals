@@ -24,7 +24,7 @@ In this lab, you'll explore some of the basic functionality of Privileged Identi
 
 In this task you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **entra.microsoft.com**.
+1. Open Microsoft Edge.  In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)**.
 
 1. Sign in with the Microsoft 365 admin credentials provided by your ALH.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
