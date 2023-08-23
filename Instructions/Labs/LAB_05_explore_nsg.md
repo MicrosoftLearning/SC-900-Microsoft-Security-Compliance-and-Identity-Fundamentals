@@ -102,8 +102,8 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. Select **check access** (verify the port is set to 3389).  The status should show as "Accessible".
 
 1. Now connect directly to the VM by selecting **Select** in the box that says Native RDP.
-    1. From the top of the page, select **Connect** and on the SC900-WinVM | Connect page, verify that **RDP** is selected (blue underline).
-    1. From the Native RDP window that opens, select **Download DRP file**.
+    1. From the top of the page, select **Connect** and on the SC900-WinVM \| Connect page, verify that **RDP** is selected (blue underline).
+    1. From the Native RDP window that opens, select **Download RDP file**.
     1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
     1. A Remote Desktop Connection window opens; select **Connect**.
     1. You'll be prompted for your credentials.  Enter the Username and Password for the VM (refer to the resources tab on the lab instruction panel).
@@ -116,7 +116,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
     1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
     1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
-1. Minimize the VM, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM | Connect page.
+1. Minimize the VM, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
 
 1. Keep the browser tab open you'll use it the next task.
 
@@ -124,7 +124,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 In the previous task you confirmed that you could establish an RDP connection to the VM. Once in the VM you also confirmed that you could establish an outbound connection to the internet.  The outbound internet traffic was allowed because the default outbound rules for NSG allow outbound internet traffic.  In this task, you'll go through the process of creating a custom outbound rule to block outgoing internet traffic and test that rule.
 
-1. You should be on the SC900-WinVM | Connect page. From the left navigation panel, select **Networking**. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
+1. You should be on the SC900-WinVM \| Connect page. From the left navigation panel, select **Networking**. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
 
 1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.
 
