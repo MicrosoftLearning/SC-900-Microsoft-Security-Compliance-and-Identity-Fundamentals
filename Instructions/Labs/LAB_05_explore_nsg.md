@@ -134,7 +134,7 @@ In the previous task you confirmed that you could establish an RDP connection to
     1. Destination:  **Service Tag**
     1. Destination service tag:  **Internet**
     1. Service:  **Custom** (leave the default)
-    1. Destination port ranges:  * (be sure to put an asterisk in the destination port ranges field)
+    1. Destination port ranges:  **\*** (be sure to put an asterisk in the destination port ranges field)
     1. Protocol: **Any**
     1. Action: **Deny**
     1. Priority:  **1000**
