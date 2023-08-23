@@ -24,7 +24,7 @@ In this lab, you'll explore the function of network security groups in Azure.  Y
 
 In this task, you'll view some of the parameters associated with the VM that that was created for use with this lab.
 
-1. Open Microsoft Edge.  In the address bar, enter **portal.azure.com**.
+1. Open Microsoft Edge.  In the address bar, enter **https://portal.azure.com**.
 
 1. Sign in with your admin credentials.
     1. In the Sign-in window, enter the username provided by your lab hosting provider then select **Next**.
@@ -37,7 +37,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note some of the basic information about the VM.
 
-1. From the top of the page select **Connect**.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, you should see that RDP prerequisites could not be configured.  In the next task you will setup an NSG to explicitly allow RDP connection.
+1. From the top of the page select **Connect**.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, under "1 Configure prerequisites for Native RDP", you should see "Azure needs to configure some features in order to connect to the VM".  In the next task you will setup an NSG to explicitly allow RDP connection.
 
 
 1. From the left navigation panel, select **Networking**.  
@@ -51,9 +51,9 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 In this task, you'll create a network security group, assign the network interface of the VM to that NSG, and create a new inbound rule for RDP traffic.
 
-1. From the open NSG tab, *right click* on the **Home** link at the top of the page and select **Open link in new tab** to open another page to Azure services.
+1. From the open NSG tab, *right-click* on the **Home** link at the top of the page and select **Open link in new tab** to open another page to Azure services.
 
-1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**. Do not select Network security groups (classic).
+1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**. Do not select *Network security groups (classic)*.
 
 1. From the top of Network security groups page, select **+ Create**.
 
@@ -102,7 +102,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. Select **check access** (verify the port is set to 3389).  The status should show as "Accessible".
 
 1. Now connect directly to the VM by selecting **Select** in the box that says Native RDP.
-    1. From the top of the page, select **Connect** and on the SC900-WinVM \| Connect page, verify that **RDP** is selected (blue underline).
+   
     1. From the Native RDP window that opens, select **Download RDP file**.
     1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
     1. A Remote Desktop Connection window opens; select **Connect**.
