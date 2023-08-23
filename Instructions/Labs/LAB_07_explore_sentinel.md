@@ -88,7 +88,7 @@ The purpose of this task is to walk you through the steps involved in connecting
     1. From the window that opens on the right side of the page, select **Create rule**.
     1. Go through each of the configuration pages, then select **Review and create**, then select **Save**.
 
-1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crump at the top of the page, above where it says Analytics rules.
+1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crumb at the top of the page, above where it says Analytics rules.
 
 1. Keep this page open, as you'll use it in the next task.
 
