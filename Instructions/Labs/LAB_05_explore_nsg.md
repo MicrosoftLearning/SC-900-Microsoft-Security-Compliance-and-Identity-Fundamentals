@@ -37,7 +37,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note some of the basic information about the VM.
 
-1. From the top of the page select **Connect**.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, select **Select**.  In the window that opens, you should see that RDP prerequisites could not be configured.  In the next task you will setup an NSG to explicitly allow RDP connection.
+1. From the top of the page select **Connect**.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, you should see that RDP prerequisites could not be configured.  In the next task you will setup an NSG to explicitly allow RDP connection.
 
 
 1. From the left navigation panel, select **Networking**.  
