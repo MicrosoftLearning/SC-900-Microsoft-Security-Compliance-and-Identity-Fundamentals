@@ -121,7 +121,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Minimize the RDP session by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
 
-1. Keep the browser tab open you'll use it the next task.
+1. Keep the browser tab open; you'll use it the next task.
 
 ### Task 4
 
