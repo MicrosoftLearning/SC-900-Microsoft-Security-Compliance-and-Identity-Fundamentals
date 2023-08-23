@@ -119,7 +119,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
     1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
     1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
-1. Minimize the RDP session, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
+1. Minimize the RDP session by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
 
 1. Keep the browser tab open you'll use it the next task.
 
