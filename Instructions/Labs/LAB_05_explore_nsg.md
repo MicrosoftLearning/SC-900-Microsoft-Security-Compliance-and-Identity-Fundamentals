@@ -148,9 +148,9 @@ In the previous task you confirmed that you could establish an RDP connection to
 
 1. Return to your VM in the RDP session (the icon for the RDP session should be shown on the task bar on the bottom of the page).
 
-1. Open the Microsoft Edge browser in RDP session and enter **www.bing.com**. The page should now display.
+1. Open the Microsoft Edge browser in the RDP session and enter **www.bing.com**. The page should not display.
 
-   > Note: If you are not able to connect to the Internet and you verified that all the parameters for the outbound rule were properly set, it's likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
+   > Note: If you are able to connect to the Internet and you verified that all the parameters for the outbound rule were properly set, it's likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
 
    > Note:  Azure subscriptions in the lab environment may experience longer than normal delays.
 
