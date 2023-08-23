@@ -110,7 +110,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
     1. If a download warning appears, select **Keep**, then on the pop-up window that appears, select **Open file**.
     1. A Remote Desktop Connection window opens; select **Connect**.
     1. You'll be prompted for your credentials.  Enter the Username and Password for the VM (refer to the resources tab on the lab instruction panel).
-    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*;  Select **Yes**.
+    1. A Remote Desktop connection window opens indicating: *The identity of the remote computer cannot be verified.  Do you want to connect anyway?*  Select **Yes**.
 
 1. You're now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.  After a few seconds on the Welcome screen you may see a window to Choose privacy settings for your device, select **Accept**.  If the Networks window appears, select **No**.
 
