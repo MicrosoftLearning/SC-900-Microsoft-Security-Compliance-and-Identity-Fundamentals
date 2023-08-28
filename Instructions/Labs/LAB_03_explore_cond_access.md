@@ -30,7 +30,7 @@ In this task you, as the admin, will reset the password for the user Debra Berge
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the left navigation pane, expand **Users** then select **All users**.
+1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
 1. Select **Debra Berger** from the list of users.
 
