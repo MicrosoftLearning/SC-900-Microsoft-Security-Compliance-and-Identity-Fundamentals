@@ -59,7 +59,7 @@ Explore Cloud Discovery.
 
 1. Keep this page open, as you'll use it in the next task.
 
-### Task Part 2 - Explore the Cloud app catalog
+### Task 2 - Explore the Cloud app catalog
 
 Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.  In this task, you'll explore the capabilities of the Cloud app catalog.
 
