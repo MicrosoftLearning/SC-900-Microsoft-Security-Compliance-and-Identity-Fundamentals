@@ -91,7 +91,7 @@ In this task, you'll explore the policies in Microsoft Defender for Cloud Apps.
     1. Note that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
     1. Note that you can also have the option to export policy information.
 
-1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the left side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
+1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the right side of a template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
 
 1. Close the browser window.
 
