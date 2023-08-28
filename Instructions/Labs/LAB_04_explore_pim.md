@@ -55,7 +55,7 @@ In this task you, as the admin, will assign Diego an Azure AD role in Privileged
 
 1. You're now in the Contoso Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
-1. From the top of the page, select **+ Assignments**.
+1. From the top of the page, select **+ Add assignments**.
 
 1. In the Add assignments page, ensure that **Membership** is underlined.  Here you'll configure the membership settings for the user administrator role in PIM.
 
