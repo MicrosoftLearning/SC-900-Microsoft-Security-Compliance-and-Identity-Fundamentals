@@ -117,7 +117,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
-1. Close all the open browser tabs.
+1. Sign out and close all the open browser tabs.
 
 ### Review
 
