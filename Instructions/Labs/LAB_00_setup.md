@@ -39,7 +39,8 @@ In this setup task, you will enable the Audit log capability in Microsoft 365.  
 
 1. Verify that the **New Search** tab is selected (underlined).
 
-1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  If prompted to confirm that the organization settings need to be updated, select **Yes**. Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.  Another way to check if auditing is enabled is through PowerShell, but that is outside the scope of this course.
+1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  If prompted to confirm that the organization settings need to be updated, select **Yes**. Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.  Another way to check if auditing is enabled is through PowerShell, but that is outside the scope of this course.  
+![Screenshot of the Microsoft Purview auditing page with the notification in a red box.](../Media/Setup00-07.png)
 
 1. Return to the home page of the Microsoft Purview compliance portal by selecting **Home** from the left navigation panel to sign out of Microsoft 365. Sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters MA (next to the question mark icon), then selecting **Sign out**.  Close the browser.
 
