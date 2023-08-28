@@ -31,7 +31,7 @@ In this task you, as the admin, will reset the password for the user Diego Sicil
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the left navigation panel, expand **Users** then select **Users**.
+1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.
 
 1. Select **Diego Siciliani** from the list of users.
 
