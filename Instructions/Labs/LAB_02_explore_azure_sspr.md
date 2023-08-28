@@ -57,9 +57,9 @@ In this task you, as the admin, will walk through the some of the available conf
 
 In this task you, as the admin, will add the user you created in the previous lab exercise to the SSPR security group.
 
-1. Open the browser tab for the home page of the Microsoft Entra Admin center.  
+1. Open the browser tab for the home page of the Microsoft Entra Admin center **[entra.microsoft.com](https://entra.microsoft.com)**. If needed, expand **Identity**.
 
-1. From the left navigation panel, expand **Groups** then select **All groups**.
+1. From the left navigation panel, under "Identity", expand **Groups** then select **All groups**.
 
 1. A list of existing groups is displayed. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
