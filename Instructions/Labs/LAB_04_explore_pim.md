@@ -6,7 +6,7 @@ Lab:
 ---
 --->
 
-# Lab: Explore identity governance in Azure AD with Privileged Identity management
+# Lab: Explore identity governance in Azure AD with Privileged Identity Management
 
 This lab maps to the following Learn content:
 
@@ -120,8 +120,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. From the bottom of the page, select **Save**.  You'll see a brief notification on the top right of page indicating licenses were successfully assigned.
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
-1. The duration of the user admin role is limited to the time that was configured.
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. The duration of the User Administrator role is limited to the time that was configured.
 
 ### Review
 
