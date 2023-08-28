@@ -61,7 +61,7 @@ In this task you, as the admin, will assign Diego an Azure AD role in Privileged
 
 1. Leave the Scope type to its default value, Directory.  
 
-1. Under Select members, select **No members selected**. This opens the Select a member window.
+1. Under Select members, select **No member selected**. This opens the Select a member window.
 
 1. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
 
