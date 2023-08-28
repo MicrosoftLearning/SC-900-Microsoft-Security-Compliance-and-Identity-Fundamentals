@@ -49,7 +49,7 @@ In this task you, as the admin, will assign Diego an Azure AD role in Privileged
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.
 
-1. From the left navigation panel, expand **Identity Governance**, then select **Privileged Identity Management**.
+1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**.
 
 1. You are now in the Privileged Identity Management quick start page. Review the information on the Get started page. Select **Manage**.
 
