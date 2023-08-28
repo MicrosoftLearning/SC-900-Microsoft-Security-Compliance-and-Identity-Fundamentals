@@ -97,7 +97,7 @@ The purpose of this task is to walk you through the steps involved in connecting
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **Queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options. Close the window by selecting the **X** on the top-right corner of the window.
+1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **Queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options. Close the Content hub by selecting the **X** on the top-right corner of the window.
 
 1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
