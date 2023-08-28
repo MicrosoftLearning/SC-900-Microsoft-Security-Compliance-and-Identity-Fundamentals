@@ -107,6 +107,8 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
+   >**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
+
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
 1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub.Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
