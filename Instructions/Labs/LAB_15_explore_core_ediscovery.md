@@ -31,7 +31,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. Under Microsoft Purview solutions, select **Roles**.
 
-1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
+1. In the search field, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
 
 1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
     1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this lab, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
