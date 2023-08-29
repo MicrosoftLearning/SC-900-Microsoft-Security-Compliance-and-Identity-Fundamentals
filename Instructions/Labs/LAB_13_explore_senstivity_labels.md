@@ -47,7 +47,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. Select **Edit policy** from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. The next page is a preview for Assigning admin units, review the description for admin units. The admin units are set to the full directory, don't change any settings. Select **Next**.  
+    1. The next page is for Assigning admin units, review the description for admin units. The Admin units are set to the full directory, don't change any settings. Select **Next**.  
     1. Read the description under “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. Review the policy settings.  Select **Next** on the bottom of the page.
     1. Read description under, "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
