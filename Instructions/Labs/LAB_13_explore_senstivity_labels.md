@@ -69,7 +69,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
     1. You can decide to test the policy now or later.  Select **Leave policy turned off** then select **Next**.
     1. Review the settings and select **Create policy** then select **Done**.
 
-1. From the left navigation panel, select Home to return to the Microsoft Purview compliance portal.
+1. From the left navigation panel, select **Home** to return to the Microsoft Purview compliance portal.
 
 1. Keep this page open, you'll use it in the next task.
 
