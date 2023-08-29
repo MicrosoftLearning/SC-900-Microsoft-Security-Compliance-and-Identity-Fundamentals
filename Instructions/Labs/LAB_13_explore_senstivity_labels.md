@@ -47,15 +47,15 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. Select **Edit policy** from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. The next page is to "Assign admin units"; review the description for admin units. The Admin units are set to the full directory, don't change any settings. Select **Next**.  
-    1. Read the description under “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the policy settings.  Select **Next** on the bottom of the page.
-    1. Read description under, "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Read description under, "Apply a default label to emails." Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Read description under, "Default settings for meetings and calendar events." Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Read description under, "Apply a default label to Power BI content." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Review the description for "Assign admin units". The Admin units are set to the full directory, don't change any settings. Select **Next**.  
+    1. Review the description for “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Review the policy settings. Select **Require users to apply a label to their emails and documents** and review the description provided. Select **Next** on the bottom of the page.
+    1. Read description under "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under "Apply a default label to emails" and "Inherit label from attachments". Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under "Apply a default label to meetings and calendar events". Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Read description under "Apply a default label to Power BI content". Don’t change any settings.  Select **Next** on the bottom of the page.
     1. The last configuration option is to name your policy.  Since you're editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
-    1. Review the policy settings. Since nothing was changed select **Cancel** to return to the Label policies page.
+    1. Review the policy settings. Select **Cancel** to discard any changes and return to the Label policies page.
 
 1. From the Information protection page, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. No auto-label policies have been preconfigured in our tenant. To create a new auto-label policy, select **Create auto-label policy**.  Here you will walk through the steps to create a new policy.
     1. You start by choosing the information you want this label applied to.  Note the available options.  Select **Medical and health** then select one of the available templates.  Select **Next**.
