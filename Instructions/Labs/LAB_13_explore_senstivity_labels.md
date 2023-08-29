@@ -58,7 +58,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
     1. Review the policy settings. Since nothing was changed select **Cancel** to return to the Label policies page.
 
 1. From the Information protection page, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. No auto-label policies have been preconfigured in our tenant. To create a new auto-label policy, select **Create auto-label policy**.  Here you will walk through the steps to create a new policy.
-    1. You start by choosing the information you wan tot this label applied to.  Note the available options.  Select **Medical and health** then select one of the available templates.  Select **Next**.
+    1. You start by choosing the information you want this label applied to.  Note the available options.  Select **Medical and health** then select one of the available templates.  Select **Next**.
     1. You can name your auto-label policy or use the default name.  Select **Next**.
     1. You can assign the admin units to which this policy applies.  Leave the default set to full directory and select **Next**.
     1. Note the available locations where you want to apply the label.  Leave the defaults and select **Next**.
