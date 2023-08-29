@@ -81,19 +81,19 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press **Enter** on your keyboard.
 
-1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipses then select sensitivity). From the drop-down, select **Confidential - Finance**.  NOTE: When using Microsoft Word online, you may experience be a delay before the option to select Sensitivity labels appears on the top ribbon.  It is recommended that you complete all remaining labs and then return back to this task.
+1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipses then select sensitivity). From the drop-down, select **Highly Confidential** then select **All Employees**.  NOTE: When using Microsoft Word online, you may experience be a delay before the option to select Sensitivity labels appears on the top ribbon.  It is recommended that you complete all remaining labs and then return back to this task.
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
-1. Notice how the document includes the watermark.  
+1. Notice how the document includes the "Classified as Highly Confidential" footer.  
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
 ### Task 3 (optional)
 
-Recall from the first part of the demo, that the Confidential - Finance label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send document you previously created, that includes the Confidential - Finance label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
+Recall from the first part of the demo, that the Highly Confidential - All Employees label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send the document you previously created, that includes the Highly Confidential - All Employees label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
 
-1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Contoso Electronics. Select the **Outlook icon**.
+1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Microsoft Purview. Select the **Outlook icon**.
 
 1. Select **New mail** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
 
@@ -101,7 +101,7 @@ Recall from the first part of the demo, that the Confidential - Finance label is
 
 1. Select **OneDrive**.
 
-1. Make sure the **Recent** tab on the left navigation panel is selected.  From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**.  Press **Send**.
+1. Make sure the **Recent** tab on the left navigation panel is selected.  From the list that shows up, select the **Test-label.docx** document you created and to which you applied the Highly Confidential - All Employelabel . Select **Next** and select **Attach**.  Press **Send**.
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  The email is successfully sent but When you attempt to open the attached word file, which was originally labeled as confidential - Finance, you'll see a notification that you do not have permission to open the document.
 
