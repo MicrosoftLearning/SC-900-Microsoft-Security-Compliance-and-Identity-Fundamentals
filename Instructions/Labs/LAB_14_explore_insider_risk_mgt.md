@@ -30,7 +30,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Under Microsoft Purview solutions, select **Roles**.
 
-1. In the search field type: **Insider risk** then hit Enter on your keyboard.  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window..
+1. In the search field type **Insider risk** then hit Enter on your keyboard.  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window..
 
 1. From the left navigation panel, select **Home** to return to the Microsoft Purview compliance portal page.
 
