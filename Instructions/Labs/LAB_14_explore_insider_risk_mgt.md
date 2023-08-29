@@ -36,7 +36,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Keep this browser tab open, as you'll come back to it in a subsequent task.
 
-### Task 2 (SKIP if you did the setup lab task to enable the audit log)
+### Task 2 (NOTE: SKIP Task 2 if you did the setup lab task to enable the audit log.)
 
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you'll enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
