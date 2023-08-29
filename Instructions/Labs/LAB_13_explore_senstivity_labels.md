@@ -43,7 +43,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
-1. In this case, Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
+1. In this case, Select **Global sensitivity label policy**.  A window opens that provides information about the policy.  Note the description, this label policy has been setup to serve as the default sensitivity label policy for all users and groups. This policy serves to publish most of the labels that were preconfigured for this Microsoft 365 lab tenant and are listed in the labels tab.  
 
 1. Select **Edit** policy from the top of the window.
     1. Read the description under “Choose sensitivity labels to publish”.  Notice the labels that are listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
