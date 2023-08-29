@@ -31,7 +31,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. From the left navigation panel, select **Labels**.
 
-. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Note the scope for this label.  The scope is set to Files & emails.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. This next screen is where you can choose protection settings for the labeled items. Note that this label is configured to support encryption and content marking. Don’t change anything.  Select **Next** at the bottom of the page.
