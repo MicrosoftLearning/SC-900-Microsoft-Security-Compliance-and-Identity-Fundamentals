@@ -101,9 +101,9 @@ Recall from the first part of the demo that the Highly Confidential - All Employ
 
 1. Select **OneDrive**.
 
-1. Make sure the **Recent** tab on the left navigation panel is selected.  From the list that shows up, select the **Test-label.docx** document you created and to which you applied the Highly Confidential - All Employelabel . Select **Next** and select **Attach**.  Press **Send**.
+1. Make sure the **Recent** tab on the left navigation panel is selected.  From the list that shows up, select the **Test-label.docx** document you created and to which you applied the Highly Confidential - All Employees label . Select **Next** and select **Attach**.  Press **Send**.
 
-1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  The email is successfully sent but When you attempt to open the attached word file, which was originally labeled as confidential - Finance, you'll see a notification that you do not have permission to open the document.
+1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  The email is successfully sent but When you attempt to open the attached word file, which was originally labeled as Highly Confidential - All Employees, you'll see a notification that you do not have permission to open the document.
 
 1. Close Outlook, but keep the the browser tab to the Microsoft Purview home page open.
 
