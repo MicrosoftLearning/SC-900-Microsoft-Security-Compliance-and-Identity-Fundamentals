@@ -29,7 +29,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 1. In the left navigation panel, under solutions, expand **Information protection** then select **Overview**. Note the warning at the top of the page and scroll down to view the information available.
 
 1. From the left navigation panel, select **Labels**.
-   1. On the labels page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
+   1. On the labels page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system and there are additional steps that must be completed to protect Teams, SharePoint sites, and Microsoft 365 Groups.
 
 1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
