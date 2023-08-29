@@ -47,6 +47,7 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 1. Verify that the **New Search** tab is selected (underlined).
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.
+   ![Screenshot of the Microsoft Purview auditing page with the notification in a red box.](../Media/Setup00-07.png)
 
 1. Return to the home page of the Microsoft Purview compliance portal by selecting **Home** from the left navigation panel.
 
