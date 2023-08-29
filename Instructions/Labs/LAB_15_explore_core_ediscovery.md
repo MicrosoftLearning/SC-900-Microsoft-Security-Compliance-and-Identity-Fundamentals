@@ -104,7 +104,7 @@ With a hold in place, you'll create a search query.  Once your search is complet
 
 1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
 
-1. Sign out and close all the open browser tabs.
+1. Sign out and close all open browser windows.
 
 ### Review
 
