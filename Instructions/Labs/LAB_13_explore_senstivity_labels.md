@@ -91,7 +91,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 ### Task 3 (optional)
 
-Recall from the first part of the demo, that the Highly Confidential - All Employees label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send the document you previously created, that includes the Highly Confidential - All Employees label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
+Recall from the first part of the demo that the Highly Confidential - All Employees label is set up for encryption. Per the permissions that were configured with this label, users in the Contoso tenant have viewer permissions for any document/email with the label applied.  In this section you'll send the document you previously created, that includes the Highly Confidential - All Employees label, to an email address to which you have access (a personal email address or your Microsoft email) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain.  
 
 1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Microsoft Purview. Select the **Outlook icon**.
 
