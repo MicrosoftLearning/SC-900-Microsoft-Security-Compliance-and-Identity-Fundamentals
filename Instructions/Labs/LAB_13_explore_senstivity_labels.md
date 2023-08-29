@@ -62,7 +62,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
     1. You can name your auto-label policy or use the default name.  Select **Next**.
     1. You can assign the admin units to which this policy applies.  Leave the default set to full directory and select **Next**.
     1. Note the available locations where you want to apply the label.  Leave the defaults and select **Next**.
-    1. You can set up common or advanced rules that define what hte content the label is applied to.  Leave the default set to Common rules and select **Next**.
+    1. You can set up common or advanced rules that define what the content the label is applied to.  Leave the default set to Common rules and select **Next**.
     1. You can define rules for content in all locations.  The label will be applied to content that matches rules defined on this page.  For the template you selected, you should see a line item. Expand it to view the conditions that apply.  Leave all the default settings  and select **Next**.
     1. Choose a label to auto-apply by selecting **Choose a label**.  Choose a label then select **Add**.
     1. Additional settings can be configured for email. Leave the defaults and select **Next**.
