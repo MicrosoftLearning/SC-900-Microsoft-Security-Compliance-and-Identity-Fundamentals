@@ -46,7 +46,7 @@ In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery adm
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
 
-1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
 
 1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
 
