@@ -77,7 +77,8 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 
 1. You'll see a validation passed message (the tag name and value are not required fields in the wizard), then select **Create**.
 
-1. You'll see a failure message on the top of the screen, “Failed to create the resource group". Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you'll see that the resource is not compliant.  The details page will include the non-compliance message.
+1. You'll see a failure message on the top of the screen, “Failed to create the resource group". Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance.
+   >**Note**: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you'll see that the resource is not compliant.  The details page will include the non-compliance message.
 
 1. The error summary shows the error type, “Resource ‘SC900-Labs’ was disallowed by policy.  Close this window by selecting the **X** on the top left corner of the screen.
 
