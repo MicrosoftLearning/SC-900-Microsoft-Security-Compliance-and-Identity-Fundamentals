@@ -82,7 +82,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press **Enter** on your keyboard.
 
-1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipses then select sensitivity). From the drop-down, select **Highly Confidential** then select **All Employees**.  NOTE: When using Microsoft Word online, you may experience be a delay before the option to select Sensitivity labels appears on the top ribbon.  It is recommended that you complete all remaining labs and then return back to this task.
+1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipsis then select sensitivity). From the drop-down, select **Highly Confidential** then select **All Employees**.  NOTE: When using Microsoft Word online, you may experience be a delay before the option to select Sensitivity labels appears on the top ribbon.  It is recommended that you complete all remaining labs and then return back to this task.
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
