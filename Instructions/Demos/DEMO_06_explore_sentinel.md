@@ -55,7 +55,7 @@ As with all Azure resources, you want to ensure that users have the proper permi
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 4 roles associated with Microsoft Sentinel.
+    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
 
     1. Close the window by selecting the **X** on the top-right corner of the window.

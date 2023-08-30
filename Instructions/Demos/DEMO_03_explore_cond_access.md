@@ -6,7 +6,7 @@ Demo:
 ---
 --->
 
-# Demo: Azure AD Conditional Access
+# Demo: Microsoft Entra Conditional Access
 
 This demo maps to the following Learn content:
 

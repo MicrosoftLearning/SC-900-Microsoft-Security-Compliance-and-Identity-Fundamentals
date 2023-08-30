@@ -6,7 +6,7 @@ Lab:
 ---
 --->
 
-# Lab: Explore Azure Active Directory
+# Lab: Explore Microsoft Entra ID
 
 This lab maps to the following Learn content:
 
