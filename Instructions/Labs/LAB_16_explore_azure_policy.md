@@ -39,7 +39,7 @@ In this task, you'll create a basic policy assignment to require a tag on a reso
 
 1. You start in the Basics tab.
     1. For the Scope, leave the default setting. In this case, the scope of the policy is the Azure subscription provided by the authorized lab hoster (ALH).
-    1. For the Policy Definition, select the **ellipses**.  A list of the available policy definitions is provided.  In the search bar enter, **Require a tag**. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Add**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.  
+    1. For the Policy Definition, select the **ellipsis**.  A list of the available policy definitions is provided.  In the search bar enter, **Require a tag**. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Add**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.  
     1. Note the default assignment name.  Keep the name as is.
     1. Ensure that Policy enforcement is set to **Enabled**
 
