@@ -2,7 +2,7 @@
 ---
 Lab:
     Title: 'Explore Microsoft Defender for Cloud'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe Microsoft Defender for Cloud'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe cloud security posture management'
 ---
 --->
 
@@ -12,7 +12,7 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security management capabilities of Azure
-- Unit: Describe Microsoft Defender for Cloud
+- Unit: Describe cloud security posture management
 
 ## Lab scenario
 
