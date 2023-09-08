@@ -12,7 +12,7 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft compliance
 - Module: Describe the eDiscovery and audit capabilities of Microsoft Purview
-- Unit:  Describe the eDiscovery solutions in Microsoft 365
+- Unit:  Describe the eDiscovery solutions in Microsoft Purview
 
 ## Lab scenario
 

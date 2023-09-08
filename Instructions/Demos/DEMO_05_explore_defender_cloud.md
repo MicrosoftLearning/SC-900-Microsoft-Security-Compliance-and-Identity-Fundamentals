@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Microsoft Defender for Cloud'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe Microsoft Defender for Cloud'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe cloud security posture management'
 ---
 --->
 
@@ -12,7 +12,7 @@ This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security management capabilities of Azure
-- Unit: Describe Microsoft Defender for Cloud
+- Unit: Describe cloud security posture management
 
 ## Demo scenario
 
@@ -30,7 +30,7 @@ In this demo task, you'll do a high-level walk-through of some of the capabiliti
     1. If the secure score value shows as 0%, it is because there can be up to a 24 hour delay for Azure to reflect an initial score.  
     1. Also important to call out is that Defender for Cloud is a multicloud solution that can provide help improve your security posture not just with Azure, but also AWS and Google Cloud Platform.
 
-1. The first thing you want to show is that Microsoft Defender for Cloud uses teh Microsoft Cloud Security Benchmark as a default policy initiative.  From the left navigation panel, select **Environment settings**. From the main window, select **Expand all**.  The expanded view will show your subscription in blue text.  Select the subscription **MOC Subscription--lodXXXXXX**.
+1. The first thing you want to show is that Microsoft Defender for Cloud uses the Microsoft Cloud Security Benchmark as a default policy initiative.  From the left navigation panel, select **Environment settings**. From the main window, select **Expand all**.  The expanded view will show your subscription in blue text.  Select the subscription **MOC Subscription--lodXXXXXX**.
 
 1. From the left navigation panel, select **Security policy**, which is listed under policy settings. If the default initiative is not assigned, select **Assign policy**.
     1. Note that on the basics tab, the initiative definition is Microsoft cloud security benchmark.  This is greyed out because this is the default initiative and all we are doing here is assigning it.

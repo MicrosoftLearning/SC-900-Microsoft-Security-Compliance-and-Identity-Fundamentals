@@ -2,7 +2,7 @@
 ---
 Lab:
     Title: 'Explore Microsoft Sentinel'
-    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe how Microsoft Sentinel provides integrated threat management'
+    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe threat detection and mitigation capabilities in Microsoft Sentinel'
 ---
 --->
 
@@ -12,11 +12,11 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security capabilities of Microsoft Sentinel
-- Unit: Describe how Microsoft Sentinel provides integrated threat management
+- Unit: Describe threat detection and mitigation capabilities in Microsoft Sentinel
 
 ## Lab scenario
 
-, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
+, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel.
 
 **Estimated Time**: 45-60 minutes
 

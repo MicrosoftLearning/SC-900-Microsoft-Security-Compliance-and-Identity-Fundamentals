@@ -118,3 +118,4 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
 ### Review
 
 In this lab, you went through the process of creating an Azure policy assignment and you were able to see the impact of that policy.
+
