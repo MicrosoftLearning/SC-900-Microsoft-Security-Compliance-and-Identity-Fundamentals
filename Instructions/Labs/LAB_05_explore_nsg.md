@@ -53,9 +53,7 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. From the open NSG tab, *right-click* on the **Home** link at the top of the page and select **Open link in new tab** to open another page to Azure services.
 
-1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**.
-
-    >Note: Do not select *Network security groups (classic)*.
+1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**. Do not select *Network security groups (classic)*.
 
 1. From the top of Network security groups page, select **+ Create**.
 
@@ -84,8 +82,7 @@ In this task, you'll create a network security group, assign the network interfa
     1. Destination:  **Any**
     1. Service:  **RDP**
     1. Action:  **Allow**
-    1. Priority:  **1000**.
-         >Note: rules with lower numbers have higher priority and are processed first.
+    1. Priority:  **1000**. Rules with lower numbers have higher priority and are processed first.
     1. Name:  Leave the default name or create your own descriptive name.
     1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
     1. Select **Add**
@@ -115,11 +112,11 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. You're now connected to the VM. In this case you were able to connect to the VM because the inbound traffic rule you created allows inbound traffic to the VM via RDP.  After a few seconds on the Welcome screen you may see a window to Choose privacy settings for your device, select **Accept**.  If the Networks window appears, select **No**.
 
 1. With the VM in the RDP session up and running, test outbound connectivity to the Internet from the VM.
-    1. In the RDP session, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
+    1. From the open VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
     1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
     1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
-1. Minimize the RDP session by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
+1. Minimize the VM by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM \| Connect page.
 
 1. Keep the browser tab open; you'll use it the next task.
 
@@ -149,10 +146,7 @@ In the previous task you confirmed that you could establish an RDP connection to
 
 1. Return to your VM (the RDP icon for the VM should be shown on the task bar on the bottom of the page).
 
-1. Open the Microsoft Edge browser in your VM and enter **www.bing.com**. The page should not display.
-   >**Note**: if you're able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it's likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
-   
-   >**Note**:  Azure subscriptions in the lab environment may experience longer than normal delays.
+1. Open the Microsoft Edge browser in your VM and enter **www.bing.com**. The page should not display. If you're able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it's likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience longer than normal delays.
 
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up window appears indicating Your remote session will be disconnected. Select **OK**.
