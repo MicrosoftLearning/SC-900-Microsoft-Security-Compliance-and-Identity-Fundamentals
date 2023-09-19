@@ -50,14 +50,16 @@ Explore Cloud Discovery.
     1. To see the option for continuous reports, select the **Actions** on the top-right corner of the page and from the drop-down select **Configure automatic upload**.  There are no data sources connected, but this is where you would add a data source. Select **Add a data source** then select the drop-down arrow in the **Select appliance** field to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit,
     1. From the left navigation panel, select **Cloud discovery** to return to Cloud discovery page.
 
-1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.  
+1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top-right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.  
 
-    1. On the Connected apps page, select *Office 365** from the list to view detailed information. If Office 365 is showing a connection error, it's most likely because Audit is not turned on.  If audit is enabled, go to the vertical ellipses on the right side of the line item, and select **edit settings**.  To reconnect, select **Connect Office 365** on the bottom of the page. The page should now show that Office 365 is connected, select **Done**.  The status will now show with a yellow warning sign, indicating there is no recent status.  It will take some time for status to update as the retroactive scan time period differs per app, and lab tenants may experience longer than normal delays.
-    1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+    1. On the Connected apps page, select **Office 365** from the list to view the detailed information available and then select the vertical ellipses on the right side of the screen and select **View App connector settings** to return to the App connectors page.
+       >**Note**: If Office 365 is showing a connection error, it's most likely because Audit is not turned on.  If audit is enabled, go to the vertical ellipses on the right side of the line item, and select **Edit settings**.  To reconnect, select **Connect Office 365** on the bottom of the page. The page should now show that Office 365 is connected. Select **Done**.  The status will now show with a yellow warning sign, indicating there is no recent status.  It will take some time for status to update as the retroactive scan time period differs per app, and lab tenants may experience longer than normal delays.
+
+    1. Now you'll set up a new app connector. Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser). Select **Microsoft Azure** to view the detailed information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard by selecting **Cloud Discovery** under Cloud Apps from the left-most navigation panel.
 
 1. Keep this page open, as you'll use it in the next task.
 
-### Task Part 2 - Explore the Cloud app catalog
+### Task 2 - Explore the Cloud app catalog
 
 Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.  In this task, you'll explore the capabilities of the Cloud app catalog.
 
@@ -89,7 +91,7 @@ In this task, you'll explore the policies in Microsoft Defender for Cloud Apps.
     1. Note that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
     1. Note that you can also have the option to export policy information.
 
-1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the left side of the template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
+1. From the left navigation panel, select **Policy templates**. To create a policy from one the available templates, select the **+** on the right side of a template line item.  View the different configuration options for the policy.  Select **Cancel** to exit out of the page.
 
 1. Close the browser window.
 

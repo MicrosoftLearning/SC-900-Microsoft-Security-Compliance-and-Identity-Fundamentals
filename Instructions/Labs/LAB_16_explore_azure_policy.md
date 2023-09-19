@@ -39,7 +39,7 @@ In this task, you'll create a basic policy assignment to require a tag on a reso
 
 1. You start in the Basics tab.
     1. For the Scope, leave the default setting. In this case, the scope of the policy is the Azure subscription provided by the authorized lab hoster (ALH).
-    1. For the Policy Definition, select the **ellipses**.  A list of the available policy definitions is provided.  In the search bar enter, **Require a tag**. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Add**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.  
+    1. For the Policy Definition, select the **ellipsis**.  A list of the available policy definitions is provided.  In the search bar enter, **Require a tag**. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Add**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.  
     1. Note the default assignment name.  Keep the name as is.
     1. Ensure that Policy enforcement is set to **Enabled**
 
@@ -77,7 +77,8 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 
 1. You'll see a validation passed message (the tag name and value are not required fields in the wizard), then select **Create**.
 
-1. You'll see a failure message on the top of the screen, “Failed to create the resource group". Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you'll see that the resource is not compliant.  The details page will include the non-compliance message.
+1. You'll see a failure message on the top of the screen, “Failed to create the resource group". Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creation was blocked, for non-compliance.
+   >**Note**: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you'll see that the resource is not compliant.  The details page will include the non-compliance message.
 
 1. The error summary shows the error type, “Resource ‘SC900-Labs’ was disallowed by policy.  Close this window by selecting the **X** on the top left corner of the screen.
 

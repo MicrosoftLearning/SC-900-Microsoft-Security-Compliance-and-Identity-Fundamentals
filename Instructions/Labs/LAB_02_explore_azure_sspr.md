@@ -24,7 +24,7 @@ In this lab, you, as an admin, will walk through the process of adding a user to
 
 In this task you, as the admin, will walk through the some of the available configuration settings for SSPR.
 
-1. Open the Microsoft Edge browser. In the address bar, enter **http://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
+1. Open the Microsoft Edge browser. In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
@@ -57,9 +57,9 @@ In this task you, as the admin, will walk through the some of the available conf
 
 In this task you, as the admin, will add the user you created in the previous lab exercise to the SSPR security group.
 
-1. Open the browser tab for the home page of the Microsoft Entra Admin center.  
+1. Open the browser tab for the home page of the Microsoft Entra Admin center **[entra.microsoft.com](https://entra.microsoft.com)**. If needed, expand **Identity**.
 
-1. From the left navigation panel, expand **Groups** then select **All groups**.
+1. From the left navigation panel, under "Identity", expand **Groups** then select **All groups**.
 
 1. A list of existing groups is displayed. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
@@ -124,7 +124,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://entra.microsoft.com** with your admin credentials.
+1. In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)** with your admin credentials.
 
 1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Protection**, then select **Password reset**.
 

@@ -24,12 +24,12 @@ In this lab, you'll access Microsoft Entra ID (previously referred to as Azure A
 
 As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previously referred to as Azure AD).  In this task, you’ll learn how to create a new user in Microsoft Entra ID and explore some of services that can be managed at the user level.
 
-1. Open the Microsoft Edge browser. In the address bar, enter **http://entra.microsoft.com** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
+1. Open the Microsoft Edge browser. In the address bar, enter **[admin.microsoft.com](https://admin.microsoft.com)** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. Under Admin centers, select **Identity** (you may need to scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
+1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center. Here you will see basic information about your Contoso tenant. If you scroll down the main window you will also see information about alerts, my feed, feature highlights, and more.
 
 1. From the left navigation pane, expand **Users** then select **All users**. Notice that your tenant is already configured with users.
 

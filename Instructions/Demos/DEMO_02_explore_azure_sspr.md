@@ -18,7 +18,7 @@ This demo maps to the following Learn content:
 
 In this demo, you'll walk through the various settings associated with enabling self-service password reset.
 
-1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to https://entra.microsoft.com with your Microsoft 365 admin credentials.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to **[entra.microsoft.com](https://entra.microsoft.com)** with your Microsoft 365 admin credentials.
 
 1. From the left navigation pane, expand **Protection** then select **Password reset**.
 
