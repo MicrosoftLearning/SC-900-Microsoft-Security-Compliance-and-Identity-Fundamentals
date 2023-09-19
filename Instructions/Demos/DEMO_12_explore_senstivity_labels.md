@@ -29,7 +29,7 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 1. From the left navigation panel, select **Labels**.
 
-1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Expand the label named **Highly Confidential** by selecting the **>**, then select **All Employees**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Expand the label named **Highly Confidential** by selecting the **>**, then select **All Employees**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings. If you don't see the pencil icon, select the ellipsis.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Note the scope for this label.  The scope is set to Files & emails.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. This next screen is where you can choose protection settings for the labeled items. Note that this label is configured to support encryption and content marking. Don’t change anything.  Select **Next** at the bottom of the page.
