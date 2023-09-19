@@ -2,7 +2,7 @@
 ---
 Lab:
     Title: 'Explore Microsoft Sentinel'
-    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe how Microsoft Sentinel provides integrated threat management'
+    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe threat detection and mitigation capabilities in Microsoft Sentinel'
 ---
 --->
 
@@ -12,11 +12,11 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security capabilities of Microsoft Sentinel
-- Unit: Describe how Microsoft Sentinel provides integrated threat management
+- Unit: Describe threat detection and mitigation capabilities in Microsoft Sentinel
 
 ## Lab scenario
 
-, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
+, you'll walk through the process of creating a Microsoft Sentinel instance.  You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel.  Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel.
 
 **Estimated Time**: 45-60 minutes
 
@@ -88,7 +88,7 @@ The purpose of this task is to walk you through the steps involved in connecting
     1. From the window that opens on the right side of the page, select **Create rule**.
     1. Go through each of the configuration pages, then select **Review and create**, then select **Save**.
 
-1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crump at the top of the page, above where it says Analytics rules.
+1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crumb at the top of the page, above where it says Analytics rules.
 
 1. Keep this page open, as you'll use it in the next task.
 
@@ -97,23 +97,27 @@ The purpose of this task is to walk you through the steps involved in connecting
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options.
+1. From the left navigation panel, select **Hunting**.  From the top of the page, select the **Queries** tab. Read the description of what is a hunting query. Hunting queries can be added through the Content hub. Any queries previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes queries either as part of a solution or as a standalone query.  Scroll down to see the available options. Close the Content hub by selecting the **X** on the top-right corner of the window.
 
-1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
+1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.
+
+   >**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
 
 1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen, select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios. Scroll down to the README.md section and review the description. Return to the Azure tab in your browser.
 
 1. From the left navigation panel, select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
+   >**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
+
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub.Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
+1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub. Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
 
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
-1. Close all the open browser tabs.
+1. Sign out and close all the open browser tabs.
 
 ### Review
 

@@ -1,24 +1,24 @@
 <!---
 ---
 Demo:
-    Title: 'Azure AD self service password reset (SSPR)'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 2: Describe the authentication capabilities of Azure AD; Unit 4: Describe self-service password reset in Azure AD'
+    Title: 'Microsoft Entra self-service password reset (SSPR)'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft Entra; Module 2: Describe the authentication capabilities of Microsoft Entra ID; Unit 4: Describe self-service password reset'
 ---
 --->
 
-# Demo: Azure AD self service password reset (SSPR)
+# Demo: Microsoft Entra self-service password reset (SSPR)
 
 This demo maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-- Module: Describe the authentication capabilities of Azure AD
-- Unit: Describe self-service password reset in Azure AD
+- Learning Path: Describe the capabilities of of Microsoft Entra
+- Module: Describe the authentication capabilities of Microsoft Entra ID
+- Unit: Describe self-service password reset
 
 ## Demo scenario
 
 In this demo, you'll walk through the various settings associated with enabling self-service password reset.
 
-1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to https://entra.microsoft.com with your Microsoft 365 admin credentials.
+1. Return to the open browser tab titled "Home-Microsoft Entra admin center."  If you previously closed that browser tab open Microsoft Edge and log in to **[entra.microsoft.com](https://entra.microsoft.com)** with your Microsoft 365 admin credentials.
 
 1. From the left navigation pane, expand **Protection** then select **Password reset**.
 

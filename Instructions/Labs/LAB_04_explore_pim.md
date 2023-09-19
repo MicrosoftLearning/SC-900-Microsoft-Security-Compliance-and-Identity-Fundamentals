@@ -1,17 +1,17 @@
 <!---
 ---
 Lab:
-    Title: 'Explore identity governance in Azure AD with Privileged Identity management. '
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra; Module 4: Describe the identity protection and governance capabilities of Azure AD; Unit 4: Describe the capabilities of Privileged Identity Management'
+    Title: 'Explore Privileged Identity management. '
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft Entra; Module 4: Module: Describe the identity protection and governance capabilities of Microsoft Entra; Unit 4: Describe the capabilities of Privileged Identity Management'
 ---
 --->
 
-# Lab: Explore identity governance in Azure AD with Privileged Identity management
+# Lab: Explore Privileged Identity management
 
 This lab maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-- Module: Describe the identity protection and governance capabilities of Azure AD
+- Learning Path: Describe the capabilities of Microsoft Entra
+- Module: Describe the identity protection and governance capabilities of Microsoft Entra
 - Unit: Describe the capabilities of Privileged Identity Management
 
 ## Lab scenario
@@ -24,14 +24,14 @@ In this lab, you'll explore some of the basic functionality of Privileged Identi
 
 In this task you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **entra.microsoft.com**.
+1. Open Microsoft Edge.  In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)**.
 
 1. Sign in with the Microsoft 365 admin credentials provided by your ALH.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the left navigation panel, expand **Users** then select **Users**.
+1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.
 
 1. Select **Diego Siciliani** from the list of users.
 
@@ -49,19 +49,19 @@ In this task you, as the admin, will assign Diego an Azure AD role in Privileged
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.
 
-1. From the left navigation panel, expand **Identity Governance**, then select **Privileged Identity Management**.
+1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**.
 
 1. You are now in the Privileged Identity Management quick start page. Review the information on the Get started page. Select **Manage**.
 
 1. You're now in the Contoso Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
-1. From the top of the page, select **+ Assignments**.
+1. From the top of the page, select **+ Add assignments**.
 
 1. In the Add assignments page, ensure that **Membership** is underlined.  Here you'll configure the membership settings for the user administrator role in PIM.
 
 1. Leave the Scope type to its default value, Directory.  
 
-1. Under Select members, select **No members selected**. This opens the Select a member window.
+1. Under Select members, select **No member selected**. This opens the Select a member window.
 
 1. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
 
@@ -120,8 +120,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. From the bottom of the page, select **Save**.  You'll see a brief notification on the top right of page indicating licenses were successfully assigned.
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
-1. The duration of the user admin role is limited to the time that was configured.
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. The duration of the User Administrator role is limited to the time that was configured.
 
 ### Review
 

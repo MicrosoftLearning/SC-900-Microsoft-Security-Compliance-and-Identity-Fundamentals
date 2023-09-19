@@ -1,18 +1,18 @@
 <!---
 ---
-Lab:
+Demo:
     Title: 'Explore the eDiscovery (Standard) workflow'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 5: Describe the eDiscovery and audit capabilities of Microsoft Purview; Unit 2:  Describe the eDiscovery solutions in Microsoft 365'
 ---
 --->
 
-# Lab: Explore the eDiscovery (Standard) workflow
+# Demo: Explore the eDiscovery (Standard) workflow
 
-This lab maps to the following Learn content:
+This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft compliance
 - Module: Describe the eDiscovery and audit capabilities of Microsoft Purview
-- Unit:  Describe the eDiscovery solutions in Microsoft 365
+- Unit:  Describe the eDiscovery solutions in Microsoft Purview
 
 ## Demo scenario
 

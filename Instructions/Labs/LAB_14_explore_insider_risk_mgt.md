@@ -30,13 +30,13 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Under Microsoft Purview solutions, select **Roles**.
 
-1. In the search field, enter **Insider risk** then select the search icon (magnifying glass).  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window..
+1. In the search field type **Insider risk** then hit Enter on your keyboard.  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window..
 
 1. From the left navigation panel, select **Home** to return to the Microsoft Purview compliance portal page.
 
 1. Keep this browser tab open, as you'll come back to it in a subsequent task.
 
-### Task 2 (SKIP if you did the setup lab task to enable the audit log)
+### Task 2 (NOTE: SKIP Task 2 if you did the setup lab task to enable the audit log.)
 
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you'll enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
@@ -83,7 +83,6 @@ In this task, you'll walk through the settings for creating a policy.  The objec
     1. Name and description:  enter a name, **SC900-InsiderRiskPolicy**, then select **Next**.
     1. Users and groups:  Review the information box.  Leave the default setting, **Include all users and groups**.  Select **Next**.
     1. Content to prioritize: Per the description, Risk scores are increased for any activity that contains priority content, which in turn increases the chance of generating a high severity alert. For simplicity, select **I don't want to prioritize content right now**, then select **Next**.
-    1. Decide whether to score only activity with priority content:  Leave the default setting **Get alerts for all activity**, then select **Next**.
     1. Triggers: The triggering event determines when a policy will begin to assign risk scores to a user's activity.  You can choose from an existing DLP policy or if the user performs an exfiltration activity. Select **User matches a data loss prevention (DLP) policy** then from the drop-down select **U.S. Financial Data**. Select **Next**.
     1. Indicators: Note that all the office indicators you selected in the previous task are selected (you can see this be selecting the down arrow key next to Office indicators), then select **Next**.
     1. On the Detection options page, leave all the default settings, but read the description associated with the various options and hover over the information icon to get more detailed information on a specific setting.  Select **Next**.

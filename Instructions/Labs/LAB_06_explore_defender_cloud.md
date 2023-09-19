@@ -2,7 +2,7 @@
 ---
 Lab:
     Title: 'Explore Microsoft Defender for Cloud'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe Microsoft Defender for Cloud'
+    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 2: Describe the security management capabilities of Azure; Unit 3: Describe cloud security posture management'
 ---
 --->
 
@@ -12,7 +12,7 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security management capabilities of Azure
-- Unit: Describe Microsoft Defender for Cloud
+- Unit: Describe cloud security posture management
 
 ## Lab scenario
 
@@ -45,7 +45,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 1. From the main left navigation panel, select **Regulatory compliance**.  **NOTE**: If you see that there is no subscription to calculate compliance for, its because there may be up to a 24 hour delay for information to appear. Move to Task 2.  If you do see information then proceed with the steps that follow.
     1. The regulatory compliance page provides a list of compliance controls based on the Microsoft cloud security benchmark (verify that Microsoft cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
-    1. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
+    1. Select **NS-10. Ensure Domain Name System (DNS) security**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
     1. Select the **X** on the top-right corner of the screen to close the page.
     1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
     1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.

@@ -12,7 +12,7 @@ This lab maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft compliance
 - Module: Describe the eDiscovery and audit capabilities of Microsoft Purview
-- Unit:  Describe the eDiscovery solutions in Microsoft 365
+- Unit:  Describe the eDiscovery solutions in Microsoft Purview
 
 ## Lab scenario
 
@@ -31,7 +31,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 1. Under Microsoft Purview solutions, select **Roles**.
 
-1. In the search field, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
+1. In the search field, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
 
 1. Select **Edit**.  Notice how there are two subgroups, eDiscovery Manager and eDiscovery Administrator.  
     1. The "Manage eDiscovery Manager" page allows you to add users to the role of eDiscovery manager. For this lab, we'll add members to the eDiscovery Administrator subgroup so select **Next**.
@@ -46,7 +46,7 @@ In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery adm
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com**
 
-1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
 
 1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
 
@@ -104,7 +104,7 @@ With a hold in place, you'll create a search query.  Once your search is complet
 
 1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
 
-1. Close all the open browser tabs.
+1. Sign out and close all open browser windows.
 
 ### Review
 

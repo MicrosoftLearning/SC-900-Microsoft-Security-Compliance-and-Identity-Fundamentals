@@ -1,19 +1,19 @@
 <!---
 ---
 Lab:
-    Learning Path: 'Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra'
-    Module: 'Describe the access management capabilities of Azure AD'
-    Unit: 'Describe Conditional Access in Azure AD'
+    Learning Path: 'Describe the capabilities of Microsoft Entra'
+    Module: 'Describe the access management capabilities of Microsoft Entra ID'
+    Unit: 'Describe Conditional Access'
 ---
 --->
 
-# Lab: Explore access management in Azure AD with Conditional Access
+# Lab: Microsoft Entra Conditional Access
 
 This lab maps to the following Learn content:
 
-- Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-- Module: Describe the access management capabilities of Azure AD
-- Unit: Describe Conditional Access in Azure AD
+- Learning Path: Describe the capabilities of Microsoft Entra
+- Module: Describe access management capabilities of Microsoft Entra ID
+- Unit: Describe Conditional Access
 
 ## Lab scenario
 
@@ -25,12 +25,12 @@ In this lab, you'll explore conditional access MFA, from the perspective of an a
 
 In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **https://entra.microsoft.com**, and sign in with your admin credentials.
+1. Open Microsoft Edge.  In the address bar, enter **[entra.microsoft.com](https://entra.microsoft.com)**, and sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the left navigation pane, expand **Users** then select **All users**.
+1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
 1. Select **Debra Berger** from the list of users.
 
@@ -48,7 +48,7 @@ In this task you, as the admin, will reset the password for the user Debra Berge
 
 In this task, you'll go through the process of creating a conditional access policy in Azure AD.
 
-1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by the ALH.
+1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **[entra.microsoft.com](https://entra.microsoft.com)** and sign in with the Microsoft 365 admin credentials provided by the ALH.
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
 

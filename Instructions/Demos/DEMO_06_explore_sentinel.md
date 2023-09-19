@@ -2,7 +2,7 @@
 ---
 Demo:
     Title: 'Microsoft Sentinel'
-    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe how Microsoft Sentinel provides integrated threat management'
+    Learning Path/Module/Title: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 3: Describe the security capabilities of Microsoft Sentinel; Unit 3: Describe threat detection and mitigation capabilities in Microsoft Sentinel'
 ---
 --->
 
@@ -12,7 +12,7 @@ This demo maps to the following Learn content:
 
 - Learning Path: Describe the capabilities of Microsoft security solutions
 - Module: Describe the security capabilities of Microsoft Sentinel
-- Unit: Describe how Microsoft Sentinel provides integrated threat management
+- Unit: Describe threat detection and mitigation capabilities in Microsoft Sentinel
 
 ## Demo scenario
 
@@ -55,7 +55,7 @@ As with all Azure resources, you want to ensure that users have the proper permi
 
     1. From the Access control page, select **+Add**, then select **Add role assignment**.
 
-    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the 4 roles associated with Microsoft Sentinel.
+    1. The Add role assignment window opens.  In the search box, enter **Microsoft Sentinel** to view the roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
 
     1. Close the window by selecting the **X** on the top-right corner of the window.
