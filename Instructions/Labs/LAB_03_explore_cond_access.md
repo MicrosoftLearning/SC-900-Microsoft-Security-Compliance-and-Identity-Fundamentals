@@ -17,7 +17,7 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab, you'll explore conditional access MFA, from the perspective of an admin and a user.  As the admin, will create a policy that will require a user to go through multi-factor authentication when accessing a cloud based Microsoft Azure Management application.  From a user perspective, you'll see the impact of the conditional access policy, including the process to register for MFA.
+In this lab, you'll explore conditional access MFA, from the perspective of an admin and a user.  As the admin, you will create a policy that will require a user to go through multi-factor authentication when accessing any of the Microsoft Admin portals.  From a user perspective, you'll see the impact of the conditional access policy, including the process to register for MFA.
 
 **Estimated Time**: 30 minutes
 
@@ -70,7 +70,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Cloud apps**.  Make sure the **Include** tab is underlined.  Select **Select apps**, then underneath where it says **Select**, select **None**.  The window to Select Cloud apps opens.
 
-1. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+1. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Admin Portals**, then press **Select** at the bottom of the page.  Notice the warning.  
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions including: user risk, sign-in risk, device platform, location, client apps, or filter for devices.  Explore these configurable options, but do not set any conditions.
 
@@ -86,7 +86,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 ### Task 3
 
-In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy (the Microsoft 365 portal at https://login.microsoftonline.com).  Then you'll repeat the process for an application that is included in the conditional access policy (the Azure portal at https://portal.azure.com).  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
+In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy (the Microsoft 365 portal at https://login.microsoftonline.com).  Then you'll repeat the process for an application that is included in the conditional access policy (the Azure portal at https://portal.azure.com).  Recall that the policy requires the user to go through MFA when accessing any of the Microsoft Admin Portals, including the Azure portal.  To use MFA, the user must first register the authentication method that will be used for MFA, for example a code sent to a mobile device or an authenticator application.
 
 1. Open Microsoft Edge.  In the address bar, enter **https://login.microsoftonline.com**.
     1. Sign in as **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
@@ -102,7 +102,7 @@ In this task you'll see the impact of the conditional access policy, from the pe
 
 1. In the window that opens, ensure your country is selected then enter mobile phone number you wish to use.  Ensure that **Text me a code** is selected, then press **Next**.  You'll receive a text message on your phone with a code that you'll need to enter where it says enter code.  Enter the code you received, then press **Next**.  Once confirmed, the screen will display, "SMS verified. Your phone was registered successfully".  Select **Next**. then select **Done**.  this completes the one-time registration process.
 
-1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Azure Management application and therefore requires multi-factor authentication, per the conditional access policy that was created.  
+1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Admin portal and therefore requires multi-factor authentication, per the conditional access policy that was created.  
     1. If you get a message indicating that your sign-in timed out you, enter the password and select **Sign in**.
     1. You'll see a window that requires you to verify your identity.  Select where it says Text =X XXXXXXX to receive a code on your mobile phone, enter the code and select **Verify**.
     1. If you're prompted to stay signed in, select **No**.
@@ -111,4 +111,4 @@ In this task you'll see the impact of the conditional access policy, from the pe
 
 ### Review
 
-In this lab, you went through the process of setting up a conditional access policy that requires users to go through MFA when they access Microsoft Azure Management cloud application.  Then, as a user you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.
+In this lab, you went through the process of setting up a conditional access policy that requires users to go through MFA when they access any Microsoft Admin portal.  Then, as a user you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.
