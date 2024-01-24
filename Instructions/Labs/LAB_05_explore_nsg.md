@@ -37,7 +37,7 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note some of the basic information about the VM.
 
-1. From the top of the page select **Connect**.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, under "1 Configure prerequisites for Native RDP", you should see "Azure needs to configure some features in order to connect to the VM".  In the next task you will setup an NSG to explicitly allow RDP connection.
+1. From the left naviagation panel select **Connect**.  If you select it from the top of the page, you will be presented with a drop-down menu, select **Connect** again.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, under "1 Configure prerequisites for Native RDP", you should see "Azure needs to configure some features in order to connect to the VM".  In the next task you will setup an NSG to explicitly allow RDP connection.
 
 
 1. From the left navigation panel, select **Networking**.  
@@ -51,11 +51,11 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 In this task, you'll create a network security group, assign the network interface of the VM to that NSG, and create a new inbound rule for RDP traffic.
 
-1. From the open NSG tab, *right-click* on the **Home** link at the top of the page and select **Open link in new tab** to open another page to Azure services.
+1. From the open Azure tab, *right-click* on the **Home** link at the top of the page and select **Open link in new tab** to open another page to Azure services.
 
 1. In the blue search bar on the top of the page, enter **Network security groups** and, from the results, select **Network security groups**. Do not select *Network security groups (classic)*.
 
-1. From the top of Network security groups page, select **+ Create**.
+1. From the center of the page, select the blue button labeled **Create network security group**.  Alternatively, you can select **+ Create** from the top of Network security groups page.
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
     1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
