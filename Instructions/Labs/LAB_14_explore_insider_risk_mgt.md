@@ -86,7 +86,7 @@ In this task, you'll walk through the settings for creating a policy.  The objec
     1. Triggers: The triggering event determines when a policy will begin to assign risk scores to a user's activity.  You can choose from an existing DLP policy or if the user performs an exfiltration activity. Select **User matches a data loss prevention (DLP) policy** then from the drop-down select **U.S. Financial Data**. Select **Next**.
     1. Indicators: Note that all the office indicators you selected in the previous task are selected (you can see this be selecting the down arrow key next to Office indicators), then select **Next**.
     1. On the Detection options page, leave all the default settings, but read the description associated with the various options and hover over the information icon to get more detailed information on a specific setting.  Select **Next**.
-    1. On the page to Decide whether to use default or customer indicator thresholds, leave the default setting **Default thresholds**, then select **Next**.
+    1. On the page to Decide whether to use default or customer indicator thresholds, leave the default setting **Apply thresholds provided by Microsoft**, then select **Next**.
     1. Finish:  review the settings, select **Submit**.
     1. Review the description of what happens next then select **Done**.
 
