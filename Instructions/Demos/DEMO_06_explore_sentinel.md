@@ -70,17 +70,15 @@ In this part of the demo, you'll show the steps for connecting to a data source.
 
 1. From the left navigation panel, select **Content hub**.
 
-1. Take a moment to scroll down to see the long list of available solutions and the options to filter the list.  For this demo, we're looking for **Microsoft Defender for Cloud**.  Select it from the list.  In the side window that opens, read the description then select **Install**.  This solution includes one data connector and one analytics rule. It may take a minute to install.  Select **Manage**.
+1. Take a moment to scroll down to see the long list of available solutions and the options to filter the list.  For this task, your're looking for **Microsoft Defender for Cloud**.  Select it from the list.  In the side window that opens, read the description then select **Install**.  Once the installation is completed, the status column in the main window will show as installed.
 
-1. Select the box next to where it says Microsoft Defender for Cloud.  A window opens on the right side of the page.  Select **Open connector page**.
+1. On the right side of the the Microsoft Defender for Cloud page is the description and notes associated with the solution from Content Hub and what is included as part of this solution.  On the main window are the components of the solution.  In this case there are two data connectors and one data rule. The orange triangle indicates that some configuration is needed. Select the box next to where it says **Subscription-based Microsoft Defender for Cloud (Legacy)**.  A window opens on the right side of the page.  Select **Open connector page**.
 
 1. Note the configuration instructions.  Select the box next to the name of the subscription then select **Connect**.  The status will move to connected.  The connector is now enabled, although it may take some time for the connector to show up in the data connectors page.  
 
-1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**.  Select the box next to where it says, "Detect CoreBackUp Deletion Activity from related security alerts". In the window that opens you will see information about the rule and what it does.  You can choose to go through the steps to configure the rule.  **NOTE**: The details of the rule logic are beyond the scope of the fundamentals but you can show the type of information that can be configured as part of the rule.  
-    1. Select **Configuration**.
-    1. Select the rule **Detect CoreBackUp Deletion Activity from related security alerts**.
-    1. From the window that opens on the right side of the page, select **Create rule**.
-    1. Go through each of the configuration pages, very briefly and high level then select **Review and create**, then select **Save**.
+1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**. De-select the box next to where it says Microsoft Defender for Cloud, as you have already configured the connector (it may take some time for the warning icon to disappear). Select the box next to where it says, **Detect CoreBackUp Deletion Activity from related security alerts**.  This brings up the Analytics Rules page.  Again, select the **Detect CoreBackUp Deletion Activity from related security alerts** rule. A window that opens on the right, that provides information about the rule and what it does.  Select **Create rule**.  
+    1. Although the details of the rule logic are beyond the scope of the fundamentals, go through each tab in the rule creation to view the type of information that can be configured
+    1. When you reach the Review + create tab, select **Save**.
 
 1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crump at the top of the page, above where it says Analytics rules.
 
@@ -96,13 +94,13 @@ In this part of the demo, you'll show some of the options available in Sentinel.
 
 1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
-1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. You can download sample content from the private community GitHub repository to create custom workbooks, hunting queries, notebooks, and playbooks for Microsoft Sentinel.  Select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios.  Return to the Azure tab in your browser.
+1. From the left navigation panel, select **Community**. The community page includes Cybersecurity insights and updates from Microsoft Research, a link to a list of Microsoft Sentinel Blogs, a link to Microsoft Sentinel Forums, links the the latest editions to the Microsoft Sentinel Hub, and more. Explore this at will.
 
 1. From the left navigation panel, select **Analytics**.  There should be two active rules, one that is available by default and the rule you created in the previous task. Select the default rule **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub.Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
+1. From the left navigation panel, select **Workbooks**. Read the description of the Microsoft Sentinel workbook.  Workbooks can be added through the Content hub.Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
 
 1. Close the window by selecting the **X** on the top-right corner of the window.
 

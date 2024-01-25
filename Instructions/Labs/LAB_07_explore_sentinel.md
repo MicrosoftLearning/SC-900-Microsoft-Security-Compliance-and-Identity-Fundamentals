@@ -84,10 +84,9 @@ The purpose of this task is to walk you through the steps involved in connecting
 
 1. Note the configuration instructions.  Select the box next to the name of the subscription then select **Connect**.  A pop-op window may appear indicating that only subscriptions you have Security Reader permissions on will start streaming Microsoft Defender for Cloud alerts.  Select **OK**.  The status will move to connected.  The connector is now enabled, although it may take some time for the connector to show up in the data connectors page.  
 
-1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**. De-select the box next to where it says Microsoft Defender for Cloud, as you have already configured the connector (it may take some time for the warning icon to disappear). Select the box next to where it says, **Detect CoreBackUp Deletion Activity from related security alerts**.  This brings up the Analytics Rules page.  Again, select the **Detect CoreBackUp Deletion Activity from related security alerts** rule.  Select it. In the window that opens on the right, information about the rule and what it does will appear.  Select **Create rule**.  
-    1. Although the details of the rule logic are beyond the scope of the fundamentals, go through the steps to configure the rule to view the type of information that can be configured as part of the rule. Review the General tab then select **Next: Set rule logic**.
-    1. Continue through the rest of the tabs.  When you reach the Review + create tab, select **Save**.
-    1. Select the rule **Detect CoreBackUp Deletion Activity from related security alerts**.
+1. Now view information about the analytics rule.  From the top of the page (in the breadcrumb) select **Microsoft Defender for Cloud**. De-select the box next to where it says Microsoft Defender for Cloud, as you have already configured the connector (it may take some time for the warning icon to disappear). Select the box next to where it says, **Detect CoreBackUp Deletion Activity from related security alerts**.  This brings up the Analytics Rules page.  Again, select the **Detect CoreBackUp Deletion Activity from related security alerts** rule. A window that opens on the right, that provides information about the rule and what it does.  Select **Create rule**.  
+    1. Although the details of the rule logic are beyond the scope of the fundamentals, go through each tab in the rule creation to view the type of information that can be configured
+    1. When you reach the Review + create tab, select **Save**.
 
 1. Return to the Sentinel page by selecting **Microsoft Sentinel | Content hub** from the bread-crumb at the top of the page, above where it says Analytics rules.
 
@@ -108,7 +107,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-1. From the left navigation panel, select **Workbooks**. Read the description of what is a Microsoft Sentinel workbook.  Workbooks can be added through the Content hub. Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
+1. From the left navigation panel, select **Workbooks**. Read the description of the Microsoft Sentinel workbook.  Workbooks can be added through the Content hub. Any workbooks previously installed would be listed here. Select **Go to content hub**.  The content hub lists content that includes workbooks either as part of a solution or as a standalone workbook. Scroll down to see the available options.
 
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
