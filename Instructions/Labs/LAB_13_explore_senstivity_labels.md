@@ -32,7 +32,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 1. From the left navigation panel, select **Labels**.
    1. On the Labels page, you may see a yellow information box indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system and there are additional steps that must be completed to protect Teams, SharePoint sites, and Microsoft 365 Groups.
 
-1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select the **pencil icon** at the top of the page to view some of the basic configuration settings. If you don't see the pencil icon, select the ellipsis.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** (it may also show as a pencil icon) at the top of the page to view some of the basic configuration settings. If you don't see this option, select the ellipsis.
     1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Review the scope for this label. Don’t change anything.  Select **Next** at the bottom of the page.
     1. This next screen is where you can choose protection settings for the labeled items. This label is configured to support content marking. Don’t change anything.  Select **Next** at the bottom of the page.
@@ -43,9 +43,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. From the left navigation panel, select **Label policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
 
-1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy. 
-
-1. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
+1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
     1. Review the description for “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
     1. Review the description for "Assign admin units". The Admin units are set to the full directory, don't change any settings. Select **Next**.  
     1. Review the description for “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
@@ -57,7 +55,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
     1. The last configuration option is to name your policy.  Since you're editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
     1. Review the policy settings. Select **Cancel** to discard any changes and return to the Label policies page.
 
-1. From the Information protection page, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. No auto-label policies have been preconfigured in our tenant. To create a new auto-label policy, select **Create auto-label policy**.  Here you will walk through the steps to create a new policy.
+1. From the left navigation panel, under Information protection, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. No auto-label policies have been preconfigured in our tenant. To create a new auto-label policy, select **Create auto-label policy**.  Here you will walk through the steps to create a new policy.
     1. You start by choosing the information you want this label applied to.  Note the available options.  Select **Medical and health** then select one of the available templates.  Select **Next**.
     1. You can name your auto-label policy or use the default name.  Select **Next**.
     1. You can assign the admin units to which this policy applies.  Leave the default set to full directory and select **Next**.
@@ -81,7 +79,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press **Enter** on your keyboard.
 
-1. From the top menu bar, select **Sensitivity icon**, the icon to the right of the microphone icon (depending on your screen size, you may need to select the ellipsis then select sensitivity). A yellow banner across the top of the page will appear and on the far right a Select label button is shown.  Select the **Select label** button.  A pop-up window appears.   Select **Select a label** and from drop-down, select **Confidential-Finance** then select **OK**.  
+1. On the far right of top menu bar (also referred to as the ribbon) is a down arrow, select it, then select **Classic Ribbon**.  This will make it easier to identity the sensitivity icon. Select **Sensitivity**, located next to the microphone icon. From the drop-down menu, select **Confidential-Finance**.  
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
