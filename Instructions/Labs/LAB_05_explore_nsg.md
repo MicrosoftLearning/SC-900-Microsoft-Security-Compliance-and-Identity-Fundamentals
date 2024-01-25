@@ -37,15 +37,9 @@ In this task, you'll view some of the parameters associated with the VM that tha
 
 1. You're now in the SC900-WinVM page.  Note some of the basic information about the VM.
 
-1. From the left naviagation panel select **Connect**.  If you select it from the top of the page, you will be presented with a drop-down menu, select **Connect** again.  Select the option to **Check access**, which is listed under the IP address.  This check will be done using the port 3389, which is the port for RDP connectivity.  You should see the message "Cannot verify".  From the native RDP box, click **Select**.  In the window that opens, under "1 Configure prerequisites for Native RDP", you should see "Azure needs to configure some features in order to connect to the VM".  In the next task you will setup an NSG to explicitly allow RDP connection.
+1. From the left navigation panel, select **Network Settings**.  The essentials sections of the main window shows the network interface for the VM.  Note how there is nothing listed next to Network security group, as there is not NSG assigned to the interface.
 
-
-1. From the left navigation panel, select **Networking**.  
-    1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-    1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
-
-1. Leave this browser tab open.
-
+1. Keep this tab open.
 
 ### Task 2
 
@@ -66,15 +60,19 @@ In this task, you'll create a network security group, assign the network interfa
 
 1. Once the deployment is complete, select **Go to resource**.
 
-1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the Internet.
+1. You should be on the overview page for the newly created NSG.  If not, then from the left navigation panel, select **Overview**. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the Internet.
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
     1. Select **Associate**.
-    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.
+    2. In the field for network interface associations, select the **down-arrow**, select **sc900-winvmXXX**, then select **OK** on the bottom of the window. Once the interface is associated to the NSG, it will show up on the list.  The NSG is now assigned to the network interface of your VM.
 
-1. From the left navigation pane, select **Inbound security rules**.
+1. Switch back to the **SC900-WinWM - Microsoft Azure** tab on the browser.  Refresh the page. Next to where it says Network security group, uou should now see the name of the NSG you just created.  If you still don't see it, wait another minute and then refresh the page again.
 
-1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
+1. From the left navigation panel, select **Connect**. From the main window, next to where it shows the port number 3389, select **Check access**. The check access function sends signals (traffic) to the default RDP port 3389 of the VM to check if it is accessible. It may take a minute, but you will see Not accessible.  This is expected, because the DenyAllInBound NSG rule denies all inbound traffic to the VM.
+
+1. Switch back to the **NSG-SC900 - Microsoft Azure** tab on the browser.
+
+1. From the left navigation pane, select **Inbound security rules**. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
 
 1. From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
     1. Source:  **Any**
@@ -95,7 +93,7 @@ In this task, you'll create a network security group, assign the network interfa
 
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work to check outbound connectivity to the Internet from the VM.
 
-1. Open the SC900-WinVM – Microsoft Azure Tab on your browser. If you previously closed the browser tab, open a new browser tab, enter **https://portal.azure.com**, and select **Virtual machines**, then select the VM, **SC900-WinVM**.
+1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
 1. Select **Connect** from the left navigation panel.
 
@@ -147,7 +145,6 @@ In the previous task you confirmed that you could establish an RDP connection to
 1. Return to your VM (the RDP icon for the VM should be shown on the task bar on the bottom of the page).
 
 1. Open the Microsoft Edge browser in your VM and enter **www.bing.com**. The page should not display. If you're able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it's likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience longer than normal delays.
-
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up window appears indicating Your remote session will be disconnected. Select **OK**.
 
