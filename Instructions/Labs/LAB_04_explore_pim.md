@@ -1,15 +1,8 @@
 ---
 lab:
     title: 'Explore Privileged Identity management'
+    module: 'Describe the identity protection and governance capabilities of Microsoft Entra'
 ---
-
-<!---
----
-Lab:
-    Title: 'Explore Privileged Identity management. '
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft Entra; Module 4: Module: Describe the identity protection and governance capabilities of Microsoft Entra; Unit 4: Describe the capabilities of Privileged Identity Management'
----
---->
 
 # Lab: Explore Privileged Identity management
 

@@ -1,15 +1,8 @@
 ---
 lab:
     title: 'Explore the Microsoft 365 Defender portal'
+    module: 'Describe the threat protection capabilities of Microsoft 365'
 ---
-
-<!---
----
-Lab:
-    Title: 'Explore the Microsoft 365 Defender portal'
-    Module: 'Learning Path: Describe the capabilities of Microsoft security solutions; Module 4: Describe the threat protection capabilities of Microsoft 365; Unit 7: Describe the Microsoft 365 Defender portal'
----
---->
 
 # Lab: Explore the Microsoft 365 Defender portal
 

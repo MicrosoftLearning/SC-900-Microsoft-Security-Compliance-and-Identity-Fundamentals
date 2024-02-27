@@ -1,9 +1,8 @@
-<!---
 ---
-Lab:
-    Title: 'Setup'
+lab:
+    title: 'Lab setup'
+    module: ''
 ---
---->
 
 # Lab: Setup
 

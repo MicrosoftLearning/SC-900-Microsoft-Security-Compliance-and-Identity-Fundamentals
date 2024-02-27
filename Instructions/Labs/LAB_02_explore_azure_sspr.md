@@ -1,6 +1,7 @@
 ---
 lab:
     title: 'Microsoft Entra self-service password reset'
+    module: 'Describe the authentication capabilities of Microsoft Entra ID'
 ---
 
 <!---
