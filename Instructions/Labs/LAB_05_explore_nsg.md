@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore Azure Network Security Groups (NSGs)'
+---
+
 <!---
 ---
 Lab:

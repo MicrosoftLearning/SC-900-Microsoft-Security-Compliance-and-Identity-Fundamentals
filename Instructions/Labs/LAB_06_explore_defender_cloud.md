@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore Microsoft Defender for Cloud'
+---
+
 <!---
 ---
 Lab:

@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore the Microsoft 365 Defender portal'
+---
+
 <!---
 ---
 Lab:

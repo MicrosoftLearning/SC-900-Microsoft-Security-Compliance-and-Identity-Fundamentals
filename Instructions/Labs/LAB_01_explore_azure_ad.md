@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore Microsoft Entra ID User Settings'
+---
+
 <!---
 ---
 Lab:
@@ -6,7 +11,7 @@ Lab:
 ---
 --->
 
-# Lab: Explore Microsoft Entra ID
+# Lab: Explore Microsoft Entra ID User Settings
 
 This lab maps to the following Learn content:
 

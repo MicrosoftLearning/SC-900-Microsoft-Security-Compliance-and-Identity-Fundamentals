@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Microsoft Entra Conditional Access'
+---
+
 <!---
 ---
 Lab:

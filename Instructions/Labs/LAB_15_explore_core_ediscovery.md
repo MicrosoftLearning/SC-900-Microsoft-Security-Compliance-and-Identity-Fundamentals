@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore the eDiscovery (Standard) workflow'
+---
+
 <!---
 ---
 Lab:

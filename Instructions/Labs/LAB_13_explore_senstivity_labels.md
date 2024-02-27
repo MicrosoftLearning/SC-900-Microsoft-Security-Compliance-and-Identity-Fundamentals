@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore sensitivity labels in Microsoft Purview'
+---
+
 <!---
 ---
 Lab:
