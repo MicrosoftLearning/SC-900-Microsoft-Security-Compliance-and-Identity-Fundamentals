@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore Privileged Identity management'
+---
+
 <!---
 ---
 Lab:

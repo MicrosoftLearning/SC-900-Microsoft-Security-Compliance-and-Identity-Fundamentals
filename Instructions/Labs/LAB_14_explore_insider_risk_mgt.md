@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore insider risk management in Microsoft Purview'
+---
+
 <!---
 ---
 Lab:

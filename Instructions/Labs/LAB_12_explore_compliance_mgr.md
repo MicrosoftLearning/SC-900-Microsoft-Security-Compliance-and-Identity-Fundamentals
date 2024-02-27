@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
+---
+
 <!---
 ---
 Lab:

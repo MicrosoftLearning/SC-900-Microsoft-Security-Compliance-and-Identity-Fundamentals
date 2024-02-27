@@ -1,3 +1,8 @@
+---
+lab:
+    title: 'Microsoft Entra self-service password reset'
+---
+
 <!---
 ---
 Lab:
