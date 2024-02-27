@@ -1,7 +1,7 @@
 <!---
 ---
-Lab:
-    Title: 'Explore Microsoft Entra ID User Settings'
+lab:
+    title: 'Explore Microsoft Entra ID User Settings'
     Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft Entra; Module 1: Describe the function and identity types of Microsoft Entra ID; Unit 3: Describe the Microsoft Entra identity types'
 ---
 --->
