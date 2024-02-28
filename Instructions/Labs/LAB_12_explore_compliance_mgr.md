@@ -1,15 +1,8 @@
 ---
 lab:
     title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
+    module: 'Describe the compliance management capabilities in Microsoft Purview'
 ---
-
-<!---
----
-Lab:
-    Title: 'Explore the Microsoft Purview compliance portal & Compliance Manager'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 2: Describe the compliance management capabilities in Microsoft Purview; Unit 2: Describe the Microsoft Purview compliance portal'
----
---->
 
 # Lab: Explore the Microsoft Purview compliance portal & Compliance Manager
 

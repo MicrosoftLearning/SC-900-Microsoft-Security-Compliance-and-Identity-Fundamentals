@@ -1,15 +1,8 @@
 ---
 lab:
     title: 'Explore the Service Trust Portal'
+    module: 'Describe the compliance management capabilities at Microsoft'
 ---
-
-<!---
----
-Lab:
-    Title: 'Explore the Service Trust Portal'
-    Learning Path/Module/Unit: 'Learning Path: Describe the capabilities of Microsoft compliance; Module 1: Describe the compliance management capabilities in Microsoft; Unit 2: Explore the Service Trust Portal'
----
---->
 
 # Lab: Explore the Service Trust Portal
 
