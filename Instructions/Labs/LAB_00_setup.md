@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab setup'
-    module: ''
+    module: 'Setup your Microsoft 365 lab tenant (not associated with a Learn module)'
 ---
 
 # Lab: Setup

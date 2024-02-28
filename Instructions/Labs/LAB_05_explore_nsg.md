@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Azure Network Security Groups (NSGs)'
-    Module: 'Describe the basic security capabilities in Azure'
+    module: 'Describe the basic security capabilities in Azure'
 ---
 
 # Lab: Explore Azure Network Security Groups (NSGs)
