@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Explore Microsoft Defender for Cloud'
-    Module: 'Describe the security management capabilities of Azure'
+    module: 'Describe the security management capabilities of Azure'
 ---
 
 # Lab: Explore Microsoft Defender for Cloud
