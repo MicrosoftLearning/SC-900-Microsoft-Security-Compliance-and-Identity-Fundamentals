@@ -43,7 +43,7 @@ In this demo, you'll explore the various settings available for authentication i
     1. The **Registration** is shown with a blue underline.  Here  you can view registration activity for different authentication methods.
     1. Select **Usage** to view usage details and note that you can add different filters.
 
-1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, select **Multifactor authnentication**.  You may need to select **Show more** under the section on Protection, in the left navigation panel.
+1. In this module you also spoke about multifactor authentication. You will cover more about MFA in the demo on conditional access, but you may want to take a minute to show some basic settings.  From Microsoft Entra admin center navigation panel, select **Multifactor authentication**.  You may need to select **Show more** under the section on Protection, in the left navigation panel.
     1. On the **Getting started** page, it shows that the best way to apply it to users is through conditional access, but there are some specific settings you configure here.
     1. Select **Account lockout** and call out the configurable lockout parameters.
     1. Select **Block/unblock users**, call out that here is where an admin can manually block/unblock users.  Note that a blocked user will remain blocked for 90 days unless manually unblocked.
