@@ -22,9 +22,7 @@ In this lab you'll go through the steps required for setting up eDiscovery, incl
 
 To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH).
-
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
+1. You should be on the home page of the Microsoft Purview portal.  If you previously closed it, open a browser tab and enter **https://purivew.microsoft.com**.
 
 1. From the left navigation pane, select **Settings**, expand **Roles and scopes**, then select **Role groups**.
 
@@ -36,19 +34,21 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
     1. On the "Manage eDiscovery Administrator" page, select **Choose users** . Search for and select **MOD Administrator** then press **Select** at the bottom of the page, then select **Next** and then **Save**.
     1. On the "You successfully updated the role group" page, select **Done**.
 
+1. Return to the Microsoft Purview home page by selecting **Home** from the left navigation panel.
+
 1. Keep this browser tab open, as you'll use it in the next task.
 
 ### Task 2
 
 In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
 
-1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **compliance.microsoft.com** to get to the Microsoft Purview portal.
+1. You should be on the home page of the Microsoft Purview portal.
 
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard Cases**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Cases**.
 
-1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
+1. From the Cases page page, select **Create case**.
 
-1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
+1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Create**.
 
 1. The case should now appear on the list.
 
@@ -58,11 +58,11 @@ In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery adm
 
 ### Task 3
 
-Now that you've created an eDiscovery (Standard) case, you can begin to work with the case.  In this task, you'll create an eDiscovery hold for the case for you created.  Specifically, you'll create a hold for the exchange mailbox belonging to Adele Vance.
+Now that you've created an eDiscovery case, you can begin to work with the case.  In this task, you'll create an eDiscovery hold for the case for you created.  Specifically, you'll create a hold for the exchange mailbox belonging to Adele Vance.
 
-1. Open the eDiscovery (Standard) tab on your browser.
+1. Open the eDiscovery tab on your browser.
 
-1. From the eDiscovery (Standard) page, select the case you created in the previous tab, **SC900 Test Case**.
+1. From the eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**.
 
 1. From the Home page of the case, select the **Hold** tab then select **+Create**.
 
