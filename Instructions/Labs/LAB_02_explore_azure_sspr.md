@@ -36,15 +36,15 @@ In this task you, as the admin, will walk through the some of the available conf
     1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
     1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
-1. From the left navigation pane, expand the option for **Protection**, then select **Password reset**.  
+1. From the left navigation panel, make sure **Entra ID** is expanded, then scroll-down and select **Password reset**.  
 
 1. The properties for self service password reset are displayed. Select the information icon next to where it says **Self services password reset enabled** to view what the description. Ensure that **Selected** is highlighted in blue. Now put your cursor over the information icon next to where it says **Select group** and note that it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users. Notice that there is a group already listed - SSPRSecurityGroupUsers (this group was preconfigured as part your Microsoft 365 tenant). Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
 1. From the left navigation panel of Password reset, select **Authentication Methods**.
 
-1. In the Number of methods required to rest, select **1**. Note the information box on the screen.
-
-1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them.
+1. In the Number of methods required to reset, select **1**. There is only one method listed, Security questions, but beneath that option is the option to **Use the auth methods policy to manage other authentication methods**.  
+    1. Select **auth methods policy** to view the available authentication method policies
+    1. Select **X** on the top-right of the page to return to the previous page.
 
 1. From the left navigation panel of Password reset, select **Registration**.  
 

@@ -17,7 +17,7 @@ Tenants must not be converted to a paid subscription. Tenants obtained as a part
 
 This setup lab consists of enabling the Microsoft Audit Log and file monitoring capabilities in the Microsoft 365 tenant.
 
-**Estimated Time**: 5-10 minutes
+**Estimated Time**: 10-15 minutes
 
 ### Setup - Enable Microsoft 365 audit log and file monitoring
 
@@ -33,9 +33,9 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 
 1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
-1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.  If you see a message, "Sorry, we're having trouble figuring out if activity is being recorded. Try refreshing the page," and there is no change after refreshing the page, you'll need to enable audit via PowerShell.
+1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.  If you see a message, "Sorry, we're having trouble figuring out if activity is being recorded. Try refreshing the page." If there is no change after refreshing the page, you'll need to enable audit via PowerShell.
     1. Right-select the blue Windows PowerShell icon on taskbar and select **Run as administrator**.
-    1. To confirm that the Exchange Online PowerShell module is installed on the computer, enter **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**.  You'll see the name, version and installed location of Exchange OnlineManagement.
+    1. Install the Exchange Online PowerShell module by entering **`Install-Module -Name ExchangeOnlineManagement`**.  When prompted with, "Are you sure you want to install the modules from 'PSGallery'", select **`[A]` Yes to All**
     1. Now load the module, by entering **`Import-Module ExchangeOnlineManagement`**.
     1. To connect, enter **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  For the UPN, enter the administrator username found in the resources tab of your lab.
     1. You'll be prompted to sign in.  Enter the administrative username and password found in the resources tab of your lab.
@@ -49,6 +49,7 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 1. If not already enabled, select the box next to where it says **Enable file monitoring** then select **Save**.  
 
 1. This concludes the lab setup on the Microsoft 365 tenant.
+1. You can close the browser tab, "Cloud Apps-Microsoft Defender", but keep the "Microsoft 365 admin center" tab open, for the next exercise.
 
 ### Review
 
