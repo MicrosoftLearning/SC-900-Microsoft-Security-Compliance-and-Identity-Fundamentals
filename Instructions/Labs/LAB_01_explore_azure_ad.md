@@ -16,21 +16,23 @@ This lab maps to the following Learn content:
 
 In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory).  Additionally, you'll create a user and configure the different settings, including adding licenses.  
 
-**Estimated Time**: 30 minutes
+**Estimated Time**: 45 minutes
 
 ### Task 1
 
 As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you’ll learn how to create a new user in Microsoft Entra ID and explore some of services that can be managed at the user level.
 
-1. Open the Microsoft Edge browser. In the address bar, enter **`https://admin.microsoft.com`** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
+1. If you have the Microsoft 365 admin center tab open, from the previous exercise, then under Admin centers, select **Identity**
+1. If the Microsoft 365 admin center is already open on your browser, from the previous exercise, skip to the next step, otherwise access the Microsoft admin center as follows:
+    1. In the address bar, enter **`https://admin.microsoft.com`** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
     1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
-1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center.
+1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center.  If you get prompted to set up MFA, follow the steps on the screen.
 
-1. From the left navigation pane, expand **Users** then select **All users**. Notice that your tenant is already configured with users.
+1. From the left navigation pane, select **Users**.  This takes you to the  users page. **All users** should already be selected. Notice that your tenant is already configured with users.
 
 1. From the top of the page, select **+ New user** then from the drop-down box, select **Create new user**.
 
@@ -87,13 +89,11 @@ In this task, you’ll assign a license to the user you just created, using the 
 1. From the left navigation panel, under users, select **Active users**.  From the list of users, select **Sara Perez**.  A window opens showing information about the user.  
 
     1. Select the **Licenses and apps** tab.
-    1. For each of the licenses listed, you see number of available licenses.  Since there are no available Microsoft 365 E5 licenses (they have already been assigned to other users), assign the **Microsoft Power Apps Developer** and the **Microsoft Power Automate Free** licenses by selecting the check box next to them.
+    1. For each of the licenses listed, you see number of available licenses.  Since there are no available Microsoft 365 E5 licenses (they have already been assigned to other users), assign the **Microsoft Power Apps Developer** license by selecting the check box next to them.
     1. Select **Save changes**. A notification on the top right corner of the screen should show that license assignments succeeded.
     1. Close the page by selecting the **X** at the top right corner of the page.
 
-1. Return to the Microsoft Entra admin center by selecting **Home** from the left navigation panel or from the top-left of the screen (the bread-crumb), above where it says Sara Perez | Licenses.
-
-1. You have successfully assigned licenses to the user.
+1. You have successfully assigned a license to the user.
 
 1. Sign out of all the open browser tabs. Sign out by selecting the user icon next to the email address on the top right corner of the screen then selecting **Sign out**. Close all the browser windows.
 
@@ -103,7 +103,7 @@ In this task, you'll sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://login.microsoft.com**.
+1. In the address bar, enter **`https://login.microsoft.com`**.
 
 1. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your ALH)
 1. Enter the temporary password you set in the previous task.
@@ -114,9 +114,9 @@ In this task, you'll sign in as Sara Perez, for the first time.
 
 1. Since this is the first time you are logging in as Sara Perez, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
 
-1. You should now be successfully signed-in to Sara's Microsoft account.  Note that Sara's licensing that you assigned in the previous task was limited only to Power Automate Free and Power Apps for Developer and did not include E5 licensing.
+1. You should now be successfully signed-in to Sara's Microsoft account.  Note that Sara's licensing that you assigned in the previous task was limited only to Power Apps for Developer and did not include E5 licensing.
 
-1. Sign out by selecting the icon on the top right corner of the Microsoft 365 window that is shown as a circle with the letters SP (next to the question mark icon), then selecting **Sign out**, then close the browser.
+1. To sign out, select sara's email on the bottom of the left navigation pane and select **Sign out**, then close the browser.
 
 ### Review
 

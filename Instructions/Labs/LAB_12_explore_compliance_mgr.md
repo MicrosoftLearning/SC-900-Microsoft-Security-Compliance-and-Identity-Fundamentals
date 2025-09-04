@@ -31,7 +31,7 @@ Explore the Microsoft Purview portal home page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens with a pop-up window welcoming  you to the new Microsoft Purview portal. At the bottom of the page, select the box next to **I agree to the terms of data flow disclosure and Privacy statements**, then select **Get started**.
+1. Under Admin centers, select **Microsoft Purview**.  A new browser page opens with a pop-up window welcoming  you to the new Microsoft Purview portal. At the bottom of the page, select **Get started**.
 
 1. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, available trials and recommendations, and more.
 
@@ -59,13 +59,13 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation pane, select **Assessments**. On this page, you'll see the Data Protection Baseline for Microsoft 365.  This is a default baseline assessment Microsoft provides in Compliance Manager for Microsoft 365.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you add your own assessments to meet your organization's particular needs.  Note that you can add your own assessments.
 
-1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view information on the Controls, your improvement actions, and Microsoft actions.  
+1. Select **Data Protection Baseline for Microsoft 365**.  Notice the information available on the progress tab.  You can also view information on the Controls, your improvement actions, and Microsoft actions.  
 
 1. From the left navigation pane, select **Regulations**.  This page lists the regulations available to your organization. You will see specific information about that regulation including controls, your improvement actions, and Microsoft action. From this page, on the top right corner of the page, you have the option to create an assessment based on the template.
 
 1. 1. From the left navigation pane, select **Policies**. Here is where you'll see the list of policies to help you monitor and get notified about events in Compliance Manager that are of importance to you. You can create or modify policies, change their activation status, and control alert frequency and severity. Select the **Compliance Manager Default Alert Policy** to view details about the policy.  Select **Actions** to view available options (explore at will).
 
-1. From the left navigation pane, select **Alerts**.   Here you can view and manage alerts for events that can affect your organization's compliance score. 
+1. From the left navigation pane, select **Alerts**.   Here you can view and manage alerts for events that can affect your organization's compliance score.
 
 1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
 

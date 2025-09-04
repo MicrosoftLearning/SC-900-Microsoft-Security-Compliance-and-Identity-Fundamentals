@@ -16,7 +16,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll explore conditional access MFA, from the perspective of an admin and a user.  As the admin, you will create a policy that will require a user to go through multi-factor authentication when accessing any of the Microsoft Admin portals.  From a user perspective, you'll see the impact of the conditional access policy, including the process to register for MFA.
 
-**Estimated Time**: 30 minutes
+**Estimated Time**: 45 minutes
 
 ### Task 1
 
@@ -48,11 +48,11 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by the ALH.
 
-1. From the left navigation pane, expand **Protection** then select **Conditional Access**.
+1. From the left navigation panel, make sure **Entra ID** is expanded, scroll-down and select **Conditional Access**.
 
-1. The Conditional access overview page is displayed. When you land on the overview page, the **Getting started** tab is selected (underlined). Select the **Overview** tab. Here you will see tiles showing the Policy summary and general alerts.  From the left navigation panel, select **Policies**.
+1. The Conditional access overview page is displayed. When you land on the overview page, the **Getting started** tab is selected (underlined). Select the **Overview** tab. Here you will see tiles showing the Policy summary and general alerts.
 
-1. From the left navigation panel, select **Policies**. Any existing Conditional Access Policies are listed here. Select **+ New policy**.
+1. From the left navigation panel, select **Policies**, then select **+ New policy**.
 
 1. In the Name field, enter **Block admin portals**.
 
@@ -62,11 +62,11 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. Select the option for **Select users and groups** and select **Users and groups**.  The window to Select users and groups opens.  
 
-1. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we'll assign the policy to a specific user.
+1. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose of expediency with this lab, we'll assign the policy to a specific user.
 
 1. Under Target resources, select **No target resources selected**.
 
-1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Cloud apps**.  Make sure the **Include** tab is underlined.  Select **Select apps**, then underneath where it says **Select**, select **None**.  The window to Select Cloud apps opens.
+1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Resources (formerly Cloud apps)**.  Make sure the **Include** tab is underlined.  Select **Select resources**, then underneath where it says **Select**, select **None**.  The window to Select Cloud apps opens.
 
 1. Select **Microsoft Admin Portals**, then press **Select** at the bottom of the page.  Notice the warning.  
 

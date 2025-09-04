@@ -48,7 +48,7 @@ In this task you, as the admin, will assign Diego a Microsoft Entra ID role in P
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.
 
-1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**.
+1. From the left navigation panel, expand **IF Governance**, then select **Privileged Identity Management**.
 
 1. You are now in the Privileged Identity Management quick start page. Review the information on the Get started page. In the main window, under where it says Manage access, select **Manage**.
 
@@ -96,7 +96,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     1. When prompted to stay signed- in, select **Yes**.
 
 1. You should be successfully logged in to Microsoft Entra admin center.
-1. From the left navigation panel, expand **Identity Governance** then select **Privileged Identity Management**.
+1. From the left navigation panel, expand **ID Governance** then select **Privileged Identity Management**.
 1. From the left navigation panel, select **My roles**.  You're now seeing information for your eligible assignments.  You'll see that you, Diego, are assigned the User administrator role.  
 1. In the last column of the table, labeled action, select **Activate**.
 1. You'll see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
