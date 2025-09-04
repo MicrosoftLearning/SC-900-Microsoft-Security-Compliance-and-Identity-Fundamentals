@@ -14,13 +14,13 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab you'll go through the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  Note:  Licensing for eDiscovery (Standard) requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery (Standard), visit [Get started with eDiscovery (Standard) in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+In this lab you'll go through the steps required for setting up eDiscovery, including setting up role permissions, creating an eDiscovery case, creating an eDiscovery hold and creating a search query.  Note:  Licensing for eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support eDiscovery, visit [Get started with eDiscovery in Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 **Estimated Time**: 45 minutes
 
 ### Task 1
 
-To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+To access eDiscovery or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
 1. You should be on the home page of the Microsoft Purview portal.  If you previously closed it, open a browser tab and enter **https://purivew.microsoft.com**.
 
@@ -40,7 +40,7 @@ To access eDiscovery (Standard) or be added as a member of an eDiscovery case, a
 
 ### Task 2
 
-In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery (Standard).
+In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using eDiscovery.
 
 1. You should be on the home page of the Microsoft Purview portal.
 
@@ -82,7 +82,7 @@ Now that you've created an eDiscovery case, you can begin to work with the case.
 
 ### Task 4
 
-With a hold in place, you'll create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery (Standard) case are not listed on the Content search page in the Microsoft Purview portal. These searches are listed only on the Searches page of the associated eDiscovery (Standard) case.
+With a hold in place, you'll create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery case are not listed on the Content search page in the Microsoft Purview portal. These searches are listed only on the Searches page of the associated eDiscovery case.
 
 1. Open the SC900 Test Case tab on your browser.
 
@@ -100,10 +100,10 @@ With a hold in place, you'll create a search query.  Once your search is complet
 
 1. From the Searches window, select the search you created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You'll see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
 
-1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
+1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the workflow). Select **Close**.
 
 1. Sign out and close all open browser windows.
 
 ### Review
 
-In this lab, you went through the steps required to get started with eDiscovery (Standard), including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through elements of the eDiscovery (Standard) workflow by creating an eDiscovery hold and creating a search query.
+In this lab, you went through the steps required to get started with eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through elements of the eDiscovery workflow by creating an eDiscovery hold and creating a search query.
