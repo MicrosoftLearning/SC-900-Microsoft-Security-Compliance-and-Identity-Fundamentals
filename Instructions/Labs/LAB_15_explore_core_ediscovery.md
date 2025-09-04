@@ -58,52 +58,24 @@ In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery adm
 
 ### Task 3
 
-Now that you've created an eDiscovery case, you can begin to work with the case.  In this task, you'll create an eDiscovery hold for the case for you created.  Specifically, you'll create a hold for the exchange mailbox belonging to Adele Vance.
-
-1. Open the eDiscovery tab on your browser.
-
-1. From the eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**.
-
-1. From the Home page of the case, select the **Hold** tab then select **+Create**.
-
-1. In the name field, enter **Test hold** then select **Next**.
-
-1. In the Choose locations page, select toggle switch next to **Exchange mailboxes** to set the status to **On**.  
-
-1. Now select **Choose users, groups, or teams**.  In the search box, enter **Adele** then press enter on your keyboard. From the search results select **Adele Vance**, then select **Done**.
-
-1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
-
-1. The Query conditions page enables you to create a hold for items based on a query that you can create.  You can choose to use the Query builder to create a query or for more advanced users, you can use the KQL editor. For this exercise, you want the hold to preserve all content in the specified location for the specified user, so you will not create a query.
-
-1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
-
-1. Keep this browser tab open, as you'll use it in the subsequent task.
-
-### Task 4
-
-With a hold in place, you'll create a search query.  Once your search is complete, the eDiscovery supports actions, such as exporting and downloading the results for future investigation.   Note:  Searches associated with an eDiscovery case are not listed on the Content search page in the Microsoft Purview portal. These searches are listed only on the Searches page of the associated eDiscovery case.
+With a case created, you can begin to work with the case.  This includes creating a search query to find data and content that is relevant to your case, applying a hold policy, creating a review set, and exporting data. In this task you'll explore some of these options.
 
 1. Open the SC900 Test Case tab on your browser.
 
-1. From the SC900 Test Case page, select  **Searches**.
+1. From the SC900 Test Case page, select  **Create a search**.
 
-1. From the Search page, select **+ New Search**.
+1. In the name field, enter **SC900 case search** then select **Create**.
 
-1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
+1. Select **Add sources**. Note the filter options and default settings. In the search box, enter **Pradeep** then press enter on your keyboard. From the search results select **Pradeep Gupta**, then select **Save and close**. The Condition builder allows you to build a search query based on specific Keywords or Conditions that are satisfied, In the keyword box, enter **Sales**. From here you can select to **Run the query**.  This may take several minutes.
 
-1. In the Choose locations page, select **locations on hold** and unselect **Add App Content for On-Premises users**, as your lab environment has no on-premises  users, then select **Next**.
+1. With query results returned in the form of statistics, you can export results.  Select **Export** to vew available options then select **Cancel** (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the workflow).
 
-1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
+1. You can add to a review set for further processing.  Select **Add to review set**. Enter a name for the new review set, **`SC900-review-set`**, leave the default settings, then select **Add to review set** .  This can take several minutes to complete.  Now you can review and take action from the review set, including tagging items, querying the review set, running analytics and more.  Explore the various options.
 
-1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
-
-1. From the Searches window, select the search you created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indicate that the search is completed.  You'll see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
-
-1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the workflow). Select **Close**.
+1. You can also create a hold policies to preserve content relevant to your case. Select **Hold policies**, then **New policy**.  Enter a Policy name, **`SC900-hold`**, and select **Create**.  As in the search, you need to add data sources for the hold and you can add keywords and conditions to use in the hold policy, then you can select **Apply hold**.  Actions you can take on a hold policy include retry, turn off a policy, and deleting a hold policy.
 
 1. Sign out and close all open browser windows.
 
 ### Review
 
-In this lab, you went through the steps required to get started with eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through elements of the eDiscovery workflow by creating an eDiscovery hold and creating a search query.
+In this lab, you went through the steps required to get started with eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you explored options available as part of the eDiscovery workflow including an eDiscovery search, a hold policy, add search results to a review set, and exporting results.
