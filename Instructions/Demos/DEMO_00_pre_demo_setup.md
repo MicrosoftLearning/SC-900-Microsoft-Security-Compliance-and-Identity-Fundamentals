@@ -31,14 +31,7 @@ In this setup task, you'll enable the Audit log and file monitoring capabilities
 
 1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
-1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present, then auditing is already enabled, and no further action is required.  If you see a message, "Sorry, we're having trouble figuring out if activity is being recorded. Try refreshing the page," and there is no change after refreshing the page, you'll need to enable audit via PowerShell.
-    1. Right-select the blue Windows PowerShell icon on taskbar and select **Run as administrator**.
-    1. To confirm that the Exchange Online PowerShell module is installed on the computer, enter **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**.  You'll see the name, version and installed location of Exchange OnlineManagement.
-    1. Now load the module, by entering **`Import-Module ExchangeOnlineManagement`**.
-    1. To connect, enter **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**.  For the UPN, enter the administrator username found in the resources tab of your lab.
-    1. You'll be prompted to sign in.  Enter the administrative username and password found in the resources tab of your lab.
-    1. To turn on Auditing, enter **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**. A message is displayed saying that it might take up to 60 minutes for the change to take effect.
-    1. Although it may take up to 60 minutes to take effect, you can verify the command was received by entering **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**.  If audit is enabled, the property UnifiedAuditLogIngestionEnabled will show a value of true.
+1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.
 
 1. From the left navigation panel, under System, select **Settings**.
 
