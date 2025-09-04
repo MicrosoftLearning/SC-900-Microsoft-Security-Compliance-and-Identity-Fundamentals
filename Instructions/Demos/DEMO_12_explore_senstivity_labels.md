@@ -22,34 +22,33 @@ In this demo, you'll show the capabilities of sensitivity labels.  You'll go thr
 
 In this demo, you show the settings for an existing sensitivity label and the corresponding policy to publish the label.
 
-1. Open a new Microsoft Edge browser tab. In the address bar, enter **https://purview.microsoft.com**. To access the new Microsoft Purview portal, select the box next to where it says, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.  
+1. You should still be on the home page of the Microsoft Purview portal. If not, open a new Microsoft Edge browser tab. In the address bar, enter **https://purview.microsoft.com** then select **Get started**.  
 
-1. From the landing page of the new Microsoft Purview portal, select the **View all solutions** tile, then select the **Information Manager** tile. Alternatively, you select **Solutions** from the left navigation panel, then select **Information Protection**.
+1. From the landing page of the new Microsoft Purview portal, select the **View all solutions** tile, then select the **Information Protection** tile. Alternatively, you select **Solutions** from the left navigation panel, then select **Information Protection**.
 
-1. You'll land on the overview page. From the left navigation panel, select **Sensitivity labels**.
+1. You'll land on the overview page. From the left navigation panel, select **Sensitivity labels**. If you see a yellow banner indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**
 
-1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Confidential-Finance**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** (it may also show as a pencil icon) at the top of the page to view some of the basic configuration settings. If you don't see this option, select the ellipsis.
-    1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Expand the label named **Highly Confidential**, then select **All Employees**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** If you don't see this option, select the ellipsis.
+    1. Configuration starts with providing basic details for the label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Review the scope for this label. Don’t change anything.  Select **Next** at the bottom of the page.
-    1. This next screen is where you can choose protection settings for the labeled items. This label is configured to support content marking. Don’t change anything.  Select **Next** at the bottom of the page.
-        1. On the content markings page, take note of the information box on the top of the page.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. You are now in the Auto-labeling for files and emails window.  Read the description of auto-labeling on the top of the page and the information box below it.  Also take note that this label is set for auto-labeling for specific conditions. Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. This window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
-    1. This window is a preview feature to automatically apply this label to schematized data assets in Microsoft Purview Data Map (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This feature is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page.
+    1. This next screen is where you can choose protection settings for the labeled items. This label controls who can access and view labeled items and also applies content marking.  Select **Next** to view the details.
+        1. Access control: Review the settings, but don't change anything.  Select **Next**.
+        1. Content marking: Note that the label applies a footer.  then select **Next**.
+        1. Auto-labeling for files and emails: Read the description of auto-labeling on the top of the page and the information box below it.  Also take note that this label is set for auto-labeling when credit card numbers are detected. Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Define protection settings for groups and sites: Review the options for protection settings and auto apply settings.  Nothing has been configured in this window.  Don't change anything. Select **Next** on the bottom of the page.
+    1. Review your settings and finish: Review your settings.  Since nothing has been changed, select **Cancel**.
 
-1. From the left navigation panel, select **Policies** then select **Publishing policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience.
-
-1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
-    1. Review the description for “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the description for "Assign admin units". The Admin units are set to the full directory, don't change any settings. Select **Next**.  
-    1. Review the description for “Publish to users and groups”.  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the policy settings. Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the description for "Apply a default label to documents." Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the description for "Apply a default label to emails" and "Inherit label from attachments". Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the description for "Apply a default label to meetings and calendar events". Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. Review the description for "Apply a default label to Power BI content". Don’t change any settings.  Select **Next** on the bottom of the page.
-    1. The last configuration option is to name your policy.  Since you're editing the policy, the name field is greyed out.  Select **Next** on the bottom of the page.
-    1. Review the policy settings. Select **Cancel** to discard any changes and return to the Label policies page.
+1. From the left navigation pane, expand **Policies** then select **Label publishing policies**.  It is through label policies that sensitivity labels can be published.  The Microsoft 365 tenant has been configured with some label policies, for your convenience. Select **Highly Confidential Policy**.  A window opens that provides information about the policy. Select **Edit policy** from the top of the window.  Here you will walk through the settings without changing anything.
+    1. Choose sensitivity labels to publish:  Notice the labels listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Assign admin units: The Admin units are set to the full directory, don't change any settings. Select **Next**.  
+    1. Publish to users and groups:  Notice this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Policy settings: Note the available options. Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Default settings for documents: Don’t change any settings.  Select **Next** on the bottom of the page.
+    1. Default settings for emails: Review the options and note that emails can inherit a label from an attachment with higher priority, if configured to so. Select **Next**.
+    1. Default settings for meetings and calendar events: Review the options and note the option to apply inheritance between Team meeting and artifacts. Don’t change any settings.  Select **Next**.
+    1. Default settings for Fabric and Power BI content: Don’t change any settings.  Select **Next**.
+    1. Name your policy: Since you're editing the policy, the name field is greyed out.  Select **Next**.
+    1. Review and finish: Since nothing was changed, select **Cancel**.
 
 1. From the left navigation panel, under Information protection, select Auto-labeling. Review the description. Note that you create auto-labeling policies to automatically apply sensitivity labels to email messages or OneDrive and SharePoint files that contain sensitive info. If there are auto-labeling policies configured, select one and review the policy information in the details pane.  If no policy is listed, you may choose to walk-through the steps to create one, if time permits.
 
@@ -59,21 +58,20 @@ In this demo, you show the settings for an existing sensitivity label and the co
 
 ### Demo Part 2
 
-In this step, you'll show the process of applying a label from the perspective of the user (in this case the user is the admin).  For the purpose of viewing the impact of applying the label, you'll select the Confidential - Finance label because this label applies a watermark.
+In this step, you'll go through the process of applying a sensitivity label to a Microsoft Word document and then view the content marking (footer) that is generated by the label. NOTE: When using Microsoft Word online, you may experience be a delay before the option to select Sensitivity labels appears on the top ribbon.  It is recommended that you complete all remaining labs and then return back to this task.
 
-1. From the Microsoft Purview compliance portal home page, select the **app launcher icon**, next to where it says Microsoft Purview (on top of the home icon). Select the **Word icon**.  
+1. You should still be on the home page for the Microsoft Purview Portal. 
+1. From the Microsoft Purview portal, select the **app launcher icon**, next to where it says Microsoft Purview. Select the **Word icon**.  
 
-1. Select **Blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press the **Enter** key on your keyboard.
+1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, next to the Word icon, select where it says **Document** and rename the file to **Test-label** then press **Enter** on your keyboard.
 
-1. On the far right of top menu bar (also referred to as the ribbon) is a down arrow, select it, then select **Classic Ribbon**.  This will make it easier to identity the sensitivity icon. Select **Sensitivity**, located next to the microphone icon. From the drop-down menu, select **Confidential-Finance**.  
+1. On the far right of top menu bar (also referred to as the ribbon) is a down arrow, select it, then select **Classic Ribbon**.  This will make it easier to identity the sensitivity icon. Select **Sensitivity**, located next to the microphone icon. From the drop-down menu, select **Highly Confidential** then select **All Employees**.  
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
-1. Notice how the document includes the watermark.  
+1. Notice how the document includes the footer, "Classified as Highly Confidential".  
 
-1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
-
-1. Keep the Microsoft Purview browser tab open for the next demo.
+1. Close the Microsoft Word tabs that are open on your browser to exit from Word, but keep the the browser tab to the Microsoft Purview home page open.
 
 ### Review
 

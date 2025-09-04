@@ -61,11 +61,11 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. Select **Data Protection Baseline for Microsoft 365**.  Notice the information available on the progress tab.  You can also view information on the Controls, your improvement actions, and Microsoft actions.  
 
-1. From the left navigation pane, select **Regulations**.  This page lists the regulations available to your organization. You will see specific information about that regulation including controls, your improvement actions, and Microsoft action. From this page, on the top right corner of the page, you have the option to create an assessment based on the template.
+1. From the left navigation pane, select **Regulations**.  This page lists the regulations available to your organization. Select any regulation listed. You will see specific information about that regulation including controls, your improvement actions, and Microsoft action.
 
 1. 1. From the left navigation pane, select **Policies**. Here is where you'll see the list of policies to help you monitor and get notified about events in Compliance Manager that are of importance to you. You can create or modify policies, change their activation status, and control alert frequency and severity. Select the **Compliance Manager Default Alert Policy** to view details about the policy.  Select **Actions** to view available options (explore at will).
 
-1. From the left navigation pane, select **Alerts**.   Here you can view and manage alerts for events that can affect your organization's compliance score.
+1. From the left navigation pane, select **Alerts**.   Here you can view and manage alerts for events that can affect your organization's compliance score. Since this is a newly created lab tenant, you should not be seeing any alerts.
 
 1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
 
