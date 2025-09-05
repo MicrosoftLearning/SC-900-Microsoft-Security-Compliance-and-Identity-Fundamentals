@@ -24,7 +24,7 @@ Show the Microsoft Purview portal home page.
 
 1. Open Microsoft Edge. In the address bar, enter **https://purview.microsoft.com**. You should already be signed in as the admin.  If not, sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH).
 
-A new browser page opens to the welcome page of the Microsoft Purview portal.  To access the new Microsoft Purview portal, select the box next to where it says, **I agree to the terms of data flow disclosure and Privacy Statements**, then select **Get started**.  
+A new browser page opens to the welcome page of the Microsoft Purview portal, select **Get started**.  
 
 1. Before moving to the Compliance Manager, take a few moments to explore the new portal.
 
