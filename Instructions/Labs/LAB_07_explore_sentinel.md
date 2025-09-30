@@ -20,16 +20,12 @@ In this lab, you'll walk through the process of creating a Microsoft Sentinel in
 
 ### Task 1
 
-Create a Microsoft Sentinel instance
+To create an instance of Microsoft Sentinel, you first have to create a Log Analytics workspace, used to store data from Microsoft Sentinel.  Once you have a Log Analytics workspace you can create an instance Microsoft Sentinel and add the log analytics workspace to it.  In this task you run through each of these steps.
 
-1. You should be at the home page for Azure services.  If you previously closed the browser, open Microsoft Edge. In the address bar, enter **portal.azure.com**, and sign in with your admin credentials.
+1. You should be at the home page for Azure services.  If not, open Microsoft Edge and in the address bar, enter **portal.azure.com**, and sign in with your Azure Portal admin credentials.
 
-1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
-
-1. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
-
-1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
-
+1. In the blue search box on the top of the page, enter **Log Analytics** and select it from the search results.
+1. Select **+ Create**.
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
     1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
     1. Resource group: select **SC900-Sentinel-RG**. If this resource group is not listed create it by selecting **Create new**, enter **SC900-Sentinel-RG**, then select **OK**.
@@ -37,15 +33,17 @@ Create a Microsoft Sentinel instance
     1. Region: **East US** (A different default region may be selected based on your location)
     1. Select **Review + Create** (no tags will be configured).
     1. Verify the information you entered then select **Create**.
-    1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
-
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
-
+    1. It may take a minute or two for the new workspace to be created.
+    1. Once it's created, select **Go to resource** to view information about the workspace.
+1. At this point, the instance of Microsoft Sentinel has not yet been created. To create an instance of Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel** and select it from the search result.
+1. To add the workspace to Microsoft Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel**
+    1. From the Microsoft Sentinel page, select **+ Create**.
+    1. Now you can add the workspace you just created. Select **SC900-LogAnalytics-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
 1. Keep this page open, as you'll use it in the next task.
 
 ### Task 2
 
-With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions.  In this task, you'll view the available, built-in Microsoft Sentinel roles.
+With the Microsoft Sentinel instance created and the Log Analytics workspace assigned to it, it's important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions.  In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
 1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
 
