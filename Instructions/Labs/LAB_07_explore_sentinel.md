@@ -29,7 +29,7 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
     1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
     1. Resource group: select **SC900-Sentinel-RG**. If this resource group is not listed create it by selecting **Create new**, enter **SC900-Sentinel-RG**, then select **OK**.
-    1. Name: **SC900-LogAnalytics-workspace**.
+    1. Name: **SC900-Sentinel-workspace**.
     1. Region: **East US** (A different default region may be selected based on your location)
     1. Select **Review + Create** (no tags will be configured).
     1. Verify the information you entered then select **Create**.
@@ -38,7 +38,7 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
 1. At this point, the instance of Microsoft Sentinel has not yet been created. To create an instance of Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel** and select it from the search result.
 1. To add the workspace to Microsoft Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel**
     1. From the Microsoft Sentinel page, select **+ Create**.
-    1. Now you can add the workspace you just created. Select **SC900-LogAnalytics-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
+    1. Now you can add the workspace you just created. Select **SC900-Sentinel-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
 1. Keep this page open, as you'll use it in the next task.
 
 ### Task 2
@@ -68,7 +68,7 @@ With the Microsoft Sentinel instance created and the Log Analytics workspace ass
 
 The purpose of this task is to walk you through the steps involved in connecting to a data source. Many data connectors are deployed as part of a Microsoft Sentinel solution together with related content like analytics rules, workbooks and playbooks. The Microsoft Sentinel Content hub is the centralized location to discover and manage out-of-the-box (built-in) content. In this step, you'll use the content hub to deploy the Microsoft Defender for Cloud solution for Microsoft Sentinel.  This solution allows you to ingest Security alerts reported in Microsoft Defender for Cloud.
 
-1. From the Azure services home page, select Microsoft Sentinel, then select the instance you created, **SC900-LogAnalytics-workspace**.
+1. From the Azure services home page, select Microsoft Sentinel, then select the instance you created, **SC900-Sentinel-workspace**.
 
 1. From the left navigation panel, expand **Content Management** then select **Content hub**.
 
@@ -115,4 +115,4 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 ### Review
 
-In this lV you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
+In this lab you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
