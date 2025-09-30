@@ -119,26 +119,25 @@ The objective here is simply to access Microsoft Defender to Cloud for the first
 
 ### Microsoft Sentinel
 
-Check to make sure that an instance of Microsoft Sentinel has already been created. If not, then set it up now as you will need it as part of the walk-through demo on Microsoft Sentinel.
+Set up a Log Analytics workspace and once it is created, create an instance of Microsoft Sentinel and add the Log Analytics workspace to it.
 
 1. Open the Home-Microsoft Azure tab in your browser.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
-
-1. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
-
-1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
-
+1. In the blue search box on the top of the page, enter **Log Analytics** and select it from the search results.
+1. Select **+ Create**.
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription:  Leave the default.
-    1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
-    1. Name: **SC900-LogAnalytics-workspace**.
-    1. Region: **East US** (A different default region may be selected based on your location).
+    1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
+    1. Resource group: select **SC900-Sentinel-RG**. If this resource group is not listed create it by selecting **Create new**, enter **SC900-Sentinel-RG**, then select **OK**.
+    1. Name: **SC900-Sentinel-workspace**.
+    1. Region: **East US** (A different default region may be selected based on your location)
     1. Select **Review + Create** (no tags will be configured).
     1. Verify the information you entered then select **Create**.
-    1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
-
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.
+    1. It may take a minute or two for the new workspace to be created.
+    1. Once it's created, select **Go to resource** to view information about the workspace.
+1. At this point, the instance of Microsoft Sentinel has not yet been created. To create an instance of Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel** and select it from the search result.
+1. To add the workspace to Microsoft Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel**
+    1. From the Microsoft Sentinel page, select **+ Create**.
+    1. Now you can add the workspace you just created. Select **SC900-Sentinel-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
 
 ### Review
 
