@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore the Microsoft Defender portal'
-    module: 'Describe the threat protection capabilities of Microsoft XDR'
+  title: Explore the Microsoft Defender portal
+  module: Describe the threat protection capabilities of Microsoft XDR
+  description: 'This lab maps to the following Learn content:'
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft Defender
 ---
 
 # Lab: Explore the Microsoft Defender portal
