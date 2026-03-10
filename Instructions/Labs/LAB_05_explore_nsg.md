@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore Azure Network Security Groups (NSGs)'
-    module: 'Describe the basic security capabilities in Azure'
+  title: Explore Azure Network Security Groups (NSGs)
+  module: Describe the basic security capabilities in Azure
+  description: 'This lab maps to the following Learn content:'
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Azure
 ---
 
 # Lab: Explore Azure Network Security Groups (NSGs)
