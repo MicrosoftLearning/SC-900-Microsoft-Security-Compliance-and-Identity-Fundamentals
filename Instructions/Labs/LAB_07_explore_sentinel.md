@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore Microsoft Sentinel'
-    module: 'Describe the security capabilities of Microsoft Sentinel'
+  title: Explore Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
+  description: 'This lab maps to the following Learn content:'
+  duration: 60 minutes
+  level: 400
+  islab: true
+  primarytopics:
+  - Microsoft Sentinel
 ---
 
 # Lab: Explore Microsoft Sentinel
