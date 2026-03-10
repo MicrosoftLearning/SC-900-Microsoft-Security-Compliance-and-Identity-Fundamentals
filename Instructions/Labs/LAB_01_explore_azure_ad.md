@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Explore Microsoft Entra ID User Settings'
-    module: 'Describe the function and identity types of Microsoft Entra ID'
+  title: Explore Microsoft Entra ID User Settings
+  module: Describe the function and identity types of Microsoft Entra ID
+  description: 'This lab maps to the following Learn content:'
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Entra
+  - Microsoft Entra ID
 ---
 
 # Lab: Explore Microsoft Entra ID User Settings
