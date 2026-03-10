@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Microsoft Entra Conditional Access'
-    module: 'Describe the access management capabilities of Microsoft Entra'
+  title: Microsoft Entra Conditional Access
+  module: Describe the access management capabilities of Microsoft Entra
+  description: 'This lab maps to the following Learn content:'
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Entra
 ---
 
 # Lab: Microsoft Entra Conditional Access
