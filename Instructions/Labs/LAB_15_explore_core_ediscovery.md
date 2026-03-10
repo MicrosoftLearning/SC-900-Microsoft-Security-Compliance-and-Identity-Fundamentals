@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Explore eDiscovery'
-    module: 'Describe the data compliance solutions of Microsoft Purview'
+  title: Explore eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
+  description: 'This lab maps to the following Learn content:'
+  duration: 45 minutes
+  level: 200
+  islab: true
 ---
 
 # Lab: Explore eDiscovery
