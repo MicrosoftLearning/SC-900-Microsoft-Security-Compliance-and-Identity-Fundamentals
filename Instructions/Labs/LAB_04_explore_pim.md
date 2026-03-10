@@ -1,7 +1,12 @@
 ---
 lab:
-    title: 'Explore Privileged Identity management'
-    module: 'Describe the identity protection and governance capabilities of Microsoft Entra'
+  title: Explore Privileged Identity management
+  module: Describe the identity protection and governance capabilities of Microsoft
+    Entra
+  description: 'This lab maps to the following Learn content:'
+  duration: 60 minutes
+  level: 100
+  islab: true
 ---
 
 # Lab: Explore Privileged Identity management
