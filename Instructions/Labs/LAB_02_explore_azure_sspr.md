@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Microsoft Entra self-service password reset'
-    module: 'Describe the authentication capabilities of Microsoft Entra ID'
+  title: Microsoft Entra self-service password reset
+  module: Describe the authentication capabilities of Microsoft Entra ID
+  description: 'This lab maps to the following Learn content:'
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft Entra
 ---
 
 <!---
