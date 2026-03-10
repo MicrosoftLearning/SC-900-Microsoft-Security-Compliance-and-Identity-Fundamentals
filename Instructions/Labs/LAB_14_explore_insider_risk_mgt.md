@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore insider risk management in Microsoft Purview'
-    module: 'Describe the data security solutions of Microsoft Purview'
+  title: Explore insider risk management in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
+  description: 'This lab maps to the following Learn content:'
+  duration: 60 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft Purview
 ---
 
 # Lab: Explore insider risk management in Microsoft Purview
