@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore the Microsoft Purview portal and Compliance Manager'
-    module: 'Describe the data compliance solutions of Microsoft Purview'
+  title: Explore the Microsoft Purview portal and Compliance Manager
+  module: Describe the data compliance solutions of Microsoft Purview
+  description: 'This lab maps to the following Learn content:'
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft Purview
 ---
 
 # Lab: Explore the Microsoft Purview portal and Compliance Manager
