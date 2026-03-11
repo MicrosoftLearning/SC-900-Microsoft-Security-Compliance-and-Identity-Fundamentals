@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore the Microsoft Purview portal and Compliance Manager'
-    module: 'Describe the data compliance solutions of Microsoft Purview'
+  title: Explore the Microsoft Purview portal and Compliance Manager
+  module: Describe the data compliance solutions of Microsoft Purview
+  description: In this lab, you explore the Microsoft Purview portal home page and ways in which the capabilities of Compliance Manager can help organizations improve their compliance posture.
+  duration: 35 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Purview
 ---
 
 # Lab: Explore the Microsoft Purview portal and Compliance Manager
@@ -16,7 +22,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll explore the Microsoft Purview portal home page and ways in which the capabilities of Compliance Manager can help organizations improve their compliance posture.
 
-**Estimated Time**: 30-45 minutes
+**Estimated Time**: 35 minutes
 
 ### Task 1
 
@@ -69,7 +75,6 @@ Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
 
-1. Keep the browser tab open.
 
 ### Review
 

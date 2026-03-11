@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore sensitivity labels in Microsoft Purview'
-    module: 'Describe the data security solutions of Microsoft Purview'
+  title: Explore sensitivity labels in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
+  description: In this lab, you'll explore the capabilities of sensitivity labels. You'll go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label. Then you apply a label and validate the label has been applied, from the perspective of a user.
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Purview
 ---
 
 # Lab: Explore sensitivity labels in Microsoft Purview
@@ -84,7 +90,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 1. Notice how the document includes the footer, "Classified as Highly Confidential".  
 
-1. Close the Microsoft Word tabs that are open on your browser to exit from Word, but keep the the browser tab to the Microsoft Purview home page open.
+1. Close the Microsoft Word and Microsoft Purview tabs that are open on your browser to exit from those applications.
 
 ### Review
 

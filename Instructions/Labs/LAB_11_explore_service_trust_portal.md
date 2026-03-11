@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Explore the Service Trust Portal'
-    module: 'Describe Microsoft’s Service Trust portal and privacy capabilities'
+  title: Explore the Service Trust Portal
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
+  description: In this lab, you'll explore the features and content available from the Service Trust Portal. You'll also visit the Trust Center to view information about Privacy at Microsoft.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Lab: Explore the Service Trust Portal

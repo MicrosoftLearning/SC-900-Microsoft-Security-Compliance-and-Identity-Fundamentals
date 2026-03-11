@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Explore Microsoft Entra ID User Settings'
-    module: 'Describe the function and identity types of Microsoft Entra ID'
+  title: Explore Microsoft Entra ID User Settings
+  module: Describe the function and identity types of Microsoft Entra ID
+  description: In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory). Additionally, you'll create a user and configure the different settings, including adding licenses.
+  duration: 40 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Microsoft Entra
+    - Microsoft Entra ID
+    - Active Directory
 ---
 
 # Lab: Explore Microsoft Entra ID User Settings
@@ -16,7 +25,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory).  Additionally, you'll create a user and configure the different settings, including adding licenses.  
 
-**Estimated Time**: 45 minutes
+**Estimated Time**: 40 minutes
 
 ### Task 1
 
