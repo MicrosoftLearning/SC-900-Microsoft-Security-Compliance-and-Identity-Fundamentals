@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore Microsoft Sentinel'
-    module: 'Describe the security capabilities of Microsoft Sentinel'
+  title: Explore Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
+  description: In this lab, you'll walk through the process of creating a Microsoft Sentinel instance. You'll also set up the permissions to ensure access to the resources that will get deployed to support Microsoft Sentinel. Once this basic setup is done you'll walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel.
+  duration: 60 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Microsoft Sentinel
 ---
 
 # Lab: Explore Microsoft Sentinel
