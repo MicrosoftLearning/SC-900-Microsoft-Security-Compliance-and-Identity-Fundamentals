@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore Azure Network Security Groups (NSGs)'
-    module: 'Describe the basic security capabilities in Azure'
+  title: Explore Azure Network Security Groups (NSGs)
+  module: Describe the basic security capabilities in Azure
+  description: In this lab, you'll explore the function of network security groups in Azure. You'll do this by creating a network security group (NSG) and assigning the NSG to the interface of a pre-existing virtual machine (VM). Once configured you'll observe the default inbound and outbound rules, create new rules, and test those rules. In this lab, the VM you'll use with the NSG is created for you, so you'll first view some of the information associated with that VM.
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure
 ---
 
 # Lab: Explore Azure Network Security Groups (NSGs)
