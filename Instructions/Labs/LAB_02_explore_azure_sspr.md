@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Microsoft Entra self-service password reset'
-    module: 'Describe the authentication capabilities of Microsoft Entra ID'
+  title: Microsoft Entra self-service password reset
+  module: Describe the authentication capabilities of Microsoft Entra ID
+  description: In this lab, you, as an admin, went through the process of enabling self-service password reset. With SSPR enabled, you'll then assume the role of a user to go through the process of registering for SSPR and also resetting your password. Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Entra
 ---
 
 <!---
