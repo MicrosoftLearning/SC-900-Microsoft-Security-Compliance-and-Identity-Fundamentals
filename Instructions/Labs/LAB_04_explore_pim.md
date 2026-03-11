@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Explore Privileged Identity management'
-    module: 'Describe the identity protection and governance capabilities of Microsoft Entra'
+  title: Explore Privileged Identity management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
+  description: In this lab, you'll explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 licensing. In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with a Microsoft Entra user administrator role, through Privileged ID management (PIM). With user admin privileges, Diego will be able to create users and groups manage licenses, and more. Both the admin and the user, Diego, must be configured for Microsoft Entra ID P2 licensing.
+  duration: 60 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Entra
+    - Microsoft Entra ID
 ---
 
 # Lab: Explore Privileged Identity management
