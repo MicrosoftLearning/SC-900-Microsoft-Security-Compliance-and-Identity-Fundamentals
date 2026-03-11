@@ -2,9 +2,9 @@
 lab:
   title: Explore Microsoft Defender for Cloud Apps
   module: Describe the threat protection capabilities of Microsoft 365
-  description: In this lab, you explored the capabilities of Microsoft Defender for Cloud Apps. You walked through information available on the Cloud Discovery dashboard, the Cloud app catalog, capabilities available to investigate findings, and ways to control impact to your organization through policies.
-  duration: 30 minutes
-  level: 300
+  description: In this lab, you explore the capabilities of Microsoft Defender for Cloud Apps. You walke through information available on the Cloud Discovery dashboard, the Cloud app catalog, capabilities available to investigate findings, and ways to control impact to your organization through policies.
+  duration: 45 minutes
+  level: 200
   islab: true
   primarytopics:
     - Microsoft Defender
@@ -24,7 +24,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll explore the capabilities of Microsoft Defender for Cloud Apps.  You'll walk through the information available on the Cloud Discovery dashboard, the Cloud app catalog, capabilities available to investigate findings, and ways to control impact to your organization through policies. Note:  An organization must have a license to use Microsoft Defender for Cloud Apps that is a user-based subscription service.
 
-**Estimated Time**: 30 minutes
+**Estimated Time**: 45 minutes
 
 ### Task 1 - Explore Cloud discovery
 

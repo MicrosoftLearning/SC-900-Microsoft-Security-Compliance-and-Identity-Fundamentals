@@ -2,9 +2,9 @@
 lab:
   title: Explore insider risk management in Microsoft Purview
   module: Describe the data security solutions of Microsoft Purview
-  description: In this lab, you walked through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.
-  duration: 60 minutes
-  level: 300
+  description: In this lab, you walk through the steps involved in setting up an insider risk policy, including the validating that the prerequisite role permissions are configured. 
+  duration: 45 minutes
+  level: 200
   islab: true
   primarytopics:
     - Microsoft Purview
@@ -22,7 +22,7 @@ This lab maps to the following Learn content:
 
 In this lab, you'll walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy and the time required are outside of the scope of this exercise.
 
-**Estimated Time**: 60 minutes
+**Estimated Time**: 45 minutes
 
 ### Task 1
 
@@ -82,8 +82,6 @@ When creating a policy for Insider Risk Management, you have to options: a quick
 1. As an admin, you can immediately start assigning risk scores to users based on activity detected by the policies you selected. This bypasses the requirement that a triggering event (like a DLP policy match) is detected first.  An admin would do this by selecting the empty square next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  A new window opens that requires the admin to populate the available fields. Leave the fields empty as you won't configure this option, but for more information on why an admin would want to do this, select **Why would I do this??**.  Exit the window by selecting the **X** on the top right of the window.
 
 1. From the left navigation panel, select **Home** to return to the landing page of the Microsoft Purview portal.
-
-1. Keep the browser tab open.
 
 ### Review
 

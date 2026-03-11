@@ -4,7 +4,7 @@ lab:
   module: Describe the access management capabilities of Microsoft Entra
   description: In this lab, you'll explore conditional access MFA, from the perspective of an admin and a user. As the admin, you will create a policy that will require a user to go through multi-factor authentication when accessing any of the Microsoft Admin portals. From a user perspective, you'll see the impact of the conditional access policy, including the process to register for MFA.
   duration: 45 minutes
-  level: 200
+  level: 300
   islab: true
   primarytopics:
     - Microsoft Entra

@@ -2,9 +2,9 @@
 lab:
   title: Explore the Microsoft Defender portal
   module: Describe the threat protection capabilities of Microsoft XDR
-  description: In this lab, you explored the Microsoft Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel that provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration). Lastly you explored how Microsoft Secure Score can help an organization improve its security posture.
+  description: In this lab, you explore the Microsoft Defender portal by walking through the content displayed on the landing page, you explore the options on the navigation panel that provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration). Lastly you explore how Microsoft Secure Score can help an organization improve its security posture.
   duration: 30 minutes
-  level: 100
+  level: 200
   islab: true
   primarytopics:
     - Microsoft Defender

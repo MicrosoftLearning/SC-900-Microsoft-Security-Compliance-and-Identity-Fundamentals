@@ -2,7 +2,7 @@
 lab:
   title: Explore Microsoft Defender for Cloud
   module: Describe the security management capabilities of Azure
-  description: In this lab, you explored Microsoft Defender for Cloud.
+  description: In this lab, you explore Microsoft Defender for Cloud.
   duration: 30 minutes
   level: 200
   islab: true
