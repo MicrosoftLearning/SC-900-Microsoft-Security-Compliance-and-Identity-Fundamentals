@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Explore eDiscovery'
-    module: 'Describe the data compliance solutions of Microsoft Purview'
+  title: Explore eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
+  description: In this lab, you went through the steps required to get started with eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case. With the case, created you explored the settings for creating search and exporting results, adding to a review set, and creating a hold.
+  duration: 45 minutes
+  level: 200
+  islab: true
 ---
 
 # Lab: Explore eDiscovery
