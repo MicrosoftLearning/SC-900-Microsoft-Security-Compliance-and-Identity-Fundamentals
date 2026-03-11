@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Explore sensitivity labels in Microsoft Purview'
-    module: 'Describe the data security solutions of Microsoft Purview'
+  title: Explore sensitivity labels in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
+  description: In this lab, you'll explore the capabilities of sensitivity labels. You'll go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label. Then you'll see how to apply a label and the impact of that label, from the perspective of a user.
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Purview
 ---
 
 # Lab: Explore sensitivity labels in Microsoft Purview
