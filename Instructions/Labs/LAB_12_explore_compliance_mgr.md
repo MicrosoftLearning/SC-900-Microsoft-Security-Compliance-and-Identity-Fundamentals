@@ -28,7 +28,7 @@ In this lab, you'll explore the Microsoft Purview portal home page and ways in w
 
 Explore the Microsoft Purview portal home page.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **`https://admin.microsoft.com`**.
 1. Sign in with your admin credentials.
     1. In the Sign in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
@@ -41,7 +41,7 @@ Explore the Microsoft Purview portal home page.
 
 1. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, available trials and recommendations, and more.
 
-1. View the information on the landing page.  Scroll down to see your compliance posture status, information related to "Know your data**, and more.
+1. View the information on the landing page.  Scroll down to see your compliance posture status, information related to **Know your data**, and more.
 
 1. Scroll up and select the tile that says **View all solutions**
 

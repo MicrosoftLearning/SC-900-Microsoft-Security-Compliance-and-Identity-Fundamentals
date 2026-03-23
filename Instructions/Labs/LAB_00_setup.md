@@ -37,9 +37,9 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 
 1. From the left navigation panel, under System, select **Settings**.
 
-1. From the settings page, select **Cloud apps**.   Scroll down, then under **Information Protection** select **Files**.
+1. From the settings page, select **Cloud apps**.   Scroll down, then under **Information Protection** select **Files**. 
 
-1. If not already enabled, select the box next to where it says **Enable file monitoring** then select **Save**.  
+1. If the box next to **Enable file monitoring** is not checked, check it, and then select **Save**.
 
 1. This concludes the lab setup on the Microsoft 365 tenant.
 1. You can close the browser tab, "Cloud Apps-Microsoft Defender", but keep the "Microsoft 365 admin center" tab open, for the next exercise.

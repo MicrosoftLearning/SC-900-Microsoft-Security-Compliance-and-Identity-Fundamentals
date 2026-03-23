@@ -36,7 +36,7 @@ In this lab, you, as an admin, will walk through the process of adding a user to
 
 In this task you, as the admin, will walk through the some of the available configuration settings for SSPR.
 
-1. Open the Microsoft Edge browser. In the address bar, enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
+1. Open the Microsoft Edge browser. In the address bar, enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
@@ -70,9 +70,9 @@ In this task you, as the admin, will walk through the some of the available conf
 
 In this task you, as the admin, will add the user you created in the previous lab exercise to the SSPR security group.
 
-1. Open the browser tab for the home page of the Microsoft Entra Admin center **[entra.microsoft.com](https://entra.microsoft.com)**. If needed, expand **Identity**.
+1. Open the browser tab for the home page of the Microsoft Entra Admin center **`https://entra.microsoft.com`**.
 
-1. From the left navigation panel, under "Identity", expand **Groups** then select **All groups**.
+1. From the left navigation panel, under **Entra ID**, select **Groups** and then select **All groups**.
 
 1. A list of existing groups is displayed. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
@@ -88,11 +88,13 @@ In this task you, as the admin, will add the user you created in the previous la
 
 In this task you, as user Sara Perez, will go through the registration process for self service password reset.
 
-1. Open the Microsoft Edge and in the address bar enter **https://login.microsoft.com**.
+1. Open the Microsoft Edge and in the address bar enter **`https://login.microsoft.com`**.
 
 1. Sign in as Sara Perez. The sign-in process may require MFA.
 
-1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
+1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  
+
+   >**Note**: An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
 1. The “Keep your account secure” page opens.  The window that appears and the steps that follow are for the Microsoft Authenticator app method. If you instead want to use email, select **I want to set up a different method** and follow the steps.
     1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
@@ -112,7 +114,7 @@ In this task you, as user Sara Perez, will go through the process of resetting y
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://login.microsoft.com**.
+1. In the address bar, enter **`https://login.microsoft.com`**.
 
 1. Sign in as Sara Perez, by entering your email **sara@WWLxZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Sara Perez.
 
@@ -142,9 +144,9 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **https://entra.microsoft.com** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
+1. In the address bar, enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
 
-1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Protection**, then select **Password reset**.
+1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Entra ID**, then select **Password reset**.
 
 1. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 

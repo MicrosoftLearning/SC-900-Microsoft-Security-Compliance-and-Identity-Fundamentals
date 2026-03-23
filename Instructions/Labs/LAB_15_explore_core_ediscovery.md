@@ -26,7 +26,7 @@ In this lab you'll go through the steps required for setting up eDiscovery, incl
 
 To access eDiscovery or be added as a member of an eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. You should be on the home page of the Microsoft Purview portal.  If you previously closed it, open a browser tab and enter **https://purview.microsoft.com**.
+1. You should be on the home page of the Microsoft Purview portal.  If you previously closed it, open a browser tab and enter **`https://purview.microsoft.com`**.
 
 1. From the left navigation pane, select **Settings**, expand **Roles and scopes**, then select **Role groups**.
 
@@ -68,7 +68,7 @@ With a case created, you can begin to work with the case. This includes creating
 
 1. Select **Add sources**. Note the filter options and default settings. In the search box, enter **`Pradeep`** then select **Search**. From the search results select **Pradeep Gupta**, then select **Save and close**. The Condition builder allows you to build a search query based on specific Keywords or Conditions that are satisfied, In the keyword box, enter **Sales**. From here you can select to **Run the query**, From the Choose search results window. For the lab tenant, only the statistics view of the search results is available. Note the options to arrange by top indicators. Select **Run query**.  This may take several minutes.
 
-1. With query results returned in the form of statistics, you can export results.  Select **Export** to vew available options then select **Cancel**.
+1. With query results returned in the form of statistics, you can export results.  Select **Export** to view available options then select **Cancel**.
 
 1. You can add to a review set for further processing.  Select **Add to review set**. Enter a name for the new review set, **`SC900-review-set`**, leave the default settings, then select **Add to review set**. This can take several minutes to complete. Once the review set results are presented, you can explore the different options, which include Analytics, Query, Actions, Tag files, and Manage.
 

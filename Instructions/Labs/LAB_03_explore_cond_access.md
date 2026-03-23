@@ -28,13 +28,13 @@ In this lab, you'll explore conditional access MFA, from the perspective of an a
 
 In this task you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **https://entra.microsoft.com**, and sign in with your admin credentials.
+1. Open Microsoft Edge.  In the address bar, enter **`https://entra.microsoft.com`**, and sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
     1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
     1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
-1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
+1. From the left navigation pane, make sure **Entra ID** is expanded, select **Users**, and then select **All users**.
 
 1. Select **Debra Berger** from the list of users.
 
@@ -54,7 +54,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. Open the browser tab to the home page of the Microsoft Entra admin center.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by the ALH.
 
-1. From the left navigation panel, make sure **Entra ID** is expanded, scroll-down and select **Conditional Access**.
+1. From the left navigation panel, under **Entra ID**, scroll-down and select **Conditional Access**.
 
 1. The Conditional access overview page is displayed. When you land on the overview page, the **Getting started** tab is selected (underlined). Select the **Overview** tab. Here you will see tiles showing the Policy summary and general alerts.
 
@@ -62,7 +62,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. In the Name field, enter **Block admin portals**.
 
-1. Under Users, select **0 users and groups selected**.
+1. Under Users, select **0 users and agents (preview) selected**.
 
 1. You'll now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
 
@@ -92,16 +92,18 @@ In this task, you'll go through the process of creating a conditional access pol
 
 ### Task 3
 
-In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy (the Microsoft 365 portal at https://login.microsoftonline.com).  Then you'll repeat the process for an application that is included in the conditional access policy (the Azure portal at https://portal.azure.com).  Recall that the policy blocks accessing any of the Microsoft Admin Portals, including the Azure portal.  NOTE: For security reasons, all user accounts accessing any portal are required to use MFA.  The MFA requirement is independent of this lab exercise.
+In this task you'll see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You'll start first by signing-in to an application that is not included in the conditional access policy (the Microsoft 365 portal at **https://login.microsoftonline.com**).  Then you'll repeat the process for an application that is included in the conditional access policy (the Azure portal at **https://portal.azure.com**).  Recall that the policy blocks accessing any of the Microsoft Admin Portals, including the Azure portal.  
 
-1. Open Microsoft Edge.  In the address bar, enter **https://login.microsoftonline.com**.
+   >**Note**: For security reasons, all user accounts accessing any portal are required to use MFA.  The MFA requirement is independent of this lab exercise.
+
+1. Open Microsoft Edge.  In the address bar, enter **`https://login.microsoftonline.com`**.
     1. Sign in as **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password. Enter the current password, then enter a new password and then confirm the new password.  Make note of the new password as you will need it to complete the task.
     1. Since this is the first time you are logging in as Debra Berger, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
     1. When prompted to stay signed- in, select **Yes**.  You should be successfully logged in to your Microsoft 365 account.
 
-1. Now you'll attempt to sign in to an application that meets the criteria of the Conditional Access policy. Open a new browser tab and enter **https://portal.azure.com**, which is the admin portal for Azure.  A pop-up window appears indicating "You don't have access to this."  This is a result of the conditional access policy that blocks your access to all Microsoft admin portals.
+1. Now you'll attempt to sign in to an application that meets the criteria of the Conditional Access policy. Open a new browser tab and enter **`https://portal.azure.com`**, which is the admin portal for Azure.  A pop-up window appears indicating "You don't have access to this."  This is a result of the conditional access policy that blocks your access to all Microsoft admin portals.
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting sign out. Then the close all the browser windows.
 
