@@ -36,7 +36,7 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 
 1. From the left navigation panel, select **Sensitivity labels**.
 
-1. You may see a yellow banner indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint. If the banner is displayed, review the message and Select **Turn on now**. If no banner is shown, continue to the next step.
+1. You may see a yellow banner indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint. If the banner is displayed, review the message and select **Turn on now**. If no banner is shown, continue to the next step.
 
 1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Highly Confidential**. A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** If you don't see this option, select the ellipsis.
     1. Configuration starts with providing basic details for the label.  Don’t change anything.  Select **Next** at the bottom of the page.
