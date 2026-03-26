@@ -72,7 +72,7 @@ In this task, you'll go through the process of creating a conditional access pol
 
 1. Under Target resources, select **No target resources selected**.
 
-1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Resources (formerly Cloud apps)**.  Make sure the **Include** tab is underlined.  Select **Select resources**, then underneath where it says **Select**, select **None**.  The window to Select Cloud apps opens.
+1. In the field underneath where it says **Select what this policy applies to**, select the down-arrow and note the available options.  Keep the default setting, **Resources (formerly Cloud apps)**.  Make sure the **Include** tab is underlined.  Select **Select resources**, then under the **Select specific resources**, select **None**.  The window to Select Cloud apps opens.
 
 1. Select **Microsoft Admin Portals**, then press **Select** at the bottom of the page.  Notice the warning.  
 

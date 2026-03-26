@@ -49,7 +49,7 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
 1. To add the workspace to Microsoft Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel**
     1. From the Microsoft Sentinel page, select **+ Create**.
     1. Now you can add the workspace you just created. Select **SC900-Sentinel-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
-    
+
 1. Keep this page open, as you'll use it in the next task.
 
 ### Task 2
@@ -60,9 +60,14 @@ With the Microsoft Sentinel instance created and the Log Analytics workspace ass
 
 1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-Sentinel-RG**.  Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
 
-1. From the SC900-Sentinel-RG page, select **Access control (IAM)** from the left navigation panel.
+1. From the **SC900-Sentinel-RG** page, select **Access control (IAM)** from the left navigation panel.
 
-1. From the Access control page, select **View my access**.  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles.  Close the assignments window by selecting the **X** on the top-right corner of the window.
+1. On the **Access control (IAM)** page, select **View my access**.  
+   For the Azure subscription provided by the Authorized Lab Hoster, a role has already been assigned that grants you the required permissions to manage all necessary resources. Review the description to understand your current access.  
+   When finished, close the assignments window by selecting the **X** in the top‑right corner.
+
+   > **Note:** If you do not see the **View my access** button, look at the top of the page for the message *“Looking for the previous check access view? Click here.”*  
+   > Select **Click here**, to display the **View my access** option, and then repeat the previous step.
 
 1. From the Access control page, select the **Roles** tab on the top of the page/
     1. In the search box, enter **Microsoft Sentinel** to view the built-in roles associated with Microsoft Sentinel.

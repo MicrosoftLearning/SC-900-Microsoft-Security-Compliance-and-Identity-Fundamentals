@@ -35,9 +35,10 @@ In this task, you'll gain an understanding of what sensitivity labels can do by 
 1. In the left navigation panel, select **Solutions** then select **Information protection**.  You are on the overview page. Scroll down to view the information available.
 
 1. From the left navigation panel, select **Sensitivity labels**.
-1. You will see a yellow banner indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.
 
-1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Expand the label named **Highly Confidential**, then select **All Employees**.  A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** If you don't see this option, select the ellipsis.
+1. You may see a yellow banner indicating that your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint. If the banner is displayed, review the message and Select **Turn on now**. If no banner is shown, continue to the next step.
+
+1. Some labels have been preconfigured in your Microsoft 365 lab tenant, for your convenience. Select the label named **Highly Confidential**. A window opens that provides information about this label.  Note the settings for this label.  Select **Edit label** If you don't see this option, select the ellipsis.
     1. Configuration starts with providing basic details for the label.  Don’t change anything.  Select **Next** at the bottom of the page.
     1. Review the scope for this label. Don’t change anything.  Select **Next** at the bottom of the page.
     1. This next screen is where you can choose protection settings for the labeled items. This label controls who can access and view labeled items and also applies content marking.  Select **Next** to view the details.
@@ -86,7 +87,7 @@ In this task, you'll go through the process of applying a sensitivity label to a
 
 1. Select **Create blank document**, then enter some text on the page.  On the top of the page, next to the Word icon, select where it says **Document** and rename the file to **Test-label** then press **Enter** on your keyboard.
 
-1. On the far right of top menu bar (also referred to as the ribbon) is a down arrow, select it, then select **Classic Ribbon**.  This will make it easier to identity the sensitivity icon. Select **Sensitivity**, located next to the microphone icon. From the drop-down menu, select **Highly Confidential** then select **All Employees**.  
+1. On the far right of top menu bar (also referred to as the ribbon) is a down arrow, select it, then select **Classic Ribbon**.  This will make it easier to identity the sensitivity icon. Select **Sensitivity**, located next to the microphone icon. From the drop-down menu, select **Highly Confidential**.  
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
