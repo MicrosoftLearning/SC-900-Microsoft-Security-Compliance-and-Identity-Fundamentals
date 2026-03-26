@@ -145,9 +145,9 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. From the bottom of the page, select **Select**.
 
-1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it it listed, select teh **Refresh** button).
+1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it listed, select the **Refresh** button).
 
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. Sign out by selecting the user icon next to the email address in the top right corner of the screen and then selecting **Sign out**. Then close all browser windows.
 
 1. The duration of the User Administrator role is limited to the time that was configured.
 
