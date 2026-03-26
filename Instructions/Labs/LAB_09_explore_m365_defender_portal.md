@@ -29,7 +29,7 @@ In this lab, you'll explore the Microsoft Defender portal by walking through the
 
 Explore the Microsoft Defender landing page.
 
-1. Open Microsoft Edge. In the address bar, enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar, enter **`https://admin.microsoft.com`**.
 
 1. Sign in with your admin credentials.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.

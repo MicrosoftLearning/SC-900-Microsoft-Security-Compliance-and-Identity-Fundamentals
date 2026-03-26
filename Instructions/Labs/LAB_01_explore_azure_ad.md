@@ -60,13 +60,15 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. Here you will configure a few of the fields in the **Properties** tab.
 
-    1. First name: Sara
+    1. First name: **Sara**
 
-    1. Last name: Perez
+    1. Last name: **Perez**
 
     1. User types:  Leave the default to **Member**, but note that from the drop-down you have the option to select guest.
 
-    1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.  **NOTE**: if you don't do this, you will not be able assign a license in a subsequent step.
+    1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.  
+
+       >**Note**: if you don't do this, you will not be able assign a license in a subsequent step.
 
     1. Select **Next: Assignments**.
 
@@ -87,7 +89,9 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. The left navigation panel shows the various options that can be configured for the user. View the available options.
 
-1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user, also note the warning icon that says, "Adding, removing, and reprocessing licensing assignments is only available within the M365 Admin Center."  You'll do that in the next task.  NOTE:  Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step now.
+1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user, also note the warning icon that says, "Adding, removing, and reprocessing licensing assignments is only available within the M365 Admin Center."  You'll do that in the next task.  
+
+   >**Note**: Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step now.
 
 ### Task 2
 

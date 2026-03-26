@@ -28,7 +28,7 @@ In this lab, you'll walk through the process of setting up an insider risk polic
 
 In this task you explore the different role permissions for Insider Risk Management and verify that specific users have already been included in the Insider Risk Management role group. Ensuring that users have the appropriate role permissions ensures that designated users can access and manage insider risk management features. When adding members to a role group, it may take up to 30 minutes for the role group permissions to apply to users across the organization.
 
-1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **https://admin.microsoft.com**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). 
+1. Open the browser tab for home page of Microsoft Purview.  If you previously closed it, open a browser tab and enter **`https://admin.microsoft.com`**. Sign in with the admin credentials for the Microsoft 365 tenant provided by the authorized lab hoster (ALH). 
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Microsoft Purview**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 

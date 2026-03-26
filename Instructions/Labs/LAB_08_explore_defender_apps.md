@@ -22,7 +22,9 @@ This lab maps to the following Learn content:
 
 ## Lab scenario
 
-In this lab, you'll explore the capabilities of Microsoft Defender for Cloud Apps.  You'll walk through the information available on the Cloud Discovery dashboard, the Cloud app catalog, capabilities available to investigate findings, and ways to control impact to your organization through policies. Note:  An organization must have a license to use Microsoft Defender for Cloud Apps that is a user-based subscription service.
+In this lab, you'll explore the capabilities of Microsoft Defender for Cloud Apps.  You'll walk through the information available on the Cloud Discovery dashboard, the Cloud app catalog, capabilities available to investigate findings, and ways to control impact to your organization through policies. 
+
+   >**Note**:  An organization must have a license to use Microsoft Defender for Cloud Apps that is a user-based subscription service.
 
 **Estimated Time**: 45 minutes
 

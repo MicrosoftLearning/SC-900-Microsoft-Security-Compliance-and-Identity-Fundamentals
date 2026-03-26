@@ -29,7 +29,7 @@ In this lab, you'll explore some of the basic functionality of Privileged Identi
 
 In this task you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar, enter **https://entra.microsoft.com**.
+1. Open Microsoft Edge.  In the address bar, enter **`https://entra.microsoft.com`**.
 
 1. Sign in with the Microsoft 365 admin credentials provided by your ALH.
     1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
@@ -37,7 +37,7 @@ In this task you, as the admin, will reset the password for the user Diego Sicil
     1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
     1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
 
-1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.
+1. From the left navigation panel, make sure **Entra ID** is expanded, select **Users**, and then select **All users**.
 
 1. Select **Diego Siciliani** from the list of users.
 
@@ -91,9 +91,11 @@ In this task you, as the admin, will assign Diego a Microsoft Entra ID role in P
 
 ### Task 3
 
-In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin center, to access the Privileged Identity Management capability of Microsoft Entra to activate your assignment as User administrator.  Once activated you'll make some configuration changes to an existing user. Note: For this task, you'll need access to a mobile device to use with the Microsoft Authenticator app.
+In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin center, to access the Privileged Identity Management capability of Microsoft Entra to activate your assignment as User administrator.  Once activated you'll make some configuration changes to an existing user. 
 
-1. Open Microsoft Edge.  In the address bar of the browser, enter **Entra.microsoft.com**.
+   >**Note**: For this task, you'll need access to a mobile device to use with the Microsoft Authenticator app.
+
+1. Open Microsoft Edge.  In the address bar of the browser, enter **`https://entra.microsoft.com`**.
 
 1. Sign in as Diego Siciliani.
     1. In the Sign-in window, enter **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
@@ -103,11 +105,16 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     1. When prompted to stay signed- in, select **Yes**.
 
 1. You should be successfully logged in to Microsoft Entra admin center.
+
 1. From the left navigation panel, expand **ID Governance** then select **Privileged Identity Management**.
-1. From the left navigation panel, select **My roles**.  You're now seeing information for your eligible assignments.  You'll see that you, Diego, are assigned the User administrator role.  
+
+1. From the left navigation panel, select **My roles**.  You're now seeing information for your eligible assignments.  You'll see that you, Diego, are assigned the User administrator role.
+
 1. In the last column of the table, labeled action, select **Activate**.
+
 1. You'll see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
-1. The window that appears and the steps that follow are for the Microsoft Authenticator app method. .
+
+1. The window that appears and the steps that follow are for the Microsoft Authenticator app method.
     1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
     1. You'll begin to setup your account.  Select **Next**.
     1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
@@ -117,18 +124,31 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
 
 1. Once you complete the MFA registration process, you are returned to the PIM Active-User Administrator page.
+
 1. The Activate User Administrator window appears.  You're required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
+
 1. You'll see the status (3 stages of progress), as the activation is processed.
+
 1. Once the activation is completed you're returned to the My roles | Microsoft Entra ID roles page, where you'll see a notification stating you have activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
-1. Return to the home page of the Microsoft Entra admin center by selecting **Home** from the left navigation panel. 
-1. As a Microsoft Entra ID user administrator, you can create users and groups, manage licenses, and more. From the left navigation panel, expand **Identity**, select **Users**.
+
+1. Return to the home page of the Microsoft Entra admin center by selecting **Home** from the left navigation panel.
+
+1. As a Microsoft Entra ID user administrator, you can create users and groups, manage licenses, and more. From the left navigation panel, under **Entra ID**, select **Users**.
+
 1. From the users list, select **Bianca Pisani**.
-1. From the left navigation panel, select **Groups**.
-1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Memberships**.
+
+1. From the left navigation panel, under **Entra ID**, select **Groups**.
+
+1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**.
+
 1. From the list of groups, select **Mark 8 Project Team**.
+
 1. From the bottom of the page, select **Select**.
-1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it it listed, select teh **Refresh** button).
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+
+1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it listed, select the **Refresh** button).
+
+1. Sign out by selecting the user icon next to the email address in the top right corner of the screen and then selecting **Sign out**. Then close all browser windows.
+
 1. The duration of the User Administrator role is limited to the time that was configured.
 
 ### Review
