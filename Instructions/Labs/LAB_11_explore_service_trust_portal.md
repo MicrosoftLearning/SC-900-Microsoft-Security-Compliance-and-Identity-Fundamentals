@@ -50,7 +50,7 @@ In this task, you'll explore the Service Trust portal and the different types of
 
 1. To return the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
 
-## Task 2
+### Task 2
 
 In this task, you will explore the **Microsoft Trust Center** to understand how Microsoft approaches **trust, privacy, security, compliance, and Responsible AI** across its cloud services.
 
