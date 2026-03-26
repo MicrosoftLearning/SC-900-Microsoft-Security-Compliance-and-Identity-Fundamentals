@@ -131,7 +131,7 @@ In the previous task you confirmed that you could establish an RDP connection to
 
 1. You should be on the SC900-WinVM \| Connect page. From the left navigation panel, select **Networking**. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
 
-1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound Internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **+ Crate port rule** then from the drop-down list, select **Outbound port rule**.
+1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound Internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **+ Create port rule** then from the drop-down list, select **Outbound port rule**.
 
 1. On the Add outbound security rule page, specify the following settings:
     1. Source:  **Any**

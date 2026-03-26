@@ -54,7 +54,7 @@ In this task, you'll explore the Service Trust portal and the different types of
 
 In this task, you will explore the **Microsoft Trust Center** to understand how Microsoft approaches **trust, privacy, security, compliance, and Responsible AI** across its cloud services.
 
-1. Open a new browser tab and navigate to the **Microsoft Trust Center** at  **`https://www.microsoft.com/en-us/trust-center`**.
+1. Open a new browser tab and navigate to the **Microsoft Trust Center** at  **`https://www.microsoft.com/trust-center`**.
 
 1. On the Trust Center home page, review the introductory content.  
    Notice how Microsoft presents **trust** as a core principle that spans security, privacy, compliance, and transparency across its services.
@@ -67,8 +67,6 @@ In this task, you will explore the **Microsoft Trust Center** to understand how 
 
 1. Close all open browser tabs.
 
-The Microsoft Trust Center is a central resource that explains how Microsoft designs and operates its products and services with security, privacy, compliance, transparency, and responsible use of technology in mind.
-
 ### Review
 
-In this lab, you explored some of the options available under the Service Trust Portal and how to use the My Library feature to save documents for future review.  Additionally, you visited the Trust Center to access and review information about privacy at Microsoft.
+In this lab, you explored some of the options available under the Service Trust Portal and how to use the My Library feature to save documents for future review.  Additionally, you visited the Microsoft Trust Center to learn how Microsoft approaches trust, privacy, security, compliance, and Responsible AI across its cloud services.

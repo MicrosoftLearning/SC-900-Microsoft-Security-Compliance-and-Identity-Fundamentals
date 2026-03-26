@@ -44,11 +44,10 @@ To create an instance of Microsoft Sentinel, you first have to create a Log Anal
     1. It may take a minute or two for the new workspace to be created.
     1. Once it's created, select **Go to resource** to view information about the workspace.
 
-1. At this point, the instance of Microsoft Sentinel has not yet been created. To create an instance of Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel** and select it from the search result.
+1. At this point, the instance of Microsoft Sentinel has not yet been created. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel** and select it from the search results.
 
-1. To add the workspace to Microsoft Sentinel, you need to go to the Microsoft Sentinel page. Use the blue search bar at the top of the page, to search for **Microsoft Sentinel**
-    1. From the Microsoft Sentinel page, select **+ Create**.
-    1. Now you can add the workspace you just created. Select **SC900-Sentinel-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
+1. From the Microsoft Sentinel page, select **+ Create**.
+1. Now you can add the workspace you just created. Select **SC900-Sentinel-workspace**, then select **Add**.  This may take a few minutes, as the free trial of Microsoft Sentinel activates.  Once it is activated, you select **Ok**.
 
 1. Keep this page open, as you'll use it in the next task.
 
@@ -69,7 +68,7 @@ With the Microsoft Sentinel instance created and the Log Analytics workspace ass
    > **Note:** If you do not see the **View my access** button, look at the top of the page for the message *“Looking for the previous check access view? Click here.”*  
    > Select **Click here**, to display the **View my access** option, and then repeat the previous step.
 
-1. From the Access control page, select the **Roles** tab on the top of the page/
+1. From the Access control page, select the **Roles** tab on the top of the page.
     1. In the search box, enter **Microsoft Sentinel** to view the built-in roles associated with Microsoft Sentinel.
     1. From any of the roles listed, select **view** to the view the details of that role.  As a best practice you should assign the least privilege required for the role.  
     1. Close the window by selecting the **X** on the top-right corner of the window.

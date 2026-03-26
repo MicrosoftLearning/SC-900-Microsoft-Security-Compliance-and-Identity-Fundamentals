@@ -114,7 +114,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. You'll see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
 
-1. The window that appears and the steps that follow are for the Microsoft Authenticator app method. .
+1. The window that appears and the steps that follow are for the Microsoft Authenticator app method.
     1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
     1. You'll begin to setup your account.  Select **Next**.
     1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.

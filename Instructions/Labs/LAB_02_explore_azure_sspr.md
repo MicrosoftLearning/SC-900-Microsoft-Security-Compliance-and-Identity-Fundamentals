@@ -88,13 +88,13 @@ In this task you, as the admin, will add the user you created in the previous la
 
 In this task you, as user Sara Perez, will go through the registration process for self service password reset.
 
-1. Open the Microsoft Edge and in the address bar enter **`https://login.microsoft.com`**.
+1. Open the Microsoft Edge and in the address bar enter **`https://login.microsoftonline.com`**.
 
 1. Sign in as Sara Perez. The sign-in process may require MFA.
 
 1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  
 
-   >**Note**: An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
+   >**Note**: An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
 1. The “Keep your account secure” page opens.  The window that appears and the steps that follow are for the Microsoft Authenticator app method. If you instead want to use email, select **I want to set up a different method** and follow the steps.
     1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
@@ -114,7 +114,7 @@ In this task you, as user Sara Perez, will go through the process of resetting y
 
 1. Open Microsoft Edge.
 
-1. In the address bar, enter **`https://login.microsoft.com`**.
+1. In the address bar, enter **`https://login.microsoftonline.com`**.
 
 1. Sign in as Sara Perez, by entering your email **sara@WWLxZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Sara Perez.
 
