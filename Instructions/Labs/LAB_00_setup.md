@@ -27,6 +27,8 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 
 1. Sign in with the admin credentials for the Microsoft 365 tenant provided by your authorized lab hoster (ALH).
 
+    > **Note:** You may be prompted to set up multifactor authentication (MFA). If this screen appears, select **Set it up now** and follow the prompts.
+
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.
