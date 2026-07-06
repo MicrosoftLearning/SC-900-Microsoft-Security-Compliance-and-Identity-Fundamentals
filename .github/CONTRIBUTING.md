@@ -56,7 +56,7 @@ For the Pull Request title, use the following syntax:
 
 #### Creating/Updating screenshots (Lab 1)
 
-The screenshot being used by some instructions are organized the following way, a folder located under `AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images` with the lab number. 
+The screenshot being used by some instructions are organized the following way, a folder located under `SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Instructions/Labs/images` with the lab number. 
 
 ![Github Repo showing images folder](images/image_folder_location.png)
 
