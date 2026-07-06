@@ -1,0 +1,76 @@
+name: Bug Report
+description: Report a bug or issue with an SC-900 lab or demo
+title: "LAB00: QUICK_DESCRIPTION"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Thanks for taking the time to fill out this bug report!
+        
+        **Replace the issue title LAB00: QUICK_DESCRIPTION, for example "LAB01: Broken screenshot in Task 2"**
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info 😉?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What happened?
+      placeholder: Tell us what you see!
+      value: |
+        Exercise : 00
+        Task: 00
+        Step: 00
+        
+        Description of issue:
+
+        Repro steps:
+        1.
+        1.
+        1.
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Lab
+      description: Which lab does this issue relate to?
+      options:
+        - Other
+        - Lab 00 Setup
+        - Lab 01 Explore Microsoft Entra ID User Settings
+        - Lab 02 Microsoft Entra self-service password reset
+        - Lab 03 Microsoft Entra Conditional Access
+        - Lab 04 Explore Privileged Identity management
+        - Lab 05 Explore Azure Network Security Groups (NSGs)
+        - Lab 06 Explore Microsoft Defender for Cloud
+        - Lab 07 Explore Microsoft Sentinel
+        - Lab 08 Explore Microsoft Defender for Cloud Apps
+        - Lab 09 Explore the Microsoft 365 Defender portal
+        - Lab 11 Explore the Service Trust Portal
+        - Lab 12 Explore the Microsoft Purview compliance portal & Compliance Manager
+        - Lab 13 Explore sensitivity labels in Microsoft Purview
+        - Lab 14 Explore insider risk management in Microsoft Purview
+        - Lab 15 Explore the eDiscovery (Standard) workflow
+    validations:
+      required: true
+  - type: textarea
+    id: Screenshots
+    attributes:
+      label: Relevant screenshots
+      description: Please copy and paste any relevant screenshots 📸
+      value: paste here 😉 
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Do you want to help us? 👏
+      description: GitHub/Git uses Pull Requests (PR) to propose and collaborate on changes to a repository. **No git/github experience?** Follow the [video in the Contribution Guide](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/blob/master/.github/CONTRIBUTING.md#easy-prs-using-github-no-gitgithub-knowledge-needed)
+      options:
+        - label: Create a Pull Request by following this project's [Contribution Guide](https://github.com/MicrosoftLearning/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/blob/master/.github/CONTRIBUTING.md#how-can-i-collaborate)
+          required: false
