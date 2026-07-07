@@ -2,7 +2,7 @@
 
 ## Related Issue
 
-**Link related Github Issue** 🢂 Fixes # . (Include issue number after #)
+**Link related GitHub Issue** 🢂 Fixes # . (Include issue number after #)
 
 ## Checklist 
 Mark completed with "x" between brackets, "[x]", or checking the box once the PR is created:
