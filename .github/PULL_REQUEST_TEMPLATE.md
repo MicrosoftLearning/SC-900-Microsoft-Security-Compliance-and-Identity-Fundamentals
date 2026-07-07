@@ -1,10 +1,18 @@
-# Module: 00
-## Lab/Demo: 00
+**Replace the PR title LAB00: QUICK_DESCRIPTION, for example "LAB01: My new issue" (or same name as linked Issue)**
 
-Fixes # .
+## Related Issue
+
+**Link related GitHub Issue** 🢂 Fixes # . (Include issue number after #)
+
+## Checklist 
+Mark completed with "x" between brackets, "[x]", or checking the box once the PR is created:
+- [ ] Has related GitHub Issue 💥 [Create Issue](https://github.com/MicrosoftLearning/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/blob/master/.github/CONTRIBUTING.md#reporting-issues) 📝
+- [ ] Tested it
+- [ ] Read the PR collaboration guide 👓 [Collaboration Guide](https://github.com/MicrosoftLearning/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/blob/master/.github/CONTRIBUTING.md#pull-requests) 📝
 
 Changes proposed in this pull request:
 
 -
 -
 -
+
