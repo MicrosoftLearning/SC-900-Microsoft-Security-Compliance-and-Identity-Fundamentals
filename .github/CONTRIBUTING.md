@@ -58,7 +58,7 @@ For the Pull Request title, use the following syntax:
 
 The screenshot being used by some instructions are organized the following way, a folder located under `SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Instructions/Labs/images` with the lab number. 
 
-![Github Repo showing images folder](images/image_folder_location.png)
+![GitHub Repo showing images folder](images/image_folder_location.png)
 
 On the lab specific folder, screenshots will be saved on the following format (PNG) and naming:
 `[descriptive_name]_[versionnumber].png`, for example, `create_epic_v1.png`
