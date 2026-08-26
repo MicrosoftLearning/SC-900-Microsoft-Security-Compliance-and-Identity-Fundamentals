@@ -31,7 +31,9 @@ In this setup task, you will enable the Audit log and file monitoring capabiliti
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.
+1. Under Admin centers, select **Security**. A new browser page opens to the welcome page of Microsoft Defender.
+
+   > **Note:** If the Microsoft Defender navigation menu is collapsed and the options aren't visible, select **Show navigation** from the left pane to expand the navigation menu before continuing.
 
 1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
