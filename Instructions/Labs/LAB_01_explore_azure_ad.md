@@ -31,17 +31,19 @@ In this lab, you'll access Microsoft Entra ID (previously referred to as Azure A
 
 As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you’ll learn how to create a new user in Microsoft Entra ID and explore some of services that can be managed at the user level.
 
-1. If you have the Microsoft 365 admin center tab open, from the previous exercise, then under Admin centers, select **Identity**
-1. If the Microsoft 365 admin center is already open on your browser, from the previous exercise, skip to the next step, otherwise access the Microsoft admin center as follows:
-    1. In the address bar, enter **`https://admin.microsoft.com`** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
-    1. In the Sign-in window, enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your ALH) then select **Next**.
-    1. Enter the admin password that should be provided by your lab hosting provider. Select **Sign in**.
-    1. Depending on your lab hoster and if this is the first time you are logging in to the tenant, you may be prompted to complete the MFA registration process. If so, follow the prompts on the screen to setup MFA.
-    1. Once you're signed-in, you're taken to the Microsoft 365 admin center page.
-
-1. Under Admin centers, select **Identity** (you may need to select **Show all** and scroll down).  A new browser page opens to the overview page of the Microsoft Entra admin center.  If you get prompted to set up MFA, follow the steps on the screen.
-
-1. From the left navigation pane, select **Users**.  This takes you to the  users page. **All users** should already be selected. Notice that your tenant is already configured with users.
+1. If the Microsoft 365 admin center is already open from the previous exercise, skip to step 2. Otherwise, complete the following steps:
+	
+	 1. In the address bar, enter **`https://admin.microsoft.com`** and sign in with the Microsoft 365 credentials provided by your authorized lab hoster (ALH).
+	
+	 1. In the **Sign in** window, enter **`admin@WWLxZZZZZZ.onmicrosoft.com`** (where `ZZZZZZ` is your unique tenant ID provided by your ALH), then select **Next**.
+	
+	 1. Enter the admin password provided by your lab hosting provider, then select **Sign in**.
+	
+	 1. If prompted, complete the MFA registration process by following the on-screen instructions.
+	
+1. In the Microsoft 365 admin center, under **Admin centers**, select **Identity**. You may need to select **Show all** and scroll down. A new browser tab opens to the **Microsoft Entra admin center**.
+	
+1. From the left navigation pane, under **Entra ID**, select **Users**. This takes you to the **Users | All users** page. Verify that **All users** is selected, and notice that your tenant is already configured with users.
 
 1. From the top of the page, select **+ New user** then from the drop-down box, select **Create new user**.
 
@@ -74,7 +76,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. You are now on the **Assignments** tab where you add a group assignment and view the available options for adding a role.
 
-    1. Select **Add group**.
+    1. Select **+ Add group**.
 
     1. The window that opens shows all the available groups.  
 
@@ -114,11 +116,10 @@ In this task, you’ll assign a license to the user you just created, using the 
 
 In this task, you'll sign in as Sara Perez, for the first time.
 
-1. Open Microsoft Edge.
+1. Open Microsoft Edge. In the address bar, enter **`https://login.microsoft.com`**.
 
-1. In the address bar, enter **`https://login.microsoft.com`**.
-
-1. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your ALH)
+1. Sign in as **sara@WWLxZZZZZZ.onmicrosoft.com** (where `ZZZZZZ` is your unique tenant ID provided by your ALH).
+   
 1. Enter the temporary password you set in the previous task.
 
 1. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
