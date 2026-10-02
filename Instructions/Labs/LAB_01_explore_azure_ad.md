@@ -114,23 +114,27 @@ In this task, you’ll assign a license to the user you just created, using the 
 
 ### Task 3
 
-In this task, you'll sign in as Sara Perez, for the first time.
+In this task, you'll sign in as Sara Perez for the first time.
 
-1. Open Microsoft Edge. In the address bar, enter **`https://login.microsoft.com`**.
+1. Open **Microsoft Edge**. In the address bar, enter `https://login.microsoft.com`.
 
 1. Sign in as **sara@WWLxZZZZZZ.onmicrosoft.com** (where `ZZZZZZ` is your unique tenant ID provided by your ALH).
-   
-1. Enter the temporary password you set in the previous task.
 
-1. You are now prompted to Update your password. In the Current password field, enter the temporary password from the previous task.
+1. On the **Enter password** page, enter the password from the previous task, and then select **Sign in**.
 
-1. In the New password field, enter a new password, confirm the password, then select **Sign in**.  Make note of your new password as you will need it for the subsequent lab exercise on SSPR.
+1. On the **Update your password** page, in **Current password**, enter the password from the previous task.
 
-1. Since this is the first time you are logging in as Sara Perez, you may be prompted to setup MFA. Follow the prompts on the screen to setup MFA.
+1. In **New password**, enter a new password. In **Confirm password**, enter the new password again, and then select **Sign in**.
 
-1. You should now be successfully signed-in to Sara's Microsoft account.  Note that Sara's licensing that you assigned in the previous task was limited only to Power Apps for Developer and did not include E5 licensing.
+   > **Note:** Make a note of the new password. You will need it for the subsequent lab exercise on SSPR.
 
-1. To sign out, select sara's email on the bottom of the left navigation pane and select **Sign out**, then close the browser.
+1. Confirm that you are successfully signed in to Sara's Microsoft account.
+
+   > **Note:** Sara's licensing, assigned in the previous task, is limited to **Power Apps for Developer** and does not include E5 licensing.
+
+1. To sign out, select Sara's account at the bottom of the left navigation pane, and then select **Sign out**.
+
+1. Close the browser.
 
 ### Review
 
