@@ -29,11 +29,11 @@ In this setup task, you'll enable the Audit log and file monitoring capabilities
 
 1. From the left navigation panel of the Microsoft Purview compliance portal, select **Show all**.
 
-1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
+1. In the left navigation panel, scroll down and expand **Setup & configuration**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
 
 1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.
 
-1. From the left navigation panel, under System, select **Settings**.
+1. From the left navigation panel, under **Setup & configuration**, select **Settings**.
 
 1. From the settings page, select **Cloud apps**.   Scroll down, then under Information Protection select **Files**.
 
