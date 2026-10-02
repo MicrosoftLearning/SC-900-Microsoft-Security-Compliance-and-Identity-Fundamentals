@@ -27,13 +27,15 @@ In this setup task, you'll enable the Audit log and file monitoring capabilities
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of Microsoft Defender.  
 
-1. From the left navigation panel of the Microsoft Purview compliance portal, select **Show all**.
+   > **Note:** If the Microsoft Defender navigation menu is collapsed and the options aren't visible, select **Show navigation** from the left pane to expand the navigation menu before continuing.
 
-1. In the left navigation panel, scroll down and expand **System**.  From the expanded list, select **Audit**.  Note: the audit functionality is also accessible through the Microsoft Purview portal.
+1. In the left navigation panel, scroll down and expand **Setup & configuration**, and then select **Audit**.
 
-1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is NOT enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.
+   > **Note:** The audit functionality is also accessible through the Microsoft Purview portal.
 
-1. From the left navigation panel, under System, select **Settings**.
+1. Once you land on the Audit page, wait 1-2 minutes.  If Auditing is not enabled, you'll see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.
+
+1. From the left navigation panel, under **Setup & configuration**, select **Settings**.
 
 1. From the settings page, select **Cloud apps**.   Scroll down, then under Information Protection select **Files**.
 
