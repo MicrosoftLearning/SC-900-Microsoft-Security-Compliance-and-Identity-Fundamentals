@@ -86,37 +86,34 @@ In this task you, as the admin, will add the user you created in the previous la
 
 ### Task 3
 
-In this task you, as user Sara Perez, will go through the registration process for self service password reset.
+In this task, you, as Sara Perez, will register security information for self-service password reset.
 
-1. Open the Microsoft Edge and in the address bar enter **`https://login.microsoftonline.com`**.
+1. Open **Microsoft Edge**. In the address bar, enter `https://aka.ms/mysecurityinfo`.
 
-1. Sign in as Sara Perez. The sign-in process may require MFA.
+1. Sign in as **Sara Perez** using the password from the previous lab.
 
-1. A pop-up displays indicating that More information is required.  This is because as a member of the SSPRSecurityGroupUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button.  
+1. On the **Security info** page, select **+ Add sign-in method**.
 
-   >**Note**: An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
+1. In the **Add a sign-in method** window, select **Microsoft Authenticator**.
+   
+1. Register Microsoft Authenticator as a sign-in method:
+    1. On the **Install Microsoft Authenticator** page, if Microsoft Authenticator is already installed on your mobile device, select **Next**. Otherwise, install Microsoft Authenticator from the appropriate app store, and then select **Next**.
+    1. On the **Set up your account in app** page, open Microsoft Authenticator on your mobile device, add an account, select **Work or school account**, and then select **Next**.
+    1. On the **Scan the QR code** page, use Microsoft Authenticator to scan the QR code displayed on your screen, and then select **Next**.
+    1. On the **Let's try it out** page, enter the number displayed on the screen in Microsoft Authenticator to approve the sign-in request.
+    1. When the **Authenticator Added** message appears, select **Done**.
 
-1. The “Keep your account secure” page opens.  The window that appears and the steps that follow are for the Microsoft Authenticator app method. If you instead want to use email, select **I want to set up a different method** and follow the steps.
-    1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
-    1. You'll begin to setup your account.  Select **Next**.
-    1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
-    1. Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen .
-    1. Follow the steps on your PC and mobile device, then select **Next**.
-    1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
+1. Confirm that **Microsoft Authenticator** appears as a sign-in method on the **Security info** page.
 
-1. You can now complete your sign-in. If you see that your sign-in time has expired, just reenter the password.
-
-1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+1. Sign out from all browser tabs by selecting the user icon next to the email address in the upper-right corner of the page, and then close all browser windows.
 
 ### Task 4 (Optional)
 
 In this task you, as user Sara Perez, will go through the process of resetting your password
 
-1. Open Microsoft Edge.
+1. Open **Microsoft Edge**. In the address bar, enter `https://login.microsoftonline.com`.
 
-1. In the address bar, enter **`https://login.microsoftonline.com`**.
-
-1. Sign in as Sara Perez, by entering your email **sara@WWLxZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Sara Perez.
+1. Sign in as **Sara Perez** using **sara@WWLxZZZZZZ.onmicrosoft.com**, where `ZZZZZZ` is your unique tenant ID provided by your lab hosting provider. If the **Pick an account** page appears, select Sara Perez's account.
 
 1. From the Enter password window, select **Forgot my password**.
 
@@ -137,6 +134,67 @@ In this task you, as user Sara Perez, will go through the process of resetting y
 1. You should now be logged in to Sara's Microsoft account.
 
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
+
+<!--
+### Task 4 (Optional)
+
+In this task, you, as Sara Perez, will reset your password using self-service password reset.
+
+  > **Note:** This task uses the Microsoft Authenticator method registered in Task 3 to verify your identity during the password reset process.
+
+1. Open **Microsoft Edge**. In the address bar, enter `https://login.microsoftonline.com`.
+
+1. Sign in as **Sara Perez** by entering **sara@WWLxZZZZZZ.onmicrosoft.com**, where `ZZZZZZ` is your unique tenant ID provided by your lab hosting provider, and then select **Next**. If the **Pick an account** page appears, select Sara Perez's account.
+
+1. On the **Enter password** page, select **Forgot my password**.
+
+1. On the **Get back into your account** page, verify that **sara@WWLxZZZZZZ.onmicrosoft.com** appears in the email or username field. If it doesn't, enter the account.
+
+1. Enter the characters displayed in the image or the words from the audio, and then select **Next**.
+
+1. On the **Get back into your account** page, select **Approve a notification on my authenticator app**, and then select **Send Notification**.
+
+1. Note the number displayed on the screen, and follow the instructions in Microsoft Authenticator on your mobile device to approve the request.
+
+1. When prompted to choose a new password, enter and confirm the new password, and then select **Finish**.
+
+1. When the password reset confirmation appears, select **click here** to sign in with your new password.
+
+1. If the **Pick an account** page appears, select **sara@WWLxZZZZZZ.onmicrosoft.com**, enter the new password, and then select **Sign in**. If you're prompted to stay signed in, select **No**.
+
+1. Confirm that you're successfully signed in to Sara's Microsoft account.
+
+1. Sign out by selecting the user icon in the upper-right corner of the page, select **Sign out**, and then close all browser windows.
+
+### Task 5 (Optional)
+
+In this task, you, as the administrator, will review audit logs and authentication method activity associated with self-service password reset.
+
+1. Open **Microsoft Edge**. In the address bar, enter `https://entra.microsoft.com`, and sign in using the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
+
+1. In the **Microsoft Entra admin center**, expand **Entra ID**, and then select **Users**.
+
+1. Select **Audit logs**.
+
+1. Review the available audit log information and filters. To view password reset-related events, use the **Service** filter and select **Self-service Password Management**.
+
+1. Review the available events from the self-service password reset activities performed in the previous tasks.
+
+1. From the left navigation pane, under **Entra ID**, select **Authentication methods**.
+
+1. Select **Activity**.
+
+1. On the **Registration** tab, review the authentication method registration information.
+
+   > **Note:** It may take time for recently completed registration activity to appear in the report.
+
+1. Select the **Usage** tab to review authentication method usage information.
+
+   > **Note:** It may take time for recently completed authentication activity to appear in the report.
+
+1. Close all browser tabs.
+   -->
+   
 
 ### Task 5 (Optional)
 
