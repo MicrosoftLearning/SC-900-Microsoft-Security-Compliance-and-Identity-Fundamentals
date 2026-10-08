@@ -127,7 +127,7 @@ In this task, you, as Sara Perez, will reset your password using self-service pa
 
 1. When prompted to choose a new password, enter and confirm the new password, and then select **Finish**.
 
-1. When the password reset confirmation appears, select **click here** link to sign in with your new password.
+1. When the password reset confirmation appears, select the **click here** link to sign in with your new password.
 
 1. If the **Pick an account** page appears, select **sara@WWLxZZZZZZ.onmicrosoft.com**, enter the new password, and then select **Sign in**. If you're prompted to stay signed in, select **No**.
 
