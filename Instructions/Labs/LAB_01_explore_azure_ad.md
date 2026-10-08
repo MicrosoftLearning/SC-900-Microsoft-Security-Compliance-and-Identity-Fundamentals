@@ -70,7 +70,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     1. Usage location: Choose the country/region where you are located.  Note that to get to the usage location field, you will need to scroll down on the page as it is the last field on the page.  
 
-       >**Note**: if you don't do this, you will not be able assign a license in a subsequent step.
+        >**Note**: if you don't do this, you will not be able assign a license in a subsequent step.
 
     1. Select **Next: Assignments**.
 
@@ -93,7 +93,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. From the left navigation panel, select **Licenses**.  Notice that there are no license assignments found for this user, also note the warning icon that says, "Adding, removing, and reprocessing licensing assignments is only available within the M365 Admin Center."  You'll do that in the next task.  
 
-   >**Note**: Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step now.
+    >**Note**: Licenses can only be assigned if a usage location was configured. If you did not set the usage location, go back to that step now.
 
 ### Task 2
 
@@ -126,11 +126,11 @@ In this task, you'll sign in as Sara Perez for the first time.
 
 1. In **New password**, enter a new password. In **Confirm password**, enter the new password again, and then select **Sign in**.
 
-   > **Note:** Make a note of the new password. You will need it for the subsequent lab exercise on SSPR.
+    > **Note:** Make a note of the new password. You will need it for the subsequent lab exercise on SSPR.
 
 1. Confirm that you are successfully signed in to Sara's Microsoft account.
 
-   > **Note:** Sara's licensing, assigned in the previous task, is limited to **Power Apps for Developer** and does not include E5 licensing.
+    > **Note:** Sara's licensing, assigned in the previous task, is limited to **Power Apps for Developer** and does not include E5 licensing.
 
 1. To sign out, select Sara's account at the bottom of the left navigation pane, and then select **Sign out**.
 
