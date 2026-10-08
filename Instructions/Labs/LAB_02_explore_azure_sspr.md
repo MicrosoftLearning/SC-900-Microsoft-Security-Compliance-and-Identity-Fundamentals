@@ -143,7 +143,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. In the address bar, enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
 
-1. On the **Microsoft Entra admin center**, from the left navigation pane, expand the **Entra ID**, then select **Password reset**.
+1. In the **Microsoft Entra admin center**, from the left navigation pane, expand **Entra ID**, and then select **Password reset**.
 
 1. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 
