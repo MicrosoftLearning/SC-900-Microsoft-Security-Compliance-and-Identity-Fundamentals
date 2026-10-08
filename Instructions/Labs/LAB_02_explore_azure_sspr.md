@@ -119,6 +119,8 @@ In this task, you, as Sara Perez, will reset your password using self-service pa
 
 1. On the **Get back into your account** page, verify that **sara@WWLxZZZZZZ.onmicrosoft.com** appears in the email or username field. If it doesn't, enter the account, and then select **Next**.
 
+    > **Note:** If prompted for image verification, enter the characters displayed in the image or the words from the audio, and then select **Next**.
+
 1. On the **Get back into your account** page, select **Approve a notification on my authenticator app**, and then select **Send Notification**.
 
 1. Note the number displayed on the screen, and follow the instructions in Microsoft Authenticator on your mobile device to approve the request.
