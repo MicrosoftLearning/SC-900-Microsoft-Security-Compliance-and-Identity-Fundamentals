@@ -109,38 +109,7 @@ In this task, you, as Sara Perez, will register security information for self-se
 
 ### Task 4 (Optional)
 
-In this task you, as user Sara Perez, will go through the process of resetting your password
-
-1. Open **Microsoft Edge**. In the address bar, enter `https://login.microsoftonline.com`.
-
-1. Sign in as **Sara Perez** using **sara@WWLxZZZZZZ.onmicrosoft.com**, where `ZZZZZZ` is your unique tenant ID provided by your lab hosting provider. If the **Pick an account** page appears, select Sara Perez's account.
-
-1. From the Enter password window, select **Forgot my password**.
-
-1. The Get back into your account window opens.   Verify that the email for Sara Perez, sara@WWLxZZZZ.onmicrosoft.com, is shown in the email or username box.  If not, enter it.  
-
-1. In the empty box, enter the characters displayed in image or the words from the audio. Once you've entered them, select **Next**.
-
-1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Select the option **Approve a notification on my authenticator app**, then select **Send Notification**.
-
-1. Note the number on your PC and follow the instructions to approve the sign-in using the Microsoft Authenticator app on your mobile device.
-
-1. In the next screen, you're prompted to enter new password and confirm new password.  Enter those now and select the **Finish** button.
-
-1. You'll see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
-
-1. From the Pick an account information box, select **sara@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you're prompted to Stay signed in. select **No**.
-
-1. You should now be logged in to Sara's Microsoft account.
-
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
-
-<!--
-### Task 4 (Optional)
-
 In this task, you, as Sara Perez, will reset your password using self-service password reset.
-
-  > **Note:** This task uses the Microsoft Authenticator method registered in Task 3 to verify your identity during the password reset process.
 
 1. Open **Microsoft Edge**. In the address bar, enter `https://login.microsoftonline.com`.
 
@@ -148,9 +117,7 @@ In this task, you, as Sara Perez, will reset your password using self-service pa
 
 1. On the **Enter password** page, select **Forgot my password**.
 
-1. On the **Get back into your account** page, verify that **sara@WWLxZZZZZZ.onmicrosoft.com** appears in the email or username field. If it doesn't, enter the account.
-
-1. Enter the characters displayed in the image or the words from the audio, and then select **Next**.
+1. On the **Get back into your account** page, verify that **sara@WWLxZZZZZZ.onmicrosoft.com** appears in the email or username field. If it doesn't, enter the account, and then select **Next**.
 
 1. On the **Get back into your account** page, select **Approve a notification on my authenticator app**, and then select **Send Notification**.
 
@@ -158,44 +125,14 @@ In this task, you, as Sara Perez, will reset your password using self-service pa
 
 1. When prompted to choose a new password, enter and confirm the new password, and then select **Finish**.
 
-1. When the password reset confirmation appears, select **click here** to sign in with your new password.
+1. When the password reset confirmation appears, select **click here** link to sign in with your new password.
 
 1. If the **Pick an account** page appears, select **sara@WWLxZZZZZZ.onmicrosoft.com**, enter the new password, and then select **Sign in**. If you're prompted to stay signed in, select **No**.
 
 1. Confirm that you're successfully signed in to Sara's Microsoft account.
 
 1. Sign out by selecting the user icon in the upper-right corner of the page, select **Sign out**, and then close all browser windows.
-
-### Task 5 (Optional)
-
-In this task, you, as the administrator, will review audit logs and authentication method activity associated with self-service password reset.
-
-1. Open **Microsoft Edge**. In the address bar, enter `https://entra.microsoft.com`, and sign in using the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
-
-1. In the **Microsoft Entra admin center**, expand **Entra ID**, and then select **Users**.
-
-1. Select **Audit logs**.
-
-1. Review the available audit log information and filters. To view password reset-related events, use the **Service** filter and select **Self-service Password Management**.
-
-1. Review the available events from the self-service password reset activities performed in the previous tasks.
-
-1. From the left navigation pane, under **Entra ID**, select **Authentication methods**.
-
-1. Select **Activity**.
-
-1. On the **Registration** tab, review the authentication method registration information.
-
-   > **Note:** It may take time for recently completed registration activity to appear in the report.
-
-1. Select the **Usage** tab to review authentication method usage information.
-
-   > **Note:** It may take time for recently completed authentication activity to appear in the report.
-
-1. Close all browser tabs.
-   -->
    
-
 ### Task 5 (Optional)
 
 In this task you, as the administrator, will briefly view the Audit logs and the Usage & insights data associated with password reset
@@ -204,7 +141,7 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. In the address bar, enter **`https://entra.microsoft.com`** and sign in with the Microsoft 365 admin credentials provided by your authorized lab hoster (ALH).
 
-1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Entra ID**, then select **Password reset**.
+1. On the **Microsoft Entra admin center**, from the left navigation pane, expand the **Entra ID**, then select **Password reset**.
 
 1. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 
