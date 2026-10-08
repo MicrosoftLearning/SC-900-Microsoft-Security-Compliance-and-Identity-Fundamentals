@@ -92,6 +92,8 @@ In this task, you, as Sara Perez, will register security information for self-se
 
 1. Sign in as **Sara Perez** using the password from the previous lab.
 
+    > **Note:** If the **More information required** prompt appears, select **Next** and follow the on-screen instructions to register your security information. Otherwise, continue with the steps below.
+
 1. On the **Security info** page, select **+ Add sign-in method**.
 
 1. In the **Add a sign-in method** window, select **Microsoft Authenticator**.
